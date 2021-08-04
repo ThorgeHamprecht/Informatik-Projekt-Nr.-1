@@ -39,4 +39,4 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
   
   Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
   
-  ![ProfilbildThorge](ProfilbildThorge)
+  ![ProfilbildThorge](ProfilbildThorge.png)
