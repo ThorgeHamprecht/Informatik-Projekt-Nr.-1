@@ -1,5 +1,5 @@
 
- # Informatik Unterricht;     Jannik und Thorge
+ # Informatik Projekt von Jannik und Thorge
  
  ## Inhaltsverzeichnis
  
