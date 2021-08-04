@@ -4,7 +4,16 @@
  ## Inhaltsverzeichnis
  
   [Stundenprotokoll](#prot)
-  [Dienstag, 3. August](#eins)
+  [ToDo-Liste](#ToDo)
+ 
+ ## ToDo-Liste
+ 
+ Hier wird von nun an (Mittwoch, 4. August) eine ToDo-Liste geführt, in der wir unsere Ziele und Fortschritte auf einen Blick sehen können. Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die ToDo-Liste wird aktuell gehalten werden und alte Beiträge werden der Übersichtlichkeit halber gelöscht. Gelöschte Beiträge finden sich aber in unserem Protokoll in dem Eintrag an ihrem Erstellungstag wieder.
+ 
+- [x] *Mehr Struktur in unser Protokoll bringen*
+- [ ] *Programm oder Plattform für unsere App auswählen*
+- [ ] *Ersten Prototyp unseres projekts anfertigen*
+ 
  
  ## Stundenprotokoll<a name="prot"></a>
  
