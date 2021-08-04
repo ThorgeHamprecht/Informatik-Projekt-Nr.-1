@@ -2,9 +2,10 @@
  # Informatik Projekt von Jannik und Thorge
  
  ## Inhaltsverzeichnis
- 
-  [Stundenprotokoll](#prot)
-  [ToDo-Liste](#ToDo)
+
+1. [ToDo-Liste](#ToDo)
+2. [Stundenprotokoll](#prot)
+  
  
  ## ToDo-Liste
  
