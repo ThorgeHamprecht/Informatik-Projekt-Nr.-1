@@ -87,8 +87,8 @@ Sollten wir unsere App mit Swift programmieren?
 
 Pro| Contra
 ------------ | -------------
-• vermutlich "einfach" zu bedienen | • es funktioniert leider nicht auf Android
-• simples Apple-Design sieht direkt schön aus | • Hilfestellungsmöglichkeit Online muss geprüft werden
+• vermutlich "einfach" zu bedienen | • die App wird nicht auf Android funktionieren
+• Apple-Design grafisch ansprechend | • eventuelle Online-Verfügbarkeit muss geprüft werden
 
 
 
