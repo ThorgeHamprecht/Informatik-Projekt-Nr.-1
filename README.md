@@ -11,7 +11,7 @@
  <details>
 <summary>Übersicht: Alle Einträge</summary>
 <br>
-   <a href=#eins>Dienstag, 3. August</a>
+   <a href=#eins>Dienstag, 3. August</a> // In Markdown funktionieren eingebettete Links nicht in Dropdowns, man muss html verwenden
 </details>
 
  
