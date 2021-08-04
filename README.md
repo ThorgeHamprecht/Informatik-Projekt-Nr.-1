@@ -67,4 +67,6 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
 - [ ] *Ersten Prototyp unseres Projekts anfertigen*
 
 ### Dienstag, 10. August<a name="drei"></a> 
+
+Nach der letzten Stunde haben wir uns Zuhause nochn ein paar Gedanken über unsere App gemacht, dabei wollen wir nun eine ausschließliche IOS App mit *XCode* entwickeln. Wir haben uns für dieses Tool entschieden, da es einerseits die Programmiersprache *Swift* beinhaltet, die auf das Programm abgestimmt sowie sehr anfängerfreundlich ist. Außerdem ist *XCode* ein First Party Tool und unterstützt damit alle Features der *IOS-Entwicklung*. Des weiteren wollen wir die App nur für eine Plattform Entwicklen, um uns auf den wesentlichen Inhalt und nicht das optimieren beschäftigen zu müssen.
 ### Mittwoch, 11. August<a name="vier"></a>
