@@ -43,7 +43,7 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
   
   ![ProfilbildThorge](images/ProfilbildThorge.png)
   
-- [x] Eine **ToDo-Liste** in unser Repository einfügen
-- [x] Mehr Struktur in unser Protokoll bringen
-- [ ] Umsetzbarkeit unserer App prüfen
-- [ ] Ersten Prototyp unseres projekts anfertigen
+- [x] *Eine **ToDo-Liste** in unser Repository einfügen*
+- [x] *Mehr Struktur in unser Protokoll bringen*
+- [ ] *Umsetzbarkeit unserer App prüfen*
+- [ ] *Ersten Prototyp unseres projekts anfertigen*
