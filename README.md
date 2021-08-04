@@ -39,4 +39,6 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
   
   Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
   
-  ![ProfilbildThorge](ProfilbildThorge.png)
+  Außerdem haben wir uns angeschaut, wie man einen Ordner in seinem Repository anlegt und Dateien in diesem speichert. Wir haben hier nun zur Demonstration ein Bild hochgeladen und in unser Repository eingefügt.
+  
+  ![ProfilbildThorge](images/ProfilbildThorge.png)
