@@ -65,3 +65,6 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
 - [x] *Mehr Struktur in unser Protokoll bringen*
 - [ ] *Umsetzbarkeit unserer App prüfen*
 - [ ] *Ersten Prototyp unseres projekts anfertigen*
+
+### Dienstag, 10. August<a name="drei"></a> 
+### Mittwoch, 11. August<a name="vier"></a>
