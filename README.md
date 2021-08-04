@@ -16,7 +16,7 @@
 - [ ] *Ersten Prototyp unseres projekts anfertigen*
  
  
- ## :notebook_with_decorative_cover:Stundenprotokoll<a name="prot"></a>
+ ## :ledger:Stundenprotokoll<a name="prot"></a>
  
  <details>
 <summary>Übersicht: Alle Einträge</summary>
