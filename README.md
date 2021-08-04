@@ -28,11 +28,11 @@
   <a href=#vier>Mittwoch, 11. August</a> |
   <a href=#fünf>Dienstag, 17. August</a> |
  
-  | <a href=#eins>Dienstag, 3. August</a> |
-  <a href=#zwei>Mittwoch, 4. August</a> |
-  <a href=#drei>Dienstag, 10. August</a> |
-  <a href=#vier>Mittwoch, 11. August</a> |
-  <a href=#fünf>Dienstag, 17. August</a> |
+  | <a href=#sechs>Mittwoch, 18. August</a> |
+  <a href=#sieben>Dienstag, 24. August</a> |
+  <a href=#acht>Mittwoch, 25. August</a> |
+  <a href=#neun>Diesntag, 31. August</a> |
+  <a href=#zehn>Mittwoch, 1. August</a> |
 </details>
 
  
