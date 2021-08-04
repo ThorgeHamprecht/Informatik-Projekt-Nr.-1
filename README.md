@@ -38,4 +38,5 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
      <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a> 
   
   Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
-  ![bsp applab](image/applab_bsp.jpg "Screenshot von AppLab")
+  
+  ![ProfilbildThorge](ProfilbildThorge)
