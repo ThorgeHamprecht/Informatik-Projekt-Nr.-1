@@ -4,14 +4,14 @@
  ## Inhaltsverzeichnis
  
   [Stundenprotokoll](#prot)
-  
+  [Dienstag, 3. August](#eins)
  
  ## Stundenprotokoll<a name="prot"></a>
  
  <details>
 <summary>Übersicht: Alle Einträge</summary>
 <br>
- [Dienstag, 3. August] (#eins)
+   <a href=#eins>Dienstag, 3. August</a>
 </details>
 
  
