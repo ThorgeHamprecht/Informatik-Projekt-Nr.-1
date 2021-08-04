@@ -68,7 +68,7 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
 
 ### Dienstag, 10. August<a name="drei"></a> 
 
-**Findung des geeigneten Programms zum PRogrammieren unserer App**
+**Findung des geeigneten Programms zum Programmieren unserer App**
 
 Sollten wir unsere App mit Swift programmieren?
 
