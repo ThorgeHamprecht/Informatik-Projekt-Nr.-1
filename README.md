@@ -78,3 +78,25 @@ Der Code dafür sieht folgendermaßen aus:
 <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
 
 ### Mittwoch, 11. August<a name="vier"></a>
+
+
+
+### Dienstag, 17. August<a name="fünf"></a>
+
+Sollten wir unsere App mit Swift programmieren?
+Pro + | Contra -
+------------ | -------------
+- vermutlich "einfach" zu bedienen | - es funktioniert leider nicht auf Android
+- simples Apple-Design sieht direkt schön aus | - Hilfestellungsmöglichkeit Online muss geprüft werden
+
+
+
+
+
+
+
+
+
+
+
+
