@@ -22,8 +22,10 @@ Zunächst haben wir unseren GitHub Account erstellt. Danach haben wir dieses "di
 ### Mittwoch, 4. August
 
 Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftigt. dabei haben wir gelernt,wie man Dropdowns einfügt:
-    `<details>
-    <summary>Übersicht: Alle Einträge</summary>
+    ```
+    <details>
+    <summary>Zusammenfassung des Dropdowns</summary>
     <br>
-     [Dienstag, 3. August] (#eins)
-    </details>`
+     Hier gehören die Details und der weitere Inhalt
+    </details>
+    ```
