@@ -11,7 +11,7 @@
  <details>
 <summary>Übersicht: Alle Einträge</summary>
 <br>
- [Dienstag, 3. August](#eins)
+ [Dienstag, 3. August] (#eins)
 </details>
 
  
