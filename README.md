@@ -30,3 +30,4 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
      Hier gehören die Details und der weitere Inhalt hin.
     </details>
   
+  Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
