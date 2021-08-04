@@ -20,7 +20,7 @@
  ## :ledger:Stundenprotokoll<a name="prot"></a>
  
  <details>
-<summary>Übersicht: **Alle Einträge**</summary>
+<summary>Übersicht: Alle Einträge</summary>
 <br>
   | <a href=#eins>Dienstag, 3. August</a> |
   <a href=#zwei>Mittwoch, 4. August</a> |
