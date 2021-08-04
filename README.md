@@ -11,7 +11,7 @@
  <details>
 <summary>Übersicht: Alle Einträge</summary>
 <br>
-   <a href=#eins>Dienstag, 3. August</a> // In Markdown funktionieren eingebettete Links nicht in Dropdowns, man muss html verwenden
+   <a href=#eins>Dienstag, 3. August</a> 
 </details>
 
  
@@ -30,5 +30,8 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
      Hier gehören die Details und der weitere Inhalt hin.
     </details>
   
-  Wir wir leider feststellen mussten funktionieren eingebettete Links in Dropdowns nach normaler Markdown schreibweise (` [Dienstag, 3. August](#eins)`) nicht.
+  Wir wir leider feststellen mussten funktionieren eingebettete Links in Dropdowns nach normaler Markdown schreibweise (` [Dienstag, 3. August](#eins)`) nicht. Deshalb mussten wir stattdessen html verwenden. Der Code hierfür war durch eine Recherche allerdings schneel zu finden: 
+      
+     <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a> 
+  
   Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
