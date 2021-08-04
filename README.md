@@ -42,3 +42,8 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
   Außerdem haben wir uns angeschaut, wie man einen Ordner in seinem Repository anlegt und Dateien in diesem speichert. Wir haben hier nun zur Demonstration ein Bild hochgeladen und in unser Repository eingefügt.
   
   ![ProfilbildThorge](images/ProfilbildThorge.png)
+  
+- [x] eine **ToDo-Liste** in unser Repository einfügen
+- [x] mehr Struktur in unser Protokoll bringen
+- [ ] umsetzbarkeit unserer App prüfen
+- [ ] erster Prototyp 
