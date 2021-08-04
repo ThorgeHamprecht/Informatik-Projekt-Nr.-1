@@ -93,7 +93,7 @@ Der Code dafür sieht folgendermaßen aus:
     
 <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
 
-[![XCode Tutorial](https://img.youtube.com/vi/<_YvAUgV6GYM&ab_channel=CodeWithChris>/hqdefault.jpg](https://www.youtube.com/watch?v=_YvAUgV6GYM&ab_channel=CodeWithChris)
+
 
 ### Mittwoch, 11. August<a name="vier"></a>
 
