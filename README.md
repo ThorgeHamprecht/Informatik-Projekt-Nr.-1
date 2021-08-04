@@ -1,5 +1,5 @@
 
- # Informatik Unterricht     Jannik und Thorge
+ # Informatik Unterricht;     Jannik und Thorge
  
  #Protokoll
  
