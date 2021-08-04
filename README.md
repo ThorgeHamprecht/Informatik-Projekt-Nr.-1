@@ -12,7 +12,7 @@
 <summary>Übersicht: Alle Einträge</summary>
 <br>
   <a href=#eins>Dienstag, 3. August</a> 
-  <a href=#zwei>Dienstag, 4. August</a>
+  <a href=#zwei>Mittwoch, 4. August</a>
 </details>
 
  
