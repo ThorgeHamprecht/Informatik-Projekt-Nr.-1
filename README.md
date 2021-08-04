@@ -3,7 +3,7 @@
  
  ## Inhaltsverzeichnis
  
-  [Einführung](#prot)
+  [Stundenprotokoll](#prot)
  
  ### Protokoll<a name="prot"></a>
  
