@@ -8,7 +8,7 @@
 
   
  
- ## :heavy_check_mark:ToDo-Liste
+ ## :heavy_check_mark:ToDo-Liste<a name="ToDo"></a>
  
  Hier wird von nun an (Mittwoch, 4. August) eine ToDo-Liste geführt, in der wir unsere Ziele und Fortschritte auf einen Blick sehen können. Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die ToDo-Liste wird aktuell gehalten werden und alte Beiträge werden der Übersichtlichkeit halber gelöscht. Gelöschte Beiträge finden sich aber in unserem Protokoll in dem Eintrag an ihrem Erstellungstag wieder.
  
