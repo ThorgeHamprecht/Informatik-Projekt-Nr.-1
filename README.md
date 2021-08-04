@@ -11,7 +11,8 @@
  <details>
 <summary>Übersicht: Alle Einträge</summary>
 <br>
-   <a href=#eins>Dienstag, 3. August</a> 
+  <a href=#eins>Dienstag, 3. August</a> 
+  <a href=#zwei>Dienstag, 4. August</a>
 </details>
 
  
@@ -19,7 +20,7 @@
  
 Zunächst haben wir unseren GitHub Account erstellt. Danach haben wir dieses "directory" ertsellt und uns über erste Möglichkeiten zur Bearbeitung auf GitHub anhand des Codes Ihres "GitHub directorys" informiert. Anschließend begann unser erstes Brainstorming zur Wahl eines Projekts. Dabei haben wir zunächst an die Entwicklung eines kleinen Spiels gedacht wollten anschließend jedoch leiber eine App entwicklen, da diese in unseren Augen langlebiger ist und nicht nur eine Art Gimick, dass einmal verwendung findet und danach überflüssig ist. Unsere erste Idee ist eine App mit deren Hilfe man seinen Kleiderschrank digital katalogisieren kann. Dabei wollten wir unter anderem das einspeichern von outfits, sowie einen Überblick über Kleidungsstücke, die sich zurzeit in der Wäsche befinden implementieren.
 
-### Mittwoch, 4. August
+### Mittwoch, 4. August<a name="zwei"></a>
 
 Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftigt. dabei haben wir gelernt,wie man Dropdowns einfügt:
 
@@ -30,7 +31,7 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
      Hier gehören die Details und der weitere Inhalt hin.
     </details>
   
-  Wir wir leider feststellen mussten funktionieren eingebettete Links in Dropdowns nach normaler Markdown schreibweise (` [Dienstag, 3. August](#eins)`) nicht. Deshalb mussten wir stattdessen html verwenden. Der Code hierfür war durch eine Recherche allerdings schneel zu finden: 
+  Wir wir leider feststellen mussten funktionieren eingebettete Links in Dropdowns nach normaler Markdown schreibweise (` [Dienstag, 3. August](#eins)`) nicht. Deshalb mussten wir stattdessen html verwenden. Der Code hierfür war durch eine Recherche allerdings schnell zu finden: 
       
      <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a> 
   
