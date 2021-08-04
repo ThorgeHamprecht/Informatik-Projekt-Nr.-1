@@ -30,4 +30,5 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
      Hier gehören die Details und der weitere Inhalt hin.
     </details>
   
+  Wir wir leider feststellen mussten funktionieren eingebettete Links in Dropdowns nach normaler Markdown schreibweise ` [Dienstag, 3. August](#eins)` nicht.
   Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
