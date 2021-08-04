@@ -68,6 +68,15 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
 
 ### Dienstag, 10. August<a name="drei"></a> 
 
+**Findung des geeigneten Programms zum PRogrammieren unserer App**
+
+Sollten wir unsere App mit Swift programmieren?
+
+Pro| Contra
+------------ | -------------
+• vermutlich "einfach" zu bedienen | • die App wird nicht auf Android funktionieren
+• Apple-Design grafisch ansprechend | • eventuelle Online-Verfügbarkeit muss geprüft werden
+
 Nach der letzten Stunde haben wir uns Zuhause nochn ein paar Gedanken über unsere App gemacht, dabei wollen wir nun eine ausschließliche IOS App mit [*XCode*](https://apps.apple.com/de/app/xcode/id497799835?mt=12) entwickeln. Wir haben uns für dieses Tool entschieden, da es einerseits die Programmiersprache [*Swift*](https://www.apple.com/de/swift/) beinhaltet, die auf das Programm abgestimmt sowie sehr anfängerfreundlich ist. Außerdem ist *XCode* ein First Party Tool und unterstützt damit alle Features der *IOS-Entwicklung*. Des weiteren wollen wir die App nur für eine Plattform entwicklen, um uns auf den wesentlichen Inhalt und nicht das optimieren beschäftigen zu müssen.
 
 Hier ein kleines Beispiel zum reskalieren von Bildern. Somit kann man eine Art Collage in seinem Repository einfügen.
@@ -83,12 +92,7 @@ Der Code dafür sieht folgendermaßen aus:
 
 ### Dienstag, 17. August<a name="fünf"></a>
 
-Sollten wir unsere App mit Swift programmieren?
 
-Pro| Contra
------------- | -------------
-• vermutlich "einfach" zu bedienen | • die App wird nicht auf Android funktionieren
-• Apple-Design grafisch ansprechend | • eventuelle Online-Verfügbarkeit muss geprüft werden
 
 
 
