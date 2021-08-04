@@ -7,7 +7,7 @@
 2. [Stundenprotokoll](#prot)
   
  
- ## ToDo-Liste
+ ## :white_check_mark:ToDo-Liste
  
  Hier wird von nun an (Mittwoch, 4. August) eine ToDo-Liste geführt, in der wir unsere Ziele und Fortschritte auf einen Blick sehen können. Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die ToDo-Liste wird aktuell gehalten werden und alte Beiträge werden der Übersichtlichkeit halber gelöscht. Gelöschte Beiträge finden sich aber in unserem Protokoll in dem Eintrag an ihrem Erstellungstag wieder.
  
@@ -62,5 +62,5 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
       
 - [x] *Eine **ToDo-Liste** in unser Repository einfügen*
 - [x] *Mehr Struktur in unser Protokoll bringen*
-- [ ] *Umsetzbarkeit unserer App prüfen*:sheep:
+- [ ] *Umsetzbarkeit unserer App prüfen*
 - [ ] *Ersten Prototyp unseres projekts anfertigen*
