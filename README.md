@@ -62,5 +62,5 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
       
 - [x] *Eine **ToDo-Liste** in unser Repository einfügen*
 - [x] *Mehr Struktur in unser Protokoll bringen*
-- [ ] *Umsetzbarkeit unserer App prüfen*
+- [ ] *Umsetzbarkeit unserer App prüfen*:sheep:
 - [ ] *Ersten Prototyp unseres projekts anfertigen*
