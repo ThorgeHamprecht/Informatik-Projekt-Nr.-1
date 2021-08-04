@@ -84,13 +84,16 @@ Der Code dafür sieht folgendermaßen aus:
 ### Dienstag, 17. August<a name="fünf"></a>
 
 Sollten wir unsere App mit Swift programmieren?
-Pro + | Contra -
+Pro +        | Contra -
 ------------ | -------------
 - vermutlich "einfach" zu bedienen | - es funktioniert leider nicht auf Android
 - simples Apple-Design sieht direkt schön aus | - Hilfestellungsmöglichkeit Online muss geprüft werden
 
 
-
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 
 
