@@ -54,7 +54,7 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
   
   ![ProfilbildThorge](images/ProfilbildThorge.png)
   
-  Um unsere Arbeit besser Überblicken zu können haben wir folgendermaßen eine **ToDo-Liste** in unser Repository eingefügt:
+  Um unsere Arbeit besser Überblicken zu können haben wir folgendermaßen eine [**ToDo-Liste**](#ToDo) in unser Repository eingefügt:
       
     - [x] *Eine **ToDo-Liste** in unser Repository einfügen*
     - [x] *Mehr Struktur in unser Protokoll bringen*
