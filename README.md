@@ -70,5 +70,5 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
 
 Nach der letzten Stunde haben wir uns Zuhause nochn ein paar Gedanken über unsere App gemacht, dabei wollen wir nun eine ausschließliche IOS App mit [*XCode*](https://apps.apple.com/de/app/xcode/id497799835?mt=12) entwickeln. Wir haben uns für dieses Tool entschieden, da es einerseits die Programmiersprache [*Swift*](https://www.apple.com/de/swift/) beinhaltet, die auf das Programm abgestimmt sowie sehr anfängerfreundlich ist. Außerdem ist *XCode* ein First Party Tool und unterstützt damit alle Features der *IOS-Entwicklung*. Des weiteren wollen wir die App nur für eine Plattform entwicklen, um uns auf den wesentlichen Inhalt und nicht das optimieren beschäftigen zu müssen.
 
-<img src="images/ProfilbilThorge.png" alt="ProfilbildThorge" width="200" height="200">
+<img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
 ### Mittwoch, 11. August<a name="vier"></a>
