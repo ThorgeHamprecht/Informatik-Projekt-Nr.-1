@@ -93,9 +93,8 @@ Der Code dafür sieht folgendermaßen aus:
     
 <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
-" target="_blank"><img src="http://img.youtube.com/vi/LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz/0.jpg" 
-alt="Costa Rica" width="240" height="180" border="10" /></a>
+[![COSTA RICA](http://img.youtube.com/vi/LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz/0.jpg)](http://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz)
+
 
 
 ### Mittwoch, 11. August<a name="vier"></a>
