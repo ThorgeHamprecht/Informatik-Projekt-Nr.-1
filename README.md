@@ -93,7 +93,9 @@ Der Code dafür sieht folgendermaßen aus:
     
 <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
 
-[![COSTA RICA](http://img.youtube.com/vi/LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz/0.jpg)](http://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+" target="_blank"><img src="images/Thumbnail COSTA RICA.png" 
+alt="COSTA RICA Video" width="360" height="201" border="10" /></a>
 
 
 
