@@ -94,7 +94,7 @@ Der Code dafür sieht folgendermaßen aus:
 <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
-" target="_blank"><img src="images/Thumbnail COSTA RICA.png" 
+" target="_blank"><img src="images/Thumbnail COSTA RICA.PNG" 
 alt="COSTA RICA Video" width="360" height="201" border="10" /></a>
 
 
