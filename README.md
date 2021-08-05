@@ -93,10 +93,11 @@ Der Code dafür sieht folgendermaßen aus:
     
 <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
 
-Außerdem ist es auch möglich ein Bild als Link zu verwenden und somit Youtube Videos interaktiv in sein Repository einzufügen.
+Außerdem ist es auch möglich ein Bild als Link zu verwenden und somit Youtube Videos interaktiv in sein Repository einzufügen. Das Video lässt sich also druch anklicken des Bilds aufrufen.
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
 " target="_blank"><img src="images/Thumbnail COSTA RICA.PNG" 
-alt="COSTA RICA Video" width="360" height="201" border="100" /></a>
+alt="COSTA RICA Video" width="360*2" height="201*2" border="100" /></a>
 
 
 
