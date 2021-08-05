@@ -97,7 +97,7 @@ Außerdem ist es auch möglich ein Bild als Link zu verwenden und somit Youtube 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
 " target="_blank"><img src="images/Thumbnail COSTA RICA.PNG" 
-alt="COSTA RICA Video" width="360" height="201" border="100" /></a>
+alt="COSTA RICA Video" width="720" height="402" border="100" /></a>
 
 
 
