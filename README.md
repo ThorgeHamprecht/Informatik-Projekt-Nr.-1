@@ -58,13 +58,13 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
 <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a>
 ``` 
   
-  Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
+Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
   
-  Außerdem haben wir uns angeschaut, wie man einen Ordner in seinem Repository anlegt und Dateien in diesem speichert. Wir haben hier nun zur Demonstration ein Bild hochgeladen und in unser Repository eingefügt.
+Außerdem haben wir uns angeschaut, wie man einen Ordner in seinem Repository anlegt und Dateien in diesem speichert. Wir haben hier nun zur Demonstration ein Bild hochgeladen und in unser Repository eingefügt.
   
-  ![ProfilbildThorge](images/ProfilbildThorge.png)
+![ProfilbildThorge](images/ProfilbildThorge.png)
   
-  Um unsere Arbeit besser Überblicken zu können haben wir folgendermaßen eine [**ToDo-Liste**](#ToDo) in unser Repository eingefügt:
+Um unsere Arbeit besser Überblicken zu können haben wir folgendermaßen eine [**ToDo-Liste**](#ToDo) in unser Repository eingefügt:
       
     - [x] *Eine **ToDo-Liste** in unser Repository einfügen*
     - [x] *Mehr Struktur in unser Protokoll bringen*
