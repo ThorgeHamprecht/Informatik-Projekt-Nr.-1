@@ -56,9 +56,7 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
       
 ```html
 <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a>
-```
-
-     <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a> 
+``` 
   
   Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
   
