@@ -51,15 +51,13 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
      Hier gehören die Details und der weitere Inhalt hin.
     </details>
 ```
-
-    <details>
-    <summary>Zusammenfassung des Dropdowns</summary>
-    <br>
-     Hier gehören die Details und der weitere Inhalt hin.
-    </details>
   
   Wie wir leider feststellen mussten, funktionieren eingebettete Links in Dropdowns nach normaler Markdown schreibweise (` [Dienstag, 3. August](#eins)`) nicht. Deshalb mussten wir stattdessen html verwenden. Der Code hierfür war durch eine Recherche allerdings schnell zu finden: 
       
+```html
+<a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a>
+```
+
      <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a> 
   
   Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
