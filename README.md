@@ -105,7 +105,13 @@ Das Video lässt sich also druch anklicken des Bilds aufrufen.
 " target="_blank"><img src="images/Thumbnail COSTA RICA.PNG" 
 alt="COSTA RICA Video" width="360" height="201" border="100" /></a>
 
+Auch dies ist wieder mit *HTML* ermöglicht worden:
 
+```html
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+" target="_blank"><img src="images/Thumbnail COSTA RICA.PNG" 
+alt="COSTA RICA Video" width="360" height="201" border="100" /></a>
+```
 
 ### Mittwoch, 11. August<a name="vier"></a>
 
