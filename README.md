@@ -54,7 +54,7 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
 ```
   
  Wie wir leider feststellen mussten, funktionieren eingebettete Links in Dropdowns nach normaler Markdown schreibweise<br>
- (` [Dienstag, 3. August](#eins)`) nicht. Deshalb mussten wir stattdessen html verwenden. Der Code hierfür war durch eine Recherche allerdings schnell zu finden: 
+ (` [Dienstag, 3. August](#eins)`) nicht. Deshalb mussten wir stattdessen [*HTML*](https://de.wikipedia.org/wiki/Hypertext_Markup_Language) verwenden. Der Code hierfür war durch eine Recherche allerdings schnell zu finden: 
       
 ```html
 <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a>
