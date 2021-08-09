@@ -44,7 +44,14 @@ Zunächst haben wir unseren GitHub Account erstellt. Danach haben wir dieses Rep
 
 Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftigt. dabei haben wir gelernt,wie man Dropdowns einfügt:
 
-   
+```markdown
+ <details>
+    <summary>Zusammenfassung des Dropdowns</summary>
+    <br>
+     Hier gehören die Details und der weitere Inhalt hin.
+    </details>
+```
+
     <details>
     <summary>Zusammenfassung des Dropdowns</summary>
     <br>
