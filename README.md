@@ -92,11 +92,14 @@ Nach der letzten Stunde haben wir uns Zuhause nochn ein paar Gedanken über unse
 Hier ein kleines Beispiel zum reskalieren von Bildern. Somit kann man eine Art Collage in seinem Repository einfügen.
 Der Code dafür sieht folgendermaßen aus:
 
+```html
     <img src="Link zum Bild" alt="Bezeichnung" width="höhe" height="breite">
+```
     
 <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
 
-Außerdem ist es auch möglich ein Bild als Link zu verwenden und somit Youtube Videos interaktiv in sein Repository einzufügen. Das Video lässt sich also druch anklicken des Bilds aufrufen.
+Außerdem ist es auch möglich ein Bild als Link zu verwenden und somit Youtube Videos interaktiv in sein Repository einzufügen.<br> 
+Das Video lässt sich also druch anklicken des Bilds aufrufen.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
 " target="_blank"><img src="images/Thumbnail COSTA RICA.PNG" 
