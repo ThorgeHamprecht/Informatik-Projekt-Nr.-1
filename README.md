@@ -124,12 +124,16 @@ Eine andere Möglichkeit stellt ein Rätsel-Spiel da. Hierbei muss man mit einem
 Wir haben uns nun entschieden diese beiden Gedanken zu kombinieren:
 Wir möchten ein Spiel entwickeln, bei dem man einen Charakter zweidimensional von links nach rechts sowie von oben nach unten steuern kann. Dabei sollen dann Aufgaben gelöst werden, um weiter die Zielrichtung rechts zu erreichen. Über die genaue Art der Aufgaben haben wir uns bisher noch keine Gedanken gemacht.
 Durch die neue Idee des Projekts haben wir uns auch überlegt, welches Programm wir benutzen wollen. Dabei sind wir auf [*Unity*](https://unity.com/de) gestoßen und haben nun vor mit der Programmiersprache [*C#*](https://de.wikipedia.org/wiki/C-Sharp zu programmieren.
-Aus diesem Grund haben wir das Programm "Unity" heruntergeladen. 
+Aus diesem Grund haben wir das Programm [*Unity*](https://unity.com/de) heruntergeladen. 
 
 ![Unity](images/UnityScreenshot.png)
 
-HIER BITTE INHALTLICHE INFORMATION<b>
-Bis morgen möchten wir uns beide noch mehr mit [*Unity*](https://unity.com/de) bzw. [*C#*](https://de.wikipedia.org/wiki/C-Sharp) vertraut machen.
+In diesem Screenshot aus der Engine [*Unity*](https://unity.com/de) kann man die Anfänge unseres Projekts sehen. Unser genaues vorgehen wird mithilfe der folgenden Bilder erklärt.
+
+![VsStudio](images/VisualStudioScreenshot)
+
+Mit [Microsoft Visual Studio](https://visualstudio.microsoft.com/de/) bearbeiten wir den Code in [*C#*](https://de.wikipedia.org/wiki/C-Sharp), der für die einzelnen Scripts benötigt wird. 
+
 
 ### Mittwoch, 11. August<a name="vier"></a>
 
