@@ -117,6 +117,16 @@ alt="COSTA RICA Video" width="360" height="201" border="100" /></a>
 
 ### Mittwoch, 11. August<a name="vier"></a>
 
+In den letzen Tagen haben wir viel über unsere Projektidee des digitalen Kleiderschrankes nachgedacht. Wir sind zu dem Entschluss gekommen, das wir nicht weiter an dem Projekt des digitalen Kleiderschrankes festhalten wollen. Der hauptsächliche Grund stellt das Einscannen der Kleiderstücke dar. Man bräuchte zu große Datenmengen, damit jeder seine Kleidungsstücke digitalisieren kann. 
+Aus diesem Grund hat die heutige Stunde für uns mit einem Brainstorming begonnen. Wir sind zu dem Entschluss gekommen, dass wir beide gerne ein Spiel entwerfen würden, das man zweidimensional spielen kann. Dabei sind uns zunächst zwei Ideen gekommen:
+Die eine Möglichkeit stellt ein Spiel, nach dem Grundgedanken des Spiels "Subwaysurfers" da. Hierbei muss man einen Charakter nach links, rechts, oben oder unten bewegen, um Hindernissen auszuweichen. Schafft man dies nicht, muss man einen Lauf von Vorne beginnen. 
+Eine andere Möglichkeit stellt ein Rätsel-Spiel da. Hierbei muss man mit einem Charakter Aufgaben z.B. in Form von Fragen lösen, um beispielsweise Türen zu öffnen oder um den Ausweg aus einem Labyrinth zu schaffen.
+Wir haben uns nun entschieden diese beiden Gedanken zu kombinieren:
+Wir möchten ein Spiel entwickeln, bei dem man einen Charakter zweidimensional von links nach rechts sowie von oben nach unten steuern kann. Dabei sollen dann Aufgaben gelöst werden, um weiter die Zielrichtung rechts zu erreichen. Über die genaue Art der Aufgaben haben wir uns bisher noch keine Gedanken gemacht.
+Durch die neue Idee des Projekts haben wir uns auch überlegt, welches Programm wir benutzen wollen. Dabei sind wir auf "Unity" gestoßen und haben nun vor mit der Programmiersprache C# zu programmieren.
+Aus diesem Grund haben wir das Programm "Unity" heruntergeladen. 
+HIER BITTE INHALTLICHE INFORMATION
+Bis morgen möchten wir uns beide noch mehr mit "Unity" bzw. c# vertraut machen.
 
 
 ### Dienstag, 17. August<a name="fünf"></a>
