@@ -129,7 +129,7 @@ Aus diesem Grund haben wir das Programm "Unity" heruntergeladen.
 ![Unity](images/UnityScreenshot.png)
 
 HIER BITTE INHALTLICHE INFORMATION
-Bis morgen möchten wir uns beide noch mehr mit [*Unity](https://unity.com/de) bzw. C# vertraut machen.
+Bis morgen möchten wir uns beide noch mehr mit [*Unity*](https://unity.com/de) bzw. C# vertraut machen.
 
 ### Mittwoch, 11. August<a name="vier"></a>
 
