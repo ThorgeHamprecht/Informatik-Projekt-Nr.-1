@@ -130,7 +130,7 @@ Aus diesem Grund haben wir das Programm [*Unity*](https://unity.com/de) herunter
 
 In diesem Screenshot aus der Engine [*Unity*](https://unity.com/de) kann man die Anfänge unseres Projekts sehen. Unser genaues vorgehen wird mithilfe der folgenden Bilder erklärt.
 
-![VsStudio](images/VisualStudioScreenshot)
+![VsStudio](images/VisualStudioScreenshot.png)
 
 Mit [Microsoft Visual Studio](https://visualstudio.microsoft.com/de/) bearbeiten wir den Code in [*C#*](https://de.wikipedia.org/wiki/C-Sharp), der für die einzelnen Scripts benötigt wird. 
 
