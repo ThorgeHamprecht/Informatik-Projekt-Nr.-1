@@ -125,8 +125,11 @@ Wir haben uns nun entschieden diese beiden Gedanken zu kombinieren:
 Wir möchten ein Spiel entwickeln, bei dem man einen Charakter zweidimensional von links nach rechts sowie von oben nach unten steuern kann. Dabei sollen dann Aufgaben gelöst werden, um weiter die Zielrichtung rechts zu erreichen. Über die genaue Art der Aufgaben haben wir uns bisher noch keine Gedanken gemacht.
 Durch die neue Idee des Projekts haben wir uns auch überlegt, welches Programm wir benutzen wollen. Dabei sind wir auf "Unity" gestoßen und haben nun vor mit der Programmiersprache C# zu programmieren.
 Aus diesem Grund haben wir das Programm "Unity" heruntergeladen. 
+
+![Unity](images/UnityScreenshot.png)
+
 HIER BITTE INHALTLICHE INFORMATION
-Bis morgen möchten wir uns beide noch mehr mit "Unity" bzw. c# vertraut machen.
+Bis morgen möchten wir uns beide noch mehr mit [*Unity](https://unity.com/de) bzw. C# vertraut machen.
 
 ### Mittwoch, 11. August<a name="vier"></a>
 
