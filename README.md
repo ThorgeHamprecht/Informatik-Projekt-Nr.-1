@@ -115,7 +115,7 @@ Auch dies ist wieder mit [*HTML*](https://de.wikipedia.org/wiki/Hypertext_Markup
 alt="COSTA RICA Video" width="360" height="201" border="100" /></a>
 ```
 
-### Mittwoch, 11. August<a name="vier"></a>
+### Dienstag, 10. August<a name="drei"></a> 
 
 In den letzen Tagen haben wir viel über unsere Projektidee des digitalen Kleiderschrankes nachgedacht. Wir sind zu dem Entschluss gekommen, das wir nicht weiter an dem Projekt des digitalen Kleiderschrankes festhalten wollen. Der hauptsächliche Grund stellt das Einscannen der Kleiderstücke dar. Man bräuchte zu große Datenmengen, damit jeder seine Kleidungsstücke digitalisieren kann. 
 Aus diesem Grund hat die heutige Stunde für uns mit einem Brainstorming begonnen. Wir sind zu dem Entschluss gekommen, dass wir beide gerne ein Spiel entwerfen würden, das man zweidimensional spielen kann. Dabei sind uns zunächst zwei Ideen gekommen:
@@ -128,6 +128,7 @@ Aus diesem Grund haben wir das Programm "Unity" heruntergeladen.
 HIER BITTE INHALTLICHE INFORMATION
 Bis morgen möchten wir uns beide noch mehr mit "Unity" bzw. c# vertraut machen.
 
+### Mittwoch, 11. August<a name="vier"></a>
 
 ### Dienstag, 17. August<a name="fünf"></a>
 
