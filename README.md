@@ -28,13 +28,13 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
   <a href=#zwei>Mittwoch, 4. August</a> |
   <a href=#drei>Dienstag, 10. August</a> |
   <a href=#vier>Mittwoch, 11. August</a> |
-  <a href=#fünf>Dienstag, 17. August</a> |
+  <a href=#fünf>Dienstag, 24. August</a> |
  
-  | <a href=#sechs>Mittwoch, 18. August</a> |
-  <a href=#sieben>Dienstag, 24. August</a> |
-  <a href=#acht>Mittwoch, 25. August</a> |
-  <a href=#neun>Diesntag, 31. August</a> |
-  <a href=#zehn>Mittwoch, 1. August</a> |
+  | <a href=#sechs>Mittwoch, 25. August</a> |
+  <a href=#sieben>Dienstag, 31. August</a> |
+  <a href=#acht>Mittwoch, 1. August</a> |
+  <a href=#neun>Diesntag, 7. August</a> |
+  <a href=#zehn>Mittwoch, 8. August</a> |
 </details>
 
  
@@ -144,9 +144,9 @@ Da die Stunde ausfiel haben wir uns ein paar Schritte überlegt, die wir als nä
 - [ ] *Texturen erstellen*
 - [ ] *natürliche Level erstellen*
 
-### Dienstag, 17. August<a name="fünf"></a>
+### Dienstag, 24. August<a name="fünf"></a>
 
-
+Nachdem wir unseren Spieler in der letzten Stunde kontrollierbar gemacht haben, arbeiteten wir an den Animationen für unseren Spieler. Dabei ist wichtig, dass die einzelenen Animationen in den richtigen Momenten abgespielt werden. Dafür benutzten wir Unitys integrierten Animation-Controller nutzen, der es einem vereinfacht den Code und die Animationen zu verbinden. Im Code werden hierbei bei bestimmten Ereignissen bestimmte Animationen getriggert. 
 
 
 
