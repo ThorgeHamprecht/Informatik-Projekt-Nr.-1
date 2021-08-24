@@ -142,7 +142,7 @@ Da die Stunde ausfiel haben wir uns ein paar Schritte überlegt, die wir als nä
 - [ ] *Musik für das Spiel erstellen*
 - [ ] *Animationen erstellen*
 - [ ] *Texturen erstellen*
-- [ ] *natürliche Level erstellen*
+- [x] *natürliche Level erstellen*
 
 ### Dienstag, 24. August<a name="fünf"></a>
 
