@@ -124,7 +124,7 @@ Die eine Möglichkeit stellt ein Spiel, nach dem Grundgedanken des Spiels "Subwa
 Eine andere Möglichkeit stellt ein Rätsel-Spiel da. Hierbei muss man mit einem Charakter Aufgaben z.B. in Form von Fragen lösen, um beispielsweise Türen zu öffnen oder um den Ausweg aus einem Labyrinth zu schaffen.
 Wir haben uns nun entschieden diese beiden Gedanken zu kombinieren:
 Wir möchten ein Spiel entwickeln, bei dem man einen Charakter zweidimensional von links nach rechts sowie von oben nach unten steuern kann. Dabei sollen dann Aufgaben gelöst werden, um weiter die Zielrichtung rechts zu erreichen. Über die genaue Art der Aufgaben haben wir uns bisher noch keine Gedanken gemacht.
-Durch die neue Idee des Projekts haben wir uns auch überlegt, welches Programm wir benutzen wollen. Dabei sind wir auf [*Unity*](https://unity.com/de) gestoßen und haben nun vor mit der Programmiersprache [*C#*](https://de.wikipedia.org/wiki/C-Sharp zu programmieren.
+Durch die neue Idee des Projekts haben wir uns auch überlegt, welches Programm wir benutzen wollen. Dabei sind wir auf [*Unity*](https://unity.com/de) gestoßen und haben nun vor mit der Programmiersprache [*C#*](https://de.wikipedia.org/wiki/C-Sharp) zu programmieren.
 Aus diesem Grund haben wir das Programm [*Unity*](https://unity.com/de) heruntergeladen. 
 
 ![Unity](images/UnityScreenshot.png)
