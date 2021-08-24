@@ -13,9 +13,10 @@
 Hier wird von nun an ([Mittwoch, 4. August](#zwei)) eine ToDo-Liste geführt, in der wir unsere Ziele und Fortschritte auf einen Blick sehen können.<br> 
 Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die ToDo-Liste wird aktuell gehalten werden und alte Beiträge werden der Übersichtlichkeit halber gelöscht. Gelöschte Beiträge finden sich aber in unserem Protokoll in dem Eintrag an ihrem Erstellungstag wieder.
  
-- [x] *Mehr Struktur in unser Protokoll bringen*
-- [ ] *Programm oder Plattform für unsere App auswählen*
-- [ ] *Ersten Prototyp unseres projekts anfertigen*
+- [ ] *Musik für das Spiel erstellen*
+- [ ] *Animationen erstellen*
+- [ ] *Texturen erstellen*
+- [ ] *natürliche Level erstellen*
  
  
  ## :ledger:Stundenprotokoll<a name="prot"></a>
@@ -136,6 +137,12 @@ Mit [Microsoft Visual Studio](https://visualstudio.microsoft.com/de/) bearbeiten
 
 
 ### Mittwoch, 11. August<a name="vier"></a>
+
+Da die Stunde ausfiel haben wir uns ein paar Schritte überlegt, die wir als nächstes verfolgen wollen.
+- [ ] *Musik für das Spiel erstellen*
+- [ ] *Animationen erstellen*
+- [ ] *Texturen erstellen*
+- [ ] *natürliche Level erstellen*
 
 ### Dienstag, 17. August<a name="fünf"></a>
 
