@@ -149,11 +149,11 @@ Da die Stunde ausfiel haben wir uns ein paar Schritte überlegt, die wir als nä
 Nachdem wir unseren Spieler in der letzten Stunde kontrollierbar gemacht haben, arbeiteten wir an den Animationen für unseren Spieler. Dabei ist wichtig, dass die einzelenen Animationen in den richtigen Momenten abgespielt werden. Dafür benutzten wir Unitys integrierten Animation-Controller nutzen, der es einem vereinfacht den Code und die Animationen zu verbinden. Im Code werden hierbei bei bestimmten Ereignissen bestimmte Animationen getriggert. Das Animieren selber ist derzeit über Keyframes sehr einfach durchzuführen. Da es sich bei unseren Sprites derzeit aber nur um Platzhalter handelt werden diese später ausgetauscht.
 
 
+### Mittwoch, 25. August<a name="sechs"></a>
 
-
-
-
-
+Heute haben wir uns mit Ihnen über unsere Projektidee ausgetauscht. Sie äußerten das Bedenken, dass wir in C# programmieren. Außerdem müssen wir für Sie deutlich machen, welchen Teil des Codes wir selbst programmiert haben und welchen Teil des Codes wir aus dem Internet übernommen haben. 
+Nach interner Diskussion sind wir zu dem Entschluss gekommen, dass wir weiter an diesem Projekt arbeiten wollen.
+Wir sind beide der festen Überzeugung, dass wir unsere Vision umsetzen können. 
 
 
 
