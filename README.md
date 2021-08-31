@@ -152,10 +152,11 @@ Nachdem wir unseren Spieler in der letzten Stunde kontrollierbar gemacht haben, 
 ### Mittwoch, 25. August<a name="sechs"></a>
 
 Heute haben wir uns mit Ihnen über unsere Projektidee ausgetauscht. Sie äußerten das Bedenken, dass wir in C# programmieren. Außerdem müssen wir für Sie deutlich machen, welchen Teil des Codes wir selbst programmiert haben und welchen Teil des Codes wir aus dem Internet übernommen haben. 
-Nach interner Diskussion sind wir zu dem Entschluss gekommen, dass wir weiter an diesem Projekt arbeiten wollen.
-Wir sind beide der festen Überzeugung, dass wir unsere Vision umsetzen können. 
+Anschließend haben wir weiter an dem Level-Aufbau gearbeitet.
 
+### Dientag, 31.08.2021 <a name="sieben"></a>
 
-
-
+Nach dem Gespräch mit Ihnenn sind wir zu dem Entschluss, dass wir nicht an dem Programmieren in Unity mit der Programmiersprache C# festahlten wollen. Wir wollen nun mit Snap arbeiten. Zuhause haben wir uns bereits mit der Realisierung unseres Projektes mit dem Programm Snap beschäftigt. 
+Wir haben bereits einige Stages erstellt und einen Spieler mit den Eigenscdhaften Springen laufen und .... erstellt. 
+Im Untericht haben wir Ihnen unseren Fortschritt mit Snap gezeigt. 
 
