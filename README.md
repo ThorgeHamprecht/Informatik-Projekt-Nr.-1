@@ -160,3 +160,10 @@ Nach dem Gespräch mit Ihnenn sind wir zu dem Entschluss, dass wir nicht an dem 
 Wir haben bereits einige Stages erstellt und einen Spieler mit den Eigenscdhaften Springen laufen und .... erstellt. 
 Im Untericht haben wir Ihnen unseren Fortschritt mit Snap gezeigt. 
 
+### Mittwoch, 01.09.2021 <a name="acht"></a>
+
+Heute haben wir uns mit der Optimierung unseres Spieles beschäftigt. Mit der Website Piskel haben wir unsere Hintergrund Stage erstellt, in der sich unsere Figur bewegt. Anschließend haben wir uns mit der schlechten Performence beschäftigt und versucht diese zu Optimieren. Dafür haben wir
+
+### Dientag, 07.09.2021 <a name="sieben"></a>
+
+Heute wollten wir eine Schranke einbauen. Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmiert haben.
