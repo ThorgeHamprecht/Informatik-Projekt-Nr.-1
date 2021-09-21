@@ -5,7 +5,6 @@
 
 1. [ToDo-Liste](#ToDo)
 2. [Stundenprotokoll](#prot)
-3. [Projektseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/f5e8984ee79b4b3b28a717ed190282c566ccd6c2/2D%20Puzzle%20Game.md)
 
   
  
@@ -165,6 +164,14 @@ Im Untericht haben wir Ihnen unseren Fortschritt mit Snap gezeigt.
 
 Heute haben wir uns mit der Optimierung unseres Spieles beschäftigt. Mit der Website Piskel haben wir unsere Hintergrund Stage erstellt, in der sich unsere Figur bewegt. Anschließend haben wir uns mit der schlechten Performence beschäftigt und versucht diese zu Optimieren. Dafür haben wir
 
-### Dientag, 07.09.2021 <a name="sieben"></a>
+### Dientag, 07.09.2021 <a name="neun"></a>
 
-Heute wollten wir eine Schranke einbauen. Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmiert haben.
+Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in einem Lava zu sterben. 
+Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
+Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
+Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
+Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
+
+### Dientag, 21.09.2021 <a name="zehn"></a>
+Zuhause haben wir versucht, den Hintergrund zu animieren. Heute ging es darum, neue Stages zu erstellen, damit sich eine "neue" Welt öffnet, wenn sich der Charakter aus den Rändern links und rechts bewegt. 
+
