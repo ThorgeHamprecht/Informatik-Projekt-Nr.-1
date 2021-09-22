@@ -179,3 +179,5 @@ Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass da
 Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir eingestellt, an welcher Stelle die Wolken im Hintergrund erscheinen sollen uns mit welcher Geschwindigkeit sie sich anschließend in welche Richtung bewegen sollen. 
 Heute ging es darum, neue Stages zu erstellen, damit sich eine "neue" Welt öffnet, wenn sich der Charakter aus den Rändern links und rechts bewegt. 
 
+### Mittwoch, 22.09.2021 <a name="zwölf"></a>
+In der heutigen Stunde haben wir unser GitHub Repository überarbeitet. Dabei haben wir 
