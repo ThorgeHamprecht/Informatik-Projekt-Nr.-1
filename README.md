@@ -155,7 +155,7 @@ Nachdem wir unseren Spieler in der letzten Stunde kontrollierbar gemacht haben, 
 Heute haben wir uns mit Ihnen über unsere Projektidee ausgetauscht. Sie äußerten das Bedenken, dass wir in C# programmieren. Außerdem müssen wir für Sie deutlich machen, welchen Teil des Codes wir selbst programmiert haben und welchen Teil des Codes wir aus dem Internet übernommen haben. 
 Anschließend haben wir weiter an dem Level-Aufbau gearbeitet.
 
-### Dientag, 31.08.2021 <a name="sieben"></a>
+### Dienstag, 31.08.2021 <a name="sieben"></a>
 
 Nach dem Gespräch mit Ihnenn sind wir zu dem Entschluss, dass wir nicht an dem Programmieren in Unity mit der Programmiersprache C# festahlten wollen. Wir wollen nun mit Snap arbeiten. Zuhause haben wir uns bereits mit der Realisierung unseres Projektes mit dem Programm Snap beschäftigt. 
 Wir haben bereits einige Stages erstellt und einen Spieler mit den Eigenscdhaften Springen laufen und .... erstellt. 
@@ -165,7 +165,7 @@ Im Untericht haben wir Ihnen unseren Fortschritt mit Snap gezeigt.
 
 Heute haben wir uns mit der Optimierung unseres Spieles beschäftigt. Mit der Website Piskel haben wir unsere Hintergrund Stage erstellt, in der sich unsere Figur bewegt. Anschließend haben wir uns mit der schlechten Performence beschäftigt und versucht diese zu Optimieren. Dafür haben wir
 
-### Dientag, 07.09.2021 <a name="neun"></a>
+### Dienstag, 07.09.2021 <a name="neun"></a>
 
 Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in einem Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
@@ -173,7 +173,7 @@ Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schrank
 Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
 Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
 
-### Dientag, 21.09.2021 <a name="zehn"></a>
+### Dienstag, 21.09.2021 <a name="zehn"></a>
 Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir eingestellt, an welcher Stelle die Wolken im Hintergrund erscheinen sollen uns mit welcher Geschwindigkeit sie sich anschließend in welche Richtung bewegen sollen. 
 Heute ging es darum, neue Stages zu erstellen, damit sich eine "neue" Welt öffnet, wenn sich der Charakter aus den Rändern links und rechts bewegt. 
 
