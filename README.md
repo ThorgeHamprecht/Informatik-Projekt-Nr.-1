@@ -37,7 +37,7 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
   <a href=#neun>Diesntag, 7. September</a> |
   <a href=#zehn>Mittwoch, 8. September</a> |
   <a href=#elf>Mittwoch, 21. September</a> |
-  <a href=#zwölf>Mittwoch, 22. september</a> |
+  <a href=#zwölf>Mittwoch, 22. September</a> |
 </details>
 
  
