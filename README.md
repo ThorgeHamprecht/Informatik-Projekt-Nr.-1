@@ -33,9 +33,11 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
  
   | <a href=#sechs>Mittwoch, 25. August</a> |
   <a href=#sieben>Dienstag, 31. August</a> |
-  <a href=#acht>Mittwoch, 1. August</a> |
-  <a href=#neun>Diesntag, 7. August</a> |
-  <a href=#zehn>Mittwoch, 8. August</a> |
+  <a href=#acht>Mittwoch, 1. September</a> |
+  <a href=#neun>Diesntag, 7. September</a> |
+  <a href=#zehn>Mittwoch, 8. September</a> |
+  <a href=#elf>Mittwoch, 21. September</a> |
+  <a href=#zwölf>Mittwoch, 22. september</a> |
 </details>
 
  
