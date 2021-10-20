@@ -192,3 +192,7 @@ Heute haben wir den Start unseres Spiel programmiert. Zunächst haben wir einen 
 Heute haben wir das Spielmenü erstellt. Dabei haben wir mit Power-Point verschiedene Bilder erstellt, um diese zu erstellen.
 Zudem haben wir uns damit befasst, dass Problem mit den Leben zu lösen. Nach einigem probieren sind wir auf folgende Lösung gekommen, mit der die Leben nun wieder in gewünschter Weise weniger werden.
 Folgend haben wir uns damit beschäftigt einen Fehler bei dem verlassen von Stages beschäftigt. 
+
+### Mittwoch, 16.10.2021 <a name="fünfzehn"></a>
+
+
