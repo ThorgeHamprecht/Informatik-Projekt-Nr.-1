@@ -195,4 +195,5 @@ Folgend haben wir uns damit beschäftigt einen Fehler bei dem verlassen von Stag
 
 ### Mittwoch, 16.10.2021 <a name="fünfzehn"></a>
 
-![VsStudio]()
+![VsStudio](A47DD1E0-7A55-4178-BDB5-57A20A5EDC73.jpeg
+Go to file)
