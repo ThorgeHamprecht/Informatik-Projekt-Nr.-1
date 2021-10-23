@@ -205,7 +205,7 @@ Mit diesem Code haben wir die Grundlage für die Lebensweggnahme schaffen. Diese
 
 **Sprite Leben 3**
 
-![VsStudio](images/A47DD1E0-7A55-4178-BDB5-57A20A5EDC73.jpeg)
+![VsStudio](images/E449B992-88F2-4C37-856F-F924AE8389E0.jpeg)
 
 Dieser Code ist unter dem Sprite des dritten Herzens vorzufinden. Dieser Code codiert für die generellen Informationen des Herzens. Immer wenn das Spiel gestartet wird erscheint das Herz. Dies ist durch die Befehle "when I receive SpielStartet" und "switch costum to Herz" ausgedrückt. Durch den Befehl "set size to 20%" wird die Orginalgröße des Herzens auf dem ursprünglich eingefügten png-Bild auf 20% der Originalgröße herabgesetzt, damit alle drei Herzen nebeneinander passen.
 Das Herz soll zudem im Vordergrund erscheinen. Um dies zu erreichen haben wir den Code "go to front layer" eingefügt. 
