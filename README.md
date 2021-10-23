@@ -226,7 +226,7 @@ Die drei erstellten Costumes sehen wie folgt aus:
 
 3. Hier ist nur noch der Umriss des Herzens zu sehen. Der Code wurde zweimal ausgeführt und die Lebenanzahl ist nun nicht mehr größer als 1,5. Der Spielende hat somit ein ganzes Leben verloren.
 
-![VsStudio](images/Costume Herz 3 leer.png)
+![VsStudio](images/CostumeHerz3leer.png)
 
 
 
