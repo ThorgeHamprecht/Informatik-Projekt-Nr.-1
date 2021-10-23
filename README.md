@@ -218,8 +218,7 @@ Die drei erstellten Costumes sehen wie folgt aus:
 
 1. Hier ist das Herz noch "ganz". Der Code wurde bisher nicht ausgeführt.
 
-![VsStudio](images/
-
+![VsStudio](images/Costume Herz ganz Leben 3.png)
 
 2. Hier ist ein halbes Herz zu sehen. Der Coder wurde bisher einmal, bei der Lebenanzahl von 2,5 ausgeführt.
 
