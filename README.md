@@ -209,7 +209,7 @@ Mit diesem Code haben wir die Grundlage für die Lebensweggnahme schaffen. Diese
 
 Dieser Code ist unter dem Sprite des dritten Herzens vorzufinden. Dieser Code codiert für die generellen Informationen des Herzens. Immer wenn das Spiel gestartet wird erscheint das Herz. Dies ist durch die Befehle "when I receive SpielStartet" und "switch costum to Herz" ausgedrückt. Durch den Befehl "set size to 20%" wird die Orginalgröße des Herzens auf dem ursprünglich eingefügten png-Bild auf 20% der Originalgröße herabgesetzt, damit alle drei Herzen nebeneinander passen.
 Das Herz soll zudem im Vordergrund erscheinen. Um dies zu erreichen haben wir den Code "go to front layer" eingefügt. 
-Ein weitere wichtiger Teil diese Code-Blockes ist die eingestellte Position des Herzens. Durch die X-Koordinate -140 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das dritte Herz ist dabei das Herz, welches sich von den drei Herzen am weitesten rechts befindet, weil dieses Herz bei einem Schaden zuert reagieren und erlischen soll, damit die Leben von rechts nach links weniger werden. Der letzte Befehl in diesem Codeblock ist der Befehl "show". Damit wollen wir erreichen, dass das Herz erst bei Spielstart angezeigt wird und nicht schon in dem Startmenü.
+Ein weitere wichtiger Teil diese Code-Blockes ist die eingestellte Position des Herzens. Durch die X-Koordinate -140 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das dritte Herz ist dabei das Herz, welches sich von den drei Herzen am weitesten rechts befindet, weil dieses Herz bei einem Schaden zuert reagieren und erlischen soll, damit die Leben von rechts nach links weniger werden. Der letzte Befehl in diesem Codeblock ist der Befehl "show". Damit wollen wir erreichen, dass das Herz erst bei Spielstart angezeigt wird.
 
 ![VsStudio](images/8EC64CA2-81F2-43D0-B8D9-D91048626F93.jpeg)
 
@@ -228,6 +228,13 @@ Die drei erstellten Costumes sehen wie folgt aus:
 
 ![VsStudio](images/CostumeHerz3leer.png)
 
+Um den Code untger dem Element vollständig zu erklären fehlt nun noch die Erklärung des folgender restlicher Codes, welcher für das Verstecken des Herzens verantwortlich ist:
+1. Wenn das Programm gestartet wird soll das Herz nicht zu sehen sein. Darum haben wir "When I receive flag hide" eingefügt.
+2. Wenn Der Spielende auf das Menü klickt, nach Spielstart soll das Leben noch nicht sichtbar sein. Darum haben wir den Code "When I receive Menu hide" eingefügt.
+3. Außerdem soll das Herz verschwinden, wenn der Spielende das Level verloren hat und wieder zum Startmenü zurückgeleitet wird. Der Code dafür ist der dritte Code im folgenden Bild. 
+Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits im ersten Code von diesem Sprite erkäutert wurde.
+
+![VsStudio](images/SpriteLeben3Steuerungselemente.png)
 
 
 **Sprite Leben 2*
