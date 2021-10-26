@@ -93,5 +93,16 @@ Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits
 
 ![VsStudio](images/SpriteLeben3Steuerungselemente.png)
 
+**Sprite Menü**
+
+![VsStudio](images/SpriteStagewhenanykeypressed.png)
+
+![VsStudio](images/SpriteStagewhenireceive1.png)
+
+![VsStudio](images/SpriteStagewhenireceive2.png)
+
+
+
+
 
 
