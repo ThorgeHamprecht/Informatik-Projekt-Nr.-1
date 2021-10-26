@@ -68,3 +68,30 @@ Um den Code untger dem Element vollständig zu erklären fehlt nun noch die Erkl
 Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits im ersten Code von diesem Sprite erkäutert wurde.
 
 ![VsStudio](images/SpriteLeben3Steuerungselemente.png)
+
+**Sprite 1**
+
+Der Code unter dem Sprite "Leben 1" ist ähnlich mit den bereits erläuterten Codes Sprites "Leben 3" und "Leben 2". 
+Immer wenn das Spiel gestartet wird erscheint das Herz. Dies ist durch die Befehle "when I receive SpielStartet" und "switch costum to Herz" ausgedrückt. Durch den Befehl "set size to 20%" wird die Orginalgröße des Herzens auf dem ursprünglich eingefügten png-Bild auf 20% der Originalgröße herabgesetzt, damit alle drei Herzen nebeneinander passen.
+Das Herz soll zudem im Vordergrund erscheinen. Um dies zu erreichen haben wir den Code "go to front layer" eingefügt. 
+Die Position des Herzens wird durch die X-Koordinate -220 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das zweite Herz befindet sich damit genau zwoschen dem dritten Herz und dem zweiten Herz. 
+Der letzte Befehl in diesem Codeblock ist der Befehl "show". Damit wollen wir erreichen, dass das Herz erst bei Spielstart angezeigt wird.
+
+![VsStudio](images/Leben1Sprite.png)
+
+Auch unter diesem Herz sind die anfängliche erklärten Costumes gleich. 
+Mit diesen beiden Codes soll eingestellt werden, dass sich das Costume bei der entsprechenden Lebenanzahl 0,5 und bei 0 ändert. Bei 0,5 wird nur, wie auch zuvor, ein halbes Herz abgezogen. Bei der Lebensanzahl 0 ist noch eine besonderheit vorzufinden. Der Spielende hat alle Leben verloren und somit ist das Spiel beendet. 
+Deshalb wird nach Abzug des letzten halben Lebens "broadcast Tod" ausgeführt. Die Damit einhergehenden weiteren Ausführungen sind unter dem Spielerscript erklärt
+
+![VsStudio](images/Leben1SpriteTOD.png)
+
+Auch in diesem HErz gelten die ursprünglichen Einstellungen, um das Herz nur im Spiel sichtbar zu machen. Diese lauten:
+1. Wenn das Programm gestartet wird soll das Herz nicht zu sehen sein. Darum haben wir "When I receive flag hide" eingefügt.
+2. Wenn Der Spielende auf das Menü klickt, nach Spielstart soll das Leben noch nicht sichtbar sein. Darum haben wir den Code "When I receive Menu hide" eingefügt.
+3. Außerdem soll das Herz verschwinden, wenn der Spielende das Level verloren hat und wieder zum Startmenü zurückgeleitet wird. Der Code dafür ist der dritte Code im folgenden Bild. 
+Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits im ersten Code von diesem Sprite erkäutert wurde.
+
+![VsStudio](images/SpriteLeben3Steuerungselemente.png)
+
+
+
