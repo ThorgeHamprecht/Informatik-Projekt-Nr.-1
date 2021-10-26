@@ -230,6 +230,9 @@ Die drei erstellten Costumes sehen wie folgt aus:
 
 
 
+**Sprite Leben 2*
+
+
 
 
 
