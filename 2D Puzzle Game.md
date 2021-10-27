@@ -93,7 +93,10 @@ Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits
 
 ![VsStudio](images/SpriteLeben3Steuerungselemente.png)
 
-**Sprite Menü**
+**Sprite Stage**
+
+Dieses Sprite ist dafür da, das Menü unseren Spieles zu programmieren. Mit diesem Sprite gehen viele weitere Einstellungen einher. Zunächst bewirkt der folgende Code, dass immer dann, wenn das Spiel gestartet wird und eine beliebige Taste auf der Tastatur gedrückt wird folgender Befehl ausgeführt wird.
+Wenn der Name des Costume der Stage = "title screen" ist, wird
 
 ![VsStudio](images/SpriteStagewhenanykeypressed.png)
 
