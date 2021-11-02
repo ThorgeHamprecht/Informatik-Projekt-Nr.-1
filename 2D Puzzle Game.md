@@ -108,7 +108,9 @@ ausgeführt.
 
 ![VsStudio](images/SpriteStagewhenireceive2.png)
 
+Charakterauswahl
 
+whenFahneclickedMenü.png
 
 
 
