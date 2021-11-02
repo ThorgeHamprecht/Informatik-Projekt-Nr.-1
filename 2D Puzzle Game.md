@@ -102,6 +102,8 @@ Wenn der Name des Costume der Stage = "title screen" ist, wird
 
 ausgeführt.
 
+![VsStudio](images/whenFahneclickedMenü.png)
+
 ![VsStudio](images/SpriteStagewhenireceive1.png)
 
 ![VsStudio](images/SpriteStagewhenireceive2.png)
