@@ -96,21 +96,27 @@ Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits
 **Sprite Stage**
 
 Dieses Sprite ist dafür da, das Menü unseren Spieles zu programmieren. Mit diesem Sprite gehen viele weitere Einstellungen einher. Zunächst bewirkt der folgende Code, dass immer dann, wenn das Spiel gestartet wird und eine beliebige Taste auf der Tastatur gedrückt wird folgender Befehl ausgeführt wird.
+
+Wenn das Spiel gestartet wird, dann wird das Costume zum "title screen" geändert. 
+Der zweite Code codiert für den Costumewechsel, wenn das Menü verlassen wird. Wenn der Spielende auf den Button "Spiel Starten" clickt, dann wird er zu "Level 1, Stage 0" weitergeleitet.
+
+![VsStudio](images/whenFahneclickedMenü.png)
+
 Wenn der Name des Costume der Stage = "title screen" ist, wird
 
 ![VsStudio](images/SpriteStagewhenanykeypressed.png)
 
 ausgeführt.
 
-![VsStudio](images/whenFahneclickedMenü.png)
-
+Die Folgenden Codes beschreiben immer den Wechsel der Costumes, wenn verschiedene "Buttons" von den Spielenden ausgewählt werden. 
+Es werden damit im Folgenden sowohl die Wechsel der Costumes im Menü, als auch die Wechsel in den Leveln beschrieben bzw. codiert.
 ![VsStudio](images/SpriteStagewhenireceive1.png)
-
 ![VsStudio](images/SpriteStagewhenireceive2.png)
 
 Charakterauswahl
 
-whenFahneclickedMenü.png
+![VsStudio](images/whenFahneclickedMenü.png)
+
 
 
 
