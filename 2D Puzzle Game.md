@@ -114,9 +114,16 @@ Es werden damit im Folgenden sowohl die Wechsel der Costumes im Menü, als auch 
 ![VsStudio](images/SpriteStagewhenireceive1.png)
 ![VsStudio](images/SpriteStagewhenireceive2.png)
 
-Charakterauswahl
+Die folgenden Codes codieren für die Charakterauswahl mit Pfeiltasten. Wir werden nun exemplarisch einen dieser Codes vorstellen, weil alle anderen auf dem gleichen Prinzip beruhen. 
+Wenn der rechte Pfeil gedrückt wird und der Costumename des Charakters gleich dem Charakter 3 ist, dann wird der erste Charakter ausgewählt. Die Nummerireung ist unterschiedlich in der Stage und mit den Charakteren, sollte jedoch nicht verwirren.
+Wir wollen damit unter dem Oberbegriff "Charakter Auswählen" die Chakterauswahl darstellen. Somit hat der Sielende die Auswahl, mit welchem Charakter er das Spiel spielen möchte. Es gibt dabei drei Charaktere zur Auswahl. Der grüne Charakterm, der rote und der schwarze.
 
-![VsStudio](images/whenFahneclickedMenü.png)
+
+![VsStudio](images/Charakterauswählenmenü.png)
+
+
+
+
 
 
 
