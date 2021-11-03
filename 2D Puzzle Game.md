@@ -110,6 +110,7 @@ ausgeführt.
 
 Die Folgenden Codes beschreiben immer den Wechsel der Costumes, wenn verschiedene "Buttons" von den Spielenden ausgewählt werden. 
 Es werden damit im Folgenden sowohl die Wechsel der Costumes im Menü, als auch die Wechsel in den Leveln beschrieben bzw. codiert.
+
 ![VsStudio](images/SpriteStagewhenireceive1.png)
 ![VsStudio](images/SpriteStagewhenireceive2.png)
 
