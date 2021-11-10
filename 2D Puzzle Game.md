@@ -1,4 +1,8 @@
 # 2D Puzzle Game
+## Links
+
+1. [Projektseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/2D%20Puzzle%20Game.md)
+2. [Spiel](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/2D%20Puzzle%20Game.md)
 ## Spielkonzept
 Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von Rätslen und bewältigen von Platform-Passagen zu erreichen.
 ## Features und Code
