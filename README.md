@@ -262,7 +262,5 @@ Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits
 ![VsStudio](images/SpriteLeben3Steuerungselemente.png)
 
 
-<iframe src="https://onedrive.live.com/embed?cid=4B71CDACCDBBEF6A&resid=4B71CDACCDBBEF6A%21133405&authkey=AHU_iOwUgm8juWA&em=2&wdAr=1.3333333333333333&wdEaa=1" width="1026px" height="793px" frameborder="0">Dies ist ein eingebettetes Microsoft Office-Dokument, unterstützt von Office.</iframe>
-
 
 
