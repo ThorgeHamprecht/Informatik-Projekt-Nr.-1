@@ -130,6 +130,7 @@ Bei dem erstellen der Power-Point Folien haben wir darauf geachtet, dass wir bei
 
 LINK POWER POINT
 <iframe src="https://onedrive.live.com/embed?cid=4B71CDACCDBBEF6A&amp;resid=4B71CDACCDBBEF6A%21133405&amp;authkey=AHU_iOwUgm8juWA&amp;em=2&amp;wdAr=1.3333333333333333&amp;wdEaa=1" width="1026px" height="793px" frameborder="0">Dies ist ein eingebettetes <a target="_blank" href="https://office.com">Microsoft Office</a>-Dokument, unterstützt von <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<iframe src="https://onedrive.live.com/embed?cid=4B71CDACCDBBEF6A&amp;resid=4B71CDACCDBBEF6A%21133405&amp;authkey=AHU_iOwUgm8juWA&amp;em=2&amp;wdAr=1.3333333333333333&amp;wdEaa=0" width="1026px" height="793px" frameborder="0">Dies ist ein eingebettetes <a target="_blank" href="https://office.com">Microsoft Office</a>-Dokument, unterstützt von <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
 **Stage Gate**
 
