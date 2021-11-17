@@ -153,4 +153,6 @@ Durch die beiden folgenden Codes wird eingestellt, dass das Tor nicht auf allen 
 
 ![VsStudio](images/gatewhenIrecivelevel1stage1.png)
 
+![VsStudio](images/gatewhennottouchingspieler.png)
+
 
