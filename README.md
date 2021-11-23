@@ -263,7 +263,7 @@ Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits
 
 <HEAD> <TITLE>Activity - Insert animated GIF to HTML</TITLE> </HEAD>
 <BODY>
-  <IMG SRC="Informatik-Projekt-Nr.-1/PDF-Dokument/PDF.gif">
+  <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/PDF-Dokument/PDF.gif">
 </BODY>
 
 
