@@ -261,6 +261,9 @@ Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits
 
 ![VsStudio](images/SpriteLeben3Steuerungselemente.png)
 
-
+<HEAD> <TITLE>Activity - Insert animated GIF to HTML</TITLE> </HEAD>
+<BODY>
+  <IMG SRC="Informatik-Projekt-Nr.-1/PDF-Dokument/PDF.gif">
+</BODY>
 
 
