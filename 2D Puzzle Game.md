@@ -160,6 +160,7 @@ Durch die beiden folgenden Codes wird eingestellt, dass das Tor nicht auf allen 
 <a href="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/PDF-Dokument/PDF" target="_blank">PDF</a>
 https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf
 ![VsStudio](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf)
+[embed]https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf[/embed]
 Bei den Costumes haben wir in der INternetseite Piskel die verschiedenen Stufen des Tores erstellt. Es soll so aussehen, als ob sich das Tor beim Drücken der Taste f fließend öffnet. Diese haben wir dann auch benannt und codiert, wie oben erklärt.
 
 
