@@ -160,3 +160,5 @@ Durch die beiden folgenden Codes wird eingestellt, dass das Tor nicht auf allen 
 Bei den Costumes haben wir in der INternetseite Piskel die verschiedenen Stufen des Tores erstellt. Es soll so aussehen, als ob sich das Tor beim Drücken der Taste f fließend öffnet. Diese haben wir dann auch benannt und codiert, wie oben erklärt.
 
 
+
+
