@@ -163,6 +163,6 @@ https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-cons
 
 Bei den Costumes haben wir in der INternetseite Piskel die verschiedenen Stufen des Tores erstellt. Es soll so aussehen, als ob sich das Tor beim Drücken der Taste f fließend öffnet. Diese haben wir dann auch benannt und codiert, wie oben erklärt.
 
-
+<object data="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 
