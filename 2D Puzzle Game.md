@@ -4,7 +4,32 @@
 1. [Projektseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/2D%20Puzzle%20Game.md)
 2. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 ## Spielkonzept
-Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von Rätslen und bewältigen von Platform-Passagen zu erreichen.
+Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätslen" und bewältigen von Platform-Passagen zu erreichen.
+
+<Das Setup>
+Bevor das Spiel startet, hat der Spieler die Möglichekit sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
+Anschließend hat der Spieler die Möglichkeit sich über den Button "Charakter Wählen" eine beliebige Spielfigur auszusuchen.
+Dabei gibt es drei Figuren zur Wahl.
+
+<Spielstart>
+Fühlt sich der Spieler bereit, so kann er über die Betätigung des Buttons "Spiel Starten" das Spiel beginnen.
+Folglich befindet sich die Spielfigur in der Stage 0 sowie im ersten Level.
+Die Spielfigur kann auf der braunen Unterfläche nach rechts und links laufen. Zudem besteht die Möglichkeit mit Betätigung der Taste "S" oder dem Leerzeichen zu springen.
+Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werden, z.B. bei Berührung der Lava oder der Laserstrahlen weniger, bis die Spielfigur schließlich stirbt und das Spiel vorbei ist.
+
+<u> Spielkonzept/Spielziel></u>"
+Der Spieler wird nun die Spielfigur in die verschiedenen Richtungen steuern. 
+Das Ziel des Spiels ist es, das Level zu schaffen.
+Dafür muss der Spieler es schaffen Punkt X zu erreichen. Wie der Spieler seine Spielfigur dort hinsteuert, muss er selbst herrausfinden.
+Auf dem Weg zum Schaffen des Levels erwarten den Spieler viele Herrausfoderungen. 
+Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor zu öffnen. Zudem muss der Spieler es schaffen, dass seine Spielfigur nicht in die Lava tritt und nicht von den Laserstrahlen getroffen wird.
+
+Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
+
+
+
+
+Das Spiel beginnt, indem die Spielfigur in der 
 ## Features und Code
 ### Spieler Bewegung und Groundcheck
 Der Spieler kann sich 
