@@ -7,20 +7,20 @@
 ## Spielkonzept
 Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätslen" und bewältigen von Platform-Passagen zu erreichen.
 
-**Das Setup*
+**Das Setup**
 
 Bevor das Spiel startet, hat der Spieler die Möglichekit sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
 Anschließend hat der Spieler die Möglichkeit sich über den Button "Charakter Wählen" eine beliebige Spielfigur auszusuchen.
 Dabei gibt es drei Figuren zur Wahl.
 
-**Spielstart*
+**Spielstart**
 
 Fühlt sich der Spieler bereit, so kann er über die Betätigung des Buttons "Spiel Starten" das Spiel beginnen.
 Folglich befindet sich die Spielfigur in der Stage 0 sowie im ersten Level.
 Die Spielfigur kann auf der braunen Unterfläche nach rechts und links laufen. Zudem besteht die Möglichkeit mit Betätigung der Taste "S" oder dem Leerzeichen zu springen.
 Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werden, z.B. bei Berührung der Lava oder der Laserstrahlen weniger, bis die Spielfigur schließlich stirbt und das Spiel vorbei ist.
 
-**Spielkonzept/Spielziel*
+**Spielkonzept/Spielziel**
 
 Der Spieler wird nun die Spielfigur in die verschiedenen Richtungen steuern. 
 Das Ziel des Spiels ist es, das Level zu schaffen.
@@ -33,7 +33,7 @@ Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvol
 
 ## Die Erklärung des Codes
 
-<B><U>Die Grundeigenschaften der Spielfigur<B><U>
+<u><b>Die Grundeigenschaften der Spielfigur</u></b>
 
 ***1. Die Sprungeigenschaft der Spielfigur***
 
