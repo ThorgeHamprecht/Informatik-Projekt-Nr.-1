@@ -7,18 +7,21 @@
 ## Spielkonzept
 Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätslen" und bewältigen von Platform-Passagen zu erreichen.
 
-*Das Setup*
+**Das Setup*
+
 Bevor das Spiel startet, hat der Spieler die Möglichekit sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
 Anschließend hat der Spieler die Möglichkeit sich über den Button "Charakter Wählen" eine beliebige Spielfigur auszusuchen.
 Dabei gibt es drei Figuren zur Wahl.
 
-*Spielstart*
+**Spielstart*
+
 Fühlt sich der Spieler bereit, so kann er über die Betätigung des Buttons "Spiel Starten" das Spiel beginnen.
 Folglich befindet sich die Spielfigur in der Stage 0 sowie im ersten Level.
 Die Spielfigur kann auf der braunen Unterfläche nach rechts und links laufen. Zudem besteht die Möglichkeit mit Betätigung der Taste "S" oder dem Leerzeichen zu springen.
 Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werden, z.B. bei Berührung der Lava oder der Laserstrahlen weniger, bis die Spielfigur schließlich stirbt und das Spiel vorbei ist.
 
-*Spielkonzept/Spielziel*
+**Spielkonzept/Spielziel*
+
 Der Spieler wird nun die Spielfigur in die verschiedenen Richtungen steuern. 
 Das Ziel des Spiels ist es, das Level zu schaffen.
 Dafür muss der Spieler es schaffen Punkt X zu erreichen. Wie der Spieler seine Spielfigur dort hinsteuert, muss er selbst herrausfinden.
@@ -30,7 +33,7 @@ Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvol
 
 ## Die Erklärung des Codes
 
-**Die Grundeigenschaften der Spielfigur**
+<B><U>Die Grundeigenschaften der Spielfigur<B><U>
 
 ***1. Die Sprungeigenschaft der Spielfigur***
 
@@ -46,7 +49,7 @@ Um das Springen der Spielfigur zu ermöglichen, haben wir uns einige Dinge über
 Zunächst wird mit dem ersten Codeblock sobald das Spiel gestartet wird geprüft, ob die Spielfigur die BodenHitbox berührt. Dieser Sprite ist ein sehr dünner, grüner Streifen welcher nicht sichtbar ist:
 
  <details>
-<summary>Erklärung Bodenhitbox</summary>
+<summary><b>Erklärung Bodenhitbox</b></summary>
 <br>
   Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
 Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat.
