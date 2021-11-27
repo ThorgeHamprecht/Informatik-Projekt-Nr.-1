@@ -35,7 +35,7 @@ Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvol
 
 <u><b>Die Grundeigenschaften der Spielfigur</u></b>
 
-1. Grundeinstellungen für die Spielfigur 
+***1. Grundeinstellungen für die Spielfigur***
 
 Die Spielfigur ist nicht zu sehen, wenn das Spiel gewonnen wurde, wenn die grüne Fahne gedrückt wird und wenn sich der Spieler im Menü befindet.
 
@@ -54,9 +54,42 @@ Zudem wird sie nun logischerweise gezeigt.
  <img width="178" alt="Bildschirmfoto 2021-11-27 um 17 21 59" src="https://user-images.githubusercontent.com/88385954/143688995-335dff8c-3050-432f-b5ae-83a9f0f751a1.png">
 </details>
 
+***2. Horizintale Bewegung der Spielfigur***
+
+Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit 10.
+
+<details>
+<summary>Sprite Spieler - Bewegungsgeschwindigkeit </summary>
+<br>
+ <img width="241" alt="Bildschirmfoto 2021-11-27 um 17 51 08" src="https://user-images.githubusercontent.com/88385954/143689957-7b96f220-3990-4b49-97e9-478abf444132.png">
+</details>
+
+Sobald das Spiel startet wird die Variable "SpielerBewegung" = 1 gesetzt. 
+<details>
+<summary>Sprite Spieler - Variable "SpielerBewegung" </summary>
+<br>
+ <img width="173" alt="Bildschirmfoto 2021-11-27 um 17 38 01" src="https://user-images.githubusercontent.com/88385954/143689544-097c831e-8b2c-4b90-a4ee-d61814c6121e.png">
+</details>
+
+Anschließend ist für die hprzontale Bewegung der folgende Code relevant. Zunächst wird geprüft, ob die Variable "SpielerBewegung" =1 ist. Wenn dies der Fall ist, werden folgende Bedingunen geprüft.
+Zunächst wird die Bewegungsrichtung rechts betrachtet.
+Hier ergibt sich im Code eine Besonderheit, weil die Spielfigur sich nur nach rechts bewegen darf, wenn das Tor, welches sich in Stage 2 befindet offen ist. Somit wird zunächst geprüft, ob das Tor offen ist. XX 
+Wenn das Tor offen ist und die rechte Pfeiltaste oder d auf der Tastatur gedrückt wird, dann wird die X-Koordinate mit der Bewegungsgeschwindigkeit 10 geändert. 
+Dabei ändert sich an der Blickrichtung der Spielfigur nichts.
+
+Die Bewgung nach links gestaltet sich leichter. Hier muss nicht geprüft werden, ob das Tor in Stage 2 offen ist.
+Somit wird lediglich, wenn die SpielerBewegung = 1 ist, geprüft, ob der linke Pfeil auf der Tastatur gedrückt wird oder ob a auf der Tastatur betätigt wird.
+Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf der X-Achse mit der BEwegungsgeschwindigkeit 10.
+
+<details>
+<summary>Sprite Spieler - Horizontale Bewegung </summary>
+<br>
+<img width="331" alt="Bildschirmfoto 2021-11-27 um 17 37 47" src="https://user-images.githubusercontent.com/88385954/143689535-51b77eed-a0be-4431-a248-d7611ba95315.png">
+</details>
 
 
-***1. Die Sprungeigenschaft der Spielfigur***
+
+***3. Die Sprungeigenschaft der Spielfigur***
 
 Sobald das Spiel gestartet wird, werden folgende **Variablen** definiert, die für den Sprung der Spielfigur wichtig sind:
 
