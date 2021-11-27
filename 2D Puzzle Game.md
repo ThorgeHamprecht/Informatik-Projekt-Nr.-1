@@ -26,7 +26,7 @@ Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor z
 
 Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
 
-
+~~Dieser Text ist durchgestrichen.~~
 
 
 Das Spiel beginnt, indem die Spielfigur in der 
