@@ -35,6 +35,27 @@ Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvol
 
 <u><b>Die Grundeigenschaften der Spielfigur</u></b>
 
+1. Grundeinstellungen für die Spielfigur 
+
+Die Spielfigur ist nicht zu sehen, wenn das Spiel gewonnen wurde, wenn die grüne Fahne gedrückt wird und wenn sich der Spieler im Menü befindet.
+
+<details>
+<summary>Sprite Spieler - hide </summary>
+<br>
+ <img width="178" alt="Bildschirmfoto 2021-11-27 um 17 29 08" src="https://user-images.githubusercontent.com/88385954/143689249-d62624d5-f297-4acd-9df0-fd9bedb13b88.png">
+</details>
+
+Wenn das Spiel gestartet wird, wird die Größe der Spielfigur auf 20% der Ursprungsgröße gesetzt, die X- und Y- Koordinaten werden mit 0;-60 festgelegt, die Blickrichtung ist nach links XXXX Spielfigur befindet sich im Vordergrund.
+Zudem wird sie nun logischerweise gezeigt.
+
+<details>
+<summary>Sprite Spieler - "when I receive SpielStartet"" </summary>
+<br>
+ <img width="178" alt="Bildschirmfoto 2021-11-27 um 17 21 59" src="https://user-images.githubusercontent.com/88385954/143688995-335dff8c-3050-432f-b5ae-83a9f0f751a1.png">
+</details>
+
+
+
 ***1. Die Sprungeigenschaft der Spielfigur***
 
 Sobald das Spiel gestartet wird, werden folgende **Variablen** definiert, die für den Sprung der Spielfigur wichtig sind:
@@ -49,14 +70,15 @@ Um das Springen der Spielfigur zu ermöglichen, haben wir uns einige Dinge über
 Zunächst wird mit dem ersten Codeblock sobald das Spiel gestartet wird geprüft, ob die Spielfigur die BodenHitbox berührt. Dieser Sprite ist ein sehr dünner, grüner Streifen welcher nicht sichtbar ist:
 
  <details>
-<summary><b>Erklärung Bodenhitbox</b></summary>
+<summary><b>Erklärung Sprite Bodenhitbox</b></summary>
 <br>
   Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
 Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat.
-Grüne Linie:
+
  
+ Sprite BodenHitbox - grüne Linie:
  
- <img width="90" alt="Bildschirmfoto 2021-11-27 um 15 01 24" src="https://user-images.githubusercontent.com/88385954/143684643-282d77f8-7e3c-4666-a45b-dab6d7c209ad.png">
+<img width="90" alt="Bildschirmfoto 2021-11-27 um 15 01 24" src="https://user-images.githubusercontent.com/88385954/143684643-282d77f8-7e3c-4666-a45b-dab6d7c209ad.png">
 
 Des Weiteren ist der "ghost effect" 100. Somit ist die grüne Linie nicht zu sehen, erfüllt jedoch trotzdem seinen Zweck.
 Zudem soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies ist mit den folgenden Codes eingestellt. X (Wieso bei Game-Over?)
@@ -65,6 +87,7 @@ Zudem soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies 
 <img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png">
 </details>
 
+<hr>
 
 
 Wenn diese Bedingung zutrifft, wenn also zutrifft, dass die Spielfigur die unsichtbare, grüne Linie berührt wird der Spieler auf die Y-Achse -60 gestellt und die Variable "BerührtBoden" = 1 gesetzt.
@@ -97,6 +120,11 @@ Dadurch erhöhrt sich die Fallgeschwindigkeit je länger sich die Spielfigur im 
 <br>
 <img width="359" alt="Bildschirmfoto 2021-11-27 um 14 25 49" src="https://user-images.githubusercontent.com/88385954/143683287-3a68c976-c91b-4e03-ae5c-1884d70dde74.png">
  </details>
+
+
+
+
+
 
 
 **Sprite Spieler**
