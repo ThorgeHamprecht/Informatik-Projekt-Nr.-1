@@ -154,13 +154,7 @@ Dadurch erhöhrt sich die Fallgeschwindigkeit je länger sich die Spielfigur im 
 <img width="359" alt="Bildschirmfoto 2021-11-27 um 14 25 49" src="https://user-images.githubusercontent.com/88385954/143683287-3a68c976-c91b-4e03-ae5c-1884d70dde74.png">
  </details>
 
-
-
-
-
-
-
-**Sprite Spieler**
+## Lebensverlust der Spielfigur 
 
 ![VsStudio](images/A47DD1E0-7A55-4178-BDB5-57A20A5EDC73.jpeg)
 
