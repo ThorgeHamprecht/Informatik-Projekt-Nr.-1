@@ -193,6 +193,7 @@ Die drei erstellten Costumes gelten für alle drei Herzen und sehen wie folgt au
 
 <img width="58" alt="Bildschirmfoto 2021-11-27 um 19 06 02" src="https://user-images.githubusercontent.com/88385954/143692581-58476013-e18d-4ee5-84ee-fea8bb0a101f.png">
 
+
 Damit das Herz nicht immer gezeigt wird, muss es in verschiedenen Stages versteckt werden. Dies gilt:
 1. Wenn das Programm gestartet wird soll das Herz nicht zu sehen sein. Darum haben wir "When I receive flag hide" eingefügt.
 2. Wenn Der Spielende auf das Menü klickt, nach Spielstart soll das Leben noch nicht sichtbar sein. Darum haben wir den Code "When I receive Menu hide" eingefügt.
@@ -205,6 +206,32 @@ Damit das Herz nicht immer gezeigt wird, muss es in verschiedenen Stages verstec
 <img width="172" alt="Bildschirmfoto 2021-11-27 um 19 14 19" src="https://user-images.githubusercontent.com/88385954/143699101-5cb4edfc-6c31-44e4-9538-6e8ed21adcc1.png">
 </details>
 
+
+Bei Leben 2 und bei Leben 1 ist der Code ähnlich wie bei Leben 3 aufgebaut. Der erste Unterschied liegt in den Koordinaten der Herzen. Die Herzen sollen nebeneinander oben links im Bild zu sehen sein.
+Die Position des Herzens 2 wird durch die X-Koordinate -180 und die Y-Koordinate 172 eingestellt. Das zweite Herz befindet sich damit genau zwoschen dem dritten Herz und dem zweiten Herz. 
+Die Position des Herzens 1 wird durch die X-Koordinate -220 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das zweite Herz befindet sich damit genau zwischen dem dritten Leben und dem zweiten Leben. 
+Der zweite Unterschied liegt in der Anzahl der Leben, bei denen die Funktionen ausgeführt werden. Logischerweise soll jedes halbes Leben angezeigt werden. Deshalb verschiebt sich auch der Bereich, bei dem die Funktionen ausgeführt werden bei jeden Leben weiter nach unten.
+Das Costume bei Herz 2 genau zwei mal geändert. Einmal wenn die Lebensanzahl genau 1,5 ist und das zweite mal wenn die Lebenanzahl genau 1 ist.
+Das Costume bei Leben 1 wird bei der entsprechenden Lebenanzahl 0,5 und bei 0 ändert. Bei 0,5 wird nur, wie auch zuvor, ein halbes Herz abgezogen. Bei der Lebensanzahl 0 ist noch eine besonderheit vorzufinden. Der Spielende hat alle Leben verloren und somit ist das Spiel beendet. 
+Deshalb wird nach Abzug des letzten halben Lebens "broadcast Tod" ausgeführt.
+
+Die Codes für Leben 2 und für Leben 1 sind hier dargestellt:
+
+<details>
+<summary>Sprite Leben 2 </summary>
+<br>
+ <img width="213" alt="Bildschirmfoto 2021-11-27 um 20 02 40" src="https://user-images.githubusercontent.com/88385954/143719046-a6b92b86-a03a-4ecf-a833-d83d2f6fa157.png">
+<img width="186" alt="Bildschirmfoto 2021-11-27 um 20 02 54" src="https://user-images.githubusercontent.com/88385954/143719059-d4782ca1-47d5-4779-91cb-a20eeba545a0.png">
+<img width="172" alt="Bildschirmfoto 2021-11-27 um 19 14 19" src="https://user-images.githubusercontent.com/88385954/143699101-5cb4edfc-6c31-44e4-9538-6e8ed21adcc1.png">
+</details>
+
+<details>
+<summary>Sprite Leben 1 </summary>
+<br>
+ <img width="213" alt="Bildschirmfoto 2021-11-27 um 20 04 20" src="https://user-images.githubusercontent.com/88385954/143719110-cb3fe00d-fe67-484a-97e8-a40b665dfc38.png">
+<img width="184" alt="Bildschirmfoto 2021-11-27 um 20 04 31" src="https://user-images.githubusercontent.com/88385954/143719119-fb05f635-a2a8-4959-b1b6-d235a12dadd7.png">
+<img width="172" alt="Bildschirmfoto 2021-11-27 um 19 14 19" src="https://user-images.githubusercontent.com/88385954/143699101-5cb4edfc-6c31-44e4-9538-6e8ed21adcc1.png">
+ </details>
 
 
 
@@ -221,53 +248,7 @@ Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirk
 
 
 
-**Sprite Leben 2**
 
-Der Code unter dem Sprite "Leben 2" ist ähnlich mit dem bereits erläuterten Code es Sprites "Leben 3". 
-Immer wenn das Spiel gestartet wird erscheint das Herz. Dies ist durch die Befehle "when I receive SpielStartet" und "switch costum to Herz" ausgedrückt. Durch den Befehl "set size to 20%" wird die Orginalgröße des Herzens auf dem ursprünglich eingefügten png-Bild auf 20% der Originalgröße herabgesetzt, damit alle drei Herzen nebeneinander passen.
-Das Herz soll zudem im Vordergrund erscheinen. Um dies zu erreichen haben wir den Code "go to front layer" eingefügt. 
-Die Position des Herzens wird durch die X-Koordinate -180 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das zweite Herz befindet sich damit genau zwoschen dem dritten Herz und dem zweiten Herz. 
-Der letzte Befehl in diesem Codeblock ist der Befehl "show". Damit wollen wir erreichen, dass das Herz erst bei Spielstart angezeigt wird.
-
-![VsStudio](images/Leben2Sprite.png)
-
-Mit dem folgenden Code bewirken wir, dass das Costume immer zur richtigen Zeit gewechselt wird. Die Costumes des zweiten Herzens sind die gleichen wie bei dem dritten Herz, weshalb sie unter diesem Sprite nicht erneut eingefügen werden.
-Durch diesen Code wird das Costume genau zwei mal geändert. Einmal wenn die Lebensanzahl genau 1,5 ist und das zweite mal wenn die Lebenanzahl genau 1 ist. Das Abziehen um jeweils 0,5 Leben ist bereits unter dem Sprite "Spieler" erläutert.
-
-![VsStudio](images/Leben2SpriteSchaden.png)
-
-
-Um den Code untger dem Element vollständig zu erklären fehlt nun noch die Erklärung des folgender restlicher Codes, welcher für das Verstecken des Herzens verantwortlich ist:
-1. Wenn das Programm gestartet wird soll das Herz nicht zu sehen sein. Darum haben wir "When I receive flag hide" eingefügt.
-2. Wenn Der Spielende auf das Menü klickt, nach Spielstart soll das Leben noch nicht sichtbar sein. Darum haben wir den Code "When I receive Menu hide" eingefügt.
-3. Außerdem soll das Herz verschwinden, wenn der Spielende das Level verloren hat und wieder zum Startmenü zurückgeleitet wird. Der Code dafür ist der dritte Code im folgenden Bild. 
-Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits im ersten Code von diesem Sprite erkäutert wurde.
-
-![VsStudio](images/SpriteLeben3Steuerungselemente.png)
-
-**Sprite 1**
-
-Der Code unter dem Sprite "Leben 1" ist ähnlich mit den bereits erläuterten Codes Sprites "Leben 3" und "Leben 2". 
-Immer wenn das Spiel gestartet wird erscheint das Herz. Dies ist durch die Befehle "when I receive SpielStartet" und "switch costum to Herz" ausgedrückt. Durch den Befehl "set size to 20%" wird die Orginalgröße des Herzens auf dem ursprünglich eingefügten png-Bild auf 20% der Originalgröße herabgesetzt, damit alle drei Herzen nebeneinander passen.
-Das Herz soll zudem im Vordergrund erscheinen. Um dies zu erreichen haben wir den Code "go to front layer" eingefügt. 
-Die Position des Herzens wird durch die X-Koordinate -220 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das zweite Herz befindet sich damit genau zwoschen dem dritten Herz und dem zweiten Herz. 
-Der letzte Befehl in diesem Codeblock ist der Befehl "show". Damit wollen wir erreichen, dass das Herz erst bei Spielstart angezeigt wird.
-
-![VsStudio](images/Leben1Sprite.png)
-
-Auch unter diesem Herz sind die anfängliche erklärten Costumes gleich. 
-Mit diesen beiden Codes soll eingestellt werden, dass sich das Costume bei der entsprechenden Lebenanzahl 0,5 und bei 0 ändert. Bei 0,5 wird nur, wie auch zuvor, ein halbes Herz abgezogen. Bei der Lebensanzahl 0 ist noch eine besonderheit vorzufinden. Der Spielende hat alle Leben verloren und somit ist das Spiel beendet. 
-Deshalb wird nach Abzug des letzten halben Lebens "broadcast Tod" ausgeführt. Die Damit einhergehenden weiteren Ausführungen sind unter dem Spielerscript erklärt
-
-![VsStudio](images/Leben1SpriteTOD.png)
-
-Auch in diesem HErz gelten die ursprünglichen Einstellungen, um das Herz nur im Spiel sichtbar zu machen. Diese lauten:
-1. Wenn das Programm gestartet wird soll das Herz nicht zu sehen sein. Darum haben wir "When I receive flag hide" eingefügt.
-2. Wenn Der Spielende auf das Menü klickt, nach Spielstart soll das Leben noch nicht sichtbar sein. Darum haben wir den Code "When I receive Menu hide" eingefügt.
-3. Außerdem soll das Herz verschwinden, wenn der Spielende das Level verloren hat und wieder zum Startmenü zurückgeleitet wird. Der Code dafür ist der dritte Code im folgenden Bild. 
-Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits im ersten Code von diesem Sprite erkäutert wurde.
-
-![VsStudio](images/SpriteLeben3Steuerungselemente.png)
 
 **Sprite Stage**
 
