@@ -17,7 +17,7 @@ Folglich befindet sich die Spielfigur in der Stage 0 sowie im ersten Level.
 Die Spielfigur kann auf der braunen Unterfläche nach rechts und links laufen. Zudem besteht die Möglichkeit mit Betätigung der Taste "S" oder dem Leerzeichen zu springen.
 Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werden, z.B. bei Berührung der Lava oder der Laserstrahlen weniger, bis die Spielfigur schließlich stirbt und das Spiel vorbei ist.
 
-<u> Spielkonzept/Spielziel></u>"
+<u> Spielkonzept/Spielziel</u>
 Der Spieler wird nun die Spielfigur in die verschiedenen Richtungen steuern. 
 Das Ziel des Spiels ist es, das Level zu schaffen.
 Dafür muss der Spieler es schaffen Punkt X zu erreichen. Wie der Spieler seine Spielfigur dort hinsteuert, muss er selbst herrausfinden.
