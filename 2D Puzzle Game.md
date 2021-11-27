@@ -180,44 +180,18 @@ Durch den Folgenden Code haben wir den Costume-Wechsel programmiert. Wenn der Be
 <img width="216" alt="Bildschirmfoto 2021-11-27 um 19 01 34" src="https://user-images.githubusercontent.com/88385954/143691893-d98d60d2-0758-44bf-afb4-3db6e4d1e6b0.png">
 </details>
 
-
-
-
-Die drei erstellten Costumes gelten für alle drei Herzen und sehen wie folgt aus:
-
-
-
-Mit dem fogenden Code haben wir die Grundlage für die Lebensweggnahme schaffen. Dieser Befehl wird nur ausgeführt wenn die Spielfigur sich auf dem "Sprite", in unserem Fall der Lava befindet. Wir wollen erreichen, dass mit der Berührung der Spielfigur ein Schaden zugefügt wird. Zunächst haben wir die Bedingung, dass dieser Code ausgeführt wird, auf 0,2 Sekunden eingestellt. Dadurch wird der Schaden bei erstmaligem Betreten der Lava quasi direkt ausgeführt.  Dann verliert die Spielfigur 0,5 Leben. Die Steuerung der Herzen erfolgt dann durch die Anweisung "broadcast TestSchaden". 
-Dieser Schaden wird außerdem durch einen von uns erstelltem Sound unterstützt. Mit der Anweisung "set volume to 100%" und "play sound schaden" haben wir diese Anweisung in Code umgesetzt. 
-Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirken, dass nicht dauerhaft ein Leben abgezogen wird, sondern nur wenn die Spielfigur sich auf dem "Sprite" Lava befindet. Somit kann der Spieler die Figur beim erreichen der Lava auch wieder herausbewegen, um weiteren Schaden zu verhindern. Wenn sich der Spieler jedoch auch nach 0,65 Sekunden immer noch auf der Lava befindet wird dieser Code erneut ausgeführt.
-
-<details>
-<summary>Sprite Spieler - "when touching Sprite" </summary>
-<br>
-<img width="187" alt="Bildschirmfoto 2021-11-27 um 18 46 43" src="https://user-images.githubusercontent.com/88385954/143691508-09cc8e46-42e7-4b20-92eb-084805ea0579.png">
-</details>
-
-
-
-**Sprite Leben 3**
-
-
-![VsStudio](images/8EC64CA2-81F2-43D0-B8D9-D91048626F93.jpeg)
-
-Durch diesen Code haben wir den Costume-Wechsel programmiert. Wenn der Befehl "TestSchaden" ausgeführt wird, wird dieser Code ausgeführt. Dieses Ausführen des Codes ist allerdings an die Bedingung gekoppelt, dass sich die Lebenanzahl über 1,5 befindet. Diese Zahl startet bei Spielstart bei drei Leben. Das Event "TestSchaden" wird im Spieler-script erst nachdem bereits 0,5 von den ursprünglichen 3 abgezogen worden sind ausgeführt. Somit wird dieser Code in dem Script "Leben 3" genau 2 mal ausgeführt: Einmal bei 2,5 und das nächste mal bei 2. Sind diese Bedingungen erfüllt, so wird das Costume gewechselt.
 Die drei erstellten Costumes gelten für alle drei Herzen und sehen wie folgt aus:
 
 1. Hier ist das Herz noch "ganz". Der Code wurde bisher nicht ausgeführt.
 
-![VsStudio](images/CostumeHerzganzLeben3.png)
+<img width="60" alt="Bildschirmfoto 2021-11-27 um 19 05 16" src="https://user-images.githubusercontent.com/88385954/143692053-3a56958a-cdf2-413f-be6f-c95372828242.png">
 
 2. Hier ist ein halbes Herz zu sehen. Der Coder wurde bisher einmal, bei der Lebenanzahl von 2,5 ausgeführt.
-
-![VsStudio](images/CostumeHerz3halb.png)
+<img width="61" alt="Bildschirmfoto 2021-11-27 um 19 05 49" src="https://user-images.githubusercontent.com/88385954/143692401-00180c6e-659d-4324-832e-9790dd3e914f.png">
 
 3. Hier ist nur noch der Umriss des Herzens zu sehen. Der Code wurde zweimal ausgeführt und die Lebenanzahl ist nun nicht mehr größer als 1,5. Der Spielende hat somit ein ganzes Leben verloren.
 
-![VsStudio](images/CostumeHerz3leer.png)
+<img width="58" alt="Bildschirmfoto 2021-11-27 um 19 06 02" src="https://user-images.githubusercontent.com/88385954/143692581-58476013-e18d-4ee5-84ee-fea8bb0a101f.png">
 
 Um den Code untger dem Element vollständig zu erklären fehlt nun noch die Erklärung des folgender restlicher Codes, welcher für das Verstecken des Herzens verantwortlich ist:
 1. Wenn das Programm gestartet wird soll das Herz nicht zu sehen sein. Darum haben wir "When I receive flag hide" eingefügt.
@@ -226,6 +200,20 @@ Um den Code untger dem Element vollständig zu erklären fehlt nun noch die Erkl
 Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits im ersten Code von diesem Sprite erkäutert wurde.
 
 ![VsStudio](images/SpriteLeben3Steuerungselemente.png)
+
+
+
+Mit dem fogenden Code haben wir die Grundlage für die Lebensweggnahme schaffen. Dieser Befehl wird nur ausgeführt wenn die Spielfigur sich auf dem "Sprite", in unserem Fall der Lava befindet. Wir wollen erreichen, dass mit der Berührung der Spielfigur ein Schaden zugefügt wird. Zunächst haben wir die Bedingung, dass dieser Code ausgeführt wird, auf 0,2 Sekunden eingestellt. Dadurch wird der Schaden bei erstmaligem Betreten der Lava quasi direkt ausgeführt.  Dann verliert die Spielfigur 0,5 Leben. Die Steuerung der Herzen erfolgt dann durch die Anweisung "broadcast TestSchaden". 
+Dieser Schaden wird außerdem durch einen von uns erstelltem Sound unterstützt. Mit der Anweisung "set volume to 100%" und "play sound schaden" haben wir diese Anweisung in Code umgesetzt. 
+Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirken, dass nicht dauerhaft ein Leben abgezogen wird, sondern nur wenn die Spielfigur sich auf dem "Sprite" Lava befindet. Somit kann der Spieler die Figur beim erreichen der Lava auch wieder herausbewegen, um weiteren Schaden zu verhindern. Wenn sich der Spieler jedoch auch nach 0,65 Sekunden immer noch auf der Lava befindet wird dieser Code erneut ausgeführt.
+
+<details>
+<summary>Sprite Spieler - "when I receive TestSchaden" </summary>
+<br>
+<img width="187" alt="Bildschirmfoto 2021-11-27 um 18 46 43" src="https://user-images.githubusercontent.com/88385954/143691508-09cc8e46-42e7-4b20-92eb-084805ea0579.png">
+</details>
+
+
 
 
 **Sprite Leben 2**
