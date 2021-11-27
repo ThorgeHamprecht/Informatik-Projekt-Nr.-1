@@ -155,7 +155,7 @@ Durch die beiden folgenden Codes wird eingestellt, dass das Tor nicht auf allen 
 
 ![VsStudio](images/gatewhennottouchingspieler.png)
 
-![VsStudio](images/gateiffkeypressed.png)
+![VsStudio]gateiffkeypressed.png
 
 
 
