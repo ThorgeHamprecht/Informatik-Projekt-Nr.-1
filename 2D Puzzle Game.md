@@ -193,17 +193,22 @@ Die drei erstellten Costumes gelten für alle drei Herzen und sehen wie folgt au
 
 <img width="58" alt="Bildschirmfoto 2021-11-27 um 19 06 02" src="https://user-images.githubusercontent.com/88385954/143692581-58476013-e18d-4ee5-84ee-fea8bb0a101f.png">
 
-Um den Code untger dem Element vollständig zu erklären fehlt nun noch die Erklärung des folgender restlicher Codes, welcher für das Verstecken des Herzens verantwortlich ist:
+Damit das Herz nicht immer gezeigt wird, muss es in verschiedenen Stages versteckt werden. Dies gilt:
 1. Wenn das Programm gestartet wird soll das Herz nicht zu sehen sein. Darum haben wir "When I receive flag hide" eingefügt.
 2. Wenn Der Spielende auf das Menü klickt, nach Spielstart soll das Leben noch nicht sichtbar sein. Darum haben wir den Code "When I receive Menu hide" eingefügt.
 3. Außerdem soll das Herz verschwinden, wenn der Spielende das Level verloren hat und wieder zum Startmenü zurückgeleitet wird. Der Code dafür ist der dritte Code im folgenden Bild. 
-Das Gegenstück zu diesen "hide" Befehlen stellt das "show" dar, welches bereits im ersten Code von diesem Sprite erkäutert wurde.
+4. Wenn die Stage "GAmeWon" ausgeführt wird, soll das Herz verschwunden sein.
 
-![VsStudio](images/SpriteLeben3Steuerungselemente.png)
+<details>
+<summary>Sprite Leben 3 - hide </summary>
+<br>
+<img width="172" alt="Bildschirmfoto 2021-11-27 um 19 14 19" src="https://user-images.githubusercontent.com/88385954/143699101-5cb4edfc-6c31-44e4-9538-6e8ed21adcc1.png">
+</details>
 
 
 
-Mit dem fogenden Code haben wir die Grundlage für die Lebensweggnahme schaffen. Dieser Befehl wird nur ausgeführt wenn die Spielfigur sich auf dem "Sprite", in unserem Fall der Lava befindet. Wir wollen erreichen, dass mit der Berührung der Spielfigur ein Schaden zugefügt wird. Zunächst haben wir die Bedingung, dass dieser Code ausgeführt wird, auf 0,2 Sekunden eingestellt. Dadurch wird der Schaden bei erstmaligem Betreten der Lava quasi direkt ausgeführt.  Dann verliert die Spielfigur 0,5 Leben. Die Steuerung der Herzen erfolgt dann durch die Anweisung "broadcast TestSchaden". 
+
+Mit dem fogenden Code haben wir die Grundlage für den Lebensverlust schaffen. Dieser Befehl wird nur ausgeführt wenn die Spielfigur sich auf dem "Sprite", in unserem Fall der Lava befindet. Wir wollen erreichen, dass mit der Berührung der Spielfigur ein Schaden zugefügt wird. Zunächst haben wir die Bedingung, dass dieser Code ausgeführt wird, auf 0,2 Sekunden eingestellt. Dadurch wird der Schaden bei erstmaligem Betreten der Lava quasi direkt ausgeführt.  Dann verliert die Spielfigur 0,5 Leben. Die Steuerung der Herzen erfolgt dann durch die Anweisung "broadcast TestSchaden". 
 Dieser Schaden wird außerdem durch einen von uns erstelltem Sound unterstützt. Mit der Anweisung "set volume to 100%" und "play sound schaden" haben wir diese Anweisung in Code umgesetzt. 
 Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirken, dass nicht dauerhaft ein Leben abgezogen wird, sondern nur wenn die Spielfigur sich auf dem "Sprite" Lava befindet. Somit kann der Spieler die Figur beim erreichen der Lava auch wieder herausbewegen, um weiteren Schaden zu verhindern. Wenn sich der Spieler jedoch auch nach 0,65 Sekunden immer noch auf der Lava befindet wird dieser Code erneut ausgeführt.
 
