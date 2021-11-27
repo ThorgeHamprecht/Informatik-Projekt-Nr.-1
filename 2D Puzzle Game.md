@@ -40,12 +40,12 @@ Um das Springen der Spielfigur zu ermöglichen, haben wir uns einige Dinge über
 Zunächst wird mit dem ersten Codeblock sobald das Spiel gestartet wird geprüft, ob die Spielfigur die BodenHitbox berührt. Dieser Sprite ist ein sehr dünner, grüner Streifen welcher nicht sichtbar ist:
 
  <details>
-<summary>Sprite Erklärung Bodenhitbox</summary>
+<summary>**Sprite Erklärung Bodenhitbox**</summary>
 <br>
   Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
 Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat.
  <details>
-<summary>Costume "unsichtbare grüne Linie</summary>
+<summary>Costume "unsichtbare" grüne Linie</summary>
 <br>
    <img width="90" alt="Bildschirmfoto 2021-11-27 um 15 01 24" src="https://user-images.githubusercontent.com/88385954/143684643-282d77f8-7e3c-4666-a45b-dab6d7c209ad.png">
 </details>
@@ -54,6 +54,7 @@ Zudem soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies 
   <img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png">
 </details>
 
+HIer geht es mit der Beschreibung weiter.
 
 
 <img width="359" alt="Bildschirmfoto 2021-11-27 um 14 25 49" src="https://user-images.githubusercontent.com/88385954/143683287-3a68c976-c91b-4e03-ae5c-1884d70dde74.png">
