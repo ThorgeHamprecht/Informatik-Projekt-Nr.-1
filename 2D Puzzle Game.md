@@ -234,21 +234,86 @@ Die Codes für Leben 2 und für Leben 1 sind hier dargestellt:
  </details>
 
 
-
 Mit dem fogenden Code haben wir die Grundlage für den Lebensverlust schaffen. Dieser Befehl wird nur ausgeführt wenn die Spielfigur sich auf dem "Sprite", in unserem Fall der Lava befindet. Wir wollen erreichen, dass mit der Berührung der Spielfigur ein Schaden zugefügt wird. Zunächst haben wir die Bedingung, dass dieser Code ausgeführt wird, auf 0,2 Sekunden eingestellt. Dadurch wird der Schaden bei erstmaligem Betreten der Lava quasi direkt ausgeführt.  Dann verliert die Spielfigur 0,5 Leben. Die Steuerung der Herzen erfolgt dann durch die Anweisung "broadcast TestSchaden". 
 Dieser Schaden wird außerdem durch einen von uns erstelltem Sound unterstützt. Mit der Anweisung "set volume to 100%" und "play sound schaden" haben wir diese Anweisung in Code umgesetzt. 
 Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirken, dass nicht dauerhaft ein Leben abgezogen wird, sondern nur wenn die Spielfigur sich auf dem "Sprite" Lava befindet. Somit kann der Spieler die Figur beim erreichen der Lava auch wieder herausbewegen, um weiteren Schaden zu verhindern. Wenn sich der Spieler jedoch auch nach 0,65 Sekunden immer noch auf der Lava befindet wird dieser Code erneut ausgeführt.
 
+HIER NOCH CODEBESCHREIBUNG LAVA
+
+
+
+
+Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Laserstrahlen in Berührung kommt. Dabei wird zunächst XXXXXX
+
+
+
+
+
 <details>
-<summary>Sprite Spieler - "when I receive TestSchaden" </summary>
+<summary>Sprite Spieler - "when touching Sprite" </summary>
 <br>
 <img width="187" alt="Bildschirmfoto 2021-11-27 um 18 46 43" src="https://user-images.githubusercontent.com/88385954/143691508-09cc8e46-42e7-4b20-92eb-084805ea0579.png">
 </details>
 
 
 
+**Wechsel der Spielfigur zwischen den Stages
+
+Im Folgenden wird beschrieben, wie der Hintergrund, also die Stages wechseln, wenn die Spielfigur die Ränder der jeweiligen Stages erreicht.
+Die Hauptschwierigkeit besteht darin, dass die Spielfigur, wenn sie beispielsweise am linken Rand das Bild verlässt, anschließend am rechten Rand der nächsten Stage erscheinen muss.
+Zu Beginn des Spiels soll die Spielfigur bei Level 1 und Stage 0 erscheinen.
+
+<details>
+<summary>Sprite Stage - "when I receive SpielStartet" </summary>
+<br>
+<img width="217" alt="Bildschirmfoto 2021-11-28 um 10 09 18" src="https://user-images.githubusercontent.com/88385954/143745614-11c04f43-3e2b-47d4-9457-7122b6a214a7.png">
+</details>
+
+Nun kann sich der Spieler sowohl nach links, als auch nach rechts bewegen.
+Es wird geprüft, ob die Spielfigur die unsichtbare Wand am linken Rand der Stage 0 berührt.
+Dieser ist durch den ghost effect unsichtbar.
+Wenn die Spielfigur sowohl den linken Rand der Stage 0 berührt und dazu noch "a" oder den Linkspfeil betätigt, der Spieler die Spielfigur also noch weiter nach links bewegen möchte, dann werden zwei Befehle ausgeführt.
+Zunächst wird Level 1 Stage 1 ausgeführt.
+1. Der Befehl für die jeweilige Stage. Je nach dem in welcher Stage sich die Spielfigur befinden wird die Stage verändert.
+2. Spieler rechts am Rand. Dieser Befehl ist wichtig, damit die Spielfigur in der neuen Stage am linken Rand erscheint.
+
+Dies ist im folgenden Code dargestellt. Dort lässt sich erkennen, dass immer zunächst geprüft wird in welcher Stage sich die Spielfigur aktuell befindet und anschließend wird der Befehl für die jeweilige neue Stage ausgeführt.
+
+<details>
+<summary>Sprite RandLinks - "when touching Spieler" </summary>
+<br>
+<img width="362" alt="Bildschirmfoto 2021-11-28 um 10 16 23" src="https://user-images.githubusercontent.com/88385954/143750759-61b675f6-365e-462e-a246-3dd759d4ebc8.png"><img width="172" alt="Bildschirmfoto 2021-11-28 um 11 16 40" src="https://user-images.githubusercontent.com/88385954/143763914-8a1b07ac-339d-4c6b-8cb3-783c1bffbcc9.png">
+</details>
+
+Nun müssen die beiden aufgestellten Befehle ausgeführt werden.
+Der erste Befehl wird ausgeführt, indem die Stage entsprechend verändert wird. Es gibt 6 verschiedene Stages im Spiel.
+
+<details>
+<summary>Sprite Stage - Costumes </summary>
+<br>
+ <img width="85" alt="Bildschirmfoto 2021-11-28 um 10 11 06" src="https://user-images.githubusercontent.com/88385954/143746958-bada372b-bb74-470c-992c-d1390a83123c.png">
+</details>
+
+Diese werden dann mit dem Erreichen der entsprechenden Befehle umgesetzt.
+
+<details>
+<summary>Sprite Stage - "when I receive Level X Stage Y" </summary>
+<br>
+<img width="230" alt="Bildschirmfoto 2021-11-28 um 09 57 32" src="https://user-images.githubusercontent.com/88385954/143737492-1c3d0e1c-c3e8-4015-8f06-aab5d0bf6246.png">
+ </details>
+
+Der zweite Befehl wird ausgeführt, indem sich die Position der Spielfigur ändert. Während die Spielfigur zuvor noch ganz links im Rand zu sehen war muss sie in der neuen Stage ganz rechts zu sehen sein.
+
+<details>
+<summary>Sprite Spieler - "when I receive SpielerLinksAmRand" </summary>
+<br>
+ <img width="235" alt="Bildschirmfoto 2021-11-28 um 10 08 03" src="https://user-images.githubusercontent.com/88385954/143744713-d97f2bbc-9613-4825-af55-7078dc51d1cb.png">
+</details>
 
 
+**Das Startmenü
+
+**Die Musik
 
 **Sprite Stage**
 
