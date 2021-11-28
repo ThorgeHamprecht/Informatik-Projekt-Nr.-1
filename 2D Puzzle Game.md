@@ -411,7 +411,35 @@ Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gew
 </details>
 
 
-**2.Charakter Wählen
+<b>2.Charakter Wählen</b>
+
+Das Prinzip hinter der Charakterauswahl ist ähnlich. Durch eine hinterlegte Fläche wird ebenfalls zunächst geprüft, ob die Maus sich auf dem Button befindet. Durch das gleiche Prinziü wie bei "Spiel Starten" werden die Stages entsprechend angepasst.
+Zudem ist der hinterlegte Button unsichtbar und findet nur im Menü Anwendung
+
+Code im Sprite Charakter Wählen:
+
+<img width="201" alt="Bildschirmfoto 2021-11-28 um 12 56 39" src="https://user-images.githubusercontent.com/88385954/143766645-4d2fb7a9-e2e7-41d8-a632-c5d95f2ab47d.png">
+<img width="464" alt="Bildschirmfoto 2021-11-28 um 12 57 04" src="https://user-images.githubusercontent.com/88385954/143766660-cd92ca84-5ea4-4ad4-bc6f-f8fb681366f9.png">
+
+Entsprechende Ausführungen im Sprite Stage:
+
+<img width="251" alt="Bildschirmfoto 2021-11-28 um 12 59 12" src="https://user-images.githubusercontent.com/88385954/143766721-9b593808-459f-4957-8b1c-79140316b503.png">
+<img width="90" alt="Bildschirmfoto 2021-11-28 um 13 00 13" src="https://user-images.githubusercontent.com/88385954/143766752-ac13bc80-7677-4257-9d32-014644ad4b60.png">
+
+Wenn man sich auf dem Button "Charakter Wählen" befindet und dann ein Mausklick erfolgt, wird der Befehl CharakterWählen ausgeführt.
+Hier besteht der Unterschied zum Button Spiel Starten. Währen bei Spiel Starten das Spiel startet, wird man wenn man Charakter wählen clicked in das Wahlmenü für die Spielfiguren geleitet.
+
+<img width="318" alt="Bildschirmfoto 2021-11-28 um 13 01 38" src="https://user-images.githubusercontent.com/88385954/143766805-32bb79cf-e71c-4f9d-9cf7-650cc9c9dbef.png">
+
+Dann wird die Stage angepasst. Auf dem Bild sind alle drei möglichen Spielfiguren nebeneinander zu sehen.
+Der Spieler hat die Möglichkeit je nach belieben eine Spielfigur auszuwählen. 
+Zu Beginn ist standartmäßig die blaue Figur ausgewählt.
+
+
+<img width="220" alt="Bildschirmfoto 2021-11-28 um 13 02 26" src="https://user-images.githubusercontent.com/88385954/143766836-65f64dc3-bf0c-40ed-b4b8-fc8ef82ed825.png">
+<img width="90" alt="Bildschirmfoto 2021-11-28 um 13 06 49" src="https://user-images.githubusercontent.com/88385954/143767004-6bdf3455-92b4-44a0-9cf8-9213cb41000c.png">
+
+
 
 
 
@@ -420,6 +448,32 @@ Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gew
 
 
 ##### Die Musik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Sprite Stage**
 
