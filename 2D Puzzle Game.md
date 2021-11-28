@@ -311,8 +311,9 @@ Der zweite Befehl wird ausgeführt, indem sich die Position der Spielfigur ände
 
 Bei dem rechten Rand ist der Code ähnlich aufgebaut.
 Auch hier wird zunächst geprüft in welcher Stage sich die Spielfigur befindet.
-Anschließend wird
-1. Der Befehl für den Stagewechsel ausgegeben
+Anschließend wird:
+
+*1. Der Befehl für den Stagewechsel ausgegeben
 Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
 
 <details>
@@ -328,7 +329,7 @@ Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
  <img width="227" alt="Bildschirmfoto 2021-11-28 um 11 36 26" src="https://user-images.githubusercontent.com/88385954/143764403-49a6dc91-05c2-4fa4-821f-3d0f731f54ca.png">
 </details>
 
-2. Der Befehl für die neue Position der Spielerfigur wird ausgegeben
+*2. Der Befehl für die neue Position der Spielerfigur wird ausgegeben
 
 <details>
 <summary>Sprite Spieler - "when I receive SpielerRechtsAmRand" </summary>
@@ -340,11 +341,81 @@ Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
 
 #### Das Startmenü
 
-Wenn man das Spiel öffnet, so startet nicht direkt das Spiel. Der Spieler findet sich zunächst in einem Startmenü wieder. In diesem Menü lassen sich drei verschiedene Button clicken.
+Wenn man das Spiel öffnet, so startet nicht direkt das Spiel. Der Spieler findet sich zunächst in dem TitleScreen wieder. 
+Es wird aus diesem Grund geprüft, ob der Costume Name der Stage = TitleScreen ist. Wenn dies der Fall ist, so kann der Spieler eine beliebige Taste auf der Tastatur drücken. 
+Dann wird der Befehl zum Menü ausgeführt.
+Auch der Costume Name wird entsprechend geändert, so dass das Menü nun im Bild ist.
+Dabei wird auch die Variable "SpielerBewegung"= 1 gesetzt.
 
-1. Spiel Starten
-2. Charakter Wählen
-3. Anleitung
+<details>
+<summary>Sprite Stage - "when Fahne clicked"</summary>
+<br>
+<img width="283" alt="Bildschirmfoto 2021-11-28 um 12 08 26" src="https://user-images.githubusercontent.com/88385954/143765324-75e23717-e99a-4b81-b66c-d2e7dde76d4c.png">
+</details>
+
+In diesem Menü lassen sich drei verschiedene Button clicken:
+
+**1. Spiel Starten
+
+Zunächst wird der Button SpielStartet betrachtet.
+Damit das Menü wie gewünscht funktioniert, haben wir uns folgendes überlegt.
+Mit dem Programm Power-Point haben wir die verschiedenen Stages (siehe Ende Erklärung "Das Startmenü") erstellt.
+Die schwärzliche Färbung von dem gewünschten Button soll nur dann erscheinen, wenn die Maus über diese Fläche fährt. Aus diesem Grund haben wir hinter die Button unsichtbare Fläche gelegt. Diese prüfen im Menü, ob die Maus über diese fährt. Nur wenn das der Fall ist, wird die hinterlegte Farbe schwarz.
+Die unsichtbare Fläche hinter den Button:
+
+<img width="94" alt="Bildschirmfoto 2021-11-28 um 12 18 21" src="https://user-images.githubusercontent.com/88385954/143765601-30b71019-9350-4e6f-b277-a1e1f5fc952f.png">
+
+Die hinterlegte Fläche soll nur im Menü Anwendung finden. Zudem soll aus den erläuterten Gründen der Ghosteffect = 100% sein.
+
+<details>
+<summary>Sprite SpielStartenButton - "when Fahne clicked"</summary>
+<br>
+<img width="207" alt="Bildschirmfoto 2021-11-28 um 12 19 48" src="https://user-images.githubusercontent.com/88385954/143765644-0cadf072-7a08-4117-a2f2-c2a4ee2b7a24.png">
+<img width="173" alt="Bildschirmfoto 2021-11-28 um 12 20 32" src="https://user-images.githubusercontent.com/88385954/143765665-fed39d84-eda5-41c2-b2b8-6bd2c7ea31ec.png">
+ </details>
+ 
+Nun soll erreicht werden, dass die Stage geändert wird, wenn der Spieler mit seiner Maus über die unsichtbare hinterlegte Fläche fährt.
+Somit wird zunächst geprüft, ob die Maus über die hinterlegte Fläche fährt.
+Wenn dies der Fall ist, wird des weiteren geprüft, ob die aktuelle Stage Menü ist, also die Fläche aktuell nicht schwarz hinterlegt ist.
+Wenn dies der Fall ist, so wird der Befehl ausgegeben die Stage zu MenüSpielStarten zu ändern.
+In dem zweiten Code wird, wenn die Maus nicht die unsichtbare hinterlegte Fläche berührt und die aktuelle Stage MenüSpielStarten ist, die Fläche also schwarz hinterlegt ist, wieder der Befehl zu Wechsel der Stage zu "Menü" ausgegeben. Damit wird die hinterlegte Fläche wieder hell.
+
+<img width="461" alt="Bildschirmfoto 2021-11-28 um 12 22 18" src="https://user-images.githubusercontent.com/88385954/143765704-be792a62-404a-4ebb-83a9-2e01e5456df9.png">
+
+Die Befehle werden dann im Sprite Stage ausgeführt.
+
+HIER FEHLT WHEN I RECEIVE MENÜ BROADCAST MENÜ
+
+<details>
+<summary>Sprite Stage - "when I receive MenüSpielStartet" </summary>
+<br>
+<img width="230" alt="Bildschirmfoto 2021-11-28 um 12 28 35" src="https://user-images.githubusercontent.com/88385954/143765851-c056a018-4d4b-4a4b-913b-d23bc953d551.png"> 
+</details>
+
+Die Backgrounds für die Befehle:
+
+<details>
+<summary> "Sprite Stage - backgrounds" </summary>
+<br>
+<img width="95" alt="Bildschirmfoto 2021-11-28 um 12 30 37" src="https://user-images.githubusercontent.com/88385954/143765910-411a9b8e-64df-4e27-b5f3-86b5d40de4a7.png">
+</details>
+
+Wenn sich die Maus auf der unsichtbaren hinterlegten Fläche befindet und der Spieler anschließend clicked, so beginnt das Spiel.
+Dann wird der Befehl "SpielStartet" ausgegeben.
+Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gewechselt und die anderen Schritte zum Spielstart werden eingeleitet.
+
+<details>
+<summary>Sprite SpielStartenButton - "when I am clicked" </summary>
+<br>
+ <img width="310" alt="Bildschirmfoto 2021-11-28 um 12 33 14" src="https://user-images.githubusercontent.com/88385954/143765994-7720b1b0-3e4d-4bbd-b85d-71c18a34ecdc.png">
+</details>
+
+
+**2.Charakter Wählen
+
+
+
+**3. Anleitung
 
 
 
@@ -381,9 +452,6 @@ Die in dem Menü aufgezeigten Hintergründe haben wir mit Power-Point designed. 
 Die einzelnen Spieler haben wir mit dem Programm Piskel designed. 
 Bei dem erstellen der Power-Point Folien haben wir darauf geachtet, dass wir bei jedem Klick ein neues Bild brauchen.
 
-LINK POWER POINT
-<iframe src="https://onedrive.live.com/embed?cid=4B71CDACCDBBEF6A&amp;resid=4B71CDACCDBBEF6A%21133405&amp;authkey=AHU_iOwUgm8juWA&amp;em=2&amp;wdAr=1.3333333333333333&amp;wdEaa=1" width="1026px" height="793px" frameborder="0">Dies ist ein eingebettetes <a target="_blank" href="https://office.com">Microsoft Office</a>-Dokument, unterstützt von <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
-<iframe src="https://onedrive.live.com/embed?cid=4B71CDACCDBBEF6A&amp;resid=4B71CDACCDBBEF6A%21133405&amp;authkey=AHU_iOwUgm8juWA&amp;em=2&amp;wdAr=1.3333333333333333&amp;wdEaa=0" width="1026px" height="793px" frameborder="0">Dies ist ein eingebettetes <a target="_blank" href="https://office.com">Microsoft Office</a>-Dokument, unterstützt von <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
 **Stage Gate**
 
