@@ -296,10 +296,10 @@ Der erste Befehl wird ausgeführt, indem die Stage entsprechend verändert wird.
 Diese werden dann mit dem Erreichen der entsprechenden Befehle umgesetzt.
 
 <details>
-<summary>Sprite Stage - "when I receive Level X Stage Y" </summary>
+<summary>Sprite Spieler - "when I receive Level x Stage y" </summary>
 <br>
-<img width="230" alt="Bildschirmfoto 2021-11-28 um 09 57 32" src="https://user-images.githubusercontent.com/88385954/143737492-1c3d0e1c-c3e8-4015-8f06-aab5d0bf6246.png">
- </details>
+ <img width="227" alt="Bildschirmfoto 2021-11-28 um 11 36 26" src="https://user-images.githubusercontent.com/88385954/143764403-49a6dc91-05c2-4fa4-821f-3d0f731f54ca.png">
+</details>
 
 Der zweite Befehl wird ausgeführt, indem sich die Position der Spielfigur ändert. Während die Spielfigur zuvor noch ganz links im Rand zu sehen war muss sie in der neuen Stage ganz rechts zu sehen sein.
 
