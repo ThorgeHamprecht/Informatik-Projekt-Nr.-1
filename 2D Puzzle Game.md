@@ -256,8 +256,7 @@ Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Laserstrahlen in
 </details>
 
 
-
-**Wechsel der Spielfigur zwischen den Stages
+### Wechsel der Spielfigur zwischen den Stages
 
 Im Folgenden wird beschrieben, wie der Hintergrund, also die Stages wechseln, wenn die Spielfigur die Ränder der jeweiligen Stages erreicht.
 Die Hauptschwierigkeit besteht darin, dass die Spielfigur, wenn sie beispielsweise am linken Rand das Bild verlässt, anschließend am rechten Rand der nächsten Stage erscheinen muss.
@@ -310,10 +309,46 @@ Der zweite Befehl wird ausgeführt, indem sich die Position der Spielfigur ände
  <img width="235" alt="Bildschirmfoto 2021-11-28 um 10 08 03" src="https://user-images.githubusercontent.com/88385954/143744713-d97f2bbc-9613-4825-af55-7078dc51d1cb.png">
 </details>
 
+Bei dem rechten Rand ist der Code ähnlich aufgebaut.
+Auch hier wird zunächst geprüft in welcher Stage sich die Spielfigur befindet.
+Anschließend wird
+1. Der Befehl für den Stagewechsel ausgegeben
+Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
 
-**Das Startmenü
+<details>
+<summary>Sprite RandRechts - "when touching Spieler" </summary>
+<br>
+<img width="389" alt="Bildschirmfoto 2021-11-28 um 11 34 49" src="https://user-images.githubusercontent.com/88385954/143764349-9cea71a6-7a14-4053-9d54-c863d97eae84.png">
+ <img width="172" alt="Bildschirmfoto 2021-11-28 um 11 16 40" src="https://user-images.githubusercontent.com/88385954/143763914-8a1b07ac-339d-4c6b-8cb3-783c1bffbcc9.png">
+</details>
 
-**Die Musik
+<details>
+<summary>Sprite Spieler - "when I receive Level x Stage y" </summary>
+<br>
+ <img width="227" alt="Bildschirmfoto 2021-11-28 um 11 36 26" src="https://user-images.githubusercontent.com/88385954/143764403-49a6dc91-05c2-4fa4-821f-3d0f731f54ca.png">
+</details>
+
+2. Der Befehl für die neue Position der Spielerfigur wird ausgegeben
+
+<details>
+<summary>Sprite Spieler - "when I receive SpielerRechtsAmRand" </summary>
+<br>
+ <img width="235" alt="Bildschirmfoto 2021-11-28 um 10 08 03" src="https://user-images.githubusercontent.com/88385954/143744713-d97f2bbc-9613-4825-af55-7078dc51d1cb.png">
+</details>
+
+
+
+#### Das Startmenü
+
+Wenn man das Spiel öffnet, so startet nicht direkt das Spiel. Der Spieler findet sich zunächst in einem Startmenü wieder. In diesem Menü lassen sich drei verschiedene Button clicken.
+
+1. Spiel Starten
+2. Charakter Wählen
+3. Anleitung
+
+
+
+##### Die Musik
 
 **Sprite Stage**
 
