@@ -266,14 +266,5 @@ PDF für alle Menüelemente
   <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/PDF-Dokument/PDF.gif">
 </BODY>
 
-<h1>CSS3 radialer Farbverlauf</h1>
-<div id="box1">1</div>
- #box1 {
-    background-color: orange;
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 150px;
-    left: 50px;
-}
+
 
