@@ -456,7 +456,12 @@ Zu Beginn ist standartmäßig die blaue Figur ausgewählt.
  
 </details>
 
-
+Nun besteht die Möglichkeit mit den Pfeiltasten die verschiedenen Charaktere auszuwählen.
+Die Folgenden Codes beschreiben dieses Bedienen mit den Pfeiltasten.
+Die Codes laufen dabei alle nach dem selben Prinzip.
+Wenn der rechte Pfeil gedrückt wird, so wird der aktuelle Costume Name geprüft.
+Zu Beginn ist die Stage logischerweise auf "CharakterWählen" eingestellt.
+Wenn nun der rechte Pfeil gedrückt wird, so wird erkannt das die ausgewählte
 
 
 
