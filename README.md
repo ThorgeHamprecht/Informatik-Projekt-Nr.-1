@@ -270,6 +270,7 @@ PDF für alle Menüelemente
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hjMx8EuyZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-https://user-images.githubusercontent.com/88385813/144410016-67a40144-672e-4cdc-9a7c-8ea395db0fa9.mp4
+
+[Biologie Stoffwechsel-Versuchsprotokoll Thorge Hamprecht.pdf](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/files/7641334/Biologie.Stoffwechsel-Versuchsprotokoll.Thorge.Hamprecht.pdf)
 
 
