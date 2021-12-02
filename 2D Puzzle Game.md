@@ -53,8 +53,8 @@ Zudem wird sie nun logischerweise gezeigt.
 <br>
  <img width="178" alt="Bildschirmfoto 2021-11-27 um 17 21 59" src="https://user-images.githubusercontent.com/88385954/143688995-335dff8c-3050-432f-b5ae-83a9f0f751a1.png">
 </details>
-
-***2. Horizintale Bewegung der Spielfigur***
+***2. Bewegung des Spieler Objekts***
+***2.1 Horizintale Bewegung der Spielfigur***
 
 Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit 10.
 
@@ -89,7 +89,7 @@ Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf 
 
 
 
-***3. Die Sprungeigenschaft der Spielfigur***
+***2.2 Die Sprungeigenschaft der Spielfigur***
 
 Sobald das Spiel gestartet wird, werden folgende **Variablen** definiert, die für den Sprung der Spielfigur wichtig sind:
 
