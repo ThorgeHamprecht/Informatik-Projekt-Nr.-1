@@ -54,6 +54,7 @@ Zudem wird sie nun logischerweise gezeigt.
  <img width="178" alt="Bildschirmfoto 2021-11-27 um 17 21 59" src="https://user-images.githubusercontent.com/88385954/143688995-335dff8c-3050-432f-b5ae-83a9f0f751a1.png">
 </details>
 ***2. Bewegung des Spieler Objekts***
+
 ***2.1 Horizintale Bewegung der Spielfigur***
 
 Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit 10.
