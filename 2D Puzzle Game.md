@@ -56,6 +56,10 @@ Zudem wird sie nun logischerweise gezeigt.
 
 ***2. Bewegung des Spieler Objekts***
 
+<BODY>
+  <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/GIFS/SpielerMovementGIF.gif">
+</BODY>
+
 ***2.1 Horizintale Bewegung der Spielfigur***
 
 Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit 10.
