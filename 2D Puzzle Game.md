@@ -140,6 +140,7 @@ Berührt die Spielfigur nicht die "BodenHitbox" so wird die Variable "BerührtBo
 <summary>Code für "If touching BodenHitbox"</summary>
 <br>
 <img width="219" alt="Bildschirmfoto 2021-11-27 um 14 55 57" src="https://user-images.githubusercontent.com/88385954/143684411-3075cc95-155d-4b99-ae29-acaaa444b82b.png">
+
   </details>
 
 Der folgende Code beschreibt die Auswirkungen, wenn die Spielfigur den Boden berührt, "BerühreBoden" also ausgeführt ist.
@@ -162,6 +163,10 @@ Dadurch erhöhrt sich die Fallgeschwindigkeit je länger sich die Spielfigur im 
 <br>
 <img width="359" alt="Bildschirmfoto 2021-11-27 um 14 25 49" src="https://user-images.githubusercontent.com/88385954/143683287-3a68c976-c91b-4e03-ae5c-1884d70dde74.png">
  </details>
+ 
+ Hier mit sichtbar gemachter Hitbox der Code in seiner Ausführung im Spiel:
+ 
+ ![BodenHitbox](https://user-images.githubusercontent.com/88385813/144720885-bff496aa-9340-4474-9f1b-0ee18f2dc0c9.gif)
 
 ## Lebensverlust der Spielfigur 
 
@@ -248,6 +253,9 @@ Dieser Schaden wird außerdem durch einen von uns erstelltem Sound unterstützt.
 Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirken, dass nicht dauerhaft ein Leben abgezogen wird, sondern nur wenn die Spielfigur sich auf dem "Sprite" Lava befindet. Somit kann der Spieler die Figur beim erreichen der Lava auch wieder herausbewegen, um weiteren Schaden zu verhindern. Wenn sich der Spieler jedoch auch nach 0,65 Sekunden immer noch auf der Lava befindet wird dieser Code erneut ausgeführt.
 
 HIER NOCH CODEBESCHREIBUNG LAVA
+ 
+![HerzenUndSchaden](https://user-images.githubusercontent.com/88385813/144721089-f77e5e48-34ad-4ea9-ae2c-d65b1ae354b9.gif)
+
 
 
 
@@ -391,7 +399,10 @@ In dem zweiten Code wird, wenn die Maus nicht die unsichtbare hinterlegte Fläch
 
 <img width="461" alt="Bildschirmfoto 2021-11-28 um 12 22 18" src="https://user-images.githubusercontent.com/88385954/143765704-be792a62-404a-4ebb-83a9-2e01e5456df9.png">
 
-Die Befehle werden dann im Sprite Stage ausgeführt.
+Die Befehle werden dann im Sprite Stage ausgeführt:
+ 
+![MenüButtonHighlighting-_online-video-cutter com_](https://user-images.githubusercontent.com/88385813/144720525-86dd302c-d7dd-4d83-9853-dce43410ad63.gif)
+
 
 HIER FEHLT WHEN I RECEIVE MENÜ BROADCAST MENÜ
 
@@ -409,7 +420,7 @@ Die Backgrounds für die Befehle:
 <img width="95" alt="Bildschirmfoto 2021-11-28 um 12 30 37" src="https://user-images.githubusercontent.com/88385954/143765910-411a9b8e-64df-4e27-b5f3-86b5d40de4a7.png">
 </details>
 
-Wenn sich die Maus auf der unsichtbaren hinterlegten Fläche befindet und der Spieler anschließend clicked, so beginnt das Spiel.
+Wenn sich die Maus auf der unsichtbaren hinterlegten Fläche befindet und der Spieler anschließend mit der Maus klickt, so beginnt das Spiel.
 Dann wird der Befehl "SpielStartet" ausgegeben.
 Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gewechselt und die anderen Schritte zum Spielstart werden eingeleitet.
 
@@ -418,6 +429,9 @@ Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gew
 <br>
  <img width="310" alt="Bildschirmfoto 2021-11-28 um 12 33 14" src="https://user-images.githubusercontent.com/88385954/143765994-7720b1b0-3e4d-4bbd-b85d-71c18a34ecdc.png">
 </details>
+ 
+ ![SpielStartenKlick](https://user-images.githubusercontent.com/88385813/144720684-de5bb54d-76b8-483b-9664-66db899cd7a7.gif)
+
 
 
 <b>2.Charakter Wählen</b>
