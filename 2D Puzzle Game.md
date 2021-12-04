@@ -262,7 +262,8 @@ HIER NOCH CODEBESCHREIBUNG LAVA
 
 Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Laserstrahlen in Berührung kommt. Dabei wird zunächst XXXXXX
  
-![Uploading HerzenUndSchaden - Speer.gif…]()
+![HerzenUndSchaden - Speer](https://user-images.githubusercontent.com/88385813/144721271-7ddaa1a5-7132-497a-99cd-d8731c8134a9.gif)
+
 
 
 
