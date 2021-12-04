@@ -421,6 +421,12 @@ Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gew
 
 
 <b>2.Charakter Wählen</b>
+ 
+ 
+
+https://user-images.githubusercontent.com/88385813/144719596-adcd7268-4e3b-4b53-bfeb-bcb51c721c39.mp4
+
+
 
 Das Prinzip hinter der Charakterauswahl ist ähnlich. Durch eine hinterlegte Fläche wird ebenfalls zunächst geprüft, ob die Maus sich auf dem Button befindet. Durch das gleiche Prinziü wie bei "Spiel Starten" werden die Stages entsprechend angepasst.
 Zudem ist der hinterlegte Button unsichtbar und findet nur im Menü Anwendung
