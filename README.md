@@ -336,6 +336,8 @@ Notation der Musik:
 
 ![YouWinNotation](https://user-images.githubusercontent.com/88385813/144754459-2bc865da-dde2-4d7d-aacc-ae6970e1ff87.png)
 
+Bei diesem Stück war uns wichtig, einen kurzen, aber belohnenden Übergang von der In Game-Musik zur Menü-Musik zu schafen. Das ganze ist an einen tusch angelehnt und damit sehr kurz und prägnant. Unser Ziel war, dass man auch ohne etwas zu sehen, feststellen kann, dass das Spiel gewonnen wurde.
+ 
 #### Game Over-Musik
 
 Aufbau der Musik:
@@ -346,8 +348,8 @@ Notation der Musik:
 
 ![GameOverMusikNotation](https://user-images.githubusercontent.com/88385813/144755561-ebb01197-597d-4ddf-b7d7-8bbe5799af56.png)
 
+Dieses Stück unterstreicht das vorzeitige Ende des Abenteuers und ist dementsprechend traurig gehalten. 
 
-Bei diesem Stück war uns wichtig, einen kurzen, aber belohnenden Übergang von der In Game-Musik zur Menü-Musik zu schafen. Das ganze ist an einen tusch angelehnt und damit sehr kurz und prägnant. Unser Ziel war, dass man auch ohne etwas zu sehen, feststellen kann, dass das Spiel gewonnen wurde,
 ## 📥Reflexion des Projekts<a name="Reflex"></a>
 
 ## ℹ️Quellen<a name="Quellen"></a>
