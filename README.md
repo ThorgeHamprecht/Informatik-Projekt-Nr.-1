@@ -6,6 +6,7 @@
 1. [Projektseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/2D%20Puzzle%20Game.md)
 2. [ToDo-Liste](#ToDo)
 3. [Stundenprotokoll](#prot)
+4. [Arbeitsmethoden](#Methoden)
 
   
  
@@ -270,7 +271,7 @@ PDF für alle Menüelemente
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hjMx8EuyZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-
+## Arbeitsmethoden<a name="Methoden"></a>
 
 
 
