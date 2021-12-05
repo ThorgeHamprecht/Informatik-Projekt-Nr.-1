@@ -322,8 +322,12 @@ Dieses Stück eröffnet das Spiel und ist damit das erste, was der Spieler zu h�
 #### In Game-Musik
  
 Aufbau der Musik:
- 
+
+https://user-images.githubusercontent.com/88385813/144757516-afeb15db-9fbd-4cbd-8c0b-8b85e8b0bf00.mp4
+
 Notation der Musik:
+ 
+![In Game Musik Notation](https://user-images.githubusercontent.com/88385813/144757306-a2d23939-0b51-454e-8c06-caa555383593.png)
 
 Bei diesem Stück ging es uns vor allem Dingen darum, die Ablaufende Zeit auch akustisch zu repräsentieren, daher ist das Motiv sehr simpel gehalten, wird aber mit der Zeit immer schneller. Der Spieler wird so ein wenig unter Druck gestezt, kriegt aber auch passiv mit, wann die zeit ausläuft.
  
