@@ -7,6 +7,7 @@
 2. [ToDo-Liste](#ToDo)
 3. [Stundenprotokoll](#prot)
 4. [Arbeitsmethoden](#Methoden)
+5. [Reflexion des Endprodukts](#Reflex)
 
   
  
@@ -245,29 +246,29 @@ Folgend haben wir uns damit beschäftigt einen Fehler bei dem verlassen von Stag
 
 ### Mittwoch, 13.10.2021 <a name="siebzehn"></a>
 
-### Dienstag,
+### Dienstag, 19.10.2021 <a name="achtzehn"></a>
 
-### Mittwoch,
+### Mittwoch, 20.10.2021 <a name="neunzehn"></a>
 
-### Dienstag,
+### Dienstag, 26.10.2021 <a name="zwanzig"></a>
 
-### Mittwoch,
+### Mittwoch, 27.10.2021 <a name="einundzwanzig"></a>
 
-### Dienstag,
+### Dienstag, 2.11.2021 <a name="zweiundzwanzig"></a>
 
-### Mittwoch,
+### Mittwoch, 3.11.2021 <a name="dreiundzwanzig"></a>
 
-### Dienstag,
+### Dienstag, 9.11.2021 <a name="Ausfall4"></a>
 
-### Mittwoch,
+### Mittwoch, 10.11.2021 <a name="vierundzwanzig"></a>
 
-### Dienstag,
+### Dienstag, 16.11.2021 <a name="füfnundzwanzig"></a>
 
-### Mittwoch,
+### Mittwoch, 17.11.2021 <a name="sechsundzwanzig"></a>
 
-### Dienstag,
+### Dienstag, 23.11.2021 <a name="siebenundzwanzig"></a>
 
-### Mittwoch,
+### Mittwoch, 24.11.2021 <a name="achtundzwanzig"></a>
 
 Erklärung Code
 
@@ -343,6 +344,8 @@ PDF für alle Menüelemente
 
 
 ## Arbeitsmethoden<a name="Methoden"></a>
+
+## Reflexion des Endergebnisses<a name="Reflex"></a>
 
 
 
