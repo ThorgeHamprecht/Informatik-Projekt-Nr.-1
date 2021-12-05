@@ -145,7 +145,7 @@ Der Code dafür sieht folgendermaßen aus:
     <img src="Link zum Bild" alt="Bezeichnung" width="höhe" height="breite">
 ```
     
-<img src="https://user-images.githubusercontent.com/88385813/144759942-9629147f-c3b7-49f3-a7f2-692b571f7180.png" alt="BlauerAbenteurer" width="200" height="200"> <img src="https://user-images.githubusercontent.com/88385813/144759961-e15d70df-9f8d-4365-ac09-a8a48c8872fa.png" alt="GrünerAbenteurer" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/88385813/144759942-9629147f-c3b7-49f3-a7f2-692b571f7180.png" alt="BlauerAbenteurer" width="214" height="360"> <img src="https://user-images.githubusercontent.com/88385813/144759961-e15d70df-9f8d-4365-ac09-a8a48c8872fa.png" alt="GrünerAbenteurer" width="214" height="360">
 
 
 ### Dienstag, 10. August<a name="drei"></a> 
