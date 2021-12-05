@@ -201,7 +201,11 @@ Zuletzt haben wir Ihnen unsere ersten Fortschritte mit Snap! präsentiert.
 
 ### Mittwoch, 01.09.2021 <a name="acht"></a>
 
-Heute haben wir uns mit der Optimierung unseres Spieles beschäftigt. Mit der Website Piskel haben wir unsere Hintergrund Stage erstellt, in der sich unsere Figur bewegt. Anschließend haben wir uns mit der schlechten Performence beschäftigt und versucht diese zu Optimieren. Dafür haben wir
+In dieser Stunde haben wir uns vor allem mit der grafischen Präsentation unseres Spiels beschäftigt. Zum erstellen unserer Sprites verwenden wir [*Piskel*](#Methoden). Wir haben dabei einen Hintergrund für unser Spiel erstellt, auf dem sich der Spieler dann bewegen soll:
+
+![Level 1 Stage 0](https://user-images.githubusercontent.com/88385813/144760922-3f4965d7-0519-45fa-84ad-88ef2089e86d.png)
+
+Wir haben uns entschlossen einen Pixel Art-Stil für unser Spiel zu verwenden, denn die einzelnen Sprites können dann relativ schnell erstellt werden und müssen nicht besonders realistisch aussehen. So wird der Schaffungsprozess für uns auf dauer gesehen leichter, da nicht jede Sprite unglaublich aufwendig ist und auch leicht im nachhinein verändert werden kann.
 
 ### Dienstag, 07.09.2021 <a name="neun"></a>
 
