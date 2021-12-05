@@ -346,7 +346,14 @@ Dieses Stück eröffnet das Spiel und ist damit das erste, was der Spieler zu h�
 
 #### In Game-Musik
  
-Aufbau der Musik:
+Die In Game-Musik ist schlicht aufgebaut. Sie besteht aus zwei Instrumenten. Zum einen das Drum-Kit Brooklyn und aus dem Liverpool Bass.
+Mit dem Brooklyn Drum-Kit wird durch die HiHat ein eingängiger Rhythmus erzeugt.
+Der Liverpool Bass spielt die Abfolge von einem tiefen Ton und dem gleichen Ton eine Oktave höher.
+Die verwendeten Töne bzw. Oktaven sind C, H und A. Eine gewisse Spannung wird erzeugt, indem beim zweiten Durchlauf die Töne D,C und H verwendet werden, alles somit um einen Ton nach oben verrückt ist.
+
+Das Ziel diesen Stückes ist es, während des Spiels eine Begleitmusik zu haben, welche immer schneller wird und somit den Zeitdruck auf den Spieler erhöht bzw. unterstreicht. Dafür muss das komponierte Stück vor allem kurz und spannungserzeugend sein.
+
+Mit dem folgenden Video lässt sich der Aufbau noch einmal genauer nachvollziehen:
 
 https://user-images.githubusercontent.com/88385813/144757516-afeb15db-9fbd-4cbd-8c0b-8b85e8b0bf00.mp4
 
@@ -357,7 +364,19 @@ Notation der Musik:
 Bei diesem Stück ging es uns vor allem Dingen darum, die Ablaufende Zeit auch akustisch zu repräsentieren, daher ist das Motiv sehr simpel gehalten, wird aber mit der Zeit immer schneller. Der Spieler wird so ein wenig unter Druck gestezt, kriegt aber auch passiv mit, wann die zeit ausläuft.
  
 #### Victory Screen-Musik
-Aufbau der Musik: 
+
+Die You-Win Musik soll vor allem eines sein: fröhlich. Aus diesem Grund ist auch diesen Stück in Dur geschrieben, es handelt sich um C-Dur.
+Die Grundakkorde werden von dem Classic electric piano gespielt. Die Grundakkorde ähneln den Akkorden, welche bereits bei der Titelmusik verwendet wurden. 
+<img width="1084" alt="Bildschirmfoto 2021-12-05 um 21 16 17" src="https://user-images.githubusercontent.com/88385954/144762402-96c953ed-2e91-447b-95e9-639407917182.png">
+ 
+Dies haben wir bewusst gewählt, weil nach dem You-Win Screen Display direkt wieder das Menü mit der Titelmusik erscheint. Mit den gleichen Akkorden lässt sich ein flüssiger Übergang kreieren.
+Die Akkorde werden durch den Liverpool Bass unterstützt.
+Eine kleine eigene Melodie spielt das Steinway Grand Piano. Damit soll ein leichter Kontrast zur Hauptmelodie geschaffen werden.
+Das Brooklyn Drum Set erzeugt durch die HiHat einen passenden Hintergrundrhytmus.
+Das Glockenspiel Marimba spielt die zweite Stimme der Melodie. Hier besteht die Besonderheit, dass wir nachdem Einspielen der Melodie die Tonlänge am Computer angepasst haben. Anders als bei der Titelmusik ist jeder Ton somit gleich lang. Dies soll nach dem Spiel die Zufriedenheit des Spielers verstärken.
+Die erste Stimme übernimmt das Ensemble aus drei Geigen.
+
+Der entsprechende Aufbau des Stückes:
 
 https://user-images.githubusercontent.com/88385813/144754402-167bd1ed-a51b-4d68-b692-f45adab3fa07.mp4
 
@@ -369,6 +388,17 @@ Bei diesem Stück war uns wichtig, einen kurzen, aber belohnenden Übergang von 
  
 #### Game Over-Musik
 
+Im Gegensatz zu den anderen Stücken soll die Game Over Musik eine negative, traurige Stimmung erzeugen. Aus diesem Grund ist die Game Over Musik in Moll geschrieben. 
+Es handelt sich um F-Moll.
+Das Classic Electric Piano erzeugt die absteigenden Grundakkorde. Dabei handelt es sich um C-Moll, G-Moll und F-Moll. Das Herabsteigen der Akkorde stellt einen Kontrast zu den anderen Stücken da, bei denen die Akkorde steht´s nach oben gespielt wurden. 
+Damit wird die destruktive Stimmung nach dem Scheitern eines Spielversuches aufgegriffen.
+Die Panflöte spielt die Melodie. Auch diese ist nach unten aufbauend, genau wie die Akkorde. Bei der Flöte haben wir die Tiefen etwas erhöht, damit die sonst fröhliche Flöte einen düsteren Eindruck erweckt.
+ <img width="722" alt="Bildschirmfoto 2021-12-05 um 21 17 39" src="https://user-images.githubusercontent.com/88385954/144762441-dfe31840-a7ae-4132-afd5-a7ad1cfca2de.png">
+
+Der Liverpool Bass unterstützt die Akkorde, ebenfalls abfallend.
+Das Brooklyn Drum-Kit legt durch die HiHat den Hintergrundrhytmus fest.
+
+ 
 Aufbau der Musik:
  
 https://user-images.githubusercontent.com/88385813/144755444-5ec7c747-fd1c-4021-8504-8af2bb82a621.mp4
