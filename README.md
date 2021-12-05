@@ -209,13 +209,20 @@ Wir haben uns entschlossen einen Pixel Art-Stil für unser Spiel zu verwenden, d
 
 ### Dienstag, 07.09.2021 <a name="neun"></a>
 
+ToDo-Liste für diese Woche:
+- [x] *Sprung einbauen*
+- [x] *Gravitation implementieren*
+- [x] *Groundcheck implementeiren*
+
+Zunächst haben wir die Sprungfunktion für den Spieler eingebaut. Dies funktioniert sehr ähnlich zu der Bewegung des Spielers von zuvor. Der Spieler wird nach Drücken der "Leertaste" 
+
+### Mittwoch, 08.09.2021 <a name="zehn"></a>
+
 Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in einem Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
 Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
 Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
 Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
-
-### Mittwoch, 08.09.2021 <a name="zehn"></a>
 
 ### Dienstag, 14.09.2021 <a name="Ausfall1"></a>
 
