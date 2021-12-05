@@ -287,7 +287,10 @@ PDF für alle Menüelemente
 
 ## 🔧Arbeitsmethoden<a name="Methoden"></a>
 
-### 🎨Sprite Erstellung
+### 🎨Sprite Erstellung<a name="MethodenSprite"></a>
+
+Für unser Projekt wollten wir einen Pixel-Art Stil umsetzten. Dafür mussten wir natürlich einige Sprites erstellen, um den verscheidenen Objekten in unserem Spiel Aussehen und Leben zu verleihen. Wir haben hierfür das Online-Programm  [*Piskel*](https://www.piskelapp.com/) verwendet.
+
 
 ### 🎵Musik Erstellung
 
