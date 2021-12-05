@@ -191,9 +191,13 @@ Anschließend haben wir weiter an dem Level-Aufbau gearbeitet.
 Nach dem Gespräch mit Ihnenn sind wir zu dem Entschluss, dass wir nicht an dem Programmieren in Unity mit der Programmiersprache C# festahlten wollen. Wir wollen nun mit [Snap!](https://snap.berkeley.edu/) arbeiten. Zuhause haben wir uns bereits mit der Realisierung unseres Projektes mit dem Programm Snap beschäftigt. Durch die verinfachte Blockprogrammiersprache sind einige Dineg, wie z.B. eine realistische Physik etwas schwieriger umzusetzten.
 Wir haben damit angefangen einen provisorischen Spieler in Form eines Pfeils mit rudimetärer Bewegung nach links und rechts einzufügen. Dabei wird das Spielerobjekt durch die Tasten "a" und "d" oder die Pfeiltasten bewegt. Der Code dafür sieht folgendermaßen aus:
 
-![Spielerbewegung1 0](https://user-images.githubusercontent.com/88385813/144760416-8541ac10-5e29-44a8-847c-5a8760f66214.png)
+![Spielerbewegung1](https://user-images.githubusercontent.com/88385813/144760564-31d73119-d1c4-4170-a55e-da9519b49389.png)
 
-Im Untericht haben wir Ihnen unseren Fortschritt mit Snap! gezeigt. 
+Der Spieler bewegt sich hierdruch mit der definierten Geschwindigkeit nach links und rechts und wird in die Bewegungsrichtung gedreht:
+
+![Bewegung1Gif](https://user-images.githubusercontent.com/88385813/144760740-7ab6db9d-8e39-4979-8269-d4f983ed6fd5.gif)
+
+Zuletzt haben wir Ihnen unsere ersten Fortschritte mit Snap! präsentiert. 
 
 ### Mittwoch, 01.09.2021 <a name="acht"></a>
 
