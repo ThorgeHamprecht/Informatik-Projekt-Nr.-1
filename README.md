@@ -305,19 +305,38 @@ Im anschluss an das erstellen der Spielfigur in Piskel konnten wir leicht durch 
 Dabei muss noch erwähnt werden, dass einige Sprites nicht von uns ersetllt wurden. Dabei handelt es sich konkret um die Schlüssel-Sprite, die Tor-Sprite und die unterschiedlichen Stein-Sprites. Die Quellen für diese Sprites finden sich [*hier*](#Quellen).
 
 
-### 🎵Musik Erstellung
-Auch die Musik für das Spiel haben wir mithilfe von [*GarageBand*](https://www.apple.com/de/ios/garageband/) selbst erstellt, dabei war uns vor allen Dinegn wichtig, für alle Szenarien, also Menü, In Game, Game Over und Victory Screen eine passende Musik zu haben. Deshalb haben wir vier Stücke erstellt:
+### 🎵Komponieren der Musik
  
-#### Die Menü-Musik
-Hier zunächst der Aufbau der Musik mit den unterschiedlichen Instrumenten nach und nach hinzugeschaltet:
+Musik verleiht Bildern eine eindrucksvollere Wirkung.
+Bei unserem Spiel hat die Musik aus diesem Grund eine sehr wichtige Rolle.
+Damit die Musik mit den Bildern übereinstimmt, haben wir uns überlegt nicht einfach einen bereits bestehenden Song zu verwenden: Wir haben jede Musik in unserem Spiel selbst komponiert.
+Bis zum letzen Jahr haben wir Musik als Kurs in der Schule belegt. Wir haben für die Erstellung dieser Musikstücke unsere Erkenntnise aus dem Unterricht verwendet.
+Somit war es uns ermöglicht, die erlernten theoretischen Kenntnisse in praktische Resultate umzuwandeln.
+Die Musik für das Spiel haben wir mithilfe von [*GarageBand*](https://www.apple.com/de/ios/garageband/) komponiert, dabei war uns vor allen Dinegn wichtig, für alle Szenarien, also Menü, In Game, Game Over und Victory Screen eine passende Musik zu entwickeln. 
+Aus diesem Grund haben wir vier Stücke erstellt:
+ 
+#### Die Menü-Musik (Titelmusik)
+
+Dieses Stück ist das Kernstück unserer Komponisationen. Es handelt sich um ein Stück in G-Dur. 
+Wir haben uns für ein Stück in Dur entschieden, weil die Titelmusik einen freundlichen und fröhlichen Eindruck erwecken soll und der Spieler sich motiviert fühlen sollte, dass Spiel nun zu starten.
+In diesem Stück werden die Akkorde durch das Instrument 80s Sine Synth gespielt. Es handelt sich dabei um jeweils Viertel, welche immer wieder durch Viertelpausen unterbrochen werden. Die Akkorde stellen eine Abfolge von C-Dur/F-Dur/C-Dur/G-Dur dar. Dabei werden die Akkorde in der Tiefe durch den Liverpool Bass unterstützt.
+Hier haben wir mit dem Equalizier noch etwas die Tiefen verändert, damit diese noch ein bisschen stärken zum Vorschein kommen. 
+ <img width="864" alt="Bildschirmfoto 2021-12-05 um 19 21 53" src="https://user-images.githubusercontent.com/88385954/144758629-36e8926d-1d2c-4aa5-ae0b-38c884e09b1b.png">
+ Die höhen haben wir stattdessen etwas rausgenommen, da dieser Frequenzbereich bereits durch das Instrument "Cheap Organ" abgedeckt wird. 
+Der Liverpool Bass und Cheap Organ spielen die gleiche Begleitung, unterscheiden sich etwas in ihrem Sound, jedoch deutlich in ihrer Frequenz.
+After Party stellt ein Drum Kit da, bei welchem wir uns für die HiHat bedient haben. 
+Das Warm Synth Pad ist ein Streicher-Ensemble welches den Klang durch die damit erlangte "Wärme" unterstützt.
+Das Herzstück diesen Stückes ist die Flöte. Sie spielt über allen anderen Instrumenten die Höhen.
+
+Um den Aufbau des Stückes noch etwas deutlicher zu machen, haben wir uns überlegt, ein Video aufzunehmen, bei welchem wir Ihnen die "Entstehung" des finalen Stückes durch das langsame hinzukommen der verschiedenen Instrumente zeigen.
 
 https://user-images.githubusercontent.com/88385813/144753988-c8a7f50e-673c-42f9-9b3d-7fb8c9ddd7a2.mp4
 
-Und nun die Notation der Musik:
+Wir haben eine Notation der einzelnen Instrumente erstellt, damit man den Aufbau und das Zusammenspielen der verschiedenen Instrumente leichter nachvollziehen kann.
  
 ![Titelmusik - Notation](https://user-images.githubusercontent.com/88385813/144754125-76b8bd5f-4c2f-494d-afb7-f515051a94da.png)
 
-Dieses Stück eröffnet das Spiel und ist damit das erste, was der Spieler zu hören bekommt. Wir wollen mit dieser Musik den fröhlichen und abenteuerlichen Charakter unseres Spiels unterstreichen, dabei soll der Klang an das gefühl erinnern, dass einen bei einem schönen Sommerspaziergang in einer interessanten Landschaft erfüllt.
+Dieses Stück eröffnet das Spiel und ist damit das erste, was der Spieler zu hören bekommt. Wir wollen mit dieser Musik den fröhlichen und abenteuerlichen Charakter unseres Spiels unterstreichen, dabei soll der Klang an das gefühl erinnern, dass einen bei einem schönen Sommerspaziergang in einer interessanten Landschaft erfüllt: So beginnt auch unser Spiel.
 
 #### In Game-Musik
  
