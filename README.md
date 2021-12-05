@@ -37,31 +37,47 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
   <tr>
     <td><a href=#sechs>Mittwoch, 25. August</a></td>
     <td><a href=#sieben>Dienstag, 31. August</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href=#acht>Mittwoch, 1. September</a></td>
+    <td><a href=#neun>Diesntag, 7. September</a></td>
+    <td><a href=#zehn>Mittwoch, 8. September</a></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href=#Ausfall1>Dienstag, 14. September</a></td>
+    <td><a href=#Ausfall2>Mittwoch, 15. September</a></td>
+    <td><a href=#elf>Mittwoch, 21. September</a></td>
+    <td><a href=#zwölf>Mittwoch, 22. September</a></td>
+    <td><a href=#dreizehn>Dienstag, 28. September</a></td>
+  </tr>
+  <tr>
+    <td><a href=#Ausfall3>Mittwoch, 29. September</a></td>
+    <td><a href=#vierzehn>Dienstag, 5. Oktober</a></td>
+    <td><a href=#fünfzehn>Mittwoch, 6. Oktober</a></td>
+    <td><a href=#sechzehn></a>Dienstag, 12. Oktober</td>
+    <td><a href=#siebzehn></a>Mittwoch, 13. Oktober</td>
+  </tr>
+  <tr>
+    <td><a href=#achtzehn>Dienstag. 19. Oktober</a></td>
+    <td><a href=#neunzehn>Mittwoch, 20. Oktober</a></td>
+    <td><a href=#zwanzig></a>Dienstag, 26. Oktober</td>
+    <td><a href=#einundzwanzig></a>Mittwoch, 27. Oktober</td>
+    <td><a href=#zweiundzwanzig></a>Dienstag, 2. November</td>
+  </tr>
+  <tr>
+    <td><a href=#dreiundzwanzig>Mittwoch, 3. November</a></td>
+    <td><a href=#Ausfall4>Dienstag, 9. November</a></td>
+    <td><a href=#vierundzwanzig></a>Mittwoch, 10. November</td>
+    <td><a href=#fünfundzwanzig></a>Dienstag, 16. November</td>
+    <td><a href=#sechsundzwanzig></a>Mittwoch, 17. November</td>
+  </tr>
+  <tr>
+    <td><a href=#siebenundzwanzig>Dienstag, 23. November</a></td>
+    <td><a href=#achtundzwanzig>Mittwoch, 24. November</a></td>
+    <td><a href=#neunundzwanzig></a>Mittwoch, 10. November</td>
+    <td><a href=#dreißig></a>Dienstag, 30. November</td>
+    <td><a href=#einunddreißig></a>Mittwoch, 1. Dezember</td>
   </tr>
 </table>
-  | <a href=#eins>Dienstag, 3. August</a> |
-  <a href=#zwei>Mittwoch, 4. August</a> |
-  <a href=#drei>Dienstag, 10. August</a> |
-  <a href=#vier>Mittwoch, 11. August</a> |
-  <a href=#fünf>Dienstag, 24. August</a> |
  
-  | <a href=#sechs>Mittwoch, 25. August</a> |
-  <a href=#sieben>Dienstag, 31. August</a> |
-  <a href=#acht>Mittwoch, 1. September</a> |
-  <a href=#neun>Diesntag, 7. September</a> |
-  <a href=#zehn>Mittwoch, 8. September</a> |
-  <a href=#elf>Mittwoch, 21. September</a> |
-  <a href=#zwölf>Mittwoch, 22. September</a> |
 </details>
 
  
@@ -218,6 +234,34 @@ Zudem haben wir uns damit befasst, dass Problem mit den Leben zu lösen. Nach ei
 Folgend haben wir uns damit beschäftigt einen Fehler bei dem verlassen von Stages beschäftigt. 
 
 ### Mittwoch, 16.10.2021 <a name="fünfzehn"></a>
+
+### Dienstag, 
+
+### Mittwoch,
+
+### Dienstag,
+
+### Mittwoch,
+
+### Dienstag,
+
+### Mittwoch,
+
+### Dienstag,
+
+### Mittwoch,
+
+### Dienstag,
+
+### Mittwoch,
+
+### Dienstag,
+
+### Mittwoch,
+
+### Dienstag,
+
+### Mittwoch,
 
 Erklärung Code
 
