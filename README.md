@@ -313,20 +313,39 @@ Hier zunächst der Aufbau der Musik mit den unterschiedlichen Instrumenten nach 
 
 https://user-images.githubusercontent.com/88385813/144753988-c8a7f50e-673c-42f9-9b3d-7fb8c9ddd7a2.mp4
 
-Und auch nocheinmal die Notation der Musik:
+Und nun die Notation der Musik:
  
 ![Titelmusik - Notation](https://user-images.githubusercontent.com/88385813/144754125-76b8bd5f-4c2f-494d-afb7-f515051a94da.png)
 
 Dieses Stück eröffnet das Spiel und ist damit das erste, was der Spieler zu hören bekommt. Wir wollen mit dieser Musik den fröhlichen und abenteuerlichen Charakter unseres Spiels unterstreichen, dabei soll der Klang an das gefühl erinnern, dass einen bei einem schönen Sommerspaziergang in einer interessanten Landschaft erfüllt.
+
+#### In Game-Musik
  
-### Victory Screen-Musik
+Aufbau der Musik:
+ 
+Notation der Musik:
+
+Bei diesem Stück ging es uns vor allem Dingen darum, die Ablaufende Zeit auch akustisch zu repräsentieren, daher ist das Motiv sehr simpel gehalten, wird aber mit der Zeit immer schneller. Der Spieler wird so ein wenig unter Druck gestezt, kriegt aber auch passiv mit, wann die zeit ausläuft.
+ 
+#### Victory Screen-Musik
 Aufbau der Musik: 
 
 https://user-images.githubusercontent.com/88385813/144754402-167bd1ed-a51b-4d68-b692-f45adab3fa07.mp4
 
 Notation der Musik:
- 
+
 ![YouWinNotation](https://user-images.githubusercontent.com/88385813/144754459-2bc865da-dde2-4d7d-aacc-ae6970e1ff87.png)
+
+#### Game Over-Musik
+
+Aufbau der Musik:
+ 
+https://user-images.githubusercontent.com/88385813/144755444-5ec7c747-fd1c-4021-8504-8af2bb82a621.mp4
+
+Notation der Musik:
+
+![GameOverMusikNotation](https://user-images.githubusercontent.com/88385813/144755561-ebb01197-597d-4ddf-b7d7-8bbe5799af56.png)
+
 
 Bei diesem Stück war uns wichtig, einen kurzen, aber belohnenden Übergang von der In Game-Musik zur Menü-Musik zu schafen. Das ganze ist an einen tusch angelehnt und damit sehr kurz und prägnant. Unser Ziel war, dass man auch ohne etwas zu sehen, feststellen kann, dass das Spiel gewonnen wurde,
 ## 📥Reflexion des Projekts<a name="Reflex"></a>
