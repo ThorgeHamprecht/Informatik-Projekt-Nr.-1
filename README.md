@@ -267,9 +267,7 @@ PDF für alle Menüelemente
   <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/PDF-Dokument/PDF.gif">
 </BODY>
 
-<p allign "center"> 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjMx8EuyZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+
 
 ## Arbeitsmethoden<a name="Methoden"></a>
 
