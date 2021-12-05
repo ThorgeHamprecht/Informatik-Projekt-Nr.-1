@@ -297,6 +297,7 @@ Hier haben wir die meisten unserer Sprites selbst erstellt und anschließend als
 ![PiskelScreen](https://user-images.githubusercontent.com/88385813/144751074-ea7ffee1-a388-4f68-b9a5-de05ee812e6c.png)
 
 Im anschluss an das erstellen der Spielfigur in Piskel konnten wir leicht durch die Tools von Piskel die zwei anderen Farbvarianten der Spielfigur erstellen:
+ 
 ![RoterAbenteurer (1)](https://user-images.githubusercontent.com/88385813/144751151-8899d67c-8d7e-4794-9f22-f5348b2e61d4.png)
 ![GrünerAbenteurer (1)](https://user-images.githubusercontent.com/88385813/144751153-d56796fc-1eff-47ad-ac64-1d9205fcfdc1.png)
 ![BlauerAbenteurer (2)](https://user-images.githubusercontent.com/88385813/144751160-8338394d-2070-4b56-8ee0-3b65d205a454.png)
