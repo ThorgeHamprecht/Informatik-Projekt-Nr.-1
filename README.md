@@ -17,8 +17,8 @@
 Hier wird von nun an ([Mittwoch, 4. August](#zwei)) eine ToDo-Liste geführt, in der wir unsere Ziele und Fortschritte auf einen Blick sehen können.<br> 
 Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die ToDo-Liste wird aktuell gehalten werden und alte Beiträge werden der Übersichtlichkeit halber gelöscht. Gelöschte Beiträge finden sich aber in unserem Protokoll in dem Eintrag an ihrem Erstellungstag wieder.
  
-- [ ] *Musik für das Spiel erstellen*
-- [ ] *Animationen erstellen*
+- [x] *Anleitung Updaten*
+- [ ] *A*
 - [ ] *Texturen erstellen*
 - [ ] *natürliche Level erstellen*
  
@@ -284,7 +284,7 @@ PDF für alle Menüelemente
 
 
 
-## Arbeitsmethoden<a name="Methoden"></a>
+## Arbeitsmethoden<a name="Methoden"></a>
 
 ## Reflexion des Projekts<a name="Reflex"></a>
 
