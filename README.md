@@ -270,7 +270,9 @@ Folgend haben wir uns damit beschäftigt einen Fehler bei dem verlassen von Stag
 
 ### Mittwoch, 24.11.2021 <a name="achtundzwanzig"></a>
 
-### Dienstag, 
+### Dienstag, 30.11.2021 <a name="neunundzwanzig"></a>
+
+### Mittwoch, 1.12.2021 <a name="dreißig"></a>
 
 Erklärung Code
 
