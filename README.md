@@ -8,8 +8,8 @@
 3. [Stundenprotokoll](#prot)
 4. [Arbeitsmethoden](#Methoden)
 5. [Reflexion des Projekts](#Reflex)
-6. [Spiel - Snap! Community Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
-7. [Quellen](#Quellen)
+6. [Quellen](#Quellen)
+7. [Spiel - Snap! Community Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
   
  
@@ -308,6 +308,13 @@ Dabei muss noch erwähnt werden, dass einige Sprites nicht von uns ersetllt wurd
 ### 🎵Musik Erstellung
 Auch die Musik für das Spiel haben wir mithilfe von [*GarageBand*](https://www.apple.com/de/ios/garageband/) selbst erstellt, dabei war uns vor allen Dinegn wichtig, für alle Szenarien, also Menü, In Game, Game Over und Victory Screen eine passende Musik zu haben. Deshalb haben wir vier Stücke erstellt:
 #### Die Menü-Musik
+Hier zunächst der Aufbau der Musik mit den unterschiedlichen Instrumenten nach und nach hinzugeschaltet:
+
+https://user-images.githubusercontent.com/88385813/144753988-c8a7f50e-673c-42f9-9b3d-7fb8c9ddd7a2.mp4
+
+Und auch nocheinmal die Notation der Musik:
+![Titelmusik - Notation](https://user-images.githubusercontent.com/88385813/144754125-76b8bd5f-4c2f-494d-afb7-f515051a94da.png)
+ 
 
 ## 📥Reflexion des Projekts<a name="Reflex"></a>
 
