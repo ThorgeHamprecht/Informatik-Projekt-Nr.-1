@@ -52,29 +52,29 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
     <td><a href=#Ausfall3>Mittwoch, 29. September</a></td>
     <td><a href=#vierzehn>Dienstag, 5. Oktober</a></td>
     <td><a href=#fünfzehn>Mittwoch, 6. Oktober</a></td>
-    <td><a href=#sechzehn></a>Dienstag, 12. Oktober</td>
-    <td><a href=#siebzehn></a>Mittwoch, 13. Oktober</td>
+    <td><a href=#sechzehn>Dienstag, 12. Oktober</a></td>
+    <td><a href=#siebzehn>Mittwoch, 13. Oktober</a></td>
   </tr>
   <tr>
     <td><a href=#achtzehn>Dienstag. 19. Oktober</a></td>
     <td><a href=#neunzehn>Mittwoch, 20. Oktober</a></td>
-    <td><a href=#zwanzig></a>Dienstag, 26. Oktober</td>
-    <td><a href=#einundzwanzig></a>Mittwoch, 27. Oktober</td>
-    <td><a href=#zweiundzwanzig></a>Dienstag, 2. November</td>
+    <td><a href=#zwanzig>Dienstag, 26. Oktober</a></td>
+    <td><a href=#einundzwanzig>Mittwoch, 27. Oktober</a></td>
+    <td><a href=#zweiundzwanzig>Dienstag, 2. November</a></td>
   </tr>
   <tr>
     <td><a href=#dreiundzwanzig>Mittwoch, 3. November</a></td>
     <td><a href=#Ausfall4>Dienstag, 9. November</a></td>
-    <td><a href=#vierundzwanzig></a>Mittwoch, 10. November</td>
-    <td><a href=#fünfundzwanzig></a>Dienstag, 16. November</td>
-    <td><a href=#sechsundzwanzig></a>Mittwoch, 17. November</td>
+    <td><a href=#vierundzwanzig>Mittwoch, 10. November</a></td>
+    <td><a href=#fünfundzwanzig>Dienstag, 16. November</a></td>
+    <td><a href=#sechsundzwanzig>Mittwoch, 17. November</a></td>
   </tr>
   <tr>
     <td><a href=#siebenundzwanzig>Dienstag, 23. November</a></td>
     <td><a href=#achtundzwanzig>Mittwoch, 24. November</a></td>
-    <td><a href=#neunundzwanzig></a>Mittwoch, 10. November</td>
-    <td><a href=#dreißig></a>Dienstag, 30. November</td>
-    <td><a href=#einunddreißig></a>Mittwoch, 1. Dezember</td>
+    <td><a href=#neunundzwanzig>Mittwoch, 10. November</a></td>
+    <td><a href=#dreißig>Dienstag, 30. November</a></td>
+    <td><a href=#einunddreißig>Mittwoch, 1. Dezember</a></td>
   </tr>
 </table>
  
