@@ -145,7 +145,7 @@ Der Code dafür sieht folgendermaßen aus:
     <img src="Link zum Bild" alt="Bezeichnung" width="höhe" height="breite">
 ```
     
-<img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="ProfilbildThorge" width="200" height="200">
+<img src="images/ProfilbildThorge.png" alt="https://user-images.githubusercontent.com/88385813/144759942-9629147f-c3b7-49f3-a7f2-692b571f7180.png" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="https://user-images.githubusercontent.com/88385813/144759961-e15d70df-9f8d-4365-ac09-a8a48c8872fa.png" width="200" height="200">
 
 Außerdem ist es auch möglich ein Bild als Link zu verwenden und somit Youtube Videos interaktiv in sein Repository einzufügen.<br> 
 Das Video lässt sich also druch anklicken des Bilds aufrufen.
