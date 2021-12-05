@@ -28,14 +28,9 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
 <br>
  <table>
   <tr>
-    <th>Person 1</th>
-    <th>Person 2</th>
-    <th>Person 3</th>
-  </tr>
-  <tr>
-    <td>Emil</td>
-    <td>Tobias</td>
-    <td>Linus</td>
+    <td><a href=#eins>Dienstag, 3. August</a></td>
+    <td><a href=#zwei>Mittwoch, 4. August</a></td>
+    <td><a href=#drei>Dienstag, 10. August</a></td>
   </tr>
   <tr>
     <td>16</td>
