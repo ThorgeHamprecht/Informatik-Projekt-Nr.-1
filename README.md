@@ -7,7 +7,6 @@
 2. [ToDo-Liste](#ToDo)
 3. [Stundenprotokoll](#prot)
 4. [Arbeitsmethoden](#Methoden)
-5. [Reflexion des Projekts](#Reflex)
 
   
  
@@ -53,29 +52,29 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
     <td><a href=#Ausfall3>Mittwoch, 29. September</a></td>
     <td><a href=#vierzehn>Dienstag, 5. Oktober</a></td>
     <td><a href=#fünfzehn>Mittwoch, 6. Oktober</a></td>
-    <td><a href=#sechzehn>Dienstag, 12. Oktober</a></td>
-    <td><a href=#siebzehn>Mittwoch, 13. Oktober</a></td>
+    <td><a href=#sechzehn></a>Dienstag, 12. Oktober</td>
+    <td><a href=#siebzehn></a>Mittwoch, 13. Oktober</td>
   </tr>
   <tr>
     <td><a href=#achtzehn>Dienstag. 19. Oktober</a></td>
     <td><a href=#neunzehn>Mittwoch, 20. Oktober</a></td>
-    <td><a href=#zwanzig>Dienstag, 26. Oktober</a></td>
-    <td><a href=#einundzwanzig>Mittwoch, 27. Oktober</a></td>
-    <td><a href=#zweiundzwanzig>Dienstag, 2. November</a></td>
+    <td><a href=#zwanzig></a>Dienstag, 26. Oktober</td>
+    <td><a href=#einundzwanzig></a>Mittwoch, 27. Oktober</td>
+    <td><a href=#zweiundzwanzig></a>Dienstag, 2. November</td>
   </tr>
   <tr>
     <td><a href=#dreiundzwanzig>Mittwoch, 3. November</a></td>
     <td><a href=#Ausfall4>Dienstag, 9. November</a></td>
-    <td><a href=#vierundzwanzig>Mittwoch, 10. November</a></td>
-    <td><a href=#fünfundzwanzig>Dienstag, 16. November</a></td>
-    <td><a href=#sechsundzwanzig>Mittwoch, 17. November</a></td>
+    <td><a href=#vierundzwanzig></a>Mittwoch, 10. November</td>
+    <td><a href=#fünfundzwanzig></a>Dienstag, 16. November</td>
+    <td><a href=#sechsundzwanzig></a>Mittwoch, 17. November</td>
   </tr>
   <tr>
     <td><a href=#siebenundzwanzig>Dienstag, 23. November</a></td>
     <td><a href=#achtundzwanzig>Mittwoch, 24. November</a></td>
-    <td><a href=#neunundzwanzig>Mittwoch, 10. November</a></td>
-    <td><a href=#dreißig>Dienstag, 30. November</a></td>
-    <td><a href=#einunddreißig>Mittwoch, 1. Dezember</a></td>
+    <td><a href=#neunundzwanzig></a>Dienstag, 30. November</td>
+    <td><a href=#dreißig></a>Mittwoch, 1. Dezember</td>
+    <td></td>
   </tr>
 </table>
  
@@ -218,10 +217,6 @@ Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass da
 
 ### Mittwoch, 08.09.2021 <a name="zehn"></a>
 
-### Dienstag, 14.09.2021 <a name="Ausfall1"></a>
-
-### Mittwoch, 15.09.2021 <a name="Ausfall2"></a>
-
 ### Dienstag, 21.09.2021 <a name="elf"></a>
 Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir eingestellt, an welcher Stelle die Wolken im Hintergrund erscheinen sollen uns mit welcher Geschwindigkeit sie sich anschließend in welche Richtung bewegen sollen. 
 Heute ging es darum, neue Stages zu erstellen, damit sich eine "neue" Welt öffnet, wenn sich der Charakter aus den Rändern links und rechts bewegt. 
@@ -232,43 +227,41 @@ In der heutigen Stunde haben wir unser GitHub Repository überarbeitet. Dabei ha
 ### Dienstag, 28.09.2021 <a name="dreizehn"></a>
 Heute haben wir den Start unseres Spiel programmiert. Zunächst haben wir einen Platzhalter eingefügt, welcher einen Start-Knopf simulieren sollte. Danach haben wir ein PNG erstellt, welches die Überschrift "Spiel Starten" aufzeigt. Dieses Startmenü soll immer dann erscheinen, wenn man das Spiel das erste Mal starten möchte und immer dann, wenn man ein Leben verloren hat. Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Probklem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
 
-### Mittwoch, 29.09.2021 <a name="Ausfall3"></a>
-
-### Dienstag, 5.10.2021 <a name="vierzehn"></a>
+### Dienstag, 15.10.2021 <a name="vierzehn"></a>
 
 Heute haben wir das Spielmenü erstellt. Dabei haben wir mit Power-Point verschiedene Bilder erstellt, um diese zu erstellen.
 Zudem haben wir uns damit befasst, dass Problem mit den Leben zu lösen. Nach einigem probieren sind wir auf folgende Lösung gekommen, mit der die Leben nun wieder in gewünschter Weise weniger werden.
 Folgend haben wir uns damit beschäftigt einen Fehler bei dem verlassen von Stages beschäftigt. 
 
-### Mittwoch, 6.10.2021 <a name="fünfzehn"></a>
+### Mittwoch, 16.10.2021 <a name="fünfzehn"></a>
 
-### Dienstag, 12.10.2021 <a name="sechzehn"></a>
+### Dienstag, 
 
-### Mittwoch, 13.10.2021 <a name="siebzehn"></a>
+### Mittwoch,
 
-### Dienstag, 19.10.2021 <a name="achtzehn"></a>
+### Dienstag,
 
-### Mittwoch, 20.10.2021 <a name="neunzehn"></a>
+### Mittwoch,
 
-### Dienstag, 26.10.2021 <a name="zwanzig"></a>
+### Dienstag,
 
-### Mittwoch, 27.10.2021 <a name="einundzwanzig"></a>
+### Mittwoch,
 
-### Dienstag, 2.11.2021 <a name="zweiundzwanzig"></a>
+### Dienstag,
 
-### Mittwoch, 3.11.2021 <a name="dreiundzwanzig"></a>
+### Mittwoch,
 
-### Dienstag, 9.11.2021 <a name="Ausfall4"></a>
+### Dienstag,
 
-### Mittwoch, 10.11.2021 <a name="vierundzwanzig"></a>
+### Mittwoch,
 
-### Dienstag, 16.11.2021 <a name="füfnundzwanzig"></a>
+### Dienstag,
 
-### Mittwoch, 17.11.2021 <a name="sechsundzwanzig"></a>
+### Mittwoch,
 
-### Dienstag, 23.11.2021 <a name="siebenundzwanzig"></a>
+### Dienstag,
 
-### Mittwoch, 24.11.2021 <a name="achtundzwanzig"></a>
+### Mittwoch,
 
 Erklärung Code
 
@@ -344,8 +337,6 @@ PDF für alle Menüelemente
 
 
 ## Arbeitsmethoden<a name="Methoden"></a>
-
-## Reflexion des Projekts<a name="Reflex"></a>
 
 
 
