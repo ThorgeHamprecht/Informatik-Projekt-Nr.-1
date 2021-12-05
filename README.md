@@ -302,6 +302,7 @@ Im anschluss an das erstellen der Spielfigur in Piskel konnten wir leicht durch 
 ![GrünerAbenteurer (1)](https://user-images.githubusercontent.com/88385813/144751153-d56796fc-1eff-47ad-ac64-1d9205fcfdc1.png)
 ![BlauerAbenteurer (2)](https://user-images.githubusercontent.com/88385813/144751160-8338394d-2070-4b56-8ee0-3b65d205a454.png)
 
+Dabei muss noch erwähnt werden, dass einige Sprites nicht von uns ersetllt wurden. Dabei handelt es sich konkret um die Schlüssel-Sprite, die Tor-Sprite und die unterschiedlichen Stein-Sprites. Die Quellen für diese Sprites finden sich [*hier*](#Quellen).
 
 
 ### 🎵Musik Erstellung
