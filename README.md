@@ -73,9 +73,9 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
   <tr>
     <td><a href=#siebenundzwanzig>Dienstag, 23. November</a></td>
     <td><a href=#achtundzwanzig>Mittwoch, 24. November</a></td>
-    <td><a href=#neunundzwanzig>Mittwoch, 10. November</a></td>
-    <td><a href=#dreißig>Dienstag, 30. November</a></td>
-    <td><a href=#einunddreißig>Mittwoch, 1. Dezember</a></td>
+    <td><a href=#neunundzwanzig>Dienstag, 30. November</a></td>
+    <td><a href=#dreißig>Mittwoch, 1. Dezember</a></td>
+    <td></td>
   </tr>
 </table>
  
