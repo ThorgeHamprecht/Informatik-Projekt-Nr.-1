@@ -7,7 +7,7 @@
 2. [ToDo-Liste](#ToDo)
 3. [Stundenprotokoll](#prot)
 4. [Arbeitsmethoden](#Methoden)
-5. [Reflexion des Endprodukts](#Reflex)
+5. [Reflexion des Projekts](#Reflex)
 
   
  
@@ -345,7 +345,7 @@ PDF für alle Menüelemente
 
 ## Arbeitsmethoden<a name="Methoden"></a>
 
-## Reflexion des Endergebnisses<a name="Reflex"></a>
+## Reflexion des Projekts<a name="Reflex"></a>
 
 
 
