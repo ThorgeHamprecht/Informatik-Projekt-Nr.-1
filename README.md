@@ -26,6 +26,23 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
  <details>
 <summary>Übersicht: Alle Einträge</summary>
 <br>
+ <table>
+  <tr>
+    <th>Person 1</th>
+    <th>Person 2</th>
+    <th>Person 3</th>
+  </tr>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+  </tr>
+</table>
   | <a href=#eins>Dienstag, 3. August</a> |
   <a href=#zwei>Mittwoch, 4. August</a> |
   <a href=#drei>Dienstag, 10. August</a> |
