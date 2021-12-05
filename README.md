@@ -145,22 +145,8 @@ Der Code dafür sieht folgendermaßen aus:
     <img src="Link zum Bild" alt="Bezeichnung" width="höhe" height="breite">
 ```
     
-<img src="images/ProfilbildThorge.png" alt="https://user-images.githubusercontent.com/88385813/144759942-9629147f-c3b7-49f3-a7f2-692b571f7180.png" width="200" height="200"> <img src="images/ProfilbildThorge.png" alt="https://user-images.githubusercontent.com/88385813/144759961-e15d70df-9f8d-4365-ac09-a8a48c8872fa.png" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/88385813/144759942-9629147f-c3b7-49f3-a7f2-692b571f7180.png" alt="BlauerAbenteurer" width="200" height="200"> <img src="https://user-images.githubusercontent.com/88385813/144759961-e15d70df-9f8d-4365-ac09-a8a48c8872fa.png" alt="GrünerAbenteurer" width="200" height="200">
 
-Außerdem ist es auch möglich ein Bild als Link zu verwenden und somit Youtube Videos interaktiv in sein Repository einzufügen.<br> 
-Das Video lässt sich also druch anklicken des Bilds aufrufen.
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
-" target="_blank"><img src="images/Thumbnail COSTA RICA.PNG" 
-alt="COSTA RICA Video" width="360" height="201" border="100" /></a>
-
-Auch dies ist wieder mit [*HTML*](https://de.wikipedia.org/wiki/Hypertext_Markup_Language) ermöglicht worden:
-
-```html
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
-" target="_blank"><img src="images/Thumbnail COSTA RICA.PNG" 
-alt="COSTA RICA Video" width="360" height="201" border="100" /></a>
-```
 
 ### Dienstag, 10. August<a name="drei"></a> 
 
