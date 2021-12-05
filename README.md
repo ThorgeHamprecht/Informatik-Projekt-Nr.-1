@@ -322,7 +322,8 @@ Wir haben uns für ein Stück in Dur entschieden, weil die Titelmusik einen freu
 In diesem Stück werden die Akkorde durch das Instrument 80s Sine Synth gespielt. Es handelt sich dabei um jeweils Viertel, welche immer wieder durch Viertelpausen unterbrochen werden. Die Akkorde stellen eine Abfolge von C-Dur/F-Dur/C-Dur/G-Dur dar. Dabei werden die Akkorde in der Tiefe durch den Liverpool Bass unterstützt.
 Hier haben wir mit dem Equalizier noch etwas die Tiefen verändert, damit diese noch ein bisschen stärken zum Vorschein kommen. 
  <img width="864" alt="Bildschirmfoto 2021-12-05 um 19 21 53" src="https://user-images.githubusercontent.com/88385954/144758629-36e8926d-1d2c-4aa5-ae0b-38c884e09b1b.png">
- Die höhen haben wir stattdessen etwas rausgenommen, da dieser Frequenzbereich bereits durch das Instrument "Cheap Organ" abgedeckt wird. 
+
+Die höhen haben wir stattdessen etwas rausgenommen, da dieser Frequenzbereich bereits durch das Instrument "Cheap Organ" abgedeckt wird. 
 Der Liverpool Bass und Cheap Organ spielen die gleiche Begleitung, unterscheiden sich etwas in ihrem Sound, jedoch deutlich in ihrer Frequenz.
 After Party stellt ein Drum Kit da, bei welchem wir uns für die HiHat bedient haben. 
 Das Warm Synth Pad ist ein Streicher-Ensemble welches den Klang durch die damit erlangte "Wärme" unterstützt.
