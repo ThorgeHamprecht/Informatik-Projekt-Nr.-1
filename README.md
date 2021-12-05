@@ -33,12 +33,20 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
     <td><a href=#drei>Dienstag, 10. August</a></td>
     <td><a href=#vier>Mittwoch, 11. August</a></td>
     <td><a href=#fünf>Dienstag, 24. August</a></td>
-    <td><a href=#sechs>Mittwoch, 25. August</a></td>
   </tr>
   <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
+    <td><a href=#sechs>Mittwoch, 25. August</a></td>
+    <td><a href=#sieben>Dienstag, 31. August</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
   | <a href=#eins>Dienstag, 3. August</a> |
