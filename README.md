@@ -306,6 +306,8 @@ Dabei muss noch erwähnt werden, dass einige Sprites nicht von uns ersetllt wurd
 
 
 ### 🎵Musik Erstellung
+Auch die Musik für das Spiel haben wir mithilfe von [*GarageBand*](https://www.apple.com/de/ios/garageband/) selbst erstellt, dabei war uns vor allen Dinegn wichtig, für alle Szenarien, also Menü, In Game, Game Over und Victory Screen eine passende Musik zu haben. Deshalb haben wir vier Stücke erstellt:
+#### Die Menü-Musik
 
 ## 📥Reflexion des Projekts<a name="Reflex"></a>
 
