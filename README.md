@@ -286,6 +286,10 @@ PDF für alle Menüelemente
 
 ## 🔧Arbeitsmethoden<a name="Methoden"></a>
 
+### 🎨Sprite Erstellung
+
+### 🎵Musik Erstellung
+
 ## 📥Reflexion des Projekts<a name="Reflex"></a>
 
 
