@@ -292,6 +292,11 @@ PDF für alle Menüelemente
 Für unser Projekt wollten wir einen Pixel-Art Stil umsetzten. Dafür mussten wir natürlich einige Sprites erstellen, um den verscheidenen Objekten in unserem Spiel Aussehen und Leben zu verleihen. Wir haben hierfür das Online-Programm  [*Piskel*](https://www.piskelapp.com/) verwendet.
 ![piskelLogo](https://user-images.githubusercontent.com/88385813/144750564-be75f0cb-ea5b-4c10-86c0-ee2195c0886d.jpg)
 
+Hier haben wir die meisten unserer Sprites selbst erstellt und anschließend als PNG exportiert und in unser Snap!-Projekt geladen. Ein Beispiel für die Sprite Bearbeitung kann anhand der Erstellung der Spielfigur nachvollzogen werden:
+
+![PiskelScreen](https://user-images.githubusercontent.com/88385813/144751074-ea7ffee1-a388-4f68-b9a5-de05ee812e6c.png)
+
+
 
 ### 🎵Musik Erstellung
 
