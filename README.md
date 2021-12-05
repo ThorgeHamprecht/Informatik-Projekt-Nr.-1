@@ -111,8 +111,8 @@ Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Dir
   
 Außerdem haben wir uns angeschaut, wie man einen Ordner in seinem Repository anlegt und Dateien in diesem speichert. Wir haben hier nun zur Demonstration ein Bild hochgeladen und in unser Repository eingefügt.
   
-![ProfilbildThorge](images/ProfilbildThorge.png)
-  
+![Level 1 Stage -1](https://user-images.githubusercontent.com/88385813/144760115-b372ea5e-c7e0-49f1-ae80-68f4c26f47fa.png)
+
 Um unsere Arbeit besser Überblicken zu können haben wir folgendermaßen eine [**ToDo-Liste**](#ToDo) in unser Repository eingefügt:
       
     - [x] *Eine **ToDo-Liste** in unser Repository einfügen*
