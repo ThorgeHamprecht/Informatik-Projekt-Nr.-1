@@ -440,7 +440,10 @@ Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gew
 
 
 
-<b>2.Charakter Wählen</b>
+
+ 
+ 
+ #####Charakter Wählen
  
  
 
@@ -469,13 +472,15 @@ Entsprechende Ausführungen im Sprite Stage:
 <img width="90" alt="Bildschirmfoto 2021-11-28 um 13 00 13" src="https://user-images.githubusercontent.com/88385954/143766752-ac13bc80-7677-4257-9d32-014644ad4b60.png">
 </details>
 
-Wenn man sich auf dem Button "Charakter Wählen" befindet und dann ein Mausklick erfolgt, wird der Befehl CharakterWählen ausgeführt.
+Wenn man sich auf dem Button "Charakter Wählen" befindet und dann ein Mausklick erfolgt, wird der Befehl "BlauerAbenteurer" ausgeführt.
 Hier besteht der Unterschied zum Button Spiel Starten. Währen bei Spiel Starten das Spiel startet, wird man wenn man Charakter wählen clicked in das Wahlmenü für die Spielfiguren geleitet.
 
 <details>
 <summary>Sprite CharakterWählen - "when I am clicked"</summary>
 <br>
 <img width="338" alt="Bildschirmfoto 2021-12-06 um 13 09 47" src="https://user-images.githubusercontent.com/88385954/144843687-d179038c-27e4-4393-918c-1bd2de8e3889.png">
+ <img width="223" alt="Bildschirmfoto 2021-12-06 um 13 39 17" src="https://user-images.githubusercontent.com/88385954/144847538-6ce0da3b-5694-40e1-b515-54a13d4c37bb.png">
+<img width="88" alt="Bildschirmfoto 2021-12-06 um 13 39 35" src="https://user-images.githubusercontent.com/88385954/144847570-a313a6a4-8009-4e95-ad39-80d23d29a078.png">
 </details>
 
 
