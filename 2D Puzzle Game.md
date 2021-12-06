@@ -7,25 +7,27 @@
 
 ## Über Snap!
 
-<h1>1.Spielkonzept</h1>
+<h1>1. Spielkonzept</h1>
 Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätslen" und bewältigen von Platform-Passagen zu erreichen.
 
 https://user-images.githubusercontent.com/88385813/144759791-de17a98b-73cd-49a5-bfcf-f4a6e968e209.mp4
 
-<h2>1.1 Das Setup</h2>
+<h3>1.1 Das Setup</h3>
 
 Bevor das Spiel startet, hat der Spieler die Möglichekit sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
 Anschließend hat der Spieler die Möglichkeit sich über den Button "Charakter Wählen" eine beliebige Spielfigur auszusuchen.
 Dabei gibt es drei Figuren zur Wahl.
 
-**1.2 Spielstart**
+<h3>1.2 Spielstart</h3>
 
 Fühlt sich der Spieler bereit, so kann er über die Betätigung des Buttons "Spiel Starten" das Spiel beginnen.
 Folglich befindet sich die Spielfigur in der Stage 0 sowie im ersten Level.
 Die Spielfigur kann auf der braunen Unterfläche nach rechts und links laufen. Zudem besteht die Möglichkeit mit Betätigung der Taste "S" oder dem Leerzeichen zu springen.
 Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werden, z.B. bei Berührung der Lava oder der Laserstrahlen weniger, bis die Spielfigur schließlich stirbt und das Spiel vorbei ist.
 
-**1.3 Spielkonzept/Spielziel**
+
+<h3>1.3 Spielkonzept/Spielziel</h3>
+
 
 Der Spieler wird nun die Spielfigur in die verschiedenen Richtungen steuern. 
 Das Ziel des Spiels ist es, das Level zu schaffen.
@@ -36,11 +38,8 @@ Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor z
 Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
 
 
-## 2. Die Erklärung des Codes
 
-
-
-## 2.1 Grundeinstellungen für die Spielfigur
+<h1>2.1 Grundeinstellungen für die Spielfigur </h1>
 
 Die Spielfigur ist nicht zu sehen, wenn das Spiel gewonnen wurde, wenn die grüne Fahne gedrückt wird und wenn sich der Spieler im Menü befindet.
 
@@ -59,13 +58,15 @@ Zudem wird sie nun logischerweise gezeigt.
  <img width="178" alt="Bildschirmfoto 2021-11-27 um 17 21 59" src="https://user-images.githubusercontent.com/88385954/143688995-335dff8c-3050-432f-b5ae-83a9f0f751a1.png">
 </details>
 
-### 2.1.1 Bewegung der Spielfigur
+<h2>2.1.1 Bewegung der Spielfigur</h2>
+
 
 <BODY>
   <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/GIFS/SpielerMovementGIF.gif">
 </BODY>
 
-HORIZONTALE BEWEGUNG DER SPIELFIGUR
+ <h4> Horizontale Bewegung der Spielfigur </h4>
+
 
 Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit 10.
 
@@ -98,8 +99,7 @@ Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf 
 <img width="331" alt="Bildschirmfoto 2021-11-27 um 17 37 47" src="https://user-images.githubusercontent.com/88385954/143689535-51b77eed-a0be-4431-a248-d7611ba95315.png">
 </details>
 
-
-DIE SPRUNGEIGENSCHAFT DER SPIELFIGUR
+<h4> Die Sprungeigenschaft der Spielfigur</h4>
 
 Sobald das Spiel gestartet wird, werden folgende **Variablen** definiert, die für den Sprung der Spielfigur wichtig sind:
 
