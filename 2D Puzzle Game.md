@@ -678,7 +678,19 @@ Der Code für den linken Pfeil:
 
 ##### Die Musik
 
+ Auch das Abspielen der Musik ist an das Wechseln der Stages gekoppelt. Alle Musikdateien befinden sich im Stageobjekt:
+ 
+ ![Screenshot 2021-12-06 224635](https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png)
 
+Die Titelmusik wird abgespielt, sobald das Spiel per Klick auf die Fahne gestartet wird und außerdem nach einem GameOver oder Sieg, sobald das Menü wieder geöffnet wird oder die Victory-musik fertig abgespeilt ist. Dies wird mit den "Broadcast" Funktionen zur Szenenauswahl gesteuert: 
+ 
+![Screenshot 2021-12-06 225022](https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png)
+
+![Screenshot 2021-12-06 225010](https://user-images.githubusercontent.com/88385813/144928346-170f2563-4d7c-4430-9fc0-0d250fd34a4f.png)
+ 
+Wird "Titelmusik" gebroadcastet, so startet das Abspielen der Musik und die Variable der derzeitigen Musik wird demenstprechend geändert. Da es sich bei dem Stück um einen Loop handelt wird nach Ablauf der Zeit mithilfe der "wait" Funktion die Musik erneut gesartet, sollte die Stage noch nicht gewechselt sein. Dieser Loop funktioniert nur, solange die Variable den Wert 0 hat. Der Wert der variable wird geändert, sobald ein anderes Stück gespielt wird. 
+ 
+Auch die anderen Stücke werden nach diesem Prinzip abgespielt, haben jedoch aber keine Loops, da sie zeitlich begrenzt sind und nicht länger abgespielt werden müssen.
 
 
 
