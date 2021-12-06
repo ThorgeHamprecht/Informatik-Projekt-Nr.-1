@@ -19,9 +19,8 @@ Hier wird von nun an ([Mittwoch, 4. August](#zwei)) eine ToDo-Liste geführt, in
 Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die ToDo-Liste wird aktuell gehalten werden und alte Beiträge werden der Übersichtlichkeit halber gelöscht. Gelöschte Beiträge finden sich aber in unserem Protokoll in dem Eintrag an ihrem Erstellungstag wieder.
  
 - [x] *Anleitung Updaten*
-- [ ] *A*
-- [ ] *Texturen erstellen*
-- [ ] *natürliche Level erstellen*
+- [x] *Fehler Beheben*
+- [x] *Repository fertigstellen*
  
  
  ## :ledger:Stundenprotokoll<a name="prot"></a>
@@ -214,18 +213,29 @@ ToDo-Liste für diese Woche:
 - [x] *Gravitation implementieren*
 - [x] *Groundcheck implementeiren*
 
-Zunächst haben wir die Sprungfunktion für den Spieler eingebaut. Dies funktioniert sehr ähnlich zu der Bewegung des Spielers von zuvor. Der Spieler wird nach Drücken der "Leertaste" 
+Zunächst haben wir die Sprungfunktion für den Spieler eingebaut. Dies funktioniert sehr ähnlich zu der Bewegung des Spielers von zuvor. Der Spieler wird nach Drücken der "Leertaste" um 70 Einheiten auf der Y-Achse nach oben versetzt, so wirkt es als würde der Spieler springen.
+
+![Sprung1 0](https://user-images.githubusercontent.com/88385813/144882524-a09de627-4133-4786-98de-fb109c473952.png)
+
+Dann haben wir begonnen die Gravitation zu implementieren, damit der Spieler im Anschluss an das Springen auch wieder auf den Boden fällt. Wir haben dabei zunächst überlegt, ob wir eine gelichmäßige Fallgeschwindigkeit oder eine der Realität angepassten quadratischen Beschleunigung beim Fallen einführen wollen. Nach einigem Testen hat sich unserer Meinung nach eine quadratische beschlunigung beim Spielen am besten angefüllt, daher werden wir diese nächste Stunde fertig implementeieren.
 
 ### Mittwoch, 08.09.2021 <a name="zehn"></a>
+Für heute bleiben von der letzten Stunde noch folgende Aufgaben:
+- [x] *Gravitation implementieren*
+- [x] *Groundcheck implementeiren*
 
+Die Gravitation hatten wir letzte Stunde schon fast vollständig integriert, wir haben nur noch eine angemessene Beschleunigung ausgetestet und in die Variablen für eingestezt. Letzendlich sind wir zu diesem Code gekommen:
+
+![Sprung2 0](https://user-images.githubusercontent.com/88385813/144883822-df01bdc7-e4f5-4612-ac39-b83c5472582a.png)
+
+Die Beschleunigung ist nun nicht ganz quadrarisch, fühlt sich aber am besten an.  
+Nun haben wir noch das Fallen des Spielers gestoppt, nachdem er den Boden berührt, dafür haben wir per Farberkkenung des Bodens einen Groundcheck implementiert. Dieser guckt, ob die Spieler Sprite die Frabe Braun des Bodens berührt, falls dies der Fall ist, löst sie den Sprungscript aus, damit der Spieler wieder springen kann und das fallen wird gestoppt und die fallgeschwindigkeit wieder zum Startwert resettet.
+### Dienstag, 14.09.2021 <a name="Ausfall1"></a>
 Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in einem Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
 Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
 Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
 Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
-
-### Dienstag, 14.09.2021 <a name="Ausfall1"></a>
-
 ### Mittwoch, 15.09.2021 <a name="Ausfall2"></a>
 
 ### Dienstag, 21.09.2021 <a name="elf"></a>
