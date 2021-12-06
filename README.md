@@ -250,25 +250,90 @@ Und den Code im Stage Objekt:
 
 ![BildschirmWechselnStage](https://user-images.githubusercontent.com/88385813/144889774-7e9d5307-544a-417f-a411-3f0a8ca9fef4.png)
 
-Für beide gibt es noch den Code für den linken Rand, der nach dem glecihem prinzip funktioniert.
+Für beide gibt es noch den Code für den linken Rand, der nach dem glecihem Prinzip funktioniert.
 
 ### Dienstag, 21.09.2021 <a name="elf"></a>
-Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in einem Lava zu sterben. 
+In der heutigen Stunde hatten wir mit einem Problem zu kämpfen:
+je mehr Code-Bausteine wir in unser projekt einfügen, desto langsamer läuft das Spiel im Gesamten. Nach einigen Tests mit einem neunen Snap! Projekt zum Performancevergleich und einem gespräch mit Ihnen konnten wir zwei Hauptprobleme indentifizieren: 
+1. Die immer aktiven "When" Funktionen fressen sehr viel Performance, besser eignen sich die Broadcast Funktionen, da diese nicht immer aktiv sind und daher nicht jedes mal überprüft werden müssen wird viel performance eingespart, wir ersetzen jetzt also diese Funktionen:
+
+![offeneWhenFunktion](https://user-images.githubusercontent.com/88385813/144891966-f3add09e-e7d2-4c22-ad3e-c814ecfcf418.png)
+
+Durch diese Funktonen:
+
+![BroadcastFunktion](https://user-images.githubusercontent.com/88385813/144892034-33ae0c8f-11dd-4ffe-a186-da7ce775b48e.png)
+
+### Mittwoch, 22.09.2021 <a name="zwölf"></a>
+In der heutigen Stunde haben wir zunächst unser GitHub Repository überarbeitet. Dabei haben wir das Inhaltsverzeichnis für die Protokolle eingefügt, dafür haben wir mit HTML ein Dropdown eingefügt und in diesem Dropdown eine Tabelle mit den links zu den einzelnen Einträgen, der Code dafür sieht folgendermaßen aus:
+```html   
+<details>
+<summary>Übersicht: Alle Einträge</summary>
+<br>
+ <table>
+  <tr>
+    <td><a href=#eins>Dienstag, 3. August</a></td>
+    <td><a href=#zwei>Mittwoch, 4. August</a></td>
+    <td><a href=#drei>Dienstag, 10. August</a></td>
+    <td><a href=#vier>Mittwoch, 11. August</a></td>
+    <td><a href=#fünf>Dienstag, 24. August</a></td>
+  </tr>
+  <tr>
+    <td><a href=#sechs>Mittwoch, 25. August</a></td>
+    <td><a href=#sieben>Dienstag, 31. August</a></td>
+    <td><a href=#acht>Mittwoch, 1. September</a></td>
+    <td><a href=#neun>Diesntag, 7. September</a></td>
+    <td><a href=#zehn>Mittwoch, 8. September</a></td>
+  </tr>
+  <tr>
+    <td><a href=#Ausfall1>Dienstag, 14. September</a></td>
+    <td><a href=#Ausfall2>Mittwoch, 15. September</a></td>
+    <td><a href=#elf>Mittwoch, 21. September</a></td>
+    <td><a href=#zwölf>Mittwoch, 22. September</a></td>
+    <td><a href=#dreizehn>Dienstag, 28. September</a></td>
+  </tr>
+  <tr>
+    <td><a href=#Ausfall3>Mittwoch, 29. September</a></td>
+    <td><a href=#vierzehn>Dienstag, 5. Oktober</a></td>
+    <td><a href=#fünfzehn>Mittwoch, 6. Oktober</a></td>
+    <td><a href=#sechzehn>Dienstag, 12. Oktober</a></td>
+    <td><a href=#siebzehn>Mittwoch, 13. Oktober</a></td>
+  </tr>
+  <tr>
+    <td><a href=#achtzehn>Dienstag. 19. Oktober</a></td>
+    <td><a href=#neunzehn>Mittwoch, 20. Oktober</a></td>
+    <td><a href=#zwanzig>Dienstag, 26. Oktober</a></td>
+    <td><a href=#einundzwanzig>Mittwoch, 27. Oktober</a></td>
+    <td><a href=#zweiundzwanzig>Dienstag, 2. November</a></td>
+  </tr>
+  <tr>
+    <td><a href=#dreiundzwanzig>Mittwoch, 3. November</a></td>
+    <td><a href=#Ausfall4>Dienstag, 9. November</a></td>
+    <td><a href=#vierundzwanzig>Mittwoch, 10. November</a></td>
+    <td><a href=#fünfundzwanzig>Dienstag, 16. November</a></td>
+    <td><a href=#sechsundzwanzig>Mittwoch, 17. November</a></td>
+  </tr>
+  <tr>
+    <td><a href=#siebenundzwanzig>Dienstag, 23. November</a></td>
+    <td><a href=#achtundzwanzig>Mittwoch, 24. November</a></td>
+    <td><a href=#neunundzwanzig>Dienstag, 30. November</a></td>
+    <td><a href=#dreißig>Mittwoch, 1. Dezember</a></td>
+    <td></td>
+  </tr>
+</table>
+ 
+</details>
+```
+### Dienstag, 28.09.2021 <a name="dreizehn"></a>
+Heute haben wir den Start unseres Spiels programmiert. Zunächst haben wir einen Platzhalter eingefügt, welcher einen Start-Knopf simulieren sollte. Danach haben wir ein PNG erstellt, welches die Überschrift "Spiel Starten" aufzeigt. Dieses Startmenü soll immer dann erscheinen, wenn man das Spiel das erste Mal starten möchte und immer dann, wenn man ein Leben verloren hat. Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Probklem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
+
+### Mittwoch, 29.09.2021 <a name="Ausfall3"></a>
+Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in der Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
 Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
 Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
 Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
 Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir eingestellt, an welcher Stelle die Wolken im Hintergrund erscheinen sollen uns mit welcher Geschwindigkeit sie sich anschließend in welche Richtung bewegen sollen. 
-Heute ging es darum, neue Stages zu erstellen, damit sich eine "neue" Welt öffnet, wenn sich der Charakter aus den Rändern links und rechts bewegt. 
-
-### Mittwoch, 22.09.2021 <a name="zwölf"></a>
-In der heutigen Stunde haben wir unser GitHub Repository überarbeitet. Dabei haben wir neue Dinge 
-
-### Dienstag, 28.09.2021 <a name="dreizehn"></a>
-Heute haben wir den Start unseres Spiel programmiert. Zunächst haben wir einen Platzhalter eingefügt, welcher einen Start-Knopf simulieren sollte. Danach haben wir ein PNG erstellt, welches die Überschrift "Spiel Starten" aufzeigt. Dieses Startmenü soll immer dann erscheinen, wenn man das Spiel das erste Mal starten möchte und immer dann, wenn man ein Leben verloren hat. Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Probklem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
-
-### Mittwoch, 29.09.2021 <a name="Ausfall3"></a>
-
+Schlussendlich haben wir die Idee wieder verworfen, da die Lava permanent aktiv sein soll, wir haben aber durch den Schalter die Idee für ein Tor bekommen, dass wir vielleicht später einfügen wollen.
 ### Dienstag, 5.10.2021 <a name="vierzehn"></a>
 
 Heute haben wir das Spielmenü erstellt. Dabei haben wir mit Power-Point verschiedene Bilder erstellt, um diese zu erstellen.
