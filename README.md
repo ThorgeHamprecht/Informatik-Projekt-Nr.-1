@@ -241,7 +241,17 @@ Da die Stunden leider ausfiel haben wir Zuhasue weitere Hintergünde designed un
 
 
 ### Mittwoch, 15.09.2021 <a name="Ausfall2"></a>
-Auch diese Stunde fiel leider uas
+Auch diese Stunde fiel leider aus, wir wollten trotzdem beginnen, den Übergang des Spielers zwischen den "Stages" zu ermöglichen. Dabei haben wir die x-Koordinate des Spielers ausgelesen und wenn diese einen gewissen Wert übersteigt, der Spieler also aus dem Bildschirm läuft, wird der Hintergund entsprechend geändert. Die Hintergrundänderung speichert dabei den aktuellen Hintergrund in einer Variable, um je nach aktuellem Hintergrund auf den richtigen neuen hintergrund zu wechseln.
+Dafür einerseites den Code im Spielerobjekt:
+
+![BildschirmWechseln1 0](https://user-images.githubusercontent.com/88385813/144889719-a892cc85-dfae-4b49-8384-7a4148a70050.png)
+
+Und den Code im Stage Objekt:
+
+![BildschirmWechselnStage](https://user-images.githubusercontent.com/88385813/144889774-7e9d5307-544a-417f-a411-3f0a8ca9fef4.png)
+
+Für beide gibt es noch den Code für den linken Rand, der nach dem glecihem prinzip funktioniert.
+
 ### Dienstag, 21.09.2021 <a name="elf"></a>
 Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in einem Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
