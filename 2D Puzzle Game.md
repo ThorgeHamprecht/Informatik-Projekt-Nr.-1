@@ -2,12 +2,15 @@
 ## Links
 
 1. [Blog](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1)
-2. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
+2. [Über Snap!](#Snap)
+3. [Spielkonzept](#Spielkonzept)
+4. [Erklärung des Codes](#Erklärung)
+5. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
 
-## Über Snap!
+## Über Snap!<a name="Snap"></a>
 
-<h1>1. Spielkonzept</h1>
+<h1>1. Spielkonzept</h1> <a name="Spielkonzept"></a>
 Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätseln" und durch das Bewältigen von Platform-Passagen zu erreichen.
 
 https://user-images.githubusercontent.com/88385813/144759791-de17a98b-73cd-49a5-bfcf-f4a6e968e209.mp4
@@ -38,7 +41,7 @@ Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor z
 Mit diesem Spielkonzept war unsere Absicht ein spannendes, kreatives und reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
 
 
-<h1>Erklärung des Codes</h1>
+<h1>Erklärung des Codes</h1> <a name="Erklärung"></a>
 
 <h1>2.1 Grundeinstellungen für die Spielfigur </h1>
 
