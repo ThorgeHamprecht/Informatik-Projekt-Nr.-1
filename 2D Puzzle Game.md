@@ -519,7 +519,7 @@ Dann wird der "RoteAbenteurer" ausgeführt. Die rote Spielfigur befindet sich im
 Zudem sind die Funktionen des kleine Pfeils nur im Charakterwahlmenü aktiv.
 
 <details>
-<summary>Sprite </summary>
+<summary>Sprite CharakterZurückButton - "when Fahne clicked" </summary>
 <br>
  <img width="205" alt="Bildschirmfoto 2021-12-06 um 13 50 36" src="https://user-images.githubusercontent.com/88385954/144849035-27c8ed9e-b301-4e4f-91eb-a9322aa0efe3.png">
 </details>
@@ -527,29 +527,100 @@ Zudem sind die Funktionen des kleine Pfeils nur im Charakterwahlmenü aktiv.
 Wenn sich der Spieler also im Charakterwahlmenü befindet, wird zunächst geprüft, ob sich die Maus auf dem Pfeil befindet.
 Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist ohne das die Maus die Pfeiltaste berührt und es gibt die Möglichkeit, dass er ausgewählt ist während die Pfeiltaste betätigt wird. Aus diesem Grund werden auch im Stage Menü immer zwei mögliche Stages geprüft, wenn die Charaktere mit PFeiltasten geändert werden sollen.
  
-<img width="485" alt="Bildschirmfoto 2021-12-06 um 14 58 04" src="https://user-images.githubusercontent.com/88385954/144858785-e7632e8a-fae9-4868-95ef-c7df0d8da642.png">
+ <details>
+<summary>Sprite CharakterZurückButton - "when touching mouse-pointer" </summary>
+<br>
+  <img width="485" alt="Bildschirmfoto 2021-12-06 um 14 58 04" src="https://user-images.githubusercontent.com/88385954/144858785-e7632e8a-fae9-4868-95ef-c7df0d8da642.png">
+</details>
  
  Wenn der Pfeil geklickt wird und die Stages eine der entsprechenden Stages ist, bei der die Maus den PFeil berührt, wird der Spieler zurück zum Startmenü geleitet.
 
- <img width="394" alt="Bildschirmfoto 2021-12-06 um 14 59 29" src="https://user-images.githubusercontent.com/88385954/144859017-aea1c1e7-076e-42ea-b929-d9007abf1779.png">
+ <details>
+<summary>Sprite CharakterZurückButton - "when touching mouse-pointer" </summary>
+<br>
+  <img width="394" alt="Bildschirmfoto 2021-12-06 um 14 59 29" src="https://user-images.githubusercontent.com/88385954/144859017-aea1c1e7-076e-42ea-b929-d9007abf1779.png">
+</details>
  
-<h3> Charakterwahl mit Mausklick </h3>
+ 
+<h3> 2.4.3 Charakterwahl mit Mausklick </h3>
  
  Zudem besteht die Möglichkeit, den Charakter per Maus zu wählen. Auch hier ist hinter den Spielfiguren eine unsichtbare Fläche hinterlegt, welche das Klicken wahrnehmen. Diese Fläche ist genau dann aktiv, wenn das Charaktermenü geöffnet wird. 
- 
- <img width="211" alt="Bildschirmfoto 2021-12-06 um 15 07 24" src="https://user-images.githubusercontent.com/88385954/144860266-85b11e02-0d57-4b46-b7de-fd225c8f9de6.png">
+
+ <details>
+<summary>Sprite Charakter1Auswahl - "when I receive BlauerAbenteurer" </summary>
+<br>
+  <img width="211" alt="Bildschirmfoto 2021-12-06 um 15 07 24" src="https://user-images.githubusercontent.com/88385954/144860266-85b11e02-0d57-4b46-b7de-fd225c8f9de6.png">
+</details>
 
  Ist bereits ein anderer Charakter ausgewählt und die hinterlegte Fläche wird geklickt, dann ändert sich die ausgewählte Spielfigur.
  
-<img width="355" alt="Bildschirmfoto 2021-12-06 um 15 07 55" src="https://user-images.githubusercontent.com/88385954/144860344-5c14de68-407f-4a55-b55e-184aee9f0e17.png">
- 
+ <details>
+<summary>Sprite Charakter1Auswahl - "when I am clicked"</summary>
+<br>
+  <img width="355" alt="Bildschirmfoto 2021-12-06 um 15 07 55" src="https://user-images.githubusercontent.com/88385954/144860344-5c14de68-407f-4a55-b55e-184aee9f0e17.png">
+</details>
+
  Diese Codes gibt es logischerweise auch für den Charakter 2 und den Charakter 3.
  
-<img width="324" alt="Bildschirmfoto 2021-12-06 um 15 11 22" src="https://user-images.githubusercontent.com/88385954/144860969-059f5313-09e2-4b01-9a7d-dad87999b9f4.png">
- 
-<img width="343" alt="Bildschirmfoto 2021-12-06 um 15 11 53" src="https://user-images.githubusercontent.com/88385954/144861058-d4525674-bcad-44ea-87a7-c2a69017af1f.png">
+ <details>
+<summary>Sprite Charakter 2</summary>
+<br>
+  <img width="324" alt="Bildschirmfoto 2021-12-06 um 15 11 22" src="https://user-images.githubusercontent.com/88385954/144860969-059f5313-09e2-4b01-9a7d-dad87999b9f4.png">
+  </details>
 
-**3. Anleitung
+  <details>
+<summary>Sprite Charakter 2</summary>
+<br>
+  <img width="343" alt="Bildschirmfoto 2021-12-06 um 15 11 53" src="https://user-images.githubusercontent.com/88385954/144861058-d4525674-bcad-44ea-87a7-c2a69017af1f.png">
+   </details>
+ 
+
+ <h2> 2.4.3 Anleitung </h2>
+
+Auch die Anleitung funktioniert nach dem bereits erläuterten Prinzip.
+Der hinterlegte Button für die Anleitung ist nur während des aktiven Menüs zu sehen.
+
+<details>
+<summary>Sprite Anleitung - "when I receive Menü" </summary>
+<br>
+ <img width="391" alt="Bildschirmfoto 2021-12-06 um 19 37 48" src="https://user-images.githubusercontent.com/88385954/144902889-90f51e80-8796-4495-b06f-6ea095d08fe5.png">
+</details>
+
+ Anschließend wird geprüft, ob sich die Maus auf dem Button befindet. Ist dies der Fall, so wird das Costume entsprechend angepasst. Wird der Button betätigt, so öffnet sich der Menü-Unterpunkt: Anleitung.
+
+<details>
+<summary>Sprite Anleitung - "when touching mouse-pointer" </summary>
+<br>
+ <img width="461" alt="Bildschirmfoto 2021-12-06 um 19 40 41" src="https://user-images.githubusercontent.com/88385954/144903229-4e6f914d-015a-4c2a-b065-45e676154ea2.png">
+</details>
+ 
+ In dem Anleitungsmenü gibt es zwei verschiedene Folien mit jeweils zwei Pfeilen links und rechts unten.
+Mit den Pfeiltasten kann nach dem gewohnten Prinzip der Charakterauswahl die Folie gewechselt werden. 
+
+<details>
+<summary>Sprite Stage - "when left arrow key pressed" </summary>
+<br>
+ <img width="377" alt="Bildschirmfoto 2021-12-06 um 19 44 27" src="https://user-images.githubusercontent.com/88385954/144903770-a2838148-a5d4-4d09-beb7-3d716681fb41.png">
+<img width="255" alt="Bildschirmfoto 2021-12-06 um 19 46 12" src="https://user-images.githubusercontent.com/88385954/144903976-58d509c0-4949-4167-8570-096c70214b74.png">
+</details>
+
+Auch die kleinen Pfeile und das rote Färben dieser, wenn man mit der Maus darüber fährt funktioniert wie bei der Charakterauswahl.
+Somit müssen auch immer drei Dinge im Stage-Menü geprüft werden, damit das Anleitungsmenü mit den Pfeiltasten funktioniert.
+Die Pfeile werden ebenfalls nach dem bekannten Prinzip angesteuert. Es wird geprüft, was die Maus berührt. Wenn ein gewisses Sprite ausgewählt ist wird anschließend das Sprite entsprechend angepasst und einer der Pfeile erscheint rot oder wieder weiß.
+
+<details>
+<summary>Sprite Anleitung - "when touching mouse-pointer"</summary>
+<br>
+<img width="489" alt="Bildschirmfoto 2021-12-06 um 19 49 12" src="https://user-images.githubusercontent.com/88385954/144904390-548425d2-1499-4df4-837d-57423efd4e1a.png">
+</details>
+
+ 
+
+
+ 
+ 
+
+
 
 
 
