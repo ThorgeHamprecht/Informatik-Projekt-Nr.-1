@@ -732,7 +732,95 @@ Aus diesem Grund wird in dem Sprite der Stages die Variable für die jeweiligen 
 
  
 <h1>2.7 Die Zeit </h1>
-  
+ 
+ <h2>2.7.1 Ziffer 1 </h2>
+In dem Spiel stellt eine entscheidende Schwierigkeit die Zeit da. Der Spieler muss das Spiel beenden, bevor diese abgelaufen ist.
+Die Zeit besteht aus drei Ziffern.
+Bei der ersten Stelle ist der Code einfach, da sich die Zahl 0 nicht verändert.
+Diese Ziffer wird gezeigt, sobald das Spiel gestartet wird. Dabei wird die Größe entsprechend des Codes angepasst. Sobald die Zeit abgelaufen ist, wird die Zeit, das Spiel gewonnen wurde oder das Spiel verloren wurde, wird die Zahl wieder versteckt.
+
+<details>
+<summary>Sprite Ziffer 1</summary>
+<br>
+<img width="412" alt="Bildschirmfoto 2021-12-06 um 21 22 10" src="https://user-images.githubusercontent.com/88385954/144916712-81713010-b2f5-4c46-97ae-c275a207a4b9.png">
+</details>
+
+ <h2>2.7.2 Ziffer 3 </h2>
+ 
+Die dritte Ziffer muss jede Sekunde wechseln, da sie die Einzelziffern anzeigt.
+Zu Beginn des Spiels sind die Einstellungen genau wie bei der Ziffer 1.
+
+<details>
+<summary>Sprite Ziffer 3 - "wehen I receive SpielStarted"</summary>
+<br>
+<img width="188" alt="Bildschirmfoto 2021-12-06 um 21 24 03" src="https://user-images.githubusercontent.com/88385954/144916969-5704c03f-94ad-486f-b265-5878f8ed2eb8.png">
+</details>
+
+ Sobald das Spiel gestartet ist, wird das Costume 0 eingestellt. Nach 0,8 Sekunden wird "60Sekunden" ausgeführt. Sobald wiederum "60Sekunden" erkannt wird, ändert sich auch das Costume der dritten Ziffer. Anschließend wird die Zahl immer nach 1 Sekunde um 1 nach unten versetzt.
+Ist die Ziffer 0 erreicht, wird nach 0,8 Sekunden "50Sekunden" ausgeführt. Somit verändert sich die Zahl immer wieder von 9 bis 0, insgesamt 60 Sekunden.
+Bei dem Wechsel von der Ziffer 0 zu der Ziffer 9 ist die Zeit immer nur 0,8 Sekunden, weil 0,2 Sekunden benönigt werden, dass alle Codes ausgeführt werden, auch die der Ziffer 2.
+
+<details>
+<summary>Sprite Timer 3. Stelle</summary>
+<br>
+  <img width="207" alt="Bildschirmfoto 2021-12-06 um 21 29 50" src="https://user-images.githubusercontent.com/88385954/144917800-c67a1e38-7bfe-4c8b-86f5-2b9184d9323e.png">
+ <img width="195" alt="Bildschirmfoto 2021-12-06 um 21 30 21" src="https://user-images.githubusercontent.com/88385954/144917856-58d399f4-5619-4b60-b375-77a3abde7af1.png">
+<img width="196" alt="Bildschirmfoto 2021-12-06 um 21 30 33" src="https://user-images.githubusercontent.com/88385954/144917882-997f5c27-0c2b-4aea-9eb2-8b7197f61b26.png">
+</details>
+ 
+Eine Besonderheit stellen die letzten drei Codeblocks da. Hier wird nachdem die Ziffer 0 erreicht ist nicht nur die erreichte neue Nummer ausgeführt, sondern es gibt eine Warnung an den Spieler, dass die Zeit fast abgelaufen ist.
+Nach dem letzten Codeblock wird zudem "GameOver" ausgeführt.
+ 
+<details>
+<summary>Sprite Timer 3. Stelle</summary>
+<br>
+<img width="204" alt="Bildschirmfoto 2021-12-06 um 21 32 56" src="https://user-images.githubusercontent.com/88385954/144918191-6765f091-4beb-489e-818d-4bfad3f9161b.png">
+<img width="206" alt="Bildschirmfoto 2021-12-06 um 21 33 12" src="https://user-images.githubusercontent.com/88385954/144918231-6c4953a8-6bcf-4b07-a4e9-bf572982d092.png">
+<img width="208" alt="Bildschirmfoto 2021-12-06 um 21 33 21" src="https://user-images.githubusercontent.com/88385954/144918253-893cae31-2174-4bcb-a4ab-a0bdc0a84f4c.png">
+</details>
+
+ Die Warnung an den Spieler wie folgt.
+ Das Costume für diese Warnung ist ein roter Farbverlauf.
+Sobald die Fahne geklickt wird, wird die "ZeitWarnungTransparenz"-Variable = 100 gesetzt.
+ Zudem wird der ghost-effect = 100 gesetzt. Da die Warnung über den ganzen Bildschirm erscheinen soll, sind keine X- oder Y-Koordinaten angegeben.
+
+<details>
+<summary>Sprite ZeitläuftabWarnung</summary>
+<br>
+ <img width="212" alt="Bildschirmfoto 2021-12-06 um 21 37 27" src="https://user-images.githubusercontent.com/88385954/144918743-99603c4c-b674-42c9-9f71-ab75f8fbdd25.png">
+</details>
+
+Warnung 10 Sekunden vor Schluss:
+
+ <details>
+<summary>Spirte ZeitläuftabWarnung - "when I receive 10 Sekunden Warnung" </summary>
+<br>
+<img width="302" alt="Bildschirmfoto 2021-12-06 um 21 41 16" src="https://user-images.githubusercontent.com/88385954/144919263-3579bb4a-412c-49b9-8ca0-b79ed2b75102.png">
+
+</details>
+
+
+Warnung 20 Sekunden vor Schluss:
+ 
+  <details>
+<summary>Sprite ZeitläuftabWarnung - "when I receive 20 Sekunden Warnung" </summary>
+<br>
+<img width="305" alt="Bildschirmfoto 2021-12-06 um 21 41 37" src="https://user-images.githubusercontent.com/88385954/144919302-4f4a8ab8-fff2-469f-a2cc-84ad568f67ab.png">
+</details>
+
+<h2>2.7.3 Ziffer 2 </h2>
+ 
+Für die 2. Ziffer sind die Grundeinstellungen die selben, wie für die anderen beiden Ziffern.
+
+<details>
+<summary>Sprite Ziffer 2 </summary>
+<br>
+ <img width="191" alt="Bildschirmfoto 2021-12-06 um 21 45 06" src="https://user-images.githubusercontent.com/88385954/144919772-30ed21f6-9c0b-43d4-95ca-3e95965a59bf.png">
+</details>
+ 
+Die Ziffer 2 muss alle 10 Sekunden das Costume ändern. Sie regiert auf die Befehle der Ziffer 3. Somit wird bei jedem neuen Befehl, als z.B. "50Sekunden" oder "40Sekunden" das Costume der Ziffer 2 geändert.
+Somit können die Ziffern hier alle 10 Sekunden und zeitgleich mit der Ziffer 3 geändert werden.
+
 <h1>2.8 Das Loch </h1>
  
 <h1>2.9 Ziel/Game Over </h1>
