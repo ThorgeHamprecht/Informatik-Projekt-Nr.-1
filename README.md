@@ -442,6 +442,9 @@ Dabei gab es einen Fehler, bei dem der Schlüssel auch auf einer Stage aufgehobe
 Auch am generellen Layout der Blog.Seite wurde weitergearbeitet. Hier wurde eine Refelxion des Endprodukts und einige Quellen hinzugefügt. 
 Außerdem wurden alle Überschriften im Blog mit passenden Emojis versehen:
 
+![Screenshot 2021-12-06 213908](https://user-images.githubusercontent.com/88385813/144919202-c2ca6249-a1f2-444b-b6c0-751ff9062d9e.png)
+![Screenshot 2021-12-06 213938](https://user-images.githubusercontent.com/88385813/144919212-913956c6-ac10-4123-8b66-47c801d81d38.png)
+
 ## 🔧Arbeitsmethoden<a name="Methoden"></a>
 
 ### 🎨Sprite Erstellung<a name="MethodenSprite"></a>
