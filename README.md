@@ -299,7 +299,8 @@ In der heutigen Stunde haben wir zunächst unser GitHub Repository überarbeitet
 </details>
 ```
 Danach haben wir angefangen ein Lebensystem in das Spiel zu integrieren, dafür haben wir zunächst die Sprites erstellt:
-<img src="https://user-images.githubusercontent.com/88385813/144893326-da5ad3bf-1742-4e68-afc6-ae354e008e5f.png" alt="herz" width="10%" height="10%"> <img src="https://user-images.githubusercontent.com/88385813/144895264-6d28669f-fa56-46e7-b7fe-ff4ec75948a6.png" alt="halbesHerz" width="10%" height="10%"> <img src="https://user-images.githubusercontent.com/88385813/144893344-2015c6f2-b0ca-4b6f-82c8-08cb8a24c33d.png" alt="keinHerz" width="10%" height="10%">
+
+<img src="https://user-images.githubusercontent.com/88385813/144893326-da5ad3bf-1742-4e68-afc6-ae354e008e5f.png" alt="herz" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/88385813/144895264-6d28669f-fa56-46e7-b7fe-ff4ec75948a6.png" alt="halbesHerz" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/88385813/144893344-2015c6f2-b0ca-4b6f-82c8-08cb8a24c33d.png" alt="keinHerz" width="20%" height="20%">
 
 Dabei gibt es eine Variable, die die aktuellen Leben des Spielers speichert, die Leben werden dementsprechend angepasst. Die Leben werden dann links oben auf dem Bildschirm angezeigt:
 ![Bildschirmfoto 2021-10-23 um 20 33 59](https://user-images.githubusercontent.com/88385813/144895323-11d8b342-e9ab-495f-af25-7acef55a02f8.jpg)
