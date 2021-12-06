@@ -85,7 +85,7 @@ Sobald das Spiel startet wird die Variable "SpielerBewegung" = 1 gesetzt.
  <img width="173" alt="Bildschirmfoto 2021-11-27 um 17 38 01" src="https://user-images.githubusercontent.com/88385954/143689544-097c831e-8b2c-4b90-a4ee-d61814c6121e.png">
 </details>
 
-Anschließend ist für die hprzontale Bewegung der folgende Code relevant. Zunächst wird geprüft, ob die Variable "SpielerBewegung" =1 ist. Wenn dies der Fall ist, werden folgende Bedingunen geprüft.
+Anschließend ist für die horizontale Bewegung der folgende Code relevant. Zunächst wird geprüft, ob die Variable "SpielerBewegung" =1 ist. Wenn dies der Fall ist, werden folgende Bedingunen geprüft.
 Zunächst wird die Bewegungsrichtung rechts betrachtet.
 Hier ergibt sich im Code eine Besonderheit, weil die Spielfigur sich nur nach rechts bewegen darf, wenn das Tor, welches sich in Stage 2 befindet offen ist. Somit wird zunächst geprüft, ob das Tor offen ist. XX 
 Wenn das Tor offen ist und die rechte Pfeiltaste oder d auf der Tastatur gedrückt wird, dann wird die X-Koordinate mit der Bewegungsgeschwindigkeit 10 geändert. 
@@ -117,8 +117,8 @@ Zunächst wird mit dem ersten Codeblock sobald das Spiel gestartet wird geprüft
  <details>
 <summary><b>Erklärung Sprite Bodenhitbox</b></summary>
 <br>
-  <font color=yellow> Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
-Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat. </font>
+ <mark> Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
+Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat. 
 
  
  Sprite BodenHitbox - grüne Linie:
@@ -129,7 +129,7 @@ Des Weiteren ist der "ghost effect" 100. Somit ist die grüne Linie nicht zu seh
 Zudem soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies ist mit den folgenden Codes eingestellt. X (Wieso bei Game-Over?)
   
 
-<img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png"> </font>
+<img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png"> </mark>
 </details>
 
 
