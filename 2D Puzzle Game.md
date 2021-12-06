@@ -4,6 +4,20 @@
 1. [Projektseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/2D%20Puzzle%20Game.md)
 2. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
+<h1>Inhaltsverzeichnis</h1>
+
+1. Spielkonzept
+2. Erklärung des Codes
+2.1
+2.2
+2.3
+2.4
+2.5
+2.6
+2.7
+2.8
+2.9
+2.10
 
 ## Über Snap!
 
