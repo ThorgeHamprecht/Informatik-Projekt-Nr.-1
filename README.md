@@ -295,7 +295,7 @@ PDF für alle Menüelemente
 
 Für unser Projekt wollten wir einen Pixel-Art Stil umsetzten. Dafür mussten wir natürlich einige Sprites erstellen, um den verscheidenen Objekten in unserem Spiel Aussehen und Leben zu verleihen. Wir haben hierfür das Online-Programm  [*Piskel*](https://www.piskelapp.com/) verwendet.
  
-<img align="middle" src="https://user-images.githubusercontent.com/88385813/144750564-be75f0cb-ea5b-4c10-86c0-ee2195c0886d.jpg" alt="Piskel" /
+<img align="middle" src="https://user-images.githubusercontent.com/88385813/144750564-be75f0cb-ea5b-4c10-86c0-ee2195c0886d.jpg" alt="Piskel" />
      
      ![piskelLogo](https://user-images.githubusercontent.com/88385813/144750564-be75f0cb-ea5b-4c10-86c0-ee2195c0886d.jpg)
 
