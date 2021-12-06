@@ -39,6 +39,8 @@ Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvol
 
 
 
+<h1>Erklärung des Codes</h1>
+
 <h1>2.1 Grundeinstellungen für die Spielfigur </h1>
 
 Die Spielfigur ist nicht zu sehen, wenn das Spiel gewonnen wurde, wenn die grüne Fahne gedrückt wird und wenn sich der Spieler im Menü befindet.
@@ -65,7 +67,7 @@ Zudem wird sie nun logischerweise gezeigt.
   <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/GIFS/SpielerMovementGIF.gif">
 </BODY>
 
- <h4> Horizontale Bewegung der Spielfigur </h4>
+ <h3> Horizontale Bewegung der Spielfigur </h3>
 
 
 Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit 10.
@@ -99,7 +101,7 @@ Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf 
 <img width="331" alt="Bildschirmfoto 2021-11-27 um 17 37 47" src="https://user-images.githubusercontent.com/88385954/143689535-51b77eed-a0be-4431-a248-d7611ba95315.png">
 </details>
 
-<h4> Die Sprungeigenschaft der Spielfigur</h4>
+<h3> Die Sprungeigenschaft der Spielfigur</h3>
 
 Sobald das Spiel gestartet wird, werden folgende **Variablen** definiert, die für den Sprung der Spielfigur wichtig sind:
 
