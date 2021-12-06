@@ -828,6 +828,20 @@ Berührt der Spieler das Objekt Loch, welches über die Szeneauswahl Funktionen 
 
 <h1>2.9 Ziel/Game Over </h1>
  
+Das Spiel kann entweder verloren oder gewonnen werden. Läuft die Zeit aus oder der Spieler verliert alle seine 3 Leben, so wird "GameOver" gebroadcastet. Damit wird im Stage Objekt der Game Over Screen aktiviert, die dazugehörige Musik abgespielt und das Menü ist mittels eines Knopfes auf dem Game Over Screen zu erreichen, das Spiel kann nun erneut gestartet werden. Die Hintergründe hierfür wurden schon in der Stagewechsel Erklärung hinreichend erläutert. 
+Neu ist allerdings der Victory Screen, welcher selbst wie der Game Over Screen funktioniert, aber nach dem Berühren der Zielfahne eine Art Animation auslöst.
+ 
+![Screenshot 2021-12-06 233610](https://user-images.githubusercontent.com/88385813/144933874-720581e3-b5c1-4450-8359-6d1a8c553e2a.png)
+
+Nach der Berührung wird zunächst die Animation der Fahne abgespielt und die GameWonMusik gestartet. Dann startet ein Fade to Black, welcher nach dem selben Prinzip der 10 und 20 Sekunden Warnung im Zusammnenhang mit dem Timer funktioniert:
+ 
+![Screenshot 2021-12-06 233917](https://user-images.githubusercontent.com/88385813/144934198-c635efed-a96a-445a-9a5c-4325c68c1fec.png)
+
+Nun wird der Spieler mit der Nachricht "SpielerAusBildschirm" aus dem Bildschirm bewegt. Dafür wird folgendes Script im Spielerobjekt aktiviert:
+ 
+![Screenshot 2021-12-06 234226](https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png)
+
+ Erst jetzt wird der Victory Screen angezeigt, bei dem auch wieder per Klick auf den Button ins Menü zurückgekehrt werden kann.
  
  
 <h1>2.10 Musik </h1>
