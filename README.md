@@ -376,6 +376,9 @@ Das Menü soll dabei vor allen Dingen leicht und intuitiv mit der Maus durch kli
 ![highlightMenü](https://user-images.githubusercontent.com/88385813/144913647-74679718-fda5-4a94-91d6-19bc0cd68e6f.gif)
 
 So wollen wir auch die anderen Menüelemente umsetzten. Denn so kann man unserer Meinung nach klar erkenne, wie das menü bedient werden soll.
+
+Für das Charactermenü haben wir noch weitere Sprites für unseren Spieler angefertigt, welche sich lediglich in der Frabe, nicht baer in der Form unterscheiden, damit das Spiel weiterhin mit allen Spielern funktioniert.
+
 ### Mittwoch, 13.10.2021 <a name="siebzehn"></a>
 Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in der Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
@@ -386,10 +389,25 @@ Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir einge
 Schlussendlich haben wir die Idee wieder verworfen, da die Lava permanent aktiv sein soll, wir haben aber durch den Schalter die Idee für ein Tor bekommen, dass wir vielleicht später einfügen wollen.
 ### Dienstag, 19.10.2021 <a name="achtzehn"></a>
 Wir haben heute das Gesamtlevel-Layout zusammengestellt und uns überlegt, was auf welcher Stage zu sehen oder zu tun sein soll. Insgesamt soll es 6 Stages geben. Eine soll einen Schlüssel und ein Loch beinhalten und befindet sich ganz links. Rechts daneben soll ein Wald platziert werden. Daneben die erste Stage, in der das Spiel beginnt. Der Spieler soll hier das Hindernis Lava überwinden müssen. Wir haben bereits für den Schaden eine Art Lava erstellt, diese haben wir nun angepasst, so dass sie funktioniert. Die nächste Stage soll das Tor beinhalten, der Spieler soll dieses nur mit Schlüssel öfnnen können. Daneben sol eine Art Boss Raum erstellt werden. wie dieser Boss genau aussieht wissen wir noch nicht. Zuletzt soll das Ziel auf der Stage ganz rechts angezeigt werden.
+
+Zusätzlich haben wir noch das Lochobjekt für die erste Stage erstellt, wenn der Spieler dieses berührt, so fällt er durch die BodenHitbox hindurch und stirbt:
+
+![Screenshot 2021-12-06 203306](https://user-images.githubusercontent.com/88385813/144916256-726d2b6f-db77-4e9f-9ed7-b77a1e78afe1.png)
+
 Um alle diese Stages einfacher miteinander zu verbinden wollen wir in der nächsten Stunde das komplette Stagewechseln neu programmieren. Vor allen Dingen das Erkennen, ob der Spieler sich am Rand befindet soll anders gelöst werden, da das alte Prinzip mit der x-Koordinate nicht zuverlässig funktioniert und viel Performance frisst. Dafür haben wir bereits zwei Linien an jeden Rand paltziert, damit der Spieler bei Kontakt mit diesen in die nächste Stage wechselt.
 
 ### Mittwoch, 20.10.2021 <a name="neunzehn"></a>
+Heute begann die große Aufgabe das Stagemanagement neu zu programmieren. Die Abfrage welche Stage gerade geladen ist funktioniert nun nicht mehr umständlich über eine Variable, wie zuvor, sondern über den Kostümnamen der Stage. So weiß das Stageobjekt immer wenn der Spieler eines der Randobjekte berührt und weiter in Richtung dieses Rands läuft, auf welche Stage nun gewechslet werden muss und an welchen Rand der Spieler nun platziert werden muss.
 
+Code eines Randobjekts:
+
+![Screenshot 2021-12-06 212610](https://user-images.githubusercontent.com/88385813/144917464-75df00e2-f103-4f00-bfa5-9d6a1ed93b65.png)
+
+Umsetzung der Broadcasts im Stageobjekt:
+
+![Screenshot 2021-12-06 212549](https://user-images.githubusercontent.com/88385813/144917401-e02e70f6-7510-4e33-806b-8a6a3ac89de1.png)
+
+Bei der implementierung des neuen Systems war uns vor allen Dingen die nachträgliche Erweiterung dieses Managers um weitere Stages wichtig, da wir in den nächsten Stunden nach und nach alle Stages einfügen wollten. Außerdem mussten wir auch für das erscheinen von Objekten in bestimmten Stages, wie z.B. das Loch und die Lava ein genaus "Broadcasting" System haben, dass die Objekte anzeigt und beim verlassen der Stage wieder versteckt. In der Stunde wurden wir leider nicht ganz fertig, aber am Wochenende stellten wir den Manager fertig.
 ### Dienstag, 26.10.2021 <a name="zwanzig"></a>
 
 ### Mittwoch, 27.10.2021 <a name="einundzwanzig"></a>
