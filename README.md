@@ -289,36 +289,8 @@ In der heutigen Stunde haben wir zunächst unser GitHub Repository überarbeitet
     <td><a href=#Ausfall2>Mittwoch, 15. September</a></td>
     <td><a href=#elf>Mittwoch, 21. September</a></td>
     <td><a href=#zwölf>Mittwoch, 22. September</a></td>
-    <td><a href=#dreizehn>Dienstag, 28. September</a></td>
   </tr>
-  <tr>
-    <td><a href=#Ausfall3>Mittwoch, 29. September</a></td>
-    <td><a href=#vierzehn>Dienstag, 5. Oktober</a></td>
-    <td><a href=#fünfzehn>Mittwoch, 6. Oktober</a></td>
-    <td><a href=#sechzehn>Dienstag, 12. Oktober</a></td>
-    <td><a href=#siebzehn>Mittwoch, 13. Oktober</a></td>
-  </tr>
-  <tr>
-    <td><a href=#achtzehn>Dienstag. 19. Oktober</a></td>
-    <td><a href=#neunzehn>Mittwoch, 20. Oktober</a></td>
-    <td><a href=#zwanzig>Dienstag, 26. Oktober</a></td>
-    <td><a href=#einundzwanzig>Mittwoch, 27. Oktober</a></td>
-    <td><a href=#zweiundzwanzig>Dienstag, 2. November</a></td>
-  </tr>
-  <tr>
-    <td><a href=#dreiundzwanzig>Mittwoch, 3. November</a></td>
-    <td><a href=#Ausfall4>Dienstag, 9. November</a></td>
-    <td><a href=#vierundzwanzig>Mittwoch, 10. November</a></td>
-    <td><a href=#fünfundzwanzig>Dienstag, 16. November</a></td>
-    <td><a href=#sechsundzwanzig>Mittwoch, 17. November</a></td>
-  </tr>
-  <tr>
-    <td><a href=#siebenundzwanzig>Dienstag, 23. November</a></td>
-    <td><a href=#achtundzwanzig>Mittwoch, 24. November</a></td>
-    <td><a href=#neunundzwanzig>Dienstag, 30. November</a></td>
-    <td><a href=#dreißig>Mittwoch, 1. Dezember</a></td>
-    <td></td>
-  </tr>
+  
 </table>
  
 </details>
