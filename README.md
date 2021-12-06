@@ -433,6 +433,17 @@ Diese Stunde fiel leider aufgrund einer Klausur aus. Mit den anstehenden Klausur
 ### Mittwoch, 24.11.2021 <a name="achtundzwanzig"></a>
 
 ### Dienstag, 30.11.2021 <a name="neunundzwanzig"></a>
+Vor allem haben wir heute die Dokumentierung des Projekts vervollständigt. Dabei haben wir unsere Notizen zu den Stunden in erste GitHub-Einträge umgewandelt. Außerdem wurdedn noch die in der letzten Stunde programmierten Speere in zwei Wellen eingeteilt. So ist es schwieriger das Hindernis zu umgehen, da erst die eine Hälfte der Speere fällt und anschließend die andere. Der Spieler kann nun nicht mehr nur abwarten und nach dem fallen der Speeren beim respawnen dieser zum Ziel laufen. 
+
+Das ganze ist durch eine einfache "wait" Funktion umgestezt, nachdem die Stage mit den Speeren betreten wurde.
+
+Speer der direkt losfliegt:
+
+![Screenshot 2021-12-06 214818](https://user-images.githubusercontent.com/88385813/144920218-1a52de28-29d7-4e31-99b0-1fa0d62fb298.png)
+
+Speer, der später losfliegt:
+
+![Screenshot 2021-12-06 214730](https://user-images.githubusercontent.com/88385813/144920135-122ea314-58f1-47e3-8263-aebfeedb2963.png)
 
 ### Mittwoch, 1.12.2021 <a name="dreißig"></a>
 Jannik war leider heute krank, da wir aber schon seit der letzten Stunde nur noch an Fehlerbehebungen im Code und hauptsächlich der Dokumentierung auf der Projektseite gearbeitet hatten und das Snap! Projekt eigentlich fertig war, arbeitete Thorge an den Fehlerbehebungen und der Codeerklärung weiter. 
