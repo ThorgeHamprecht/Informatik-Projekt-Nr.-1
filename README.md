@@ -408,6 +408,9 @@ Umsetzung der Broadcasts im Stageobjekt:
 ![Screenshot 2021-12-06 212549](https://user-images.githubusercontent.com/88385813/144917401-e02e70f6-7510-4e33-806b-8a6a3ac89de1.png)
 
 Bei der implementierung des neuen Systems war uns vor allen Dingen die nachträgliche Erweiterung dieses Managers um weitere Stages wichtig, da wir in den nächsten Stunden nach und nach alle Stages einfügen wollten. Außerdem mussten wir auch für das erscheinen von Objekten in bestimmten Stages, wie z.B. das Loch und die Lava ein genaus "Broadcasting" System haben, dass die Objekte anzeigt und beim verlassen der Stage wieder versteckt. In der Stunde wurden wir leider nicht ganz fertig, aber am Wochenende stellten wir den Manager fertig.
+
+Der neue Manager funktioniert nun viel besser und kann leicht erweitert werden, da er die Speicherung der aktuellen Stage durch Variablen losgeworden ist.
+
 ### Dienstag, 26.10.2021 <a name="zwanzig"></a>
 
 ### Mittwoch, 27.10.2021 <a name="einundzwanzig"></a>
@@ -432,6 +435,12 @@ Diese Stunde fiel leider aufgrund einer Klausur aus. Mit den anstehenden Klausur
 ### Dienstag, 30.11.2021 <a name="neunundzwanzig"></a>
 
 ### Mittwoch, 1.12.2021 <a name="dreißig"></a>
+Jannik war leider heute krank, da wir aber schon seit der letzten Stunde nur noch an Fehlerbehebungen im Code und hauptsächlich der Dokumentierung auf der Projektseite gearbeitet hatten und das Snap! Projekt eigentlich fertig war, arbeitete Thorge an den Fehlerbehebungen und der Codeerklärung weiter. 
+
+Dabei gab es einen Fehler, bei dem der Schlüssel auch auf einer Stage aufgehoben werden konnte, auf der er nicht zu sehen war. Der fehler war allerdings schnell durch eine Kopplung des Aufhebebefehls an das aktiv sein der Schlüssel-Stage. Nun kann der Schlüssel nur noch in der linken Stage aufgehoben werden. 
+
+Auch am generellen Layout der Blog.Seite wurde weitergearbeitet. Hier wurde eine Refelxion des Endprodukts und einige Quellen hinzugefügt. 
+Außerdem wurden alle Überschriften im Blog mit passenden Emojis versehen:
 
 ## 🔧Arbeitsmethoden<a name="Methoden"></a>
 
