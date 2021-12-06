@@ -414,9 +414,12 @@ Dieses Stück unterstreicht das vorzeitige Ende des Abenteuers und ist dementspr
 ## 📥Reflexion des Projekts<a name="Reflex"></a>
 
 Zuletzt wollen wir noch unser Projekt und den Arbeitsprozess rückblickend bewerten. 
+ 
 Insgesamt sind wir sehr zufrieden mit unserem Projekt, wir haben fast jede unserer Vorstellungen in Snap! umsetzten könne, auch wenn dies manchmal sehr kreative Lösungen erforderte. Generell hat uns die Arbeit an dem Projekt auch sehr viel Freude bereitet, denn das logische Denken und Lösen von Problemen war eine willkommene Abwechslung zum sonstigen Unterricht und hat uns auch über die Schulstunden hinaus gut beschäftigt. 
+ 
 Mit unserem Arbeitsprozess sind wir auch sehr zufrieden, wir haben in den Stunden fast immer erreicht, was wir uns vorgenommen hatten und haben uns die gesamte Zeit gut eingeteilt. Wir hatten also einen gut über die Gesamtzeit verteilten Arbeitsaufwand und mussten lediglich zuletzt unsere Notizen zu den Stunden noch in Protokolleinträge in unserem GitHub Repository verwandeln. Auch die Arbeitsteilung zwischen uns beiden hat sehr gut funktioniert. Nach kurzer Einarbeitungszeit konnten wir beide am Spiel programmieren. Durch die Cloud-Funktion von Snap! konnten wir beide Zuhause das Spiel weiter programmieren und der jeweils andere konnte die Änderungen aus der Cloud herunterladen. Darüber hinaus hat Thorge sich zum größten Teil um die Erstellung der Sprites gekümmert, während Jannik den großteil der Musikproduktion übernahm. Somit konnten wir beide unsere Schwächen ausgleichen und im Endeffekt ein rundes Endprodukt mit Musik und Sprites erstellen. 
-Für unsere GitHub Seite hatten wir die Arbeit grob in [Projektseite]() und [Protokollseite]()
+ 
+Für unsere GitHub Seite hatten wir die Arbeit grob in [Projektseite]() und [Protokollseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/README.md)
 ## ℹ️Quellen<a name="Quellen"></a>
 
 
