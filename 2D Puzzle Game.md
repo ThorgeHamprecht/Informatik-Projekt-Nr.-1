@@ -18,6 +18,11 @@
 2.8
 2.9
 2.10
+Zeit läuft ab rotes faden
+Schaden, Speer erklären mit Foto
+Tor erklären
+Ziel und game over, fade objekt
+Musikmanager
 
 ## Über Snap!
 
