@@ -306,7 +306,11 @@ Für unser Projekt wollten wir einen Pixel-Art Stil umsetzten. Dafür mussten wi
     text-align: center;
 }
 </style>
- <p class="aligncenter">
+ <p<style>
+.aligncenter {
+    text-align: center;
+}
+</style> class="aligncenter">
     <img src="https://user-images.githubusercontent.com/88385813/144750564-be75f0cb-ea5b-4c10-86c0-ee2195c0886d.jpg" alt="Piskel" />
 </p>
  <style>
