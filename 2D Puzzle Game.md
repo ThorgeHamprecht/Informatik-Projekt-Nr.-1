@@ -157,9 +157,9 @@ Mit den folgenden drei Bedingungen wird das Springen eingestellt. Egal ob der Sp
  
  </details>
 
-Mit diesem Code werden die beiden vorherigen Bedingungen vorrausgesetzt. Der Code wird so lange ausgeführt wie die Variable "BerührtBoden" 0 ist, die Spielfigur also nicht die "BodenHitbox" berührt.
+Mit diesem Code werden die beiden vorherigen Bedingungen vorrausgesetzt. Der Code wird so lange ausgeführt wie die Variable "BerührtBoden" = 0 ist, die Spielfigur also nicht die "BodenHitbox" berührt.
 Dann wird die Fallgeschwindigkeit mit 1,2 multipliziert und die Y-Koordinate wird entsprechend geändert.
-Dadurch erhöhrt sich die Fallgeschwindigkeit je länger sich die Spielfigur im Fall befindet. Dies soll den natürlichen Fall von implementieren.
+Dadurch erhöhrt sich die Fallgeschwindigkeit, je länger sich die Spielfigur im Fall befindet. Dies soll den natürlichen Fall von der Spielfigur darstellen.
 
 <details>
 <summary>Sprite Spieler - "when I recive "BerühreBoden"" </summary>
@@ -279,7 +279,7 @@ Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Laserstrahlen in
 <img width="187" alt="Bildschirmfoto 2021-11-27 um 18 46 43" src="https://user-images.githubusercontent.com/88385954/143691508-09cc8e46-42e7-4b20-92eb-084805ea0579.png">
 </details>
 
-<h2> Wechsel der Spielfigur zwischen den Stages </h2>
+<h2> 2.3 Wechsel der Spielfigur zwischen den Stages </h2>
 
 Im Folgenden wird beschrieben, wie der Hintergrund, also die Stages wechseln, wenn die Spielfigur die Ränder der jeweiligen Stages erreicht.
 Die Hauptschwierigkeit besteht darin, dass die Spielfigur, wenn sie beispielsweise am linken Rand das Bild verlässt, anschließend am rechten Rand der nächsten Stage erscheinen muss.
@@ -363,7 +363,7 @@ Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
 
 
 
-<h2> Das Startmenü </h2>
+<h2> 2.4 Das Startmenü </h2>
 
 Wenn man das Spiel öffnet, so startet nicht direkt das Spiel. Der Spieler findet sich zunächst in dem TitleScreen wieder. 
 Es wird aus diesem Grund geprüft, ob der Costume Name der Stage = TitleScreen ist. Wenn dies der Fall ist, so kann der Spieler eine beliebige Taste auf der Tastatur drücken. 
@@ -380,7 +380,7 @@ Dabei wird auch die Variable "SpielerBewegung"= 1 gesetzt.
 In diesem Menü lassen sich drei verschiedene Button clicken:
 
 
- <h2> Spiel Starten </h2>
+ <h2> 2.4.1 Spiel Starten </h2>
 
 Zunächst wird der Button SpielStartet betrachtet.
 Damit das Menü wie gewünscht funktioniert, haben wir uns folgendes überlegt.
@@ -445,7 +445,7 @@ Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gew
 
  
  
-<h2> Charakter Wählen </h2>
+<h2> 2.4.2 Charakter Wählen </h2>
  
  https://user-images.githubusercontent.com/88385813/144719596-adcd7268-4e3b-4b53-bfeb-bcb51c721c39.mp4
 
@@ -523,7 +523,6 @@ Zudem sind die Funktionen des kleine Pfeils nur im Charakterwahlmenü aktiv.
 <br>
  <img width="205" alt="Bildschirmfoto 2021-12-06 um 13 50 36" src="https://user-images.githubusercontent.com/88385954/144849035-27c8ed9e-b301-4e4f-91eb-a9322aa0efe3.png">
 </details>
-
 
 Wenn sich der Spieler also im Charakterwahlmenü befindet, wird zunächst geprüft, ob sich die Maus auf dem Pfeil befindet.
 Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist ohne das die Maus die Pfeiltaste berührt und es gibt die Möglichkeit, dass er ausgewählt ist während die Pfeiltaste betätigt wird. Aus diesem Grund werden auch im Stage Menü immer zwei mögliche Stages geprüft, wenn die Charaktere mit PFeiltasten geändert werden sollen.
