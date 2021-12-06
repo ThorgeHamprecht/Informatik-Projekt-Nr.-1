@@ -267,6 +267,8 @@ Durch diese Funktonen:
 
 ![BroadcastFunktion](https://user-images.githubusercontent.com/88385813/144892034-33ae0c8f-11dd-4ffe-a186-da7ce775b48e.png)
 
+2. Auch das erkennen der berührten Farbe zur Bodenerkennung (Groundcheck)frisst sehr viel Leistung. Auch hier müssen wir wohl in Zukunft eine andere lösung finden.
+
 ### Mittwoch, 22.09.2021 <a name="zwölf"></a>
 In der heutigen Stunde haben wir zunächst unser GitHub Repository überarbeitet. Dabei haben wir das Inhaltsverzeichnis für die Protokolle eingefügt, dafür haben wir mit HTML ein Dropdown eingefügt und in diesem Dropdown eine Tabelle mit den links zu den einzelnen Einträgen, der Code dafür sieht folgendermaßen aus:
 ```html   
@@ -330,12 +332,51 @@ Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst.
 Die ausgefallene Stunde haben wir genutzt, um eine Projektseite zu erstellen und die ersten Teile unseres Codes zu erklären. Außerdem haben wir nochmals vergeblich versucht das Problem mit den Herzen zu Lösen. Das Problem hierbei ist, dass die selbe Funktion zuvor funktionierte und in anderen Objekten noch immer funktioniert. 
 
 ### Dienstag, 5.10.2021 <a name="vierzehn"></a>
+Zu Anfang dieser Stunde haben wir Ihnen unser Problem mit den Herzen geschildert. Nach einigem Brainstorming sind wir gemeinsam zu dem Schluss gekommen, das herzen System nicht mehr variabel über eine Funktion zu Steuern, sonder für jeden Zustand eine einzelne Funktion zu nutzen. Jedes Herz hat jetzt seinen Köstümen exakte Lebensanzahlen zugeordnet, der fehler is somit gelöst. Hier nocheinmal der Vergleich.
 
-Heute haben wir das Spielmenü erstellt. Dabei haben wir mit Power-Point verschiedene Bilder erstellt, um diese zu erstellen.
-Zudem haben wir uns damit befasst, dass Problem mit den Leben zu lösen. Nach einigem probieren sind wir auf folgende Lösung gekommen, mit der die Leben nun wieder in gewünschter Weise weniger werden.
-Folgend haben wir uns damit beschäftigt einen Fehler bei dem verlassen von Stages beschäftigt. 
+Altes System:
+
+![Bildschirmfoto 2021-10-19 um 15 52 40](https://user-images.githubusercontent.com/88385813/144907796-9c7753c4-030f-45ce-815d-707781331e8f.jpg)
+
+Neues System:
+
+![Bildschirmfoto 2021-10-19 um 15 53 00](https://user-images.githubusercontent.com/88385813/144907813-e481ef67-c85a-4b92-947b-f8c6458aa3b0.jpg)
+
+Trotzdem verwirrt uns noch immer, warum der fehler aufgetreten ist. Snap! scheint manhcmal inkonsequent zu sein. So kann z.B. auch bei unser Bodenerkennung gesehen werden, dass der Spieler jedes mal unterschiedlich weit in den Boden einsackt, obwohl er gestoppt werden sollte, sobald er die braune Frabe des Bodens berührt:
+
+![BodenBug (1)](https://user-images.githubusercontent.com/88385813/144908763-a460b158-da62-4a4d-af94-d7c1f493a0e6.gif)
+
+
+Auch für dieses Problem müssen wir noch eine Lösung finden, zumal auch das Erkenen der Farben aufgrund der hohen Performance einbußen noch geändert werden muss, dafür war diese Stunde aber keine Zeit mehr.
 
 ### Mittwoch, 6.10.2021 <a name="fünfzehn"></a>
+Für die heutige Stunde haben wir uns folgendes vorgenommen:
+- [x] *Groundcheck verändern*
+- [x] *Problem der Inkonsequenz beim landen des Spielers lösen*
+
+Zuerst haben wir dabei verändert, wie das Spielerobjekt festellt, ob es den Boden berührt. Wir haben nun eine Linie eingefügt, die an der oberen Kante des Bodens verläuft. Berührt der Spieler nun diese, so berührt er den Boden. Wir mussten nun noch das Einsinken des Spielers in den Boden verhindern. Zuerst dachten wir, dass dies durch die neue Bodenerkennung vielleicht automatisch besser werden würde, da die Performance dadurch enorm verbessert wurde, doch das Problem blieb bestehen. Dabei war das größte Problem daran, dass der Spieler somit immer unterscheidlich hoch springen würde, da er vor dem Sprung höher oder tiefer im Level sein würde. So würden aber präzise Sprünge niemals funktionieren. Außerdem  stirbt der Spieler nun, wenn er in ein Loch fällt. Deshalb setzten wir den Spieler nun immer auf eine vordefinierte Höhe, sobald er die Bodenlinie berührt. Außerdem  stirbt der Spieler nun, wenn er in ein Loch fällt. Die Codeveränderungen von heute sehen folgendermaßen aus:
+
+![Screenshot 2021-12-06 203213](https://user-images.githubusercontent.com/88385813/144910265-2bbba7f7-cc14-4aa9-bdf7-78b8e5b46339.png)
+
+Und so sieht das BodenHitboxObjekt aus:
+
+![Screenshot 2021-12-06 203306](https://user-images.githubusercontent.com/88385813/144910326-5f563b5f-54e5-4182-84be-b465b92722e7.png)
+
+
+### Dienstag, 12.10.2021 <a name="sechzehn"></a>
+
+Da die Bewegung des Spielers seit der letzten Stunde nun gut funktioniert und wieder eine gute Performance aufweißt wollten wir Heute ein Spielmenü für unser Spiel erstellen. Wir haben dabei ein paar Inhalte für das Menü vordefiniert:
+
+- [x] *Charachter Wechseln Menü*
+- [x] *Spiel Starten Knopf*
+- [ ] *Anleitung Menü*
+
+Das Menü soll dabei vor allen Dingen leicht und intuitiv mit der Maus durch klicken bedient werden können. Dafür haben wir uns überlegt unsichtbare Knopfobjekte über die Bilder des Menüs im Stageobjekt zu legen und beim klicken dieser jeweils den Hintergrunf zu wechseln. Dabei wollten wir auch "Higlighten" wenn die Maus über einem Objekt schwebt, damit man weiß, welche objekte anzuklicken sind. Hier als Beispiel einmal der Zurückknopf des Charackterauswahlscreen:
+
+![highlightMenü](https://user-images.githubusercontent.com/88385813/144913647-74679718-fda5-4a94-91d6-19bc0cd68e6f.gif)
+
+So wollen wir auch die anderen Menüelemente umsetzten. Denn so kann man unserer Meinung nach klar erkenne, wie das menü bedient werden soll.
+### Mittwoch, 13.10.2021 <a name="siebzehn"></a>
 Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in der Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
 Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
@@ -343,10 +384,6 @@ Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die 
 Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
 Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir eingestellt, an welcher Stelle die Wolken im Hintergrund erscheinen sollen uns mit welcher Geschwindigkeit sie sich anschließend in welche Richtung bewegen sollen. 
 Schlussendlich haben wir die Idee wieder verworfen, da die Lava permanent aktiv sein soll, wir haben aber durch den Schalter die Idee für ein Tor bekommen, dass wir vielleicht später einfügen wollen.
-### Dienstag, 12.10.2021 <a name="sechzehn"></a>
-
-### Mittwoch, 13.10.2021 <a name="siebzehn"></a>
-
 ### Dienstag, 19.10.2021 <a name="achtzehn"></a>
 
 ### Mittwoch, 20.10.2021 <a name="neunzehn"></a>
@@ -360,6 +397,7 @@ Schlussendlich haben wir die Idee wieder verworfen, da die Lava permanent aktiv 
 ### Mittwoch, 3.11.2021 <a name="dreiundzwanzig"></a>
 
 ### Dienstag, 9.11.2021 <a name="Ausfall4"></a>
+Diese Stunde fiel leider aufgrund einer Klausur aus. Mit den anstehenden Klausuren im Kopf haben wir Zuhause diesmal nicht an unserem Projekt gearbeitet, sondern die Zeit zur Vorbereitung genutzt.
 
 ### Mittwoch, 10.11.2021 <a name="vierundzwanzig"></a>
 
