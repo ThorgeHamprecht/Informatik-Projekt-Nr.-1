@@ -1,16 +1,13 @@
 # 2D Puzzle Game
 ## Links
 
-1. [Blog](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1)
-2. [Über Snap!](#Snap)
-3. [Spielkonzept](#Spielkonzept)
-4. [Erklärung des Codes](#Erklärung)
-5. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
+1. [Projektseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/2D%20Puzzle%20Game.md)
+2. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
 
-## Über Snap!<a name="Snap"></a>
+## Über Snap!
 
-<h1>1. Spielkonzept</h1> <a name="Spielkonzept"></a>
+<h1>1. Spielkonzept</h1>
 Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätseln" und durch das Bewältigen von Platform-Passagen zu erreichen.
 
 https://user-images.githubusercontent.com/88385813/144759791-de17a98b-73cd-49a5-bfcf-f4a6e968e209.mp4
@@ -41,7 +38,7 @@ Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor z
 Mit diesem Spielkonzept war unsere Absicht ein spannendes, kreatives und reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
 
 
-<h1>Erklärung des Codes</h1> <a name="Erklärung"></a>
+<h1>Erklärung des Codes</h1>
 
 <h1>2.1 Grundeinstellungen für die Spielfigur </h1>
 
@@ -610,14 +607,29 @@ Mit den Pfeiltasten kann nach dem gewohnten Prinzip der Charakterauswahl die Fol
 Auch die kleinen Pfeile und das rote Färben dieser, wenn man mit der Maus darüber fährt funktioniert wie bei der Charakterauswahl.
 Somit müssen auch immer drei Dinge im Stage-Menü geprüft werden, damit das Anleitungsmenü mit den Pfeiltasten funktioniert.
 Die Pfeile werden ebenfalls nach dem bekannten Prinzip angesteuert. Es wird geprüft, was die Maus berührt. Wenn ein gewisses Sprite ausgewählt ist wird anschließend das Sprite entsprechend angepasst und einer der Pfeile erscheint rot oder wieder weiß.
+Der einzige Unterschied zum Charakterwahlmenü ist, dass bei dem Anleitungsmenü über die Pfeile die Folie gewechselt wird.
+Aus diesem Grund gibt es einen Pfeil, der die zurück auf das vorherige Bild führt und der andere Pfeil führt auf das nächste Bild.
+Es wird somit immer geprüft, ob sich die Maus auf dem Pfeil befindet oder ob ein Pfeil geklickt wird.
+Entsprechend wird dann das neue Costume ausgeführt.
+Der Code für den linken Pfeil:
 
 <details>
-<summary>Sprite Anleitung - "when touching mouse-pointer"</summary>
+<summary>Sprite Anleitung Zurück Button- "when touching mouse-pointer"</summary>
 <br>
+ <img width="176" alt="Bildschirmfoto 2021-12-06 um 20 05 04" src="https://user-images.githubusercontent.com/88385954/144906531-39ba3fa8-d105-4f28-b892-ab4bfeeb2fdf.png">
 <img width="489" alt="Bildschirmfoto 2021-12-06 um 19 49 12" src="https://user-images.githubusercontent.com/88385954/144904390-548425d2-1499-4df4-837d-57423efd4e1a.png">
 </details>
 
- 
+ Der Code für den rechten Pfeil:
+
+<details>
+<summary>Sprite </summary>
+<br>
+ <img width="325" alt="Bildschirmfoto 2021-12-06 um 20 06 21" src="https://user-images.githubusercontent.com/88385954/144906676-715439fb-feed-491b-a62f-c61a932446cc.png">
+<img width="488" alt="Bildschirmfoto 2021-12-06 um 20 06 34" src="https://user-images.githubusercontent.com/88385954/144906712-d0ae292b-1181-4301-86f9-37f85b885ea6.png">
+ </details>
+
+
 
 
  
