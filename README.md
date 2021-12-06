@@ -520,6 +520,7 @@ Abschließend lässt sich festhalten , dass wir sehr zufrieden mit unserem Proje
 1. [Sprite - Steine](https://www.artstation.com/artwork/8eLdrE)
 2. [Sprite - Schlüssel](http://pixelartmaker.com/art/701d599ee087f38)
 3. [Sprite - Tor](https://www.deviantart.com/nicnubill/art/castle-Gate-428853290)
+
 <footer>
-  Hier ein paar Copyright Informationen oder stattdessen Informationen über den &lt;Artikel&gt;?
+  <p id="copyright">...</p>
 </footer>
