@@ -314,16 +314,21 @@ Und andererseits im Herzobjekt, wo der Schaden in eine Anzeige umgewandelt wird:
 ![Bildschirmfoto 2021-10-19 um 15 52 40](https://user-images.githubusercontent.com/88385813/144895727-a2b54510-38cf-4bf8-b755-6e1feec7fd50.jpg)
 
 ### Dienstag, 28.09.2021 <a name="dreizehn"></a>
-Heute haben wir den Start unseres Spiels programmiert. Zunächst haben wir einen Platzhalter eingefügt, welcher einen Start-Knopf simulieren sollte. Danach haben wir ein PNG erstellt, welches die Überschrift "Spiel Starten" aufzeigt. Dieses Startmenü soll immer dann erscheinen, wenn man das Spiel das erste Mal starten möchte und immer dann, wenn man ein Leben verloren hat. Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Probklem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
+Heute haben wir den Start unseres Spiels programmiert. Zunächst haben wir einen Platzhalter eingefügt, welcher einen Start-Knopf simulieren sollte. Danach haben wir ein PNG erstellt, welches die Überschrift "Spiel Starten" aufzeigt. Dieses Startmenü soll immer dann erscheinen, wenn man das Spiel das erste Mal starten möchte und immer dann, wenn man ein Leben verloren hat:
+
+![TitleScreen](https://user-images.githubusercontent.com/88385813/144897139-19ecba59-04f6-4647-8c8b-a1d4e6f02530.png)
+
+Nach dem Drücken des besagten Knopfes wird das Spiel durch folgende Funktion gestartet:
+
+![StartBildschirm](https://user-images.githubusercontent.com/88385813/144898020-f35f81fa-d1d9-4704-b24e-27cfff57086b.png)
+
+![StartBildschirm](https://user-images.githubusercontent.com/88385813/144898037-00ee2825-a6ee-427a-a083-930aeee84b6c.png)
+
+Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Probklem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch Veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
 
 ### Mittwoch, 29.09.2021 <a name="Ausfall3"></a>
-Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in der Lava zu sterben. 
-Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
-Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
-Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
-Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
-Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir eingestellt, an welcher Stelle die Wolken im Hintergrund erscheinen sollen uns mit welcher Geschwindigkeit sie sich anschließend in welche Richtung bewegen sollen. 
-Schlussendlich haben wir die Idee wieder verworfen, da die Lava permanent aktiv sein soll, wir haben aber durch den Schalter die Idee für ein Tor bekommen, dass wir vielleicht später einfügen wollen.
+Die ausgefallene Stunde haben wir genutzt, um eine Projektseite zu erstellen und die ersten Teile unseres Codes zu erklären. Außerdem haben wir nochmals vergeblich versucht das Problem mit den Herzen zu Lösen. Das Problem hierbei ist, dass die selbe Funktion zuvor funktionierte und in anderen Objekten noch immer funktioniert. 
+
 ### Dienstag, 5.10.2021 <a name="vierzehn"></a>
 
 Heute haben wir das Spielmenü erstellt. Dabei haben wir mit Power-Point verschiedene Bilder erstellt, um diese zu erstellen.
@@ -331,7 +336,13 @@ Zudem haben wir uns damit befasst, dass Problem mit den Leben zu lösen. Nach ei
 Folgend haben wir uns damit beschäftigt einen Fehler bei dem verlassen von Stages beschäftigt. 
 
 ### Mittwoch, 6.10.2021 <a name="fünfzehn"></a>
-
+Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in der Lava zu sterben. 
+Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
+Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
+Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
+Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
+Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir eingestellt, an welcher Stelle die Wolken im Hintergrund erscheinen sollen uns mit welcher Geschwindigkeit sie sich anschließend in welche Richtung bewegen sollen. 
+Schlussendlich haben wir die Idee wieder verworfen, da die Lava permanent aktiv sein soll, wir haben aber durch den Schalter die Idee für ein Tor bekommen, dass wir vielleicht später einfügen wollen.
 ### Dienstag, 12.10.2021 <a name="sechzehn"></a>
 
 ### Mittwoch, 13.10.2021 <a name="siebzehn"></a>
