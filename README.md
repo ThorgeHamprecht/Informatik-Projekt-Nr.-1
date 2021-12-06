@@ -521,13 +521,7 @@ Abschließend lässt sich festhalten , dass wir sehr zufrieden mit unserem Proje
 2. [Sprite - Schlüssel](http://pixelartmaker.com/art/701d599ee087f38)
 3. [Sprite - Tor](https://www.deviantart.com/nicnubill/art/castle-Gate-428853290)
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p style="text-align:center;">Blog-Seite - Projekt von Jannik und Thorge</p>
-<head>
-      <title>HTML Document</title>
-   </head>
 
-   <body>
-      <h1>Tutorial</h1>
-      <p style="text-align:center;">Learn for free</p>
-   </body>
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
