@@ -355,7 +355,9 @@ Das Ziel diesen Stückes ist es, während des Spiels eine Begleitmusik zu haben,
 
 Mit dem folgenden Video lässt sich der Aufbau noch einmal genauer nachvollziehen:
 
-https://user-images.githubusercontent.com/88385813/144757516-afeb15db-9fbd-4cbd-8c0b-8b85e8b0bf00.mp4
+
+https://user-images.githubusercontent.com/88385813/144872613-e03be9aa-656d-47bb-aaff-d541f9251944.mp4
+
 
 Notation der Musik:
  
