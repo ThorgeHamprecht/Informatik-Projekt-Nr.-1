@@ -234,14 +234,14 @@ Nun haben wir noch das Fallen des Spielers gestoppt, nachdem er den Boden berüh
 ![Sprung  3 0](https://user-images.githubusercontent.com/88385813/144886212-11ecd20e-e3f2-4760-a628-286c5580f2d4.png)
 
 ### Dienstag, 14.09.2021 <a name="Ausfall1"></a>
-Da die Stunden leider ausfiel haben wir Zuhause weitere Hintergünde designed und bei Snap! eigefügt, es gibt jetzt zwei weitere Hintergründe, diese müssen allerdings noch begehbar gemacht werden, der Spieler kann bis jetzt noch nicht zwischen den "Stages", also den Hintergründen, wechseln:
+Da die Stunden leider ausfielen, haben wir Zuhause weitere Hintergünde designed und bei Snap! eingefügt. Es gibt jetzt zwei weitere Hintergründe - diese müssen allerdings noch begehbar gemacht werden. Der Spieler kann bis jetzt noch nicht zwischen den "Stages", also den Hintergründen, wechseln:
 
 <img src="https://user-images.githubusercontent.com/88385813/144886868-486b8f5b-f743-4509-a676-e5d02ab053e7.png" alt="Stage1" width="45%" height="45%"> <img src="https://user-images.githubusercontent.com/88385813/144886874-15f83cc0-32d2-48ab-bb30-fa5136a3981a.png" alt="Stage2" width="45%" height="45%">
 
 
 
 ### Mittwoch, 15.09.2021 <a name="Ausfall2"></a>
-Auch diese Stunde fiel leider aus, wir wollten trotzdem beginnen, den Übergang des Spielers zwischen den "Stages" zu ermöglichen. Dabei haben wir die x-Koordinate des Spielers ausgelesen und wenn diese einen gewissen Wert übersteigt, der Spieler also aus dem Bildschirm läuft, wird der Hintergund entsprechend geändert. Die Hintergrundänderung speichert dabei den aktuellen Hintergrund in einer Variable, um je nach aktuellem Hintergrund auf den richtigen neuen hintergrund zu wechseln.
+Auch diese Stunde fiel leider aus. Wir wollten trotzdem beginnen, den Übergang des Spielers zwischen den "Stages" zu ermöglichen. Dabei haben wir die x-Koordinate des Spielers ausgelesen und wenn diese einen gewissen Wert übersteigt, der Spieler also aus dem Bildschirm läuft, wird der Hintergund entsprechend geändert. Die Hintergrundsänderung speichert dabei den aktuellen Hintergrund in einer Variable, um je nach aktuellem Hintergrund auf den richtigen neuen Hintergrund zu wechseln.
 Dafür einerseites den Code im Spielerobjekt:
 
 ![Bildschirmfoto 2021-10-26 um 15 11 50 1](https://user-images.githubusercontent.com/88385813/144895099-f2d0581d-249e-4ceb-bb81-868ce9a64f50.jpg)
@@ -254,12 +254,12 @@ Und den Code im Stage Objekt:
 ![Bildschirmfoto 2021-10-26 um 15 28 38](https://user-images.githubusercontent.com/88385813/144895147-d385195c-caa1-4d67-a0e4-117f18985ccc.jpg)
 
 
-Für beide gibt es noch den Code für den linken Rand, der nach dem glecihem Prinzip funktioniert.
+Für beide gibt es noch den Code für den linken Rand, der nach dem gleichem Prinzip funktioniert.
 
 ### Dienstag, 21.09.2021 <a name="elf"></a>
 In der heutigen Stunde hatten wir mit einem Problem zu kämpfen:
-je mehr Code-Bausteine wir in unser projekt einfügen, desto langsamer läuft das Spiel im Gesamten. Nach einigen Tests mit einem neunen Snap! Projekt zum Performancevergleich und einem gespräch mit Ihnen konnten wir zwei Hauptprobleme indentifizieren: 
-1. Die immer aktiven "When" Funktionen fressen sehr viel Performance, besser eignen sich die Broadcast Funktionen, da diese nicht immer aktiv sind und daher nicht jedes mal überprüft werden müssen wird viel performance eingespart, wir ersetzen jetzt also diese Funktionen:
+Je mehr Code-Bausteine wir in unser Projekt einfügen, desto langsamer läuft das Spiel im Gesamten. Nach einigen Tests mit einem neunen Snap! Projekt zum Performancevergleich und einem Gespräch mit Ihnen konnten wir zwei Hauptprobleme indentifizieren: 
+1. Die immer aktiven "When" Funktionen fressen sehr viel Performance, besser eignen sich die Broadcast Funktionen, da diese nicht immer aktiv sind und daher nicht jedes mal überprüft werden müssen, wird viel performance eingespart. Wir ersetzen jetzt also diese Funktionen:
 
 ![offeneWhenFunktion](https://user-images.githubusercontent.com/88385813/144891966-f3add09e-e7d2-4c22-ad3e-c814ecfcf418.png)
 
@@ -267,7 +267,7 @@ Durch diese Funktonen:
 
 ![BroadcastFunktion](https://user-images.githubusercontent.com/88385813/144892034-33ae0c8f-11dd-4ffe-a186-da7ce775b48e.png)
 
-2. Auch das erkennen der berührten Farbe zur Bodenerkennung (Groundcheck)frisst sehr viel Leistung. Auch hier müssen wir wohl in Zukunft eine andere lösung finden.
+2. Auch das Erkennen der berührten Farbe zur Bodenerkennung (Groundcheck) frisst sehr viel Leistung. Auch hier müssen wir wohl in Zukunft eine andere Lösung finden.
 
 ### Mittwoch, 22.09.2021 <a name="zwölf"></a>
 In der heutigen Stunde haben wir zunächst unser GitHub Repository überarbeitet. Dabei haben wir das Inhaltsverzeichnis für die Protokolle eingefügt, dafür haben wir mit HTML ein Dropdown eingefügt und in diesem Dropdown eine Tabelle mit den links zu den einzelnen Einträgen, der Code dafür sieht folgendermaßen aus:
@@ -300,14 +300,14 @@ In der heutigen Stunde haben wir zunächst unser GitHub Repository überarbeitet
  
 </details>
 ```
-Danach haben wir angefangen ein Lebensystem in das Spiel zu integrieren, dafür haben wir zunächst die Sprites erstellt:
+Danach haben wir angefangen ein Lebensystem in das Spiel zu integrieren, wofür wir zunächst diese Sprites erstellt haben:
 
 <img src="https://user-images.githubusercontent.com/88385813/144893326-da5ad3bf-1742-4e68-afc6-ae354e008e5f.png" alt="herz" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/88385813/144895264-6d28669f-fa56-46e7-b7fe-ff4ec75948a6.png" alt="halbesHerz" width="20%" height="20%"> <img src="https://user-images.githubusercontent.com/88385813/144893344-2015c6f2-b0ca-4b6f-82c8-08cb8a24c33d.png" alt="keinHerz" width="20%" height="20%">
 
 Dabei gibt es eine Variable, die die aktuellen Leben des Spielers speichert, die Leben werden dementsprechend angepasst. Die Leben werden dann links oben auf dem Bildschirm angezeigt:
 ![Bildschirmfoto 2021-10-23 um 20 33 59](https://user-images.githubusercontent.com/88385813/144895323-11d8b342-e9ab-495f-af25-7acef55a02f8.jpg)
 
-Der Code besteht dabei einerseits im Spielerobjekt mit der Erkkenung des Schaden verursachendend Objekts und dem "Broadcasten" der Information Schaden bekommen zu haben:
+Der Code besteht dabei einerseits im Spielerobjekt mit der Erkkenung des Schaden verursachenden Objekts und dem "Broadcasten" der Information Schaden bekommen zu haben:
 
 ![Bildschirmfoto 2021-10-19 um 15 53 13](https://user-images.githubusercontent.com/88385813/144895801-1fcbdb2b-bbf6-4f5f-ad8b-55d01f1b3106.jpg)
 
@@ -326,13 +326,13 @@ Nach dem Drücken des besagten Knopfes wird das Spiel durch folgende Funktion ge
 
 ![StartBildschirm](https://user-images.githubusercontent.com/88385813/144898037-00ee2825-a6ee-427a-a083-930aeee84b6c.png)
 
-Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Probklem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch Veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
+Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen, wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Problem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch Veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
 
 ### Mittwoch, 29.09.2021 <a name="Ausfall3"></a>
 Die ausgefallene Stunde haben wir genutzt, um eine Projektseite zu erstellen und die ersten Teile unseres Codes zu erklären. Außerdem haben wir nochmals vergeblich versucht das Problem mit den Herzen zu Lösen. Das Problem hierbei ist, dass die selbe Funktion zuvor funktionierte und in anderen Objekten noch immer funktioniert. 
 
 ### Dienstag, 5.10.2021 <a name="vierzehn"></a>
-Zu Anfang dieser Stunde haben wir Ihnen unser Problem mit den Herzen geschildert. Nach einigem Brainstorming sind wir gemeinsam zu dem Schluss gekommen, das herzen System nicht mehr variabel über eine Funktion zu Steuern, sonder für jeden Zustand eine einzelne Funktion zu nutzen. Jedes Herz hat jetzt seinen Köstümen exakte Lebensanzahlen zugeordnet, der fehler is somit gelöst. Hier nocheinmal der Vergleich.
+Zu Anfang dieser Stunde haben wir Ihnen unser Problem mit den Herzen geschildert. Nach einigem Brainstorming sind wir gemeinsam zu dem Schluss gekommen, das Herzen-System nicht mehr variabel über eine Funktion zu Steuern, sondern für jeden Zustand eine einzelne Funktion zu nutzen. Jedes Herz hat jetzt seinen Kostümen exakte Lebensanzahlen zugeordnet, der Fehler ist somit gelöst. Hier noch einmal der Vergleich.
 
 Altes System:
 
@@ -342,19 +342,19 @@ Neues System:
 
 ![Bildschirmfoto 2021-10-19 um 15 53 00](https://user-images.githubusercontent.com/88385813/144907813-e481ef67-c85a-4b92-947b-f8c6458aa3b0.jpg)
 
-Trotzdem verwirrt uns noch immer, warum der fehler aufgetreten ist. Snap! scheint manhcmal inkonsequent zu sein. So kann z.B. auch bei unser Bodenerkennung gesehen werden, dass der Spieler jedes mal unterschiedlich weit in den Boden einsackt, obwohl er gestoppt werden sollte, sobald er die braune Frabe des Bodens berührt:
+Trotzdem verwirrt uns noch immer, warum der Fehler aufgetreten ist. Snap! scheint manchmal inkonsequent zu sein. So kann z.B. auch bei unser Bodenerkennung betrachtet werden, dass der Spieler jedes mal unterschiedlich weit in den Boden einsackt, obwohl er gestoppt werden sollte, sobald er die braune Farbe des Bodens berührt:
 
 ![BodenBug (1)](https://user-images.githubusercontent.com/88385813/144908763-a460b158-da62-4a4d-af94-d7c1f493a0e6.gif)
 
 
-Auch für dieses Problem müssen wir noch eine Lösung finden, zumal auch das Erkenen der Farben aufgrund der hohen Performance einbußen noch geändert werden muss, dafür war diese Stunde aber keine Zeit mehr.
+Auch für dieses Problem müssen wir noch eine Lösung finden, zumal auch das Erkennen der Farben aufgrund der hohen Performance-Einbußen noch geändert werden muss, dafür war diese Stunde aber keine Zeit mehr.
 
 ### Mittwoch, 6.10.2021 <a name="fünfzehn"></a>
 Für die heutige Stunde haben wir uns folgendes vorgenommen:
 - [x] *Groundcheck verändern*
 - [x] *Problem der Inkonsequenz beim landen des Spielers lösen*
 
-Zuerst haben wir dabei verändert, wie das Spielerobjekt festellt, ob es den Boden berührt. Wir haben nun eine Linie eingefügt, die an der oberen Kante des Bodens verläuft. Berührt der Spieler nun diese, so berührt er den Boden. Wir mussten nun noch das Einsinken des Spielers in den Boden verhindern. Zuerst dachten wir, dass dies durch die neue Bodenerkennung vielleicht automatisch besser werden würde, da die Performance dadurch enorm verbessert wurde, doch das Problem blieb bestehen. Dabei war das größte Problem daran, dass der Spieler somit immer unterscheidlich hoch springen würde, da er vor dem Sprung höher oder tiefer im Level sein würde. So würden aber präzise Sprünge niemals funktionieren. Außerdem  stirbt der Spieler nun, wenn er in ein Loch fällt. Deshalb setzten wir den Spieler nun immer auf eine vordefinierte Höhe, sobald er die Bodenlinie berührt. Außerdem  stirbt der Spieler nun, wenn er in ein Loch fällt. Die Codeveränderungen von heute sehen folgendermaßen aus:
+Zuerst haben wir dabei verändert, wie das Spielerobjekt festellt, ob es den Boden berührt. Wir haben nun eine Linie eingefügt, die an der oberen Kante des Bodens verläuft. Berührt der Spieler nun diese, so berührt er den Boden. Wir mussten nun noch das Einsinken des Spielers in den Boden verhindern. Zuerst dachten wir, dass dies durch die neue Bodenerkennung vielleicht automatisch besser werden würde, da die Performance dadurch enorm verbessert wurde, doch das Problem blieb bestehen. Dabei war das größte Problem daran, dass der Spieler somit immer unterscheidlich hoch springen würde, da er vor dem Sprung höher oder tiefer im Level sein würde. So würden aber präzise Sprünge niemals funktionieren. Deshalb setzten wir den Spieler nun immer auf eine vordefinierte Höhe, sobald er die Bodenlinie berührt. Außerdem  stirbt der Spieler nun, wenn er in ein Loch fällt. Die Codeveränderungen von heute sehen folgendermaßen aus:
 
 ![Screenshot 2021-12-06 203213](https://user-images.githubusercontent.com/88385813/144910265-2bbba7f7-cc14-4aa9-bdf7-78b8e5b46339.png)
 
@@ -365,19 +365,19 @@ Und so sieht das BodenHitboxObjekt aus:
 
 ### Dienstag, 12.10.2021 <a name="sechzehn"></a>
 
-Da die Bewegung des Spielers seit der letzten Stunde nun gut funktioniert und wieder eine gute Performance aufweißt wollten wir Heute ein Spielmenü für unser Spiel erstellen. Wir haben dabei ein paar Inhalte für das Menü vordefiniert:
+Da die Bewegung des Spielers seit der letzten Stunde nun gut funktioniert und wieder eine gute Performance aufweißt, wollten wir heute ein Spielmenü für unser Spiel erstellen. Wir haben dabei ein paar Inhalte für das Menü vordefiniert:
 
 - [x] *Charachter Wechseln Menü*
 - [x] *Spiel Starten Knopf*
 - [ ] *Anleitung Menü*
 
-Das Menü soll dabei vor allen Dingen leicht und intuitiv mit der Maus durch klicken bedient werden können. Dafür haben wir uns überlegt unsichtbare Knopfobjekte über die Bilder des Menüs im Stageobjekt zu legen und beim klicken dieser jeweils den Hintergrunf zu wechseln. Dabei wollten wir auch "Higlighten" wenn die Maus über einem Objekt schwebt, damit man weiß, welche objekte anzuklicken sind. Hier als Beispiel einmal der Zurückknopf des Charackterauswahlscreen:
+Das Menü soll dabei vor allen Dingen leicht und intuitiv mit der Maus durch Klicken bedient werden können. Dafür haben wir uns überlegt, unsichtbare Knopfobjekte über die Bilder des Menüs im Stageobjekt zu legen und beim Klicken dieser jeweils den Hintergrund zu wechseln. Dabei wollten wir auch "Highlighten", wenn die Maus über einem Objekt schwebt, damit man weiß, welche objekte anzuklicken sind. Hier als Beispiel einmal der Zurückknopf des Charackterauswahlscreens:
 
 ![highlightMenü](https://user-images.githubusercontent.com/88385813/144913647-74679718-fda5-4a94-91d6-19bc0cd68e6f.gif)
 
-So wollen wir auch die anderen Menüelemente umsetzten. Denn so kann man unserer Meinung nach klar erkenne, wie das menü bedient werden soll.
+So wollen wir auch die anderen Menüelemente umsetzten, denn so kann man unserer Meinung nach klar erkennen, wie das Menü bedient werden soll.
 
-Für das Charactermenü haben wir noch weitere Sprites für unseren Spieler angefertigt, welche sich lediglich in der Frabe, nicht baer in der Form unterscheiden, damit das Spiel weiterhin mit allen Spielern funktioniert.
+Für das Charaktermenü haben wir noch weitere Sprites für unseren Spieler angefertigt, welche sich lediglich in der Frabe, nicht aber in der Form unterscheiden, damit das Spiel weiterhin mit allen Spielern funktioniert.
 
 ### Mittwoch, 13.10.2021 <a name="siebzehn"></a>
 Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in der Lava zu sterben. 
