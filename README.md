@@ -234,7 +234,7 @@ Nun haben wir noch das Fallen des Spielers gestoppt, nachdem er den Boden berüh
 ![Sprung  3 0](https://user-images.githubusercontent.com/88385813/144886212-11ecd20e-e3f2-4760-a628-286c5580f2d4.png)
 
 ### Dienstag, 14.09.2021 <a name="Ausfall1"></a>
-Da die Stunden leider ausfiel haben wir Zuhasue weitere Hintergünde designed und bei Snap! eigefügt, es gibt jetzt zwei weitere Hintergründe, diese müssen allerdings noch begehbar gemacht werden, der Spieler kann bis jetzt noch nicht zwischen den "Stages", also den Hintergründen, wechseln:
+Da die Stunden leider ausfiel haben wir Zuhause weitere Hintergünde designed und bei Snap! eigefügt, es gibt jetzt zwei weitere Hintergründe, diese müssen allerdings noch begehbar gemacht werden, der Spieler kann bis jetzt noch nicht zwischen den "Stages", also den Hintergründen, wechseln:
 
 <img src="https://user-images.githubusercontent.com/88385813/144886868-486b8f5b-f743-4509-a676-e5d02ab053e7.png" alt="Stage1" width="45%" height="45%"> <img src="https://user-images.githubusercontent.com/88385813/144886874-15f83cc0-32d2-48ab-bb30-fa5136a3981a.png" alt="Stage2" width="45%" height="45%">
 
@@ -244,11 +244,15 @@ Da die Stunden leider ausfiel haben wir Zuhasue weitere Hintergünde designed un
 Auch diese Stunde fiel leider aus, wir wollten trotzdem beginnen, den Übergang des Spielers zwischen den "Stages" zu ermöglichen. Dabei haben wir die x-Koordinate des Spielers ausgelesen und wenn diese einen gewissen Wert übersteigt, der Spieler also aus dem Bildschirm läuft, wird der Hintergund entsprechend geändert. Die Hintergrundänderung speichert dabei den aktuellen Hintergrund in einer Variable, um je nach aktuellem Hintergrund auf den richtigen neuen hintergrund zu wechseln.
 Dafür einerseites den Code im Spielerobjekt:
 
-![BildschirmWechseln1 0](https://user-images.githubusercontent.com/88385813/144889719-a892cc85-dfae-4b49-8384-7a4148a70050.png)
+![Bildschirmfoto 2021-10-26 um 15 11 50 1](https://user-images.githubusercontent.com/88385813/144895099-f2d0581d-249e-4ceb-bb81-868ce9a64f50.jpg)
+![Bildschirmfoto 2021-10-26 um 15 11 29](https://user-images.githubusercontent.com/88385813/144894903-e9052081-dd3a-4431-8e2d-ddce3c6b0cc0.jpg)
+
 
 Und den Code im Stage Objekt:
 
-![BildschirmWechselnStage](https://user-images.githubusercontent.com/88385813/144889774-7e9d5307-544a-417f-a411-3f0a8ca9fef4.png)
+![Bildschirmfoto 2021-10-26 um 15 28 01](https://user-images.githubusercontent.com/88385813/144895136-bece641b-95ad-4e9b-b37c-96064a6b1c47.jpg)
+![Bildschirmfoto 2021-10-26 um 15 28 38](https://user-images.githubusercontent.com/88385813/144895147-d385195c-caa1-4d67-a0e4-117f18985ccc.jpg)
+
 
 Für beide gibt es noch den Code für den linken Rand, der nach dem glecihem Prinzip funktioniert.
 
@@ -289,12 +293,19 @@ In der heutigen Stunde haben wir zunächst unser GitHub Repository überarbeitet
     <td><a href=#Ausfall2>Mittwoch, 15. September</a></td>
     <td><a href=#elf>Mittwoch, 21. September</a></td>
     <td><a href=#zwölf>Mittwoch, 22. September</a></td>
-  </tr>
-  
+  </tr> 
 </table>
  
 </details>
 ```
+Danach haben wir angefangen ein Lebensystem in das Spiel zu integrieren, dafür haben wir zunächst die Sprites erstellt:
+![Herz ](https://user-images.githubusercontent.com/88385813/144893326-da5ad3bf-1742-4e68-afc6-ae354e008e5f.png) 
+![Halbes Herz ](https://userimages.githubusercontent.com/88385813/144893339-84fe66f0-09eb-4af7-aebd-cfe5053af378.png) 
+![Kein Herz ](https://user-images.githubusercontent.com/88385813/144893344-2015c6f2-b0ca-4b6f-82c8-08cb8a24c33d.png)
+
+Dabei gibt es eine Variable, die die aktuellen Leben des Spielers speichert, die Leben werden dementsprechend angepasst. Die Leben werden dann links oben auf dem Bildschirm angezeigt.
+![HerzenRechtsOben](https://user-images.githubusercontent.com/88385813/144893773-a5d0104a-e6e4-4edc-9442-6b76572ec8d1.png)
+
 ### Dienstag, 28.09.2021 <a name="dreizehn"></a>
 Heute haben wir den Start unseres Spiels programmiert. Zunächst haben wir einen Platzhalter eingefügt, welcher einen Start-Knopf simulieren sollte. Danach haben wir ein PNG erstellt, welches die Überschrift "Spiel Starten" aufzeigt. Dieses Startmenü soll immer dann erscheinen, wenn man das Spiel das erste Mal starten möchte und immer dann, wenn man ein Leben verloren hat. Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Probklem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
 
