@@ -1,7 +1,7 @@
 # 2D Puzzle Game
 ## Links
 
-1. [Projektseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/2D%20Puzzle%20Game.md)
+1. [Blog](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1)
 2. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
 
