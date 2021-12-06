@@ -653,33 +653,6 @@ Der Code für den linken Pfeil:
 
 
 
- 
- 
-
-
-
-
-
-##### Die Musik
-
- Auch das Abspielen der Musik ist an das Wechseln der Stages gekoppelt. Alle Musikdateien befinden sich im Stageobjekt:
- 
- ![Screenshot 2021-12-06 224635](https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png)
-
-Die Titelmusik wird abgespielt, sobald das Spiel per Klick auf die Fahne gestartet wird und außerdem nach einem GameOver oder Sieg, sobald das Menü wieder geöffnet wird oder die Victory-musik fertig abgespeilt ist. Dies wird mit den "Broadcast" Funktionen zur Szenenauswahl gesteuert: 
- 
-![Screenshot 2021-12-06 225022](https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png)
-
-![Screenshot 2021-12-06 225010](https://user-images.githubusercontent.com/88385813/144928346-170f2563-4d7c-4430-9fc0-0d250fd34a4f.png)
- 
-Wird "Titelmusik" gebroadcastet, so startet das Abspielen der Musik und die Variable der derzeitigen Musik wird demenstprechend geändert. Da es sich bei dem Stück um einen Loop handelt wird nach Ablauf der Zeit mithilfe der "wait" Funktion die Musik erneut gesartet, sollte die Stage noch nicht gewechselt sein. Dieser Loop funktioniert nur, solange die Variable den Wert 0 hat. Der Wert der variable wird geändert, sobald ein anderes Stück gespielt wird. 
- 
-Auch die anderen Stücke werden nach diesem Prinzip abgespielt, haben jedoch aber keine Loops, da sie zeitlich begrenzt sind und nicht länger abgespielt werden müssen.
-
-
-
-
- 
  <h1>2.5 Das Rätsel des geschlossenen Tores </h1>
 
 Ein wichtiges Element unseres Spiels ist das verschlossene Tor, welches geöffnet werden muss, um dass Level zu schaffen. Dafür muss zunächst ein Schlüssel eingesammelt werden. 
@@ -831,6 +804,8 @@ Warnung 20 Sekunden vor Schluss:
 <br>
 <img width="305" alt="Bildschirmfoto 2021-12-06 um 21 41 37" src="https://user-images.githubusercontent.com/88385954/144919302-4f4a8ab8-fff2-469f-a2cc-84ad568f67ab.png">
 </details>
+Dieses Script wird durch den Timer bei verbleib von 10 oder 20 Sekunden durch die "broadcast" Funktion aktiviert.
+Wenn nur noch 20 oder 10 Sekunden der zeit verbleiben, so wird über die "ghost-effect" Funktion ein roter Impuls im Bild eingeblendet. Dieser funktioniert über das Verändern der Transparenz des "ZeitLäuftAb" Objekts. Zunächst wird die Transparenz, also der Wert des "ghost-effects" auch in einer variable gespeichert, damit wir später die Transparenz des Objekts jederzeit per Code überüfen können. Dann werden Transparenz und Variable gleichmäßig verändert, bis die maximale Sichtbarkeit bei einem "ghost-effect" von 80 erreicht ist. Bei diesem "ghost-effect ist noch deutlich das eigentliche Spiel zu sehen, der Spieler bekommt aber klar das Ablaufend der Zeit mit. Nun wartet das Script eine zehntel Sekunde und macht das Objekt langsam wieder vollkommen Transparent. die Variable und der "ghost-effect" werden nun wieder auf ihre Anfangswerte gesetzt. Ein neuer Zyklus kann beginnen. Die 10 Sekunden Warnung funktioniert identisch, nur das die Transparenz des Objektes geringer, der Impuls also intensiver ist.
 
 <h2>2.7.3 Ziffer 2 </h2>
  
@@ -847,14 +822,31 @@ Somit können die Ziffern hier alle 10 Sekunden und zeitgleich mit der Ziffer 3 
 
 <h1>2.8 Das Loch </h1>
  
+Berührt der Spieler das Objekt Loch, welches über die Szeneauswahl Funktionen sichtbar gemacht wird, so fällt er in dieses Loch, da er mit der "gesprungen" Funktion im Spielerobjekt nach unten beschleunigt wird. Dies funktioniert allerdings nur, wenn er die BodenHitbox nicht berührt. Dieses Loch ist notwendig, da der Spieler sonst über das Loch hinweg gehen könnte ohne zu fallen, da die Gravitation normalerweise nur nach einem Sprrung aktiviert wird. Hier wird sie also auch aktiviert, wenn der Spieler nur das Loch, aber nicht die BodenHitbox berührt, also eigentlich über dem Loch schwebt.
+
+![Screenshot 2021-12-06 232719](https://user-images.githubusercontent.com/88385813/144932896-06939209-cb89-4dc2-9198-b5a29f1d109a.png)
+
 <h1>2.9 Ziel/Game Over </h1>
  
-<h1>2.10 Musik </h1>
  
+ 
+<h1>2.10 Musik </h1>
+Auch das Abspielen der Musik ist an das Wechseln der Stages gekoppelt. Alle Musikdateien befinden sich im Stageobjekt:
+ 
+ ![Screenshot 2021-12-06 224635](https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png)
 
-  3
-- erstellen Costumes
- - erstellen der PP folien
+Die Titelmusik wird abgespielt, sobald das Spiel per Klick auf die Fahne gestartet wird und außerdem nach einem GameOver oder Sieg, sobald das Menü wieder geöffnet wird oder die Victory-musik fertig abgespeilt ist. Dies wird mit den "Broadcast" Funktionen zur Szenenauswahl gesteuert: 
+ 
+![Screenshot 2021-12-06 225022](https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png)
+
+![Screenshot 2021-12-06 225010](https://user-images.githubusercontent.com/88385813/144928346-170f2563-4d7c-4430-9fc0-0d250fd34a4f.png)
+ 
+Wird "Titelmusik" gebroadcastet, so startet das Abspielen der Musik und die Variable der derzeitigen Musik wird demenstprechend geändert. Da es sich bei dem Stück um einen Loop handelt wird nach Ablauf der Zeit mithilfe der "wait" Funktion die Musik erneut gesartet, sollte die Stage noch nicht gewechselt sein. Dieser Loop funktioniert nur, solange die Variable den Wert 0 hat. Der Wert der variable wird geändert, sobald ein anderes Stück gespielt wird. 
+ 
+Auch die anderen Stücke werden nach diesem Prinzip abgespielt, haben jedoch aber keine Loops, da sie zeitlich begrenzt sind und nicht länger abgespielt werden müssen.
+
+ 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   
   
