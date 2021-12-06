@@ -414,29 +414,67 @@ Der neue Manager funktioniert nun viel besser und kann leicht erweitert werden, 
 
 ### Dienstag, 26.10.2021 <a name="zwanzig"></a>
 
-Einfügen von hintergrundobjekten nur auf bestimmten stages
-und wolken, die sich bewegen
-=> alles soll lebendiger sein
+Heute haben wir uns mit dem Hintergrund beschäftigt.
+Zunächst haben wir uns überlegt, dass der Hintergrund mit Wolken anschaulicher aussehen würde. Aus diesem Grund haben wir mit Piskel Wolken erstellt und sie anschließend bei Snap hochgeladen.
+Nachdem wir drei Wolken eingefügt hatten kam uns die Idee, diese lebendig zu machen. Dafür haben wir in Snap programmiert, dass sich die Wolken in unterschiedlicher Geschwindigkeit nach rechts bewegen. 
+Daraufhin kam uns eine zweite Idee mit der wir den Hintergrund lebendiger gestalten wollen.
+Durch die drei verschiedenen Steine haben wir eine weitere Möglichkeit geschaffen, unser Spiel lebendiger zu machen. Bei dem Erstellen der Steine mit Piskel haben wir für jeden Stein drei unterschiedliche Costumes eingefügt, damit es so aussieht, als ob sich die Gräser auf ihnen bewegen.
+Das haben wir folglich auch mit Snap programmiert.
+Die Steine erscheinen zudem auf unterschiedlichen Stages. 
+
+Die Steine haben wir mit folgenden Piskeln erstellt: XX
 
 
 ### Mittwoch, 27.10.2021 <a name="einundzwanzig"></a>
 
-Überlegung Musik Stücke, warum wollen wir musik , welche Stücke soll es geben
+Heute haben wir uns überlegt, wie wir unser Spiel auch akustisch ansprechend gestalten können. 
+Dafür ist uns die Idee gekommen selber Musik zu komponieren. 
+Wir haben uns dabei darauf verständigt, dass zwei Musikstücke komponieren wollen.
+Das erste Musikstück soll während des Menüs laufen und die Titelmusik darstellen. Das zweite Stück soll im Spiel laufen und dieses somit akustisch unterstützen.
+Wir haben uns heute zudem damit beschäftigt, das Hindernis der Laserstrahlen einzufügen. Dafür haben wir diese mit Piskel erstellt und anschließend in Snap hochgeladen.
+Wir haben bereits damit angefangen, den Code dafür zu programmieren.
+Bisher stellt sich jedoch die Schwierigkeit, dass XX und BILDER
 
-laser Idee erste umsetzunbg
+Zuhause haben wir bereits mit dem Komponieren der Musik begonnen. Dabei haben wir uns bereits überlegt in welcher Tonart die Titelmusik geschrieben werden soll. Anschließend sind wir mit einem Klavier und dem Quintenzirkel die verschiedenen Akkorde durchgegangen und haben uns überlegt, welche Akkorde zueinander passen. Wir haben uns hierbei auf C-Dur, F-Dur und G-Dur geeinigt.
 
 ### Dienstag, 2.11.2021 <a name="zweiundzwanzig"></a>
-einfügen von game over screen, nach menü prinzip
-higlight schnelle rückkehr zum spiel 
-auch victory screen
-=> spiel soll endlich durchzuspielen sein
+
+Heute haben wir uns mit dem Einfügen eines Game-Over-Screens beschäftigt. Dafür sind wir wie bei der Erstellung des Menüs vorgegangen.
+Dabei mussten wir vor allem darauf achten einen "Button" einzufügen, damit man nach dem Scheitern des Spiels schnell mit einem Neustart beginnen kann.
+Nachdem wir den Game-Over-Screen mit Power-Point erstellt haben, haben wir bereits ein neues Sprite erstellt und den Screen darin eingefügt.
+Zudem haben wir uns heute mit dem Victory-Screen beschäftigt. Dazu sind wir genau wie bei dem Game-Over-Screen vorgegangen.
+Leider war die Zeit bereits vorbei, sodass wir es in der Stunde nicht mehr geschafft haben, dass unser Spiel endlich durchzuspielen ist.
+
+Zuhause haben wir uns aus diesem Grund mit dem Programmieren der Screens beschäftigt. Nun kann man endlich das Spiel durchspielen.
+Des Weiteren haben wir zuhause das Komponieren der Titelmusik vortgeführt. Dafür haben wir die vier Akkorde bei Garage Band eingespielt und uns ein passendes Instrument herrausgesucht. Anschließend haben wir diese Akkorde noch durch einen Bass verstärkt.(Eine ausführliche Erklärung der Kompositionen finden Sie unten)
+
 ### Mittwoch, 3.11.2021 <a name="dreiundzwanzig"></a>
+Heute haben wir uns mit unserem GitHub-Account beschäftigt. Dabei haben wir vor allem die Projektseite aktualisiert. Da wir am Anfang jedes Sprite einzeln erklärt haben ist uns nun die Idee gekommen diese Vorgehensweise zu ändern. 
+Wir haben entschieden, dass wir Themen bezogen unseren Code erklären Wollen. Dafür haben wir die bereits geschriebenen Erklärungen neu sortiert und Überschriften für jeden Bereich eingefügt.
+Den restlichen Teil der Stunde haben wir damit verbracht uns weiter über die Musik auszutauschen. Wir haben uns dabei verständigt bis zur nächsten Woche die beiden Stücke fertigzustellen. In der Stunde haben wir diskutiert, welches Instrument wir für die Melodie bei der Titelmusik verwenden sollten.
+
+Zuhause haben wir viel Zeit mit dem Komponieren der Musik verbracht. Wir haben weitere Instrumente eingefügt, neue Stimmen komponiert und den Song abgemischt. Des Weiteren haben wir die Spielmusik komponiert. Hierfür sind uns durch das komponieren der Titelmusik schnell Ideen gekommen.
+Bei dem Komponieren ist uns aufgefallen, dass wir gerne noch zwei weitere Stücke komponieren würden. 
+Das eine Stück für den "YouWin" Screen und das andere Stück für den "GameOver" Screen. Hierfür haben wir bereits die ersten Ideen gesammelt.
 
 ### Dienstag, 9.11.2021 <a name="Ausfall4"></a>
 Diese Stunde fiel leider aufgrund einer Klausur aus. Mit den anstehenden Klausuren im Kopf haben wir Zuhause diesmal nicht an unserem Projekt gearbeitet, sondern die Zeit zur Vorbereitung genutzt.
 
 ### Mittwoch, 10.11.2021 <a name="vierundzwanzig"></a>
-Einfügen der Musik, Problem mit Loop und speicherplatz in Snap!
+Heute haben wir unseren beiden komponierten Stücke bei Snap eingefügt.
+Da sich die Musik im Spiel immer wiederholen soll, haben wir zunächst eine lange Version des Stückes eingefügt. Hierbei sind wir jedoch auf das Problem gestoßen, dass es bei Snap zu wenig Speicherplatz gibt.
+Anschließend haben wir uns überlegt eine kurze Version des Stückes einzufügen und dieses anschließend immer wieder zu Loopen.
+Hierbei ergab sich leider das Problem, dass durch das Loopen immer eine ungewollte Verzögerung bis zum Neustart eingetreten ist.
+Zudem muss die Titelmusik direkt enden, wenn das Spiel gestartet wird. 
+Wir haben uns mit Ihnen über diese beiden Probleme ausgetauscht und sind gemeinsam zu folgender Lösung gekommen.
+
+CODE
+
+Damit haben wir das vorherige Problem gelöst.
+
+CODE
+
+
 ### Dienstag, 16.11.2021 <a name="füfnundzwanzig"></a>
 Schlüssel und Tor, Gedanke an Rätsel
 ### Mittwoch, 17.11.2021 <a name="sechsundzwanzig"></a>
@@ -446,7 +484,10 @@ zuletzt Anleitungseiten anfertigen, Spieltesten mit anderen leuten, ist das Spie
 ### Mittwoch, 24.11.2021 <a name="achtundzwanzig"></a>
 
 ### Dienstag, 30.11.2021 <a name="neunundzwanzig"></a>
-Vor allem haben wir heute die Dokumentierung des Projekts vervollständigt. Dabei haben wir unsere Notizen zu den Stunden in erste GitHub-Einträge umgewandelt. Außerdem wurdedn noch die in der letzten Stunde programmierten Speere in zwei Wellen eingeteilt. So ist es schwieriger das Hindernis zu umgehen, da erst die eine Hälfte der Speere fällt und anschließend die andere. Der Spieler kann nun nicht mehr nur abwarten und nach dem fallen der Speeren beim respawnen dieser zum Ziel laufen. 
+Heute war Jannik krank, weshalb Thorge in der Schule an dem Projekt gearbeitet hat und Jannik am Abend zuhause noch weitergearbeitet hat.
+Vor allem haben wir heute die Dokumentierung des Projekts bei GitHub vervollständigt. 
+Außerdem wurden noch die in der letzten Stunde programmierten Speere in zwei Wellen eingeteilt. 
+So ist es schwieriger das Hindernis zu umgehen, da erst die eine Hälfte der Speere fällt und anschließend die andere Hälfte fällt. Der Spieler kann nun nicht mehr nur abwarten und nach dem Fallen der Speere beim Respawnen dieser zum Ziel laufen. 
 
 Das ganze ist durch eine einfache "wait" Funktion umgestezt, nachdem die Stage mit den Speeren betreten wurde.
 
@@ -458,9 +499,10 @@ Speer, der später losfliegt:
 
 ![Screenshot 2021-12-06 214730](https://user-images.githubusercontent.com/88385813/144920135-122ea314-58f1-47e3-8263-aebfeedb2963.png)
 
-Generell war uns in den letzten Stunden wichtig dem Spiel zu mindest in gewissem Maße eine Schwierigkeit zu verleihen. Das ist uns durch diverse Änderung an der Lava und auch den Speeren unserer Meinung gelungen.
+Generell war uns in den letzten Stunden wichtig dem Spiel eine Schwierigkeit zu verleihen. Das ist uns durch diverse Änderung an der Lava und auch den Speeren unserer Meinung gelungen.
 
 ### Mittwoch, 1.12.2021 <a name="dreißig"></a>
+
 Jannik war leider heute krank, da wir aber schon seit der letzten Stunde nur noch an Fehlerbehebungen im Code und hauptsächlich der Dokumentierung auf der Projektseite gearbeitet hatten und das Snap! Projekt eigentlich fertig war, arbeitete Thorge an den Fehlerbehebungen und der Codeerklärung weiter. 
 
 Dabei gab es einen Fehler, bei dem der Schlüssel auch auf einer Stage aufgehoben werden konnte, auf der er nicht zu sehen war. Der fehler war allerdings schnell durch eine Kopplung des Aufhebebefehls an das aktiv sein der Schlüssel-Stage. Nun kann der Schlüssel nur noch in der linken Stage aufgehoben werden. 
