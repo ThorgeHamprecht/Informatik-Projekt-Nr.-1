@@ -488,19 +488,13 @@ Dann wird die Stage angepasst, indem "Blauer Abenteurer" ausgeführt wird. Auf d
 Der Spieler hat die Möglichkeit je nach belieben eine Spielfigur auszuwählen. 
 Zu Beginn ist standartmäßig die blaue Figur ausgewählt.
 
-<details>
-<summary>Sprite Stage - "when I receive Charakter wählen" </summary>
-<br>
- <img width="220" alt="Bildschirmfoto 2021-11-28 um 13 02 26" src="https://user-images.githubusercontent.com/88385954/143766836-65f64dc3-bf0c-40ed-b4b8-fc8ef82ed825.png">
-<img width="90" alt="Bildschirmfoto 2021-11-28 um 13 06 49" src="https://user-images.githubusercontent.com/88385954/143767004-6bdf3455-92b4-44a0-9cf8-9213cb41000c.png">
- </details>
-
 Nun besteht die Möglichkeit mit den Pfeiltasten die verschiedenen Charaktere auszuwählen.
 Die Folgenden Codes beschreiben dieses Bedienen mit den Pfeiltasten.
 Die Codes laufen dabei alle nach dem selben Prinzip.
 Wenn der rechte Pfeil gedrückt wird, so wird der aktuelle Costume Name geprüft.
 Zu Beginn ist die Stage logischerweise auf "CharakterWählen" eingestellt.
-Wenn nun der rechte Pfeil gedrückt wird, so wird erkannt das die ausgewählte Stage "CharakterWählen" oder "CharakterWählenZurück" ist. Diese beiden Stages unterscheiden sich lediglich dadurch, dass bei "CharakterWählenZurück" der kleine Pfeil unten links betätigt ist, indem die Maus über diesen fährt. Aus diesem Grund müssen bei allen Codes für die Charakterauswahl mit Pfeiltasten zwei Stages geprüft werden.
+Wenn nun der rechte Pfeil gedrückt wird, so wird erkannt das die ausgewählte Stage "CharakterWählen" oder "CharakterWählenZurück" ist. Diese beiden Stages unterscheiden sich lediglich dadurch, dass bei "CharakterWählenZurück" der kleine Pfeil unten links betätigt ist, indem die Maus über diesen fährt (genauere Erklärung folgt) 
+Aus diesem Grund müssen bei allen Codes für die Charakterauswahl mit Pfeiltasten zwei Stages geprüft werden.
 Dann wird der "RoteAbenteurer" ausgeführt. Die rote Spielfigur befindet sich im Charakterwahlmenü rechts neben dem blauen Abenteurer.
 
 
@@ -511,7 +505,7 @@ Dann wird der "RoteAbenteurer" ausgeführt. Die rote Spielfigur befindet sich im
 <img width="201" alt="Bildschirmfoto 2021-12-06 um 13 24 05" src="https://user-images.githubusercontent.com/88385954/144845515-f633c4c4-d5e9-4cbd-b3c5-67bad313a0a2.png">
  </details>
  
- Nach diesem Prinzip kann man durch die folgenden Codes alle drei Charaktere beliebig mit den Pfeiltasten ansteuern.
+ Nach diesem Prinzip kann man durch die folgenden Codes alle drei Charaktere beliebig mit der rechten und mit der linken Pfeiltaste ansteuern.
  
 <details>
 <summary>Sprite Stage - Charakterauswahl mit Pfeiltasten </summary>
@@ -522,6 +516,41 @@ Dann wird der "RoteAbenteurer" ausgeführt. Die rote Spielfigur befindet sich im
  Die entsprechenden Stages dazu:
  
 <img width="90" alt="Bildschirmfoto 2021-12-06 um 13 31 02" src="https://user-images.githubusercontent.com/88385954/144846485-cbdd8ec0-4567-47ee-8856-3f47b2c3ffaf.png">
+ 
+ Der angesprochene kleine rote Pfeil unten links ist nötig, damit der Spieler jederzeit wieder ins Homemenü zurückkommen kann. Auch dieser Pfeil ist durch eine unsichtbare Fläche hinterlegt. 
+Zudem sind die Funktionen des kleine Pfeils nur im Charakterwahlmenü aktiv.
+
+<details>
+<summary>Sprite </summary>
+<br>
+ <img width="205" alt="Bildschirmfoto 2021-12-06 um 13 50 36" src="https://user-images.githubusercontent.com/88385954/144849035-27c8ed9e-b301-4e4f-91eb-a9322aa0efe3.png">
+</details>
+
+
+Wenn sich der Spieler also im Charakterwahlmenü befindet, wird zunächst geprüft, ob sich die Maus auf dem Pfeil befindet.
+Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist ohne das die Maus die Pfeiltaste berührt und es gibt die Möglichkeit, dass er ausgewählt ist während die Pfeiltaste betätigt wird. Aus diesem Grund werden auch im Stage Menü immer zwei mögliche Stages geprüft, wenn die Charaktere mit PFeiltasten geändert werden sollen.
+ 
+<img width="485" alt="Bildschirmfoto 2021-12-06 um 14 58 04" src="https://user-images.githubusercontent.com/88385954/144858785-e7632e8a-fae9-4868-95ef-c7df0d8da642.png">
+ 
+ Wenn der Pfeil geklickt wird und die Stages eine der entsprechenden Stages ist, bei der die Maus den PFeil berührt, wird der Spieler zurück zum Startmenü geleitet.
+
+ <img width="394" alt="Bildschirmfoto 2021-12-06 um 14 59 29" src="https://user-images.githubusercontent.com/88385954/144859017-aea1c1e7-076e-42ea-b929-d9007abf1779.png">
+ 
+CHARAKTERWAHL MIT MAUSKLICK
+ 
+ Zudem besteht die Möglichkeit, den Charakter per Maus zu wählen. Auch hier ist hinter den Spielfiguren eine unsichtbare Fläche hinterlegt, welche das Klicken wahrnehmen. Diese Fläche ist genau dann aktiv, wenn das Charaktermenü geöffnet wird. 
+ 
+ <img width="211" alt="Bildschirmfoto 2021-12-06 um 15 07 24" src="https://user-images.githubusercontent.com/88385954/144860266-85b11e02-0d57-4b46-b7de-fd225c8f9de6.png">
+
+ Ist bereits ein anderer Charakter ausgewählt und die hinterlegte Fläche wird geklickt, dann ändert sich die ausgewählte Spielfigur.
+ 
+<img width="355" alt="Bildschirmfoto 2021-12-06 um 15 07 55" src="https://user-images.githubusercontent.com/88385954/144860344-5c14de68-407f-4a55-b55e-184aee9f0e17.png">
+ 
+ Diese Codes gibt es logischerweise auch für den Charakter 2 und den Charakter 3.
+ 
+<img width="324" alt="Bildschirmfoto 2021-12-06 um 15 11 22" src="https://user-images.githubusercontent.com/88385954/144860969-059f5313-09e2-4b01-9a7d-dad87999b9f4.png">
+ 
+<img width="343" alt="Bildschirmfoto 2021-12-06 um 15 11 53" src="https://user-images.githubusercontent.com/88385954/144861058-d4525674-bcad-44ea-87a7-c2a69017af1f.png">
 
 **3. Anleitung
 
