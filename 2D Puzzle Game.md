@@ -433,7 +433,6 @@ Die Befehle werden dann im Sprite Stage ausgeführt:
 ![MenüButtonHighlighting-_online-video-cutter com_](https://user-images.githubusercontent.com/88385813/144720525-86dd302c-d7dd-4d83-9853-dce43410ad63.gif)
 
 
-HIER FEHLT WHEN I RECEIVE MENÜ BROADCAST MENÜ
 
 <details>
 <summary>Sprite Stage - "when I receive MenüSpielStartet" </summary>
@@ -665,7 +664,7 @@ Die Wolken bewegen sich im Hintergrund.
 Die erste Wolke soll immer dann zu sehen sein, wenn das Spiel gestartet wird. Sonst ist sie nicht sichtbar. 
 Wenn das Spiel gestartet wird, dann wird zunächst die größe und die Position wie gewohnt festgelegt. Die Wolke befindet sich dabei im Hintergrund.
 Zudem soll die Wolke jedoch beweglich sein. Dies wird durch das Bewegen "forever" erreicht.
-Die Wolke bewegt sich dabei nur in X-Richtung. GESCHWINDIGKEIT
+Die Wolke bewegt sich dabei nur in X-Richtung.
 
 <details>
 <summary>Sprite Wolke</summary>
