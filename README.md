@@ -85,11 +85,11 @@ Wir erhoffen uns damit mehr Übersicht während dieses Projekts zu behalten. Die
  
  ### Dienstag, 3. August<a name="eins"></a> 
  
-Zunächst haben wir unseren GitHub Account erstellt. Danach haben wir dieses Repository ertsellt und uns über erste Möglichkeiten zur Bearbeitung auf GitHub anhand des Codes Ihres [*GitHub Repositorys*](https://github.com/jbuhl/InformatikUnterricht) informiert. Anschließend begann unser erstes Brainstorming zur Wahl eines Projekts. Dabei haben wir zunächst an die Entwicklung eines kleinen Spiels gedacht wollten anschließend jedoch leiber eine App entwicklen, da diese in unseren Augen langlebiger ist und nicht nur eine Art Gimick, dass einmal verwendung findet und danach überflüssig ist. Unsere erste Idee ist eine App mit deren Hilfe man seinen Kleiderschrank digital katalogisieren kann. Dabei wollten wir unter anderem das einspeichern von outfits, sowie einen Überblick über Kleidungsstücke, die sich zurzeit in der Wäsche befinden implementieren.
+Zunächst haben wir unseren GitHub Account erstellt. Danach haben wir dieses Repository ertsellt und uns über erste Möglichkeiten zur Bearbeitung auf GitHub anhand des Codes Ihres [*GitHub Repositorys*](https://github.com/jbuhl/InformatikUnterricht) informiert. Anschließend begann unser erstes Brainstorming zur Wahl eines Projekts. Dabei haben wir zunächst an die Entwicklung eines kleinen Spiels gedacht wollten anschließend jedoch lieber eine App entwicklen, da diese in unseren Augen langlebiger ist und nicht nur eine Art Gimick, dass einmal verwendung findet und danach überflüssig ist. Unsere erste Idee war eine App mit deren Hilfe man seinen Kleiderschrank digital katalogisieren kann. Dabei wollten wir unter anderem das einspeichern von outfits, sowie einen Überblick über Kleidungsstücke, die sich zurzeit in der Wäsche befinden implementieren.
 
 ### Mittwoch, 4. August<a name="zwei"></a>
 
-Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftigt. dabei haben wir gelernt,wie man Dropdowns einfügt:
+Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftigt. Dabei haben wir gelernt, wie man Dropdowns einfügt:
 
 ```html
  <details>
@@ -106,13 +106,13 @@ Heute haben wir uns weiter mit Markdown und unserem GitHub Directory beschäftig
 <a href=HierDenLinkEinfügen>HierDenNamenEinfügen</a>
 ``` 
   
-Und im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
+Im Verlauf der Stunde haben wir uns auch das Einbetten von Code in unser Directory angeiegnet.
   
 Außerdem haben wir uns angeschaut, wie man einen Ordner in seinem Repository anlegt und Dateien in diesem speichert. Wir haben hier nun zur Demonstration ein Bild hochgeladen und in unser Repository eingefügt.
   
 ![Level 1 Stage -1](https://user-images.githubusercontent.com/88385813/144760115-b372ea5e-c7e0-49f1-ae80-68f4c26f47fa.png)
 
-Um unsere Arbeit besser Überblicken zu können haben wir folgendermaßen eine [**ToDo-Liste**](#ToDo) in unser Repository eingefügt:
+Um unsere Arbeit besser Überblicken zu können, haben wir folgendermaßen eine [**ToDo-Liste**](#ToDo) in unser Repository eingefügt:
       
     - [x] *Eine **ToDo-Liste** in unser Repository einfügen*
     - [x] *Mehr Struktur in unser Protokoll bringen*
@@ -135,7 +135,7 @@ Pro| Contra
 • vermutlich "einfach" zu bedienen | • die App wird nicht auf Android funktionieren
 • Apple-Design grafisch ansprechend | • eventuelle Online-Verfügbarkeit muss geprüft werden
 
-Nach der letzten Stunde haben wir uns Zuhause nochn ein paar Gedanken über unsere App gemacht, dabei wollen wir nun eine ausschließliche IOS App mit [*XCode*](https://apps.apple.com/de/app/xcode/id497799835?mt=12) entwickeln. Wir haben uns für dieses Tool entschieden, da es einerseits die Programmiersprache [*Swift*](https://www.apple.com/de/swift/) beinhaltet, die auf das Programm abgestimmt sowie sehr anfängerfreundlich ist. Außerdem ist *XCode* ein First Party Tool und unterstützt damit alle Features der *IOS-Entwicklung*. Des weiteren wollen wir die App nur für eine Plattform entwicklen, um uns auf den wesentlichen Inhalt und nicht das optimieren beschäftigen zu müssen.
+Nach der letzten Stunde haben wir uns Zuhause nochn ein paar Gedanken über unsere App gemacht, dabei wollen wir nun eine ausschließliche IOS App mit [*XCode*](https://apps.apple.com/de/app/xcode/id497799835?mt=12) entwickeln. Wir haben uns für dieses Tool entschieden, da es einerseits die Programmiersprache [*Swift*](https://www.apple.com/de/swift/) beinhaltet, die auf das Programm abgestimmt sowie sehr anfängerfreundlich ist. Außerdem ist *XCode* ein First Party Tool und unterstützt damit alle Features der *IOS-Entwicklung*. Des weiteren wollen wir die App nur für eine Plattform entwicklen, um uns auf den wesentlichen Inhalt und nicht das Optimieren fokussieren zu müssen.
 
 Hier ein kleines Beispiel zum reskalieren von Bildern. Somit kann man eine Art Collage in seinem Repository einfügen.
 Der Code dafür sieht folgendermaßen aus:
@@ -177,7 +177,7 @@ Da die Stunde ausfiel haben wir uns ein paar Schritte überlegt, die wir als nä
 
 ### Dienstag, 24. August<a name="fünf"></a>
 
-Nachdem wir unseren Spieler in der letzten Stunde kontrollierbar gemacht haben, arbeiteten wir an den Animationen für unseren Spieler. Dabei ist wichtig, dass die einzelenen Animationen in den richtigen Momenten abgespielt werden. Dafür benutzten wir Unitys integrierten Animation-Controller nutzen, der es einem vereinfacht den Code und die Animationen zu verbinden. Im Code werden hierbei bei bestimmten Ereignissen bestimmte Animationen getriggert. Das Animieren selber ist derzeit über Keyframes sehr einfach durchzuführen. Da es sich bei unseren Sprites derzeit aber nur um Platzhalter handelt werden diese später ausgetauscht.
+Nachdem wir unseren Spieler in der letzten Stunde kontrollierbar gemacht haben, arbeiteten wir an den Animationen für unseren Spieler. Dabei ist wichtig, dass die einzelenen Animationen in den richtigen Momenten abgespielt werden. Dafür benutzen wir Unitys integrierten Animation-Controller, der es einem vereinfacht den Code und die Animationen zu verbinden. Im Code werden hierbei bei bestimmten Ereignissen bestimmte Animationen getriggert. Das Animieren selber ist derzeit über Keyframes sehr einfach durchzuführen. Da es sich bei unseren Sprites derzeit aber nur um Platzhalter handelt, werden diese später ausgetauscht.
 
 
 ### Mittwoch, 25. August<a name="sechs"></a>
@@ -187,7 +187,7 @@ Anschließend haben wir weiter an dem Level-Aufbau gearbeitet.
 
 ### Dienstag, 31.08.2021 <a name="sieben"></a>
 
-Nach dem Gespräch mit Ihnenn sind wir zu dem Entschluss, dass wir nicht an dem Programmieren in Unity mit der Programmiersprache C# festahlten wollen. Wir wollen nun mit [Snap!](https://snap.berkeley.edu/) arbeiten. Zuhause haben wir uns bereits mit der Realisierung unseres Projektes mit dem Programm Snap beschäftigt. Durch die verinfachte Blockprogrammiersprache sind einige Dineg, wie z.B. eine realistische Physik etwas schwieriger umzusetzten.
+Nach dem Gespräch mit Ihnenn sind wir zu dem Entschluss gekommen, dass wir nicht an dem Programmieren in Unity mit der Programmiersprache C# festhalten wollen. Wir wollen nun mit [Snap!](https://snap.berkeley.edu/) arbeiten. Zuhause haben wir uns bereits mit der Realisierung unseres Projektes mit dem Programm Snap beschäftigt. Durch die vereinfachte Blockprogrammiersprache sind einige Dinge, wie z.B. eine realistische Physik, etwas schwieriger umzusetzten.
 Wir haben damit angefangen einen provisorischen Spieler in Form eines Pfeils mit rudimetärer Bewegung nach links und rechts einzufügen. Dabei wird das Spielerobjekt durch die Tasten "a" und "d" oder die Pfeiltasten bewegt. Der Code dafür sieht folgendermaßen aus:
 
 ![Spielerbewegung1](https://user-images.githubusercontent.com/88385813/144760564-31d73119-d1c4-4170-a55e-da9519b49389.png)
@@ -200,11 +200,11 @@ Zuletzt haben wir Ihnen unsere ersten Fortschritte mit Snap! präsentiert.
 
 ### Mittwoch, 01.09.2021 <a name="acht"></a>
 
-In dieser Stunde haben wir uns vor allem mit der grafischen Präsentation unseres Spiels beschäftigt. Zum erstellen unserer Sprites verwenden wir [*Piskel*](#Methoden). Wir haben dabei einen Hintergrund für unser Spiel erstellt, auf dem sich der Spieler dann bewegen soll:
+In dieser Stunde haben wir uns vor allem mit der grafischen Präsentation unseres Spiels beschäftigt. Zum Erstellen unserer Sprites verwenden wir [*Piskel*](#Methoden). Wir haben dabei einen Hintergrund für unser Spiel erstellt, auf dem sich der Spieler dann bewegen soll:
 
 ![Level 1 Stage 0](https://user-images.githubusercontent.com/88385813/144760922-3f4965d7-0519-45fa-84ad-88ef2089e86d.png)
 
-Wir haben uns entschlossen einen Pixel Art-Stil für unser Spiel zu verwenden, denn die einzelnen Sprites können dann relativ schnell erstellt werden und müssen nicht besonders realistisch aussehen. So wird der Schaffungsprozess für uns auf dauer gesehen leichter, da nicht jede Sprite unglaublich aufwendig ist und auch leicht im nachhinein verändert werden kann.
+Wir haben uns entschlossen einen Pixel Art-Stil für unser Spiel zu verwenden, denn die einzelnen Sprites können dann relativ schnell erstellt werden und müssen nicht besonders realistisch aussehen. So wird der Schaffungsprozess für uns auf Dauer gesehen leichter, da nicht jeder Sprite unglaublich aufwendig ist und auch leicht im Nachhinein verändert werden kann.
 
 ### Dienstag, 07.09.2021 <a name="neun"></a>
 
@@ -217,7 +217,7 @@ Zunächst haben wir die Sprungfunktion für den Spieler eingebaut. Dies funktion
 
 ![Sprung1 0](https://user-images.githubusercontent.com/88385813/144882524-a09de627-4133-4786-98de-fb109c473952.png)
 
-Dann haben wir begonnen die Gravitation zu implementieren, damit der Spieler im Anschluss an das Springen auch wieder auf den Boden fällt. Wir haben dabei zunächst überlegt, ob wir eine gelichmäßige Fallgeschwindigkeit oder eine der Realität angepassten quadratischen Beschleunigung beim Fallen einführen wollen. Nach einigem Testen hat sich unserer Meinung nach eine quadratische beschlunigung beim Spielen am besten angefüllt, daher werden wir diese nächste Stunde fertig implementeieren.
+Dann haben wir begonnen die Gravitation zu implementieren, damit der Spieler im Anschluss an das Springen auch wieder auf den Boden fällt. Wir haben dabei zunächst überlegt, ob wir eine gleichmäßige Fallgeschwindigkeit oder eine der Realität angepassten quadratischen Beschleunigung beim Fallen einführen wollen. Nach einigem Testen hat sich unserer Meinung nach eine quadratische Beschleunigung beim Spielen am besten angefühlt, daher werden wir diese nächste Stunde fertig implementeieren.
 
 ### Mittwoch, 08.09.2021 <a name="zehn"></a>
 Für heute bleiben von der letzten Stunde noch folgende Aufgaben:
@@ -229,7 +229,7 @@ Die Gravitation hatten wir letzte Stunde schon fast vollständig integriert, wir
 ![Sprung2 0](https://user-images.githubusercontent.com/88385813/144883822-df01bdc7-e4f5-4612-ac39-b83c5472582a.png)
 
 Die Beschleunigung ist nun nicht ganz quadrarisch, fühlt sich aber am besten an.  
-Nun haben wir noch das Fallen des Spielers gestoppt, nachdem er den Boden berührt, dafür haben wir per Farberkkenung des Bodens einen Groundcheck implementiert. Dieser guckt, ob die Spieler Sprite die Frabe Braun des Bodens berührt, falls dies der Fall ist, löst sie den Sprungscript aus, damit der Spieler wieder springen kann und das Fallen wird gestoppt und die Fallgeschwindigkeit wieder zum Startwert resettet:
+Nun haben wir noch das Fallen des Spielers gestoppt, nachdem er den Boden berührt. Dafür haben wir per Farberkennung des Bodens einen Groundcheck implementiert. Dieser guckt, ob die Spieler Sprite die Frabe braun des Bodens berührt. Falls dies der Fall ist, löst sie den Sprungscript aus, damit der Spieler wieder springen kann und das Fallen gestoppt wird. Zudem wird die Fallgeschwindigkeit wieder zum Startwert resettet:
 
 ![Sprung  3 0](https://user-images.githubusercontent.com/88385813/144886212-11ecd20e-e3f2-4760-a628-286c5580f2d4.png)
 
