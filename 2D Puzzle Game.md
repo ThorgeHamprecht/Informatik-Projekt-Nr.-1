@@ -448,8 +448,8 @@ https://user-images.githubusercontent.com/88385813/144719596-adcd7268-4e3b-4b53-
 
 
 
-Das Prinzip hinter der Charakterauswahl ist ähnlich. Durch eine hinterlegte Fläche wird ebenfalls zunächst geprüft, ob die Maus sich auf dem Button befindet. Durch das gleiche Prinziü wie bei "Spiel Starten" werden die Stages entsprechend angepasst.
-Zudem ist der hinterlegte Button unsichtbar und findet nur im Menü Anwendung
+Das Prinzip hinter der Charakterauswahl ist ähnlich. Durch eine hinterlegte Fläche wird ebenfalls zunächst geprüft, ob die Maus sich auf dem Button befindet. Durch das gleiche Prinzip wie bei "Spiel Starten" werden die Stages entsprechend angepasst.
+Zudem ist der hinterlegte Button unsichtbar und findet nur im Menü Anwendung.
 
 Code im Sprite Charakter Wählen:
 
@@ -475,11 +475,11 @@ Hier besteht der Unterschied zum Button Spiel Starten. Währen bei Spiel Starten
 <details>
 <summary>Sprite CharakterWählen - "when I am clicked"</summary>
 <br>
-<img width="318" alt="Bildschirmfoto 2021-11-28 um 13 01 38" src="https://user-images.githubusercontent.com/88385954/143766805-32bb79cf-e71c-4f9d-9cf7-650cc9c9dbef.png">
+<img width="338" alt="Bildschirmfoto 2021-12-06 um 13 09 47" src="https://user-images.githubusercontent.com/88385954/144843687-d179038c-27e4-4393-918c-1bd2de8e3889.png">
 </details>
 
 
-Dann wird die Stage angepasst. Auf dem Bild sind alle drei möglichen Spielfiguren nebeneinander zu sehen.
+Dann wird die Stage angepasst, indem "Blauer Abenteurer" ausgeführt wird. Auf dem Bild sind alle drei möglichen Spielfiguren nebeneinander zu sehen.
 Der Spieler hat die Möglichkeit je nach belieben eine Spielfigur auszuwählen. 
 Zu Beginn ist standartmäßig die blaue Figur ausgewählt.
 
@@ -488,18 +488,35 @@ Zu Beginn ist standartmäßig die blaue Figur ausgewählt.
 <br>
  <img width="220" alt="Bildschirmfoto 2021-11-28 um 13 02 26" src="https://user-images.githubusercontent.com/88385954/143766836-65f64dc3-bf0c-40ed-b4b8-fc8ef82ed825.png">
 <img width="90" alt="Bildschirmfoto 2021-11-28 um 13 06 49" src="https://user-images.githubusercontent.com/88385954/143767004-6bdf3455-92b4-44a0-9cf8-9213cb41000c.png">
- 
-</details>
+ </details>
 
 Nun besteht die Möglichkeit mit den Pfeiltasten die verschiedenen Charaktere auszuwählen.
 Die Folgenden Codes beschreiben dieses Bedienen mit den Pfeiltasten.
 Die Codes laufen dabei alle nach dem selben Prinzip.
 Wenn der rechte Pfeil gedrückt wird, so wird der aktuelle Costume Name geprüft.
 Zu Beginn ist die Stage logischerweise auf "CharakterWählen" eingestellt.
-Wenn nun der rechte Pfeil gedrückt wird, so wird erkannt das die ausgewählte
+Wenn nun der rechte Pfeil gedrückt wird, so wird erkannt das die ausgewählte Stage "CharakterWählen" oder "CharakterWählenZurück" ist. Diese beiden Stages unterscheiden sich lediglich dadurch, dass bei "CharakterWählenZurück" der kleine Pfeil unten links betätigt ist, indem die Maus über diesen fährt. Aus diesem Grund müssen bei allen Codes für die Charakterauswahl mit Pfeiltasten zwei Stages geprüft werden.
+Dann wird der "RoteAbenteurer" ausgeführt. Die rote Spielfigur befindet sich im Charakterwahlmenü rechts neben dem blauen Abenteurer.
 
 
-
+<details>
+<summary>Sprite Stage - "right arrow clicked" </summary>
+<br>
+<img width="363" alt="Bildschirmfoto 2021-12-06 um 13 20 11" src="https://user-images.githubusercontent.com/88385954/144844996-d15cc04b-f508-4161-a497-a138f8efeeea.png">
+<img width="201" alt="Bildschirmfoto 2021-12-06 um 13 24 05" src="https://user-images.githubusercontent.com/88385954/144845515-f633c4c4-d5e9-4cbd-b3c5-67bad313a0a2.png">
+ </details>
+ 
+ Nach diesem Prinzip kann man durch die folgenden Codes alle drei Charaktere beliebig mit den Pfeiltasten ansteuern.
+ 
+<details>
+<summary>Sprite Stage - Charakterauswahl mit Pfeiltasten </summary>
+<br>
+<img width="622" alt="Bildschirmfoto 2021-12-06 um 13 29 47" src="https://user-images.githubusercontent.com/88385954/144846340-d4713c53-168b-4092-8ba3-fb8d1d4e671b.png">
+ </details>
+ 
+ Die entsprechenden Stages dazu:
+ 
+<img width="90" alt="Bildschirmfoto 2021-12-06 um 13 31 02" src="https://user-images.githubusercontent.com/88385954/144846485-cbdd8ec0-4567-47ee-8856-3f47b2c3ffaf.png">
 
 **3. Anleitung
 
@@ -604,8 +621,6 @@ PDF für alle Menüelemente
   
   
   
- <img width="1366" alt="Bildschirmfoto 2021-12-06 um 11 22 33" src="https://user-images.githubusercontent.com/88385954/144829576-cb22bf68-6658-4491-b46a-adbfb2ae62b0.png">
-
 
 
 
