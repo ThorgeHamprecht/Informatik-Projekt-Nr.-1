@@ -236,8 +236,7 @@ Nun haben wir noch das Fallen des Spielers gestoppt, nachdem er den Boden berüh
 ### Dienstag, 14.09.2021 <a name="Ausfall1"></a>
 Da die Stunden leider ausfiel haben wir Zuhasue weitere Hintergünde designed und bei Snap! eigefügt, es gibt jetzt zwei weitere Hintergründe, diese müssen allerdings noch begehbar gemacht werden, der Spieler kann bis jetzt noch nicht zwischen den "Stages", also den Hintergründen, wechseln:
 
-<img src="https://user-images.githubusercontent.com/88385813/144886868-486b8f5b-f743-4509-a676-e5d02ab053e7.png" alt="Stage1" width="30%" height="30%">
-<img src="https://user-images.githubusercontent.com/88385813/144886874-15f83cc0-32d2-48ab-bb30-fa5136a3981a.png" alt="Stage2" width="30%" height="30%">
+<img src="https://user-images.githubusercontent.com/88385813/144886868-486b8f5b-f743-4509-a676-e5d02ab053e7.png" alt="Stage1" width="30%" height="30%"> <img src="https://user-images.githubusercontent.com/88385813/144886874-15f83cc0-32d2-48ab-bb30-fa5136a3981a.png" alt="Stage2" width="30%" height="30%">
 
 
 
