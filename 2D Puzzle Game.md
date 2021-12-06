@@ -2,36 +2,20 @@
 ## Links
 
 1. [Blog](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1)
-2. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
+2. [Das Setup](#Setup)
+3. [Erklärung des Codes](#Erklärung)
+5. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
-<h1>Inhaltsverzeichnis</h1>
 
-1. Spielkonzept
-2. Erklärung des Codes
-2.1
-2.2
-2.3
-2.4
-2.5
-2.6
-2.7
-2.8
-2.9
-2.10
-Zeit läuft ab rotes faden
-Schaden, Speer erklären mit Foto
-Tor erklären
-Ziel und game over, fade objekt
-Musikmanager
-
-## Über Snap!
 
 <h1>1. Spielkonzept</h1>
-Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätseln" und durch das Bewältigen von Platform-Passagen zu erreichen.
+Bei unserem Spiel handelt es sich um ein 2D Adventure Spiel mit Puzzle und Plattform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätseln" und durch das Bewältigen von Platform-Passagen zu erreichen bevor die zeit abläuft. Dabei muss er versuchen nicht an den diversen Fallen im Spiel zu sterben, um siegreich aus dem Spiel hervorzugehen.
+
+Hier einmal ein Video des gesamten Spiels mit allen seinen Funktionen:
 
 https://user-images.githubusercontent.com/88385813/144759791-de17a98b-73cd-49a5-bfcf-f4a6e968e209.mp4
 
-<h3>1.1 Das Setup</h3>
+<h3>1.1 Das Setup</h3> <a name="Setup"></a>
 
 Bevor das Spiel startet, hat der Spieler die Möglichekit, sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
 Anschließend hat der Spieler die Möglichkeit sich über den Button "Charakter Wählen" eine beliebige Spielfigur auszusuchen.
@@ -58,7 +42,7 @@ Des Weiteren ist die Zeit, in der man das Level schaffen muss begrenzt. Der Spie
 Mit diesem Spielkonzept war unsere Absicht ein spannendes, kreatives und reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
 
 
-<h1>Erklärung des Codes</h1>
+<h1>Erklärung des Codes</h1> <a name="Erklärung"></a>
 
 <h1>2.1 Grundeinstellungen für die Spielfigur </h1>
 
