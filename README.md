@@ -521,37 +521,5 @@ Abschließend lässt sich festhalten , dass wir sehr zufrieden mit unserem Proje
 2. [Sprite - Schlüssel](http://pixelartmaker.com/art/701d599ee087f38)
 3. [Sprite - Tor](https://www.deviantart.com/nicnubill/art/castle-Gate-428853290)
 
-<html>
-  <head>
-    <title>Der Titel des Dokuments</title>
-    <style>
-      .header {
-        height: 40px;
-        padding: 20px 20px 0;
-        background: #e1e1e1;
-      }
-      .main-content {
-        height: 60vh;
-        padding: 20px;
-      }
-      footer {
-        padding: 10px 20px;
-        background: #666;
-        color: white;
-      }
-      a {
-        color: #00aaff;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="header">Überschrift / Menü</div>
-    <div class="main-content">
-      <h1>Hauptinhalt</h1>
-      <p>Das ist ein Absatz. </p>
-    </div>
-    <footer>
-      <p>Gesellschaft © W3docs. Alle Rechte vorbehalten.</p>
-    </footer>
-  </body>
-</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<p style="text-align:center;">Blog-Seite - Projekt von Jannik und Thorge</p>
