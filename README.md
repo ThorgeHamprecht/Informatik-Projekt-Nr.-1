@@ -445,6 +445,8 @@ Speer, der später losfliegt:
 
 ![Screenshot 2021-12-06 214730](https://user-images.githubusercontent.com/88385813/144920135-122ea314-58f1-47e3-8263-aebfeedb2963.png)
 
+Generell war uns in den letzten Stunden wichtig dem Spiel zu mindest in gewissem Maße eine Schwierigkeit zu verleihen. Das ist uns durch diverse Änderung an der Lava und auch den Speeren unserer Meinung gelungen.
+
 ### Mittwoch, 1.12.2021 <a name="dreißig"></a>
 Jannik war leider heute krank, da wir aber schon seit der letzten Stunde nur noch an Fehlerbehebungen im Code und hauptsächlich der Dokumentierung auf der Projektseite gearbeitet hatten und das Snap! Projekt eigentlich fertig war, arbeitete Thorge an den Fehlerbehebungen und der Codeerklärung weiter. 
 
