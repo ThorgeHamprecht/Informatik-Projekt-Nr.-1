@@ -103,7 +103,7 @@ Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf 
 
 <h3> Die Sprungeigenschaft der Spielfigur</h3>
 
-Sobald das Spiel gestartet wird, werden folgende **Variablen** definiert, die für den Sprung der Spielfigur wichtig sind:
+Sobald das Spiel gestartet wird, werden folgende Variablen definiert, die für den Sprung der Spielfigur wichtig sind:
 
 <details>
 <summary>Sprite Spieler - "when I recive "BerühreBoden"" </summary>
@@ -117,7 +117,7 @@ Zunächst wird mit dem ersten Codeblock sobald das Spiel gestartet wird geprüft
  <details>
 <summary><b>Erklärung Sprite Bodenhitbox</b></summary>
 <br>
-  Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
+  <font color = yellow> Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
 Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat.
 
  
@@ -129,10 +129,8 @@ Des Weiteren ist der "ghost effect" 100. Somit ist die grüne Linie nicht zu seh
 Zudem soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies ist mit den folgenden Codes eingestellt. X (Wieso bei Game-Over?)
   
 
-<img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png">
+<img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png"> </font>
 </details>
-
-<hr>
 
 
 Wenn diese Bedingung zutrifft, wenn also zutrifft, dass die Spielfigur die unsichtbare, grüne Linie berührt wird der Spieler auf die Y-Achse -60 gestellt und die Variable "BerührtBoden" = 1 gesetzt.
