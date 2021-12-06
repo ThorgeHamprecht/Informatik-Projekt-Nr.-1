@@ -34,6 +34,7 @@ Das Ziel des Spiels ist es, das Level zu schaffen.
 Dafür muss der Spieler es schaffen die Fahne am Ende des Spiels zu erreichen. Wie der Spieler seine Spielfigur dort hinsteuert, muss er selbst herrausfinden.
 Auf dem Weg zum Schaffen des Levels erwarten den Spieler viele Herrausfoderungen. 
 Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor zu öffnen. Zudem muss der Spieler es schaffen, dass seine Spielfigur nicht in die Lava tritt und nicht von den Speeren getroffen wird.
+Des Weiteren ist die Zeit, in der man das Level schaffen muss begrenzt. Der Spieler hat 60 Sekunden Zeit!
 
 Mit diesem Spielkonzept war unsere Absicht ein spannendes, kreatives und reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
 
@@ -255,7 +256,25 @@ Mit dem fogenden Code haben wir die Grundlage für den Lebensverlust schaffen. D
 Dieser Schaden wird außerdem durch einen von uns erstelltem Sound unterstützt. Mit der Anweisung "set volume to 100%" und "play sound schaden" haben wir diese Anweisung in Code umgesetzt. 
 Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirken, dass nicht dauerhaft ein Leben abgezogen wird, sondern nur wenn die Spielfigur sich auf dem "Sprite" Lava befindet. Somit kann der Spieler die Figur beim erreichen der Lava auch wieder herausbewegen, um weiteren Schaden zu verhindern. Wenn sich der Spieler jedoch auch nach 0,65 Sekunden immer noch auf der Lava befindet wird dieser Code erneut ausgeführt.
 
-HIER NOCH CODEBESCHREIBUNG LAVA
+ <details>
+<summary>Sprite Spieler - "when touching Sprite" </summary>
+<br>
+<img width="187" alt="Bildschirmfoto 2021-11-27 um 18 46 43" src="https://user-images.githubusercontent.com/88385954/143691508-09cc8e46-42e7-4b20-92eb-084805ea0579.png">
+</details>
+ 
+Die Lava selbst ist nur in Stage 0 zu sehen und sie ist immer aktiv.
+ 
+ <details>
+<summary>Sprite Lava - "when I receive menu"</summary>
+<br>
+  <img width="198" alt="Bildschirmfoto 2021-12-06 um 20 14 26" src="https://user-images.githubusercontent.com/88385954/144907751-d824259c-f5d4-4d5d-8003-dd2716e0e9c7.png">
+</details>
+
+ Eine weitere Möglichkeit um Schaden zu kassieren stellen die Speere da.
+
+ Hier Beschreibung Speere XX
+ 
+ 
  
 ![HerzenUndSchaden](https://user-images.githubusercontent.com/88385813/144721089-f77e5e48-34ad-4ea9-ae2c-d65b1ae354b9.gif)
 
@@ -269,15 +288,6 @@ Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Laserstrahlen in
 
 
 
-
-
-
-
-<details>
-<summary>Sprite Spieler - "when touching Sprite" </summary>
-<br>
-<img width="187" alt="Bildschirmfoto 2021-11-27 um 18 46 43" src="https://user-images.githubusercontent.com/88385954/143691508-09cc8e46-42e7-4b20-92eb-084805ea0579.png">
-</details>
 
 <h2> 2.3 Wechsel der Spielfigur zwischen den Stages </h2>
 
@@ -646,96 +656,55 @@ Der Code für den linken Pfeil:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Sprite Stage**
-
-Dieses Sprite ist dafür da, das Menü unseren Spieles zu programmieren. Mit diesem Sprite gehen viele weitere Einstellungen einher. Zunächst bewirkt der folgende Code, dass immer dann, wenn das Spiel gestartet wird und eine beliebige Taste auf der Tastatur gedrückt wird folgender Befehl ausgeführt wird.
-
-Wenn das Spiel gestartet wird, dann wird das Costume zum "title screen" geändert. 
-Der zweite Code codiert für den Costumewechsel, wenn das Menü verlassen wird. Wenn der Spielende auf den Button "Spiel Starten" clickt, dann wird er zu "Level 1, Stage 0" weitergeleitet.
-
-![VsStudio](images/whenFahneclickedMenü.png)
-
-Wenn der Name des Costume der Stage = "title screen" ist, wird
-
-![VsStudio](images/SpriteStagewhenanykeypressed.png)
-
-ausgeführt.
-
-Die Folgenden Codes beschreiben immer den Wechsel der Costumes, wenn verschiedene "Buttons" von den Spielenden ausgewählt werden. 
-Es werden damit im Folgenden sowohl die Wechsel der Costumes im Menü, als auch die Wechsel in den Leveln beschrieben bzw. codiert.
-
-![VsStudio](images/SpriteStagewhenireceive1.png)
-![VsStudio](images/SpriteStagewhenireceive2.png)
-
-Die folgenden Codes codieren für die Charakterauswahl mit Pfeiltasten. Wir werden nun exemplarisch einen dieser Codes vorstellen, weil alle anderen auf dem gleichen Prinzip beruhen. 
-Wenn der rechte Pfeil gedrückt wird und der Costumename des Charakters gleich dem Charakter 3 ist, dann wird der erste Charakter ausgewählt. Die Nummerireung ist unterschiedlich in der Stage und mit den Charakteren, sollte jedoch nicht verwirren.
-Wir wollen damit unter dem Oberbegriff "Charakter Auswählen" die Chakterauswahl darstellen. Somit hat der Sielende die Auswahl, mit welchem Charakter er das Spiel spielen möchte. Es gibt dabei drei Charaktere zur Auswahl. Der grüne Charakterm, der rote und der schwarze.
-
-![VsStudio](images/Charakterauswählenmenü.png)
-
-Die in dem Menü aufgezeigten Hintergründe haben wir mit Power-Point designed. Anbei einen Link für die Powerpoint, die wir bei One-Drive hochgeladen haben.
-Die einzelnen Spieler haben wir mit dem Programm Piskel designed. 
-Bei dem erstellen der Power-Point Folien haben wir darauf geachtet, dass wir bei jedem Klick ein neues Bild brauchen.
-
-
-**Stage Gate**
-
-Mit dieser Stage wollen wir erreichen, dass beim Spielen in der ersten Stage ein Tor erscheint. 
-Dies stellt ein Hinderniss da, womit wir den Spielenden zum nachdenken anregen wollen.
-Um das Level zu beenden muss der Spieler durch das Tor durchgehen. Zu Beginn des Levels ist dieses Tor jedoch geschlossen und man braucht einen Schlüssel. Um diesen Schlüssel zu erreichen muss man in die Stage -1 und mit der Taste F den Schlüssel einsammeln und ihn anschließend vor dem Tor einlösen.
-
-Mit dem Folgenden Code wird erreicht, das mit Spielstart das Costume zu "Tor" gewechselt wird. Der Spieler soll, wenn er an dem Tor vorbeiläuft, im Vordergrund zu sehen sein. Deshalb muss das Tor im Hintergrund erscheinen. Dies haben wir mit dem Code "go to back layer" eingestellt. 
-Die Größe des Tores entspricht 150% der Originalgröße. Dies wird mit dem Code "set size to 150%" eingestellt.
-Allerdings soll es, weil zu Beginn das Menü angezeigt wird, nicht bei dem ersten Drücken einer Taste erscheinen. Deshalb ist zunächst der Befehl "hide" eingefügt.
-In diesem Code-Block ist der letzte Befehl, dass das Tor zu 0% geöffnet ist. Logischerweise soll es nämlich zu Beginn geschlossen sein, damit zunächst der Schlüssel zum Öffnen gesucht werden muss.
-
-![VsStudio](images/GatewhenFahneclicked.png)
-
-Durch die beiden folgenden Codes wird eingestellt, dass das Tor nicht auf allen Stages gezeigt wird. Es soll nur in einer bestimmten Stage eingestellt werden. Deshalb wird hiermit dafür gesorgt, dass es sowohl in Stage 0 und in Stage 2 nicht gezeigt wird.
-
-![VsStudio](images/GATEWHENIRECEIVEDIEANDERENSTAGES.png)
-
-![VsStudio](images/gatewhenrouchingspieler.png)
-
-![VsStudio](images/gatewhenIrecivelevel1stage1.png)
-
-![VsStudio](images/gatewhennottouchingspieler.png)
-
-![VsStudio]gateiffkeypressed.png
-
-
-
-Bei den Costumes haben wir in der INternetseite Piskel die verschiedenen Stufen des Tores erstellt. Es soll so aussehen, als ob sich das Tor beim Drücken der Taste f fließend öffnet. Diese haben wir dann auch benannt und codiert, wie oben erklärt.
-
-PDF für alle Menüelemente
-<BODY>
-  <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/PDF-Dokument/PDF.gif">
-</BODY>
-
  
-![VsStudio](images/MusikimSpiel.png)
+ <h1>2.5 Das Rätsel des geschlossenen Tores </h1>
+
+Ein wichtiges Element unseres Spiels ist das verschlossene Tor, welches geöffnet werden muss, um dass Level zu schaffen.
+
+<h1>2.6 Der Hintergrund </h1>
+ 
+Damit das Spiel für den Spieler ansprechend aussieht, haben wir einen Hintergrund kreiert, welcher nicht nur still dasteht, sondern teilweise auch beweglich ist.
+Die Wolken bewegen sich im Hintergrund.
+Die erste Wolke soll immer dann zu sehen sein, wenn das Spiel gestartet wird. Sonst ist sie nicht sichtbar. 
+Wenn das Spiel gestartet wird, dann wird zunächst die größe und die Position wie gewohnt festgelegt. Die Wolke befindet sich dabei im Hintergrund.
+Zudem soll die Wolke jedoch beweglich sein. Dies wird durch das Bewegen "forever" erreicht.
+Die Wolke bewegt sich dabei nur in X-Richtung. GESCHWINDIGKEIT
+
+<details>
+<summary>Sprite Wolke</summary>
+<br>
+ <img width="228" alt="Bildschirmfoto 2021-12-06 um 20 39 52" src="https://user-images.githubusercontent.com/88385954/144911228-b295e8b0-e12e-4733-8d24-47704aaa5e9b.png">
+</details>
+
+Die zweite und die dritte Wolke funktioniert nach dem gleichen Prinzip. Der Unterschied liegt in der Geschwindigkeit der Wolkenbewegung und in der generellen Position im Hintergrund.
+
+ <details>
+<summary>Sprite Wolke 2</summary>
+<br>
+  <img width="253" alt="Bildschirmfoto 2021-12-06 um 20 41 46" src="https://user-images.githubusercontent.com/88385954/144911488-a3d61558-d651-4150-8dcb-acbd1c6ca7aa.png">
+</details>
+
+ <details>
+<summary>Sprite Wolke 3</summary>
+<br>
+  <img width="357" alt="Bildschirmfoto 2021-12-06 um 20 42 20" src="https://user-images.githubusercontent.com/88385954/144911565-d212c750-c32e-4ced-b8ff-5743ba3bd867.png">
+</details>
+
+Im Hintergrund verändern sich zudem die Bilder der Steine.
+ 
+<h1>2.7 Die Zeit </h1>
   
+<h1>2.8 Das Loch </h1>
+ 
+<h1>2.9 Ziel/Game Over </h1>
+ 
+<h1>2.10 Musik </h1>
+ 
+
+  3
+- erstellen Costumes
+ - erstellen der PP folien
+
   
   
 
