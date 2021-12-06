@@ -1,7 +1,7 @@
 # 2D Puzzle Game
 ## Links
 
-1. [Projektseite](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/2D%20Puzzle%20Game.md)
+1. [Blog](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1)
 2. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
 <h1>Inhaltsverzeichnis</h1>
@@ -698,8 +698,9 @@ Auch die anderen Stücke werden nach diesem Prinzip abgespielt, haben jedoch abe
  
  <h1>2.5 Das Rätsel des geschlossenen Tores </h1>
 
-Ein wichtiges Element unseres Spiels ist das verschlossene Tor, welches geöffnet werden muss, um dass Level zu schaffen.
-
+Ein wichtiges Element unseres Spiels ist das verschlossene Tor, welches geöffnet werden muss, um dass Level zu schaffen. Dafür muss zunächst ein Schlüssel eingesammelt werden. 
+Der Schlüssel kann eingesammlet werden, sobald der Spieler ihn berührt und sich auf der Stage befindet, auf der der Schlüssel angezeigt wird. Auch hier funktioniert das korrekte 
+Anzeigen über die Szenenasuwahl und das verstecken des Objekts beim Wechseln zu anderen Stages.
 <h1>2.6 Der Hintergrund </h1>
  
 Damit das Spiel für den Spieler ansprechend aussieht, haben wir einen Hintergrund kreiert, welcher nicht nur still dasteht, sondern teilweise auch beweglich ist.
