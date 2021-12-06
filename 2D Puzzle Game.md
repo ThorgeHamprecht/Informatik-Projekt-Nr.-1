@@ -67,7 +67,7 @@ Zudem wird sie nun logischerweise gezeigt.
   <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/GIFS/SpielerMovementGIF.gif">
 </BODY>
 
- <h3> Horizontale Bewegung der Spielfigur </h3>
+ <h2> Horizontale Bewegung der Spielfigur </h2>
 
 
 Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit 10.
@@ -101,7 +101,7 @@ Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf 
 <img width="331" alt="Bildschirmfoto 2021-11-27 um 17 37 47" src="https://user-images.githubusercontent.com/88385954/143689535-51b77eed-a0be-4431-a248-d7611ba95315.png">
 </details>
 
-<h3> Die Sprungeigenschaft der Spielfigur</h3>
+<h2> Die Sprungeigenschaft der Spielfigur</h2>
 
 Sobald das Spiel gestartet wird, werden folgende Variablen definiert, die für den Sprung der Spielfigur wichtig sind:
 
@@ -130,8 +130,9 @@ Zudem soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies 
   
 
 <img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png"> </mark>
-</details>
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+</details>
 
 Wenn diese Bedingung zutrifft, wenn also zutrifft, dass die Spielfigur die unsichtbare, grüne Linie berührt wird der Spieler auf die Y-Achse -60 gestellt und die Variable "BerührtBoden" = 1 gesetzt.
 Zudem wird "BerühreBoden" ausgeführt.
@@ -169,7 +170,7 @@ Dadurch erhöhrt sich die Fallgeschwindigkeit je länger sich die Spielfigur im 
  
  ![BodenHitbox](https://user-images.githubusercontent.com/88385813/144720885-bff496aa-9340-4474-9f1b-0ee18f2dc0c9.gif)
 
-### 2.2 Lebensverlust der Spielfigur 
+ <h1> 2.2 Lebensverlust der Spielfigur </h1>
 
 Im Folgenden wird das Prinzip des Lebensverlustes und des Erhaltens von Schaden beschrieben.
 In unserem Spiel hat die Spielfigur drei Leben. Sind diese Leben verbraucht, so hat der Spieler verloren.
@@ -277,8 +278,7 @@ Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Laserstrahlen in
 <img width="187" alt="Bildschirmfoto 2021-11-27 um 18 46 43" src="https://user-images.githubusercontent.com/88385954/143691508-09cc8e46-42e7-4b20-92eb-084805ea0579.png">
 </details>
 
-
-### Wechsel der Spielfigur zwischen den Stages
+<h2> Wechsel der Spielfigur zwischen den Stages </h2>
 
 Im Folgenden wird beschrieben, wie der Hintergrund, also die Stages wechseln, wenn die Spielfigur die Ränder der jeweiligen Stages erreicht.
 Die Hauptschwierigkeit besteht darin, dass die Spielfigur, wenn sie beispielsweise am linken Rand das Bild verlässt, anschließend am rechten Rand der nächsten Stage erscheinen muss.
@@ -334,8 +334,9 @@ Der zweite Befehl wird ausgeführt, indem sich die Position der Spielfigur ände
 Bei dem rechten Rand ist der Code ähnlich aufgebaut.
 Auch hier wird zunächst geprüft in welcher Stage sich die Spielfigur befindet.
 Anschließend wird:
+ 
+ <h4> 1. Der Befehl für den Stagewechsel ausgegeben</h4>
 
-*1. Der Befehl für den Stagewechsel ausgegeben
 Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
 
 <details>
@@ -351,7 +352,7 @@ Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
  <img width="227" alt="Bildschirmfoto 2021-11-28 um 11 36 26" src="https://user-images.githubusercontent.com/88385954/143764403-49a6dc91-05c2-4fa4-821f-3d0f731f54ca.png">
 </details>
 
-*2. Der Befehl für die neue Position der Spielerfigur wird ausgegeben
+ <h4> 2. Der Befehl für die neue Position der Spielfigur wird ausgegeben </h4>
 
 <details>
 <summary>Sprite Spieler - "when I receive SpielerRechtsAmRand" </summary>
@@ -361,7 +362,7 @@ Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
 
 
 
-#### Das Startmenü
+<h2> Das Startmenü </h2>
 
 Wenn man das Spiel öffnet, so startet nicht direkt das Spiel. Der Spieler findet sich zunächst in dem TitleScreen wieder. 
 Es wird aus diesem Grund geprüft, ob der Costume Name der Stage = TitleScreen ist. Wenn dies der Fall ist, so kann der Spieler eine beliebige Taste auf der Tastatur drücken. 
@@ -377,7 +378,8 @@ Dabei wird auch die Variable "SpielerBewegung"= 1 gesetzt.
 
 In diesem Menü lassen sich drei verschiedene Button clicken:
 
-**1. Spiel Starten
+
+ <h2> Spiel Starten </h2>
 
 Zunächst wird der Button SpielStartet betrachtet.
 Damit das Menü wie gewünscht funktioniert, haben wir uns folgendes überlegt.
@@ -442,13 +444,9 @@ Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gew
 
  
  
- #####Charakter Wählen
+<h2> Charakter Wählen </h2>
  
- 
-
-https://user-images.githubusercontent.com/88385813/144719596-adcd7268-4e3b-4b53-bfeb-bcb51c721c39.mp4
-
-
+ https://user-images.githubusercontent.com/88385813/144719596-adcd7268-4e3b-4b53-bfeb-bcb51c721c39.mp4
 
 Das Prinzip hinter der Charakterauswahl ist ähnlich. Durch eine hinterlegte Fläche wird ebenfalls zunächst geprüft, ob die Maus sich auf dem Button befindet. Durch das gleiche Prinzip wie bei "Spiel Starten" werden die Stages entsprechend angepasst.
 Zudem ist der hinterlegte Button unsichtbar und findet nur im Menü Anwendung.
@@ -535,7 +533,7 @@ Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist
 
  <img width="394" alt="Bildschirmfoto 2021-12-06 um 14 59 29" src="https://user-images.githubusercontent.com/88385954/144859017-aea1c1e7-076e-42ea-b929-d9007abf1779.png">
  
-CHARAKTERWAHL MIT MAUSKLICK
+<h3> Charakterwahl mit Mausklick </h3>
  
  Zudem besteht die Möglichkeit, den Charakter per Maus zu wählen. Auch hier ist hinter den Spielfiguren eine unsichtbare Fläche hinterlegt, welche das Klicken wahrnehmen. Diese Fläche ist genau dann aktiv, wenn das Charaktermenü geöffnet wird. 
  
