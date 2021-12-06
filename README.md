@@ -413,23 +413,35 @@ Der neue Manager funktioniert nun viel besser und kann leicht erweitert werden, 
 
 ### Dienstag, 26.10.2021 <a name="zwanzig"></a>
 
+Einfügen von hintergrundobjekten nur auf bestimmten stages
+und wolken, die sich bewegen
+=> alles soll lebendiger sein
+
+
 ### Mittwoch, 27.10.2021 <a name="einundzwanzig"></a>
 
-### Dienstag, 2.11.2021 <a name="zweiundzwanzig"></a>
+Überlegung Musik Stücke, warum wollen wir musik , welche Stücke soll es geben
 
+laser Idee erste umsetzunbg
+
+### Dienstag, 2.11.2021 <a name="zweiundzwanzig"></a>
+einfügen von game over screen, nach menü prinzip
+higlight schnelle rückkehr zum spiel 
+auch victory screen
+=> spiel soll endlich durchzuspielen sein
 ### Mittwoch, 3.11.2021 <a name="dreiundzwanzig"></a>
 
 ### Dienstag, 9.11.2021 <a name="Ausfall4"></a>
 Diese Stunde fiel leider aufgrund einer Klausur aus. Mit den anstehenden Klausuren im Kopf haben wir Zuhause diesmal nicht an unserem Projekt gearbeitet, sondern die Zeit zur Vorbereitung genutzt.
 
 ### Mittwoch, 10.11.2021 <a name="vierundzwanzig"></a>
-
+Einfügen der Musik, Problem mit Loop und speicherplatz in Snap!
 ### Dienstag, 16.11.2021 <a name="füfnundzwanzig"></a>
-
+Schlüssel und Tor, Gedanke an Rätsel
 ### Mittwoch, 17.11.2021 <a name="sechsundzwanzig"></a>
-
+Timer, Spieler soll versuchen eine bessere zeit bei jedem versuch zu bekommen und Laser aufgrund von Hit Erkennungsproblemen durch speere ersetzten, (außerdem passen Speere besser zum Thema)
 ### Dienstag, 23.11.2021 <a name="siebenundzwanzig"></a>
-
+zuletzt Anleitungseiten anfertigen, Spieltesten mit anderen leuten, ist das Spiel für jemanden framden schlüssig, gibt es bugs (zuhause)
 ### Mittwoch, 24.11.2021 <a name="achtundzwanzig"></a>
 
 ### Dienstag, 30.11.2021 <a name="neunundzwanzig"></a>
