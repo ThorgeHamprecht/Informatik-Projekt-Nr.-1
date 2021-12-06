@@ -523,3 +523,11 @@ Abschließend lässt sich festhalten , dass wir sehr zufrieden mit unserem Proje
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <p style="text-align:center;">Blog-Seite - Projekt von Jannik und Thorge</p>
+<head>
+      <title>HTML Document</title>
+   </head>
+
+   <body>
+      <h1>Tutorial</h1>
+      <p style="text-align:center;">Learn for free</p>
+   </body>
