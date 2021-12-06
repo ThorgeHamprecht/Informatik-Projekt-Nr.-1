@@ -288,25 +288,33 @@ Die Lava selbst ist nur in Stage 0 zu sehen und sie ist immer aktiv.
 <br>
   <img width="198" alt="Bildschirmfoto 2021-12-06 um 20 14 26" src="https://user-images.githubusercontent.com/88385954/144907751-d824259c-f5d4-4d5d-8003-dd2716e0e9c7.png">
 </details>
-
- Eine weitere Möglichkeit um Schaden zu kassieren stellen die Speere da.
-
- Hier Beschreibung Speere XX
  
+ ![HerzenUndSchaden](https://user-images.githubusercontent.com/88385813/144721089-f77e5e48-34ad-4ea9-ae2c-d65b1ae354b9.gif)
+
+Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Speeren in Berührung kommt. Dabei ist zunächst wichtig, dass der Speer nur Schaden verursachen soll, während er fällt. Da das fallen mithilfe der "glide" Funktion stattfindet, kann einfach am anfang und Ende der Funktion eine Vraiable verändert werden. Es handelt sich hierbei um die Variable "Speerunterwegs" hat diese den Wert 1, so ist der Speer unterwegs, der Speieler soll nun also bei Berührung Schaden erhalten können
  
+![Screenshot 2021-12-06 221036](https://user-images.githubusercontent.com/88385813/144925284-64500692-e03c-4005-a14d-9d19aca6fad1.png)
  
-![HerzenUndSchaden](https://user-images.githubusercontent.com/88385813/144721089-f77e5e48-34ad-4ea9-ae2c-d65b1ae354b9.gif)
-
-
-
-
-
-Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Laserstrahlen in Berührung kommt. Dabei wird zunächst XXXXXX
+Wenn der Spieler jetzt den Speer berührt und die Variable "SpeerUnterwegs" den Wert 1 hat bekommt der Speieler einen Schaden. Dafür wird wie zuvor bei der "Lava" Schaden gebroadcastet und das Script der herzen aktiviert. Der einzige Unterschied ist hierbei, dass der Speer im Gegensatz zu der Lava ein ganzes leben abzieht, deshalb wird die Variable "Leben" zu Anfang um 1 verringert:
  
+![Screenshot 2021-12-06 221023](https://user-images.githubusercontent.com/88385813/144925757-8d5a85fd-b6f4-41e3-ad00-cb9ce95e64da.png)
+ 
+Des weiteren wird mit dem Broadcast "SpeerSchaden" der passende Sound im Spielerobjekt abgespielt:
+ 
+![Screenshot 2021-12-06 223243](https://user-images.githubusercontent.com/88385813/144926017-c7699838-4960-4311-b5e7-82a2210edaa6.png)
+
+Auch der Speer erscheint natürlich nur in der dafür vorgesehenen Stage der Code dafür sieht folgendermaßen aus und funktioniert wie im fplgenden bei der Stageauswahl erklärt:
+ 
+![Screenshot 2021-12-06 223553](https://user-images.githubusercontent.com/88385813/144926449-e57b5c78-7918-49ed-8f0d-4213ca0b0116.png)
+
+Dieser eine Speer wurde einfach dupliziert und die Variablen zur Bestimmung der Startposition der "glide" Funktion geändert, so dass am ende mehrere Speere nebeneiannder sind. Zuletzt wird jedem 2. Speer noch eine Sekunde Verzögerung vor dem Ausführen der "glide" Funktion durch die "wait" Funktion gegeben, so dass die Speere in zwei Wellen fallen.
+ 
+![Screenshot 2021-12-06 214730](https://user-images.githubusercontent.com/88385813/144927166-a54eca51-2399-47d0-b4a1-43934edde769.png)
+![Screenshot 2021-12-06 214818](https://user-images.githubusercontent.com/88385813/144927186-a43a9328-b34d-4816-9043-182480c9b148.png)
+
+ Hier nun einmal die Speere in Aktion:
+
 ![HerzenUndSchaden - Speer](https://user-images.githubusercontent.com/88385813/144721271-7ddaa1a5-7132-497a-99cd-d8731c8134a9.gif)
-
-
-
 
 <h2> 2.3 Wechsel der Spielfigur zwischen den Stages </h2>
 
