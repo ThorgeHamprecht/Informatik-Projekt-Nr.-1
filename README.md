@@ -375,15 +375,6 @@ Schlussendlich haben wir die Idee wieder verworfen, da die Lava permanent aktiv 
 
 ### Mittwoch, 1.12.2021 <a name="dreißig"></a>
 
-
-
-PDF für alle Menüelemente
-<BODY>
-  <IMG SRC="https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1/blob/main/PDF-Dokument/PDF.gif">
-</BODY>
-
-
-
 ## 🔧Arbeitsmethoden<a name="Methoden"></a>
 
 ### 🎨Sprite Erstellung<a name="MethodenSprite"></a>
@@ -520,9 +511,15 @@ Das Snap! Projekt ist am Ende unserer Vorstellung entsprechend geworden. Natürl
 Abschließend lässt sich festhalten , dass wir sehr zufrieden mit unserem Projekt sind. Für unser nächstes Projekt wollen wir allerdings nicht mit Snap! arbeiten, um erstens etwas neues kennenzulernen und zweitens nicht nocheimal mit den Limitationen von Snap! arbeiten zu müssen. Wir freuen uns daher schon auf unser zweites projekt und hoffen, dass wir wieder so viel lernen und so viel Spaß haben wie dieses Mal. 
 
 ## ℹ️Quellen<a name="Quellen"></a>
-
-
-
-
-
-
+### Quellen für GitHub
+1. [Markdown - Befehlübersicht](https://markdown.de/)
+2. [HTML - Basics](https://www.w3schools.com/html/html_basic.asp)
+3. [HTML - Tabellen](https://wiki.selfhtml.org/wiki/HTML/Tabellen/Aufbau_einer_Tabelle)
+4. [HTML - Dropdowns](https://wiki.selfhtml.org/wiki/HTML/Tutorials/Navigation/Dropdown-Men%C3%BC)
+### Quellen für Sprites
+1. [Sprite - Steine](https://www.artstation.com/artwork/8eLdrE)
+2. [Sprite - Schlüssel](http://pixelartmaker.com/art/701d599ee087f38)
+3. [Sprite - Tor](https://www.deviantart.com/nicnubill/art/castle-Gate-428853290)
+<footer>
+  Hier ein paar Copyright Informationen oder stattdessen Informationen über den &lt;Artikel&gt;?
+</footer>
