@@ -476,12 +476,39 @@ CODE
 
 
 ### Dienstag, 16.11.2021 <a name="füfnundzwanzig"></a>
-Schlüssel und Tor, Gedanke an Rätsel
+Eine der Grundideen unseres Spiels war es Rätsel zu erstellen. Dafür haben wir uns heute überlegt, ein Tor zu erstellen, welches bei Spielstart geschlossen ist. Der Spieler soll zunächst einen Schlüssel finden müssen, damit er das Tor öffnen kann.
+Wir haben hierfür bereits mit Piskel das Tor (mit den verschiedenen Öffnungen) und den Schlüssel erstellt und bei Snap eingefügt.
+Wir haben bereits damit begonnen, den entsprechenden Code zu erstellen. Hiermit sind wir jedoch noch nicht ganz fertig geworden.
+
+Zuhause haben wir weiter an dem Tor gearbeitet. Dabei ist es uns gelungen, das Rätsel fertig zu programmieren.
+Zudem haben wir uns mit dem Erstellen der Musik im Game-Over-Screen und im Victory-Screen beschäftigt.
+Dafür haben wir ebenfalls zunächst Akkorde mit dem Quintenzirkel gesammelt und diese bei Garageband eingefügt. Wir haben dabei erkannt das wir die Win-Musik in Dur und die GAme-Over Musik in Moll komponieren wollen.
+Bei dem Komponieren haben wir verschiedene Instrumente ausprobiert.
+
 ### Mittwoch, 17.11.2021 <a name="sechsundzwanzig"></a>
-Timer, Spieler soll versuchen eine bessere zeit bei jedem versuch zu bekommen und Laser aufgrund von Hit Erkennungsproblemen durch speere ersetzten, (außerdem passen Speere besser zum Thema)
+Heute haben wir uns mit der Zeit beschäftigt. Der Spieler soll nur eine bestimmte Zeit zur Verfügung haben, um das Spiel zu lösen. 
+Dafür haben wir mit Piskel verschiedene Ziffern von 0 bis 9 erstellt und sie in Snap hochgeladen. Anschließend haben wir mit dem Codieren begonnen.
+Es hat sich das Problem ergeben, dass die zweite und dritte Ziffer nicht zur selben Zeit umgesprungen sind.
+Dafür haben wir folgendes am Code verändert:
+
+CODE
+
+Zudem sind wir zu dem Entschluss gekommen, dass Laserstrahlen nicht zu gut zu unserem Thema passen. Wir haben uns entschlossen zu Hause mit dem Programmieren von Speeren zu beschäftigen, welche anstatt der Laserstrahlen vom Himmel fallen.
+Zuhause haben wir zudem die restliche Musik eingefügt und programmiert. Auch die Speere und viele andere kleine Baustellen haben wir gelöst.
+
 ### Dienstag, 23.11.2021 <a name="siebenundzwanzig"></a>
-zuletzt Anleitungseiten anfertigen, Spieltesten mit anderen leuten, ist das Spiel für jemanden framden schlüssig, gibt es bugs (zuhause)
+Heute haben wir die letzten Anleitungsseiten angefertigt. Anschließend haben unser Spiel Mitschülern vorgestellt und nach Verbesserungsvorschlägen gefragt.
+Hierbei sind vor allem zwei Dinge aufgefallen:
+1. Die Speere funktionieren noch nicht wie gewünscht.
+2. Wir müssen die Zeit noch etwas nach unten korrigieren.
+
+Zuhause haben wir uns mit der Fehlerbehebung dieser Probleme beschäftigt.
+
 ### Mittwoch, 24.11.2021 <a name="achtundzwanzig"></a>
+Heute haben wir uns weiter mit dem Optimieren der Speere beschäftigt. Dafür haben wir noch einige Dinge an unserem Code verändert, um die Bugs zu lösen.
+Auschlaggebend für den Bug war: CODE
+
+Dies haben wir geändert durch: CODE
 
 ### Dienstag, 30.11.2021 <a name="neunundzwanzig"></a>
 Heute war Jannik krank, weshalb Thorge in der Schule an dem Projekt gearbeitet hat und Jannik am Abend zuhause noch weitergearbeitet hat.
