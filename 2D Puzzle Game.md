@@ -8,20 +8,20 @@
 ## Über Snap!
 
 <h1>1. Spielkonzept</h1>
-Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätslen" und bewältigen von Platform-Passagen zu erreichen.
+Bei x handelt es sich um ein 2D Adventure Spiel mit Puzzle und Platform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätseln" und durch das Bewältigen von Platform-Passagen zu erreichen.
 
 https://user-images.githubusercontent.com/88385813/144759791-de17a98b-73cd-49a5-bfcf-f4a6e968e209.mp4
 
 <h3>1.1 Das Setup</h3>
 
-Bevor das Spiel startet, hat der Spieler die Möglichekit sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
+Bevor das Spiel startet, hat der Spieler die Möglichekit, sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
 Anschließend hat der Spieler die Möglichkeit sich über den Button "Charakter Wählen" eine beliebige Spielfigur auszusuchen.
 Dabei gibt es drei Figuren zur Wahl.
 
 <h3>1.2 Spielstart</h3>
 
 Fühlt sich der Spieler bereit, so kann er über die Betätigung des Buttons "Spiel Starten" das Spiel beginnen.
-Folglich befindet sich die Spielfigur in der Stage 0 sowie im ersten Level.
+Folglich befindet sich die Spielfigur in der Stage 0 sowie im ersten Level wieder.
 Die Spielfigur kann auf der braunen Unterfläche nach rechts und links laufen. Zudem besteht die Möglichkeit mit Betätigung der Taste "S" oder dem Leerzeichen zu springen.
 Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werden, z.B. bei Berührung der Lava oder der Laserstrahlen weniger, bis die Spielfigur schließlich stirbt und das Spiel vorbei ist.
 
@@ -29,14 +29,13 @@ Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werde
 <h3>1.3 Spielkonzept/Spielziel</h3>
 
 
-Der Spieler wird nun die Spielfigur in die verschiedenen Richtungen steuern. 
+Der Spieler steuert anschließend die Spielfigur in die verschiedenen Richtungen. 
 Das Ziel des Spiels ist es, das Level zu schaffen.
-Dafür muss der Spieler es schaffen Punkt X zu erreichen. Wie der Spieler seine Spielfigur dort hinsteuert, muss er selbst herrausfinden.
+Dafür muss der Spieler es schaffen die Fahne am Ende des Spiels zu erreichen. Wie der Spieler seine Spielfigur dort hinsteuert, muss er selbst herrausfinden.
 Auf dem Weg zum Schaffen des Levels erwarten den Spieler viele Herrausfoderungen. 
-Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor zu öffnen. Zudem muss der Spieler es schaffen, dass seine Spielfigur nicht in die Lava tritt und nicht von den Laserstrahlen getroffen wird.
+Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor zu öffnen. Zudem muss der Spieler es schaffen, dass seine Spielfigur nicht in die Lava tritt und nicht von den Speeren getroffen wird.
 
-Mit diesem Spielkonzept ist unsere Absicht ein spannendes, kreatives und Reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
-
+Mit diesem Spielkonzept war unsere Absicht ein spannendes, kreatives und reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
 
 
 <h1>Erklärung des Codes</h1>
@@ -51,8 +50,8 @@ Die Spielfigur ist nicht zu sehen, wenn das Spiel gewonnen wurde, wenn die grün
  <img width="178" alt="Bildschirmfoto 2021-11-27 um 17 29 08" src="https://user-images.githubusercontent.com/88385954/143689249-d62624d5-f297-4acd-9df0-fd9bedb13b88.png">
 </details>
 
-Wenn das Spiel gestartet wird, wird die Größe der Spielfigur auf 20% der Ursprungsgröße gesetzt, die X- und Y- Koordinaten werden mit 0;-60 festgelegt, die Blickrichtung ist nach links XXXX Spielfigur befindet sich im Vordergrund.
-Zudem wird sie nun logischerweise gezeigt.
+Wenn das Spiel gestartet wird, wird die Größe der Spielfigur auf 20% der Ursprungsgröße gesetzt, die X- und Y- Koordinaten werden mit 0;-60 festgelegt, die Blickrichtung ist nach links gerichtet. Die Spielfigur befindet sich im Vordergrund.
+Zudem wird sie nun sichtbar.
 
 <details>
 <summary>Sprite Spieler - "when I receive SpielStartet"" </summary>
@@ -87,13 +86,13 @@ Sobald das Spiel startet wird die Variable "SpielerBewegung" = 1 gesetzt.
 
 Anschließend ist für die horizontale Bewegung der folgende Code relevant. Zunächst wird geprüft, ob die Variable "SpielerBewegung" =1 ist. Wenn dies der Fall ist, werden folgende Bedingunen geprüft.
 Zunächst wird die Bewegungsrichtung rechts betrachtet.
-Hier ergibt sich im Code eine Besonderheit, weil die Spielfigur sich nur nach rechts bewegen darf, wenn das Tor, welches sich in Stage 2 befindet offen ist. Somit wird zunächst geprüft, ob das Tor offen ist. XX 
+Hier ergibt sich im Code eine Besonderheit, weil die Spielfigur sich nur nach rechts bewegen darf, wenn das Tor, welches sich in Stage 2 befindet offen ist. Somit wird zunächst geprüft, ob das Tor offen ist. (XX hier nur wenn es offen ist? bedeutet "Tor" auch offen?) 
 Wenn das Tor offen ist und die rechte Pfeiltaste oder d auf der Tastatur gedrückt wird, dann wird die X-Koordinate mit der Bewegungsgeschwindigkeit 10 geändert. 
 Dabei ändert sich an der Blickrichtung der Spielfigur nichts.
 
 Die Bewgung nach links gestaltet sich leichter. Hier muss nicht geprüft werden, ob das Tor in Stage 2 offen ist.
 Somit wird lediglich, wenn die SpielerBewegung = 1 ist, geprüft, ob der linke Pfeil auf der Tastatur gedrückt wird oder ob a auf der Tastatur betätigt wird.
-Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf der X-Achse mit der BEwegungsgeschwindigkeit 10.
+Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf der X-Achse mit der Bewegungsgeschwindigkeit 10.
 
 <details>
 <summary>Sprite Spieler - Horizontale Bewegung </summary>
@@ -101,7 +100,7 @@ Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf 
 <img width="331" alt="Bildschirmfoto 2021-11-27 um 17 37 47" src="https://user-images.githubusercontent.com/88385954/143689535-51b77eed-a0be-4431-a248-d7611ba95315.png">
 </details>
 
-<h2> Die Sprungeigenschaft der Spielfigur</h2>
+<h2> 2.1.2 Die Sprungeigenschaft der Spielfigur</h2>
 
 Sobald das Spiel gestartet wird, werden folgende Variablen definiert, die für den Sprung der Spielfigur wichtig sind:
 
@@ -112,12 +111,14 @@ Sobald das Spiel gestartet wird, werden folgende Variablen definiert, die für d
  </details>
 
 Um das Springen der Spielfigur zu ermöglichen, haben wir uns einige Dinge überlegt.
-Zunächst wird mit dem ersten Codeblock sobald das Spiel gestartet wird geprüft, ob die Spielfigur die BodenHitbox berührt. Dieser Sprite ist ein sehr dünner, grüner Streifen welcher nicht sichtbar ist:
+Zunächst wird mit dem ersten Codeblock, sobald das Spiel gestartet wird, geprüft, ob die Spielfigur die BodenHitbox berührt. Dieser Sprite ist ein sehr dünner, grüner Streifen welcher nicht sichtbar ist:
 
  <details>
 <summary><b>Erklärung Sprite Bodenhitbox</b></summary>
 <br>
- <mark> Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
+ <mark> 
+  
+  Sobald das Spiel gestartet wird, wird das Costume zu dem dünnen, grünen Streifen geändert. 
 Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat. 
 
  
@@ -125,8 +126,8 @@ Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Ein
  
 <img width="90" alt="Bildschirmfoto 2021-11-27 um 15 01 24" src="https://user-images.githubusercontent.com/88385954/143684643-282d77f8-7e3c-4666-a45b-dab6d7c209ad.png">
 
-Des Weiteren ist der "ghost effect" 100. Somit ist die grüne Linie nicht zu sehen, erfüllt jedoch trotzdem seinen Zweck.
-Zudem soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies ist mit den folgenden Codes eingestellt. X (Wieso bei Game-Over?)
+Des Weiteren ist der "ghost effect" = 100. Somit ist die grüne Linie nicht zu sehen, erfüllt jedoch trotzdem seinen Zweck.
+Des Weiteren soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies ist mit den folgenden Codes eingestellt. XX (Wieso bei Game-Over?)
   
 
 <img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png"> </mark>
@@ -136,7 +137,7 @@ Zudem soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies 
 
 Wenn diese Bedingung zutrifft, wenn also zutrifft, dass die Spielfigur die unsichtbare, grüne Linie berührt wird der Spieler auf die Y-Achse -60 gestellt und die Variable "BerührtBoden" = 1 gesetzt.
 Zudem wird "BerühreBoden" ausgeführt.
-Berührt die Spielfigur nicht die "BodenHitbox" so wird die Variable "BerührtBoden = 0 gesetzt.
+Berührt die Spielfigur nicht die "BodenHitbox" so wird die Variable "BerührtBoden" = 0 gesetzt.
 
 <details>
 <summary>Code für "If touching BodenHitbox"</summary>
