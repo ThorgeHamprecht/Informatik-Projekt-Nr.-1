@@ -300,11 +300,17 @@ In der heutigen Stunde haben wir zunächst unser GitHub Repository überarbeitet
 ```
 Danach haben wir angefangen ein Lebensystem in das Spiel zu integrieren, dafür haben wir zunächst die Sprites erstellt:
 ![Herz ](https://user-images.githubusercontent.com/88385813/144893326-da5ad3bf-1742-4e68-afc6-ae354e008e5f.png) 
-![Halbes Herz ](https://userimages.githubusercontent.com/88385813/144893339-84fe66f0-09eb-4af7-aebd-cfe5053af378.png) 
+![Halbes Herz ](https://user-images.githubusercontent.com/88385813/144895264-6d28669f-fa56-46e7-b7fe-ff4ec75948a6.png)
 ![Kein Herz ](https://user-images.githubusercontent.com/88385813/144893344-2015c6f2-b0ca-4b6f-82c8-08cb8a24c33d.png)
 
 Dabei gibt es eine Variable, die die aktuellen Leben des Spielers speichert, die Leben werden dementsprechend angepasst. Die Leben werden dann links oben auf dem Bildschirm angezeigt.
-![HerzenRechtsOben](https://user-images.githubusercontent.com/88385813/144893773-a5d0104a-e6e4-4edc-9442-6b76572ec8d1.png)
+![Bildschirmfoto 2021-10-23 um 20 33 59](https://user-images.githubusercontent.com/88385813/144895323-11d8b342-e9ab-495f-af25-7acef55a02f8.jpg)
+
+Der Code besteht dabei einerseits im Spielerobjekt mit der Erkkenung des Schaden verursachendend Objekts und dem "Broadcasten" der Information Schaden bekommen zu haben:
+![Bildschirmfoto 2021-10-19 um 15 53 13](https://user-images.githubusercontent.com/88385813/144895801-1fcbdb2b-bbf6-4f5f-ad8b-55d01f1b3106.jpg)
+
+Und andererseits im Herzobjekt, wo der Schaden in eine Anzeige umgewandelt wird:
+![Bildschirmfoto 2021-10-19 um 15 52 40](https://user-images.githubusercontent.com/88385813/144895727-a2b54510-38cf-4bf8-b755-6e1feec7fd50.jpg)
 
 ### Dienstag, 28.09.2021 <a name="dreizehn"></a>
 Heute haben wir den Start unseres Spiels programmiert. Zunächst haben wir einen Platzhalter eingefügt, welcher einen Start-Knopf simulieren sollte. Danach haben wir ein PNG erstellt, welches die Überschrift "Spiel Starten" aufzeigt. Dieses Startmenü soll immer dann erscheinen, wenn man das Spiel das erste Mal starten möchte und immer dann, wenn man ein Leben verloren hat. Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Probklem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
