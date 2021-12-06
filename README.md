@@ -210,8 +210,8 @@ Wir haben uns entschlossen einen Pixel Art-Stil für unser Spiel zu verwenden, d
 
 ToDo-Liste für diese Woche:
 - [x] *Sprung einbauen*
-- [x] *Gravitation implementieren*
-- [x] *Groundcheck implementeiren*
+- [ ] *Gravitation implementieren*
+- [ ] *Groundcheck implementeiren*
 
 Zunächst haben wir die Sprungfunktion für den Spieler eingebaut. Dies funktioniert sehr ähnlich zu der Bewegung des Spielers von zuvor. Der Spieler wird nach Drücken der "Leertaste" um 70 Einheiten auf der Y-Achse nach oben versetzt, so wirkt es als würde der Spieler springen.
 
@@ -229,16 +229,24 @@ Die Gravitation hatten wir letzte Stunde schon fast vollständig integriert, wir
 ![Sprung2 0](https://user-images.githubusercontent.com/88385813/144883822-df01bdc7-e4f5-4612-ac39-b83c5472582a.png)
 
 Die Beschleunigung ist nun nicht ganz quadrarisch, fühlt sich aber am besten an.  
-Nun haben wir noch das Fallen des Spielers gestoppt, nachdem er den Boden berührt, dafür haben wir per Farberkkenung des Bodens einen Groundcheck implementiert. Dieser guckt, ob die Spieler Sprite die Frabe Braun des Bodens berührt, falls dies der Fall ist, löst sie den Sprungscript aus, damit der Spieler wieder springen kann und das fallen wird gestoppt und die fallgeschwindigkeit wieder zum Startwert resettet.
+Nun haben wir noch das Fallen des Spielers gestoppt, nachdem er den Boden berührt, dafür haben wir per Farberkkenung des Bodens einen Groundcheck implementiert. Dieser guckt, ob die Spieler Sprite die Frabe Braun des Bodens berührt, falls dies der Fall ist, löst sie den Sprungscript aus, damit der Spieler wieder springen kann und das Fallen wird gestoppt und die Fallgeschwindigkeit wieder zum Startwert resettet:
+
+![Sprung  3 0](https://user-images.githubusercontent.com/88385813/144886212-11ecd20e-e3f2-4760-a628-286c5580f2d4.png)
+
 ### Dienstag, 14.09.2021 <a name="Ausfall1"></a>
+Da die Stunden leider ausfiel haben wir Zuhasue weitere Hintergünde designed und bei Snap! eigefügt, es gibt jetzt zwei weitere Hintergründe, diese müssen allerdings noch begehbar gemacht werden, der Spieler kann bis jetzt noch nicht zwischen den "Stages", also den Hintergründen, wechseln:
+![Level 1 Stage 0 (1)](https://user-images.githubusercontent.com/88385813/144886868-486b8f5b-f743-4509-a676-e5d02ab053e7.png)
+![Level 1 Stage -2](https://user-images.githubusercontent.com/88385813/144886874-15f83cc0-32d2-48ab-bb30-fa5136a3981a.png)
+
+
+### Mittwoch, 15.09.2021 <a name="Ausfall2"></a>
+Auch diese Stunde fiel leider uas
+### Dienstag, 21.09.2021 <a name="elf"></a>
 Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in einem Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
 Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
 Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
 Um dieses Problem zu entgehen, haben wir den Code dahingehend erweitert, dass das Verschwinden und Wiedererscheinen der Lava nur mit einem zeitlichen Abstand von einer Sekunde passiert. Diese gewählte Zeit ist vor allem deshalb gut, weil somit zwar direkt beim Berühren des Knopfes die Lava verschwindet, sie jedoch nicht hin und her springt (nur wenn man auf dem Knopf stehen bleibt nach einer Sekunde) Verlässt der Charakter den Knopf und berührt anschließend wieder den Knopf ist eine Sekunde ebenfalls vergangen und er Befehl kann ohne Zeitverzug ausgeführt werden. 
-### Mittwoch, 15.09.2021 <a name="Ausfall2"></a>
-
-### Dienstag, 21.09.2021 <a name="elf"></a>
 Zuhause haben wir versucht, den Hintergrund zu animieren. Dafür haben wir eingestellt, an welcher Stelle die Wolken im Hintergrund erscheinen sollen uns mit welcher Geschwindigkeit sie sich anschließend in welche Richtung bewegen sollen. 
 Heute ging es darum, neue Stages zu erstellen, damit sich eine "neue" Welt öffnet, wenn sich der Charakter aus den Rändern links und rechts bewegt. 
 
