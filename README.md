@@ -301,6 +301,19 @@ Für unser Projekt wollten wir einen Pixel-Art Stil umsetzten. Dafür mussten wi
 </center>
      
      ![piskelLogo](https://user-images.githubusercontent.com/88385813/144750564-be75f0cb-ea5b-4c10-86c0-ee2195c0886d.jpg)
+ <style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+ <p class="aligncenter">
+    <img src="https://user-images.githubusercontent.com/88385813/144750564-be75f0cb-ea5b-4c10-86c0-ee2195c0886d.jpg" alt="Piskel" />
+</p>
+ <style>
+.aligncenter {
+    text-align: center;
+}
+</style>
 
 Hier haben wir die meisten unserer Sprites selbst erstellt und anschließend als PNG exportiert und in unser Snap!-Projekt geladen. Ein Beispiel für die Sprite Bearbeitung kann anhand der Erstellung der Spielfigur nachvollzogen werden:
 
