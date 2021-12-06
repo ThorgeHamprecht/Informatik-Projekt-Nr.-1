@@ -117,8 +117,8 @@ Zunächst wird mit dem ersten Codeblock sobald das Spiel gestartet wird geprüft
  <details>
 <summary><b>Erklärung Sprite Bodenhitbox</b></summary>
 <br>
-  <font color = yellow> Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
-Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat.
+  <font color=yellow> Sobald das Spiel gestartet wird, wird das Costume zu X geändert. Diese Costume ist die folgende gründe Linie.
+Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat. </font>
 
  
  Sprite BodenHitbox - grüne Linie:
