@@ -691,6 +691,45 @@ Die zweite und die dritte Wolke funktioniert nach dem gleichen Prinzip. Der Unte
 </details>
 
 Im Hintergrund verändern sich zudem die Bilder der Steine.
+Es gibt in unserem Spiel drei Steine.
+Der erste, kleine Stein befindet sich in der Stage 1.
+Er ist folglich nur sichtbar, wenn sich die Spielfigur auf dieser Stage befindet.
+Die Größe ist dabei 100%.
+Die Steinanimationsvariable ist dann = 1.  
+Die Animation ist darunter erklärt und wird so lange durchgeführt, bis die Variable 0 ist.
+Die Animation beinhaltet, dass das Costume nach 2 Sekunden und nach 2,5 Sekunden geändert wird.
+Dadurch sieht es so aus, als ob sich das Gras bewegen würde.
+
+ <details>
+<summary>Sprite SteinKlein </summary>
+<br>
+  <img width="462" alt="Bildschirmfoto 2021-12-06 um 21 07 24" src="https://user-images.githubusercontent.com/88385954/144914865-cdd90ad0-af73-4830-b099-3def9521b0a1.png">
+</details>
+
+Die beiden anderen Steine unterscheiden sich von diesem nur durch die Größe und durch kleine Unterschiede. 
+
+ <details>
+<summary>Sprite SteinRund</summary>
+<br>
+<img width="535" alt="Bildschirmfoto 2021-12-06 um 21 09 01" src="https://user-images.githubusercontent.com/88385954/144915053-f203b217-7fd9-4ff0-ab14-622dd81d0a73.png">
+</details>
+
+ <details>
+<summary>Sprite SteinGroß</summary>
+<br>
+<img width="514" alt="Bildschirmfoto 2021-12-06 um 21 09 59" src="https://user-images.githubusercontent.com/88385954/144915185-2750c18f-0ad1-4dc0-bc0e-1acba09e0ca4.png">
+</details>
+
+Damit Performence gespart wird, soll die Animation nicht durchgängig laufen.
+Damit dies nicht der Fall ist, darf die Variable nicht durchgängig = 1 sein. 
+Aus diesem Grund wird in dem Sprite der Stages die Variable für die jeweiligen Steine = 0 gesetzt, wenn die entsprechende Stage verlassen wurde.
+
+<details>
+<summary>Sprite </summary>
+<br>
+<img width="491" alt="Bildschirmfoto 2021-12-06 um 21 12 59" src="https://user-images.githubusercontent.com/88385954/144915576-db67608e-34b3-4289-934c-12899b55f1b2.png">
+</details>
+
  
 <h1>2.7 Die Zeit </h1>
   
