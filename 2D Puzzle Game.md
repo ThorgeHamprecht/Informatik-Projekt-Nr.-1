@@ -90,7 +90,7 @@ Sobald das Spiel startet wird die Variable "SpielerBewegung" = 1 gesetzt.
 
 Anschließend ist für die horizontale Bewegung der folgende Code relevant. Zunächst wird geprüft, ob die Variable "SpielerBewegung" =1 ist. Wenn dies der Fall ist, werden folgende Bedingunen geprüft.
 Zunächst wird die Bewegungsrichtung rechts betrachtet.
-Hier ergibt sich im Code eine Besonderheit, weil die Spielfigur sich nur nach rechts bewegen darf, wenn das Tor, welches sich in Stage 2 befindet offen ist. Somit wird zunächst geprüft, ob das Tor offen ist. (XX hier nur wenn es offen ist? bedeutet "Tor" auch offen?) 
+Hier ergibt sich im Code eine Besonderheit, weil die Spielfigur sich nur nach rechts bewegen darf, wenn das Tor, welches sich in Stage 2 befindet offen ist. Somit wird zunächst geprüft, ob das Tor offen ist. Dies wird später in der Tor Erklärung weiter erläutert.
 Wenn das Tor offen ist und die rechte Pfeiltaste oder d auf der Tastatur gedrückt wird, dann wird die X-Koordinate mit der Bewegungsgeschwindigkeit 10 geändert. 
 Dabei ändert sich an der Blickrichtung der Spielfigur nichts.
 
