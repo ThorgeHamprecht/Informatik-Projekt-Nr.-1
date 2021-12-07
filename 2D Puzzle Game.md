@@ -682,6 +682,53 @@ Der Code für den linken Pfeil:
 Ein wichtiges Element unseres Spiels ist das verschlossene Tor, welches geöffnet werden muss, um dass Level zu schaffen. Dafür muss zunächst ein Schlüssel eingesammelt werden. 
 Der Schlüssel kann eingesammlet werden, sobald der Spieler ihn berührt und sich auf der Stage befindet, auf der der Schlüssel angezeigt wird. Auch hier funktioniert das korrekte 
 Anzeigen über die Szenenasuwahl und das verstecken des Objekts beim Wechseln zu anderen Stages.
+ 
+<details>
+<summary>Schlüssel Objekt - show und hide</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/88385813/144973151-bbcc02ca-2db6-4340-b86b-18880ab21b7e.png" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
+</details>
+ 
+Sobald der Spieler nun also den Schlüssel berührt und sich auf der richtigen Stage befindet erscheint die "SchlüsselNachricht" welche den Spieler auffordert "F" zu drücken, um den Schlüssel einzusammlen. Drückt der Spieler nun "F" so verschwindet der Schlüssel durch das Wechseln des Kostüms zu einem leeren Kostüm. Dies stellt auch sicher, dass der Schlüssel beim erneuten betreten der Stage nicht wieder erschient, da das Kostüm nicht mehr "Schlüssel" heißt.
+Außerdem wird die Variable "SchlüsselImInventar" auf 1 gestzet, damit im folgendem das Tor, sowie die Schlüssel-Anzeige über den erhalt des Schlüssels informiert werden.
+ 
+<details>
+<summary>Schlüssel Objekt - Einsammeln des Schlüssels</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/88385813/144973233-2e5fe206-6d17-4b34-ac13-faed41a6c81a.png" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
+</details>
+ 
+Die Schlüssel-Anzeige ändert lediglich das Kostüm von einer 0 auf eine 1, ween sie die Nachricht "SchlüsselErhalten" erhält.
+ 
+<details>
+ <summary>SchlüsselZähler Objekt - Anzeige der Schlüssel Anzahl</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/88385813/144974641-985d8734-47f6-40c4-a665-a2d4d045aa91.png" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
+</details>
+ 
+Etwas komplizierter wird es beim Tor selbst. Der Spieler soll nicht am Tor vorbeikommen, solange er selbiges nicht geöffnet hat. Dafür sorgt das Tor-Script.
+ 
+<details>
+<summary>Tor Objekt - Tor öffnen und Blockade</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/88385813/144974848-a674cf36-f10e-4f90-9dab-cc0af354c6a6.png" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
+</details>
+ 
+Normalerweise hat das Tor das Kostüm "Tor" solange der Spieler das Tor nicht berührt. Der Spieler darf sich hier frei bewegen, er wird ja nicht vom Tor blockiert. Berührt er das Tor, so wird nun das Kostüm "TorGeschlossen" aktiviert. Im Spielerobjekt ist an die Bewegung nach rechts nun das Kostüm des Tors "Tor" oder "TorOffen" gekoppelt, der Spielr kann sich also nicht mehr bewegen, wenn er an das Tor stößt.
+ <details>
+<summary>Spieler Objekt - Tor Blockade</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/88385813/144975314-6543276c-f7e4-40e4-bdd6-4cc821fc8c14.png" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
+</details>
+
+Bei Berührung mit dem Tor erscheint nach dem selben Prinzip wie beim Schlüssel eine Nachricht, dass der Spieler einen Schlüssel benötigt.
+Hat der Spieler nun den Schlüssel zuvor eingesammelt und die zugehörige Variable hat den passenden Wert, wird diese Nachricht geändert, der Spieler soll nun "F" drücken, um das Tor zu öfnnen. Hat der Spieler den Schlüssel und drückt nun "F", so wird folgende Funktion gestartet.
+
+![image](https://user-images.githubusercontent.com/88385813/144976001-4fe91437-c806-4b83-8078-f47b2d4161b9.png)
+
+ Das Tor öffnet sich schrittweise und sobald die Animation abgeschlossen ist hat das Tor das Kostüm "TorOffen" und der Spieler kann passieren.
+ 
+ 
 <h1>2.6 Der Hintergrund </h1>
  
 Damit das Spiel für den Spieler ansprechend aussieht, haben wir einen Hintergrund kreiert, welcher nicht nur still dasteht, sondern teilweise auch beweglich ist.
