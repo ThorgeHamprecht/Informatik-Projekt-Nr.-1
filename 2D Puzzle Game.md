@@ -276,25 +276,50 @@ Die Lava selbst ist nur in Stage 0 zu sehen und sie ist immer aktiv.
  ![HerzenUndSchaden](https://user-images.githubusercontent.com/88385813/144721089-f77e5e48-34ad-4ea9-ae2c-d65b1ae354b9.gif)
 
 Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Speeren in Berührung kommt. Dabei ist zunächst wichtig, dass der Speer nur Schaden verursachen soll, während er fällt. Da das fallen mithilfe der "glide" Funktion stattfindet, kann einfach am anfang und Ende der Funktion eine Vraiable verändert werden. Es handelt sich hierbei um die Variable "Speerunterwegs" hat diese den Wert 1, so ist der Speer unterwegs, der Speieler soll nun also bei Berührung Schaden erhalten können
- 
-![Screenshot 2021-12-06 221036](https://user-images.githubusercontent.com/88385813/144925284-64500692-e03c-4005-a14d-9d19aca6fad1.png)
+
+ <details>
+<summary>Sprite Speer - Script</summary>
+<br>
+<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144925284-64500692-e03c-4005-a14d-9d19aca6fad1.png">
+</details>
+
  
 Wenn der Spieler jetzt den Speer berührt und die Variable "SpeerUnterwegs" den Wert 1 hat bekommt der Speieler einen Schaden. Dafür wird wie zuvor bei der "Lava" Schaden gebroadcastet und das Script der herzen aktiviert. Der einzige Unterschied ist hierbei, dass der Speer im Gegensatz zu der Lava ein ganzes leben abzieht, deshalb wird die Variable "Leben" zu Anfang um 1 verringert:
  
-![Screenshot 2021-12-06 221023](https://user-images.githubusercontent.com/88385813/144925757-8d5a85fd-b6f4-41e3-ad00-cb9ce95e64da.png)
+ <details>
+<summary>Sprite Speer - Lebensverlust</summary>
+<br>
+<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144925757-8d5a85fd-b6f4-41e3-ad00-cb9ce95e64da.png">
+</details>
  
+
 Des weiteren wird mit dem Broadcast "SpeerSchaden" der passende Sound im Spielerobjekt abgespielt:
  
-![Screenshot 2021-12-06 223243](https://user-images.githubusercontent.com/88385813/144926017-c7699838-4960-4311-b5e7-82a2210edaa6.png)
+ <details>
+<summary>Sprite Spieler - Schadenssound</summary>
+<br>
+<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144926017-c7699838-4960-4311-b5e7-82a2210edaa6.png">
+</details>
+
 
 Auch der Speer erscheint natürlich nur in der dafür vorgesehenen Stage der Code dafür sieht folgendermaßen aus und funktioniert wie im fplgenden bei der Stageauswahl erklärt:
- 
-![Screenshot 2021-12-06 223553](https://user-images.githubusercontent.com/88385813/144926449-e57b5c78-7918-49ed-8f0d-4213ca0b0116.png)
+
+  <details>
+<summary>Sprite Speer - show bzw. hide </summary>
+<br>
+<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144926449-e57b5c78-7918-49ed-8f0d-4213ca0b0116.png">
+</details>
+
+
 
 Dieser eine Speer wurde einfach dupliziert und die Variablen zur Bestimmung der Startposition der "glide" Funktion geändert, so dass am ende mehrere Speere nebeneiannder sind. Zuletzt wird jedem 2. Speer noch eine Sekunde Verzögerung vor dem Ausführen der "glide" Funktion durch die "wait" Funktion gegeben, so dass die Speere in zwei Wellen fallen.
- 
-![Screenshot 2021-12-06 214730](https://user-images.githubusercontent.com/88385813/144927166-a54eca51-2399-47d0-b4a1-43934edde769.png)
-![Screenshot 2021-12-06 214818](https://user-images.githubusercontent.com/88385813/144927186-a43a9328-b34d-4816-9043-182480c9b148.png)
+
+ <details>
+<summary>Sprite Speer - !.Welle und 2. Welle </summary>
+<br>
+<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144927166-a54eca51-2399-47d0-b4a1-43934edde769.png">
+<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144927186-a43a9328-b34d-4816-9043-182480c9b148.png">
+</details>
 
  Hier nun einmal die Speere in Aktion:
 
@@ -428,7 +453,7 @@ In dem zweiten Code wird, wenn die Maus nicht die unsichtbare hinterlegte Fläch
 
 <img width="461" alt="Bildschirmfoto 2021-11-28 um 12 22 18" src="https://user-images.githubusercontent.com/88385954/143765704-be792a62-404a-4ebb-83a9-2e01e5456df9.png">
 
-Die Befehle werden dann im Sprite Stage ausgeführt:
+Die Befehle werden dann im Sprite (Objekt) Stage ausgeführt:
  
 ![MenüButtonHighlighting-_online-video-cutter com_](https://user-images.githubusercontent.com/88385813/144720525-86dd302c-d7dd-4d83-9853-dce43410ad63.gif)
 
@@ -823,38 +848,60 @@ Somit können die Ziffern hier alle 10 Sekunden und zeitgleich mit der Ziffer 3 
  
 Berührt der Spieler das Objekt Loch, welches über die Szeneauswahl Funktionen sichtbar gemacht wird, so fällt er in dieses Loch, da er mit der "gesprungen" Funktion im Spielerobjekt nach unten beschleunigt wird. Dies funktioniert allerdings nur, wenn er die BodenHitbox nicht berührt. Dieses Loch ist notwendig, da der Spieler sonst über das Loch hinweg gehen könnte ohne zu fallen, da die Gravitation normalerweise nur nach einem Sprrung aktiviert wird. Hier wird sie also auch aktiviert, wenn der Spieler nur das Loch, aber nicht die BodenHitbox berührt, also eigentlich über dem Loch schwebt.
 
-![Screenshot 2021-12-06 232719](https://user-images.githubusercontent.com/88385813/144932896-06939209-cb89-4dc2-9198-b5a29f1d109a.png)
+  <details>
+<summary>Sprite Loch - Scripts </summary>
+<br>
+<img src="LOCHr" alt="https://user-images.githubusercontent.com/88385813/144932896-06939209-cb89-4dc2-9198-b5a29f1d109a.png">
+</details>
 
 <h1>2.9 Ziel/Game Over </h1>
  
 Das Spiel kann entweder verloren oder gewonnen werden. Läuft die Zeit aus oder der Spieler verliert alle seine 3 Leben, so wird "GameOver" gebroadcastet. Damit wird im Stage Objekt der Game Over Screen aktiviert, die dazugehörige Musik abgespielt und das Menü ist mittels eines Knopfes auf dem Game Over Screen zu erreichen, das Spiel kann nun erneut gestartet werden. Die Hintergründe hierfür wurden schon in der Stagewechsel Erklärung hinreichend erläutert. 
 Neu ist allerdings der Victory Screen, welcher selbst wie der Game Over Screen funktioniert, aber nach dem Berühren der Zielfahne eine Art Animation auslöst.
  
-![Screenshot 2021-12-06 233610](https://user-images.githubusercontent.com/88385813/144933874-720581e3-b5c1-4450-8359-6d1a8c553e2a.png)
+ summary>Sprite Zielfahne - Animation nach Berührung</summary>
+<br>
+<img src="Victory" alt="https://user-images.githubusercontent.com/88385813/144933874-720581e3-b5c1-4450-8359-6d1a8c553e2a.png">
+</details>
+
 
 Nach der Berührung wird zunächst die Animation der Fahne abgespielt und die GameWonMusik gestartet. Dann startet ein Fade to Black, welcher nach dem selben Prinzip der 10 und 20 Sekunden Warnung im Zusammnenhang mit dem Timer funktioniert:
+
+ summary>Sprite Zielfahne - Fado To Black</summary>
+<br>
+<img src="Victory" alt="https://user-images.githubusercontent.com/88385813/144934198-c635efed-a96a-445a-9a5c-4325c68c1fec.png">
+</details>
  
-![Screenshot 2021-12-06 233917](https://user-images.githubusercontent.com/88385813/144934198-c635efed-a96a-445a-9a5c-4325c68c1fec.png)
 
 Nun wird der Spieler mit der Nachricht "SpielerAusBildschirm" aus dem Bildschirm bewegt. Dafür wird folgendes Script im Spielerobjekt aktiviert:
- 
-![Screenshot 2021-12-06 234226](https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png)
+
+summary>Sprite Spieler - Bewegung aus dem Bildschirm</summary>
+<br>
+<img src="Victory" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
+</details>
+
 
  Erst jetzt wird der Victory Screen angezeigt, bei dem auch wieder per Klick auf den Button ins Menü zurückgekehrt werden kann.
  
  
 <h1>2.10 Musik </h1>
 Auch das Abspielen der Musik ist an das Wechseln der Stages gekoppelt. Alle Musikdateien befinden sich im Stageobjekt:
+
+summary>Stageobjekt - Musik</summary>
+<br>
+<img src="Musik" alt="https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png">
+</details>
  
- ![Screenshot 2021-12-06 224635](https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png)
 
 Die Titelmusik wird abgespielt, sobald das Spiel per Klick auf die Fahne gestartet wird und außerdem nach einem GameOver oder Sieg, sobald das Menü wieder geöffnet wird oder die Victory-musik fertig abgespeilt ist. Dies wird mit den "Broadcast" Funktionen zur Szenenauswahl gesteuert: 
- 
-![Screenshot 2021-12-06 225022](https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png)
 
-![Screenshot 2021-12-06 225010](https://user-images.githubusercontent.com/88385813/144928346-170f2563-4d7c-4430-9fc0-0d250fd34a4f.png)
- 
-Wird "Titelmusik" gebroadcastet, so startet das Abspielen der Musik und die Variable der derzeitigen Musik wird demenstprechend geändert. Da es sich bei dem Stück um einen Loop handelt wird nach Ablauf der Zeit mithilfe der "wait" Funktion die Musik erneut gesartet, sollte die Stage noch nicht gewechselt sein. Dieser Loop funktioniert nur, solange die Variable den Wert 0 hat. Der Wert der variable wird geändert, sobald ein anderes Stück gespielt wird. 
+summary>Stageobjekt - Musik-Loop</summary>
+<br>
+<img src="Musik" alt="https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png">
+<img src="Musik" alt="https://user-images.githubusercontent.com/88385813/144928346-170f2563-4d7c-4430-9fc0-0d250fd34a4f.png">
+</details>
+
+Wird "Titelmusik" gebroadcastet, so startet das Abspielen der Musik und die Variable der derzeitigen Musik wird demenstprechend geändert. Da es sich bei dem Stück um einen Loop handelt wird nach Ablauf der Zeit mithilfe der "wait" Funktion die Musik erneut gesartet, sollte die Stage noch nicht gewechselt sein. Dieser Loop funktioniert nur, solange die Variable den Wert 0 hat. Der Wert der Variable wird geändert, sobald ein anderes Stück gespielt wird. 
  
 Auch die anderen Stücke werden nach diesem Prinzip abgespielt, haben jedoch aber keine Loops, da sie zeitlich begrenzt sind und nicht länger abgespielt werden müssen.
 
