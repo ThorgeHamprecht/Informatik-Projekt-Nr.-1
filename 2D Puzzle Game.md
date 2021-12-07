@@ -851,7 +851,7 @@ Berührt der Spieler das Objekt Loch, welches über die Szeneauswahl Funktionen 
   <details>
 <summary>Sprite Loch - Scripts </summary>
 <br>
-<img src="LOCHr" alt="https://user-images.githubusercontent.com/88385813/144932896-06939209-cb89-4dc2-9198-b5a29f1d109a.png">
+<img src="https://user-images.githubusercontent.com/88385813/144932896-06939209-cb89-4dc2-9198-b5a29f1d109a.png" alt="https://user-images.githubusercontent.com/88385813/144932896-06939209-cb89-4dc2-9198-b5a29f1d109a.png">
 </details>
 
 <h1>2.9 Ziel/Game Over </h1>
@@ -859,25 +859,25 @@ Berührt der Spieler das Objekt Loch, welches über die Szeneauswahl Funktionen 
 Das Spiel kann entweder verloren oder gewonnen werden. Läuft die Zeit aus oder der Spieler verliert alle seine 3 Leben, so wird "GameOver" gebroadcastet. Damit wird im Stage Objekt der Game Over Screen aktiviert, die dazugehörige Musik abgespielt und das Menü ist mittels eines Knopfes auf dem Game Over Screen zu erreichen, das Spiel kann nun erneut gestartet werden. Die Hintergründe hierfür wurden schon in der Stagewechsel Erklärung hinreichend erläutert. 
 Neu ist allerdings der Victory Screen, welcher selbst wie der Game Over Screen funktioniert, aber nach dem Berühren der Zielfahne eine Art Animation auslöst.
  
- summary>Sprite Zielfahne - Animation nach Berührung</summary>
+ <summary>Sprite Zielfahne - Animation nach Berührung</summary>
 <br>
-<img src="Victory" alt="https://user-images.githubusercontent.com/88385813/144933874-720581e3-b5c1-4450-8359-6d1a8c553e2a.png">
+<img src="https://user-images.githubusercontent.com/88385813/144933874-720581e3-b5c1-4450-8359-6d1a8c553e2a.png" alt="https://user-images.githubusercontent.com/88385813/144933874-720581e3-b5c1-4450-8359-6d1a8c553e2a.png">
 </details>
 
 
 Nach der Berührung wird zunächst die Animation der Fahne abgespielt und die GameWonMusik gestartet. Dann startet ein Fade to Black, welcher nach dem selben Prinzip der 10 und 20 Sekunden Warnung im Zusammnenhang mit dem Timer funktioniert:
 
- summary>Sprite Zielfahne - Fado To Black</summary>
+ <summary>Sprite Zielfahne - Fado To Black</summary>
 <br>
-<img src="Victory" alt="https://user-images.githubusercontent.com/88385813/144934198-c635efed-a96a-445a-9a5c-4325c68c1fec.png">
+<img src="https://user-images.githubusercontent.com/88385813/144934198-c635efed-a96a-445a-9a5c-4325c68c1fec.png" alt="https://user-images.githubusercontent.com/88385813/144934198-c635efed-a96a-445a-9a5c-4325c68c1fec.png">
 </details>
  
 
 Nun wird der Spieler mit der Nachricht "SpielerAusBildschirm" aus dem Bildschirm bewegt. Dafür wird folgendes Script im Spielerobjekt aktiviert:
 
-summary>Sprite Spieler - Bewegung aus dem Bildschirm</summary>
+<summary>Sprite Spieler - Bewegung aus dem Bildschirm</summary>
 <br>
-<img src="Victory" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
+<img src="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
 </details>
 
 
@@ -887,18 +887,18 @@ summary>Sprite Spieler - Bewegung aus dem Bildschirm</summary>
 <h1>2.10 Musik </h1>
 Auch das Abspielen der Musik ist an das Wechseln der Stages gekoppelt. Alle Musikdateien befinden sich im Stageobjekt:
 
-summary>Stageobjekt - Musik</summary>
+<summary>Stageobjekt - Musik</summary>
 <br>
-<img src="Musik" alt="https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png">
+<img src="https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png" alt="https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png">
 </details>
  
 
 Die Titelmusik wird abgespielt, sobald das Spiel per Klick auf die Fahne gestartet wird und außerdem nach einem GameOver oder Sieg, sobald das Menü wieder geöffnet wird oder die Victory-musik fertig abgespeilt ist. Dies wird mit den "Broadcast" Funktionen zur Szenenauswahl gesteuert: 
 
-summary>Stageobjekt - Musik-Loop</summary>
+<summary>Stageobjekt - Musik-Loop</summary>
 <br>
-<img src="Musik" alt="https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png">
-<img src="Musik" alt="https://user-images.githubusercontent.com/88385813/144928346-170f2563-4d7c-4430-9fc0-0d250fd34a4f.png">
+<img src="https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png" alt="https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png">
+<img src="https://user-images.githubusercontent.com/88385813/144928346-170f2563-4d7c-4430-9fc0-0d250fd34a4f.png" alt="https://user-images.githubusercontent.com/88385813/144928346-170f2563-4d7c-4430-9fc0-0d250fd34a4f.png">
 </details>
 
 Wird "Titelmusik" gebroadcastet, so startet das Abspielen der Musik und die Variable der derzeitigen Musik wird demenstprechend geändert. Da es sich bei dem Stück um einen Loop handelt wird nach Ablauf der Zeit mithilfe der "wait" Funktion die Musik erneut gesartet, sollte die Stage noch nicht gewechselt sein. Dieser Loop funktioniert nur, solange die Variable den Wert 0 hat. Der Wert der Variable wird geändert, sobald ein anderes Stück gespielt wird. 
