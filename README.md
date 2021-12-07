@@ -442,9 +442,7 @@ Dafür ist uns die Idee gekommen selber Musik zu komponieren.
 Wir haben uns dabei darauf verständigt, dass wir zwei Musikstücke komponieren wollen.
 Das erste Musikstück soll während des Menüs laufen und die Titelmusik darstellen. Das zweite Stück soll im Spiel laufen und dieses somit akustisch unterstützen.
 Wir haben uns heute zudem damit beschäftigt, das Hindernis der Laserstrahlen einzufügen. Dafür haben wir diese mit Piskel erstellt und anschließend in Snap hochgeladen.
-Wir haben bereits damit angefangen, den Code dafür zu programmieren.
-
-LASER BILD
+Wir haben bereits damit angefangen, den Code dafür zu programmieren
 
 Bisher stellt sich jedoch die Schwierigkeit, dass der Spieler unserer Idee nach oben auf dem Laser stehen können sollte, um ein Hindernis zu überwinden, aber wenn er von der Seite getroffen wird Schaden bekommen sollte. Das Problem hierbei ist, dass Snap! bei dem erkennen von Berührungen nicht auf Richtungen oder Kanten achtet, die sich Berühren. Es gibt nur zwei Zustände, Berühren oder nicht Berühren. Unsere Idee ist daher ohne weiteres nicht Umzusetzten, zumal die Laser sowieso nicht wirklich zum Thema unseres Spiels passen. Deshalb  wollen wir nun Speere einfügen, die vom Himmel fallen und denen der Spieler ausweichen muss.
 
