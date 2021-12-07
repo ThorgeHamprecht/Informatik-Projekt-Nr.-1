@@ -11,6 +11,9 @@
 <h1>1. Spielkonzept</h1> <a name="Setup"></a>
 Bei unserem Spiel handelt es sich um ein 2D Adventure Spiel mit Puzzle und Plattform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätseln" und durch das Bewältigen von Platform-Passagen zu erreichen bevor die zeit abläuft. Dabei muss er versuchen nicht an den diversen Fallen im Spiel zu sterben, um siegreich aus dem Spiel hervorzugehen.
 
+Für das Progammieren des Spiels haben wir die Blockprogrammiersprache Snap! benutzt. Diese funktioniert vollkommen im Web und kann daher ohne Installation eines Programms auf jedem Gerät mit Internetzugang verwendet werden.
+
+
 Hier einmal ein Video des gesamten Spiels mit allen seinen Funktionen:
 
 https://user-images.githubusercontent.com/88385813/144759791-de17a98b-73cd-49a5-bfcf-f4a6e968e209.mp4
