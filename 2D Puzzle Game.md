@@ -2,20 +2,20 @@
 ## Links
 
 1. [Blog](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1)
-2. [Das Setup](#Setup)
+2. [Das Spielkonzept](#Setup)
 3. [Erklärung des Codes](#Erklärung)
 5. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
 
 
-<h1>1. Spielkonzept</h1>
+<h1>1. Spielkonzept</h1> <a name="Setup"></a>
 Bei unserem Spiel handelt es sich um ein 2D Adventure Spiel mit Puzzle und Plattform Elementen. Der Spieler hat dabei die Aufgabe das Ende des Levels durch das Lösen von "Rätseln" und durch das Bewältigen von Platform-Passagen zu erreichen bevor die zeit abläuft. Dabei muss er versuchen nicht an den diversen Fallen im Spiel zu sterben, um siegreich aus dem Spiel hervorzugehen.
 
 Hier einmal ein Video des gesamten Spiels mit allen seinen Funktionen:
 
 https://user-images.githubusercontent.com/88385813/144759791-de17a98b-73cd-49a5-bfcf-f4a6e968e209.mp4
 
-<h3>1.1 Das Setup</h3> <a name="Setup"></a>
+<h3>1.1 Das Setup</h3>
 
 Bevor das Spiel startet, hat der Spieler die Möglichekit, sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
 Anschließend hat der Spieler die Möglichkeit sich über den Button "Charakter Wählen" eine beliebige Spielfigur auszusuchen.
