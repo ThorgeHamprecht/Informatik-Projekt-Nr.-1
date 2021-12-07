@@ -741,7 +741,9 @@ Abschließend lässt sich festhalten , dass wir sehr zufrieden mit unserem Proje
 1. [Sprite - Steine](https://www.artstation.com/artwork/8eLdrE)
 2. [Sprite - Schlüssel](http://pixelartmaker.com/art/701d599ee087f38)
 3. [Sprite - Tor](https://www.deviantart.com/nicnubill/art/castle-Gate-428853290)
-
+### Quellen für Sounds
+1. [Schadens Geräusch Lava](https://freesound.org/people/Raclure/sounds/458867/)
+2. [Schadens Geräusch Speer](https://freesound.org/search/?q=Slap)
 
 
 
