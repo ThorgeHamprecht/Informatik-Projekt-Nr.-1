@@ -586,7 +586,7 @@ Jannik war leider heute krank, da wir aber schon seit der letzten Stunde nur noc
 
 Dabei gab es einen Fehler, bei dem der Schlüssel auch auf einer Stage aufgehoben werden konnte, auf der er nicht zu sehen war. Der fehler war allerdings schnell durch eine Kopplung des Aufhebebefehls an das aktiv sein der Schlüssel-Stage. Nun kann der Schlüssel nur noch in der linken Stage aufgehoben werden. 
 
-Auch am generellen Layout der Blog.Seite wurde weitergearbeitet. Hier wurde eine Refelxion des Endprodukts und einige Quellen hinzugefügt. 
+Auch am generellen Layout der Blogseite wurde weitergearbeitet. Hier wurde eine Refelxion des Endprodukts und einige Quellen hinzugefügt. 
 Außerdem wurden alle Überschriften im Blog mit passenden Emojis versehen:
 
 ![Screenshot 2021-12-06 213908](https://user-images.githubusercontent.com/88385813/144919202-c2ca6249-a1f2-444b-b6c0-751ff9062d9e.png)
