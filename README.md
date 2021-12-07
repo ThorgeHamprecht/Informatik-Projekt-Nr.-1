@@ -248,7 +248,6 @@ Dafür einerseites den Code im Spielerobjekt:
 ![Bildschirmfoto 2021-10-26 um 15 11 50 1](https://user-images.githubusercontent.com/88385813/144895099-f2d0581d-249e-4ceb-bb81-868ce9a64f50.jpg)
 ![Bildschirmfoto 2021-10-26 um 15 11 29](https://user-images.githubusercontent.com/88385813/144894903-e9052081-dd3a-4431-8e2d-ddce3c6b0cc0.jpg)
 
-
 Und den Code im Stage Objekt:
 
 ![Bildschirmfoto 2021-10-26 um 15 28 01](https://user-images.githubusercontent.com/88385813/144895136-bece641b-95ad-4e9b-b37c-96064a6b1c47.jpg)
