@@ -244,6 +244,7 @@ Da die Stunden leider ausfielen, haben wir Zuhause weitere Hintergünde designed
 Auch diese Stunde fiel leider aus. Wir wollten trotzdem beginnen, den Übergang des Spielers zwischen den "Stages" zu ermöglichen. Dabei haben wir die x-Koordinate des Spielers ausgelesen und wenn diese einen gewissen Wert übersteigt, der Spieler also aus dem Bildschirm läuft, wird der Hintergund entsprechend geändert. Die Hintergrundsänderung speichert dabei den aktuellen Hintergrund in einer Variable, um je nach aktuellem Hintergrund auf den richtigen neuen Hintergrund zu wechseln.
 Dafür einerseites den Code im Spielerobjekt:
 
+
 ![Bildschirmfoto 2021-10-26 um 15 11 50 1](https://user-images.githubusercontent.com/88385813/144895099-f2d0581d-249e-4ceb-bb81-868ce9a64f50.jpg)
 ![Bildschirmfoto 2021-10-26 um 15 11 29](https://user-images.githubusercontent.com/88385813/144894903-e9052081-dd3a-4431-8e2d-ddce3c6b0cc0.jpg)
 
@@ -703,8 +704,7 @@ Die Panflöte spielt die Melodie. Auch diese ist nach unten aufbauend, genau wie
 Der Liverpool Bass unterstützt die Akkorde, ebenfalls abfallend.
 Das Brooklyn Drum-Kit legt durch die HiHat den Hintergrundrhytmus fest.
 
- 
-Aufbau der Musik:
+ Aufbau der Musik:
  
 https://user-images.githubusercontent.com/88385813/144755444-5ec7c747-fd1c-4021-8504-8af2bb82a621.mp4
 
@@ -718,8 +718,8 @@ Dieses Stück unterstreicht das vorzeitige Ende des Abenteuers und ist dementspr
 
 Zuletzt wollen wir noch unser Projekt und den Arbeitsprozess rückblickend bewerten. 
  
-Insgesamt sind wir sehr zufrieden mit unserem Projekt, wir haben fast jede unserer Vorstellungen in Snap! umsetzten könne, auch wenn dies manchmal sehr kreative Lösungen erforderte. Generell hat uns die Arbeit an dem Projekt auch sehr viel Freude bereitet, denn das logische Denken und Lösen von Problemen war eine willkommene Abwechslung zum sonstigen Unterricht und hat uns auch über die Schulstunden hinaus gut beschäftigt.
-Außerdem fanden wir es sehr positiv, dass es sich in Informatik um eine Projektarbeit handelt und man so frei und kreativ handeln konnte.
+Insgesamt sind wir sehr zufrieden mit unserem Projekt, wir haben fast jede unserer Vorstellungen in Snap! umsetzten können, auch wenn dies manchmal sehr kreative Lösungen erforderte. Generell hat uns die Arbeit an dem Projekt auch sehr viel Freude bereitet, denn das logische Denken und Lösen von Problemen war eine willkommene Abwechslung zum sonstigen Unterricht und hat uns auch über die Schulstunden hinaus gut beschäftigt.
+Außerdem fanden wir es sehr positiv, dass es sich in Informatik um eine Projektarbeit handelt und man so frei und kreativ arbeiten konnte.
 Des Weiteren fanden wir den Austausch mit den Klassenkameraden sehr wichtig. Wir haben uns dabei immer gegenseitig unterstützt und konnten voneinander profitieren.
 
 Mit unserem Arbeitsprozess sind wir auch sehr zufrieden, wir haben in den Stunden fast immer erreicht, was wir uns vorgenommen hatten und haben uns die gesamte Zeit gut eingeteilt. Wir hatten also einen gut über die Gesamtzeit verteilten Arbeitsaufwand und mussten lediglich zuletzt unsere Notizen zu den Stunden noch in Protokolleinträge in unserem GitHub Repository verwandeln. Auch die Arbeitsaufteilung zwischen uns beiden hat bei allen Problemen sehr gut funktioniert. Nach kurzer Einarbeitungszeit konnten wir beide am Spiel programmieren. Durch die Cloud-Funktion von Snap! konnten wir beide Zuhause das Spiel weiter programmieren und der jeweils andere konnte die Änderungen aus der Cloud herunterladen. 
