@@ -244,15 +244,14 @@ Da die Stunden leider ausfielen, haben wir Zuhause weitere Hintergünde designed
 Auch diese Stunde fiel leider aus. Wir wollten trotzdem beginnen, den Übergang des Spielers zwischen den "Stages" zu ermöglichen. Dabei haben wir die x-Koordinate des Spielers ausgelesen und wenn diese einen gewissen Wert übersteigt, der Spieler also aus dem Bildschirm läuft, wird der Hintergund entsprechend geändert. Die Hintergrundsänderung speichert dabei den aktuellen Hintergrund in einer Variable, um je nach aktuellem Hintergrund auf den richtigen neuen Hintergrund zu wechseln.
 Dafür einerseites den Code im Spielerobjekt:
 
+<img width="228" alt="Bildschirmfoto 2021-12-07 um 20 07 31" src="https://user-images.githubusercontent.com/88385954/145090742-28401a5b-138a-457f-948b-acdff688e823.png">
+<img width="314" alt="Bildschirmfoto 2021-12-07 um 20 07 47" src="https://user-images.githubusercontent.com/88385954/145090781-e3b0836c-fcf8-42b9-ab40-5467b70a8a25.png">
 
-![Bildschirmfoto 2021-10-26 um 15 11 50 1](https://user-images.githubusercontent.com/88385813/144895099-f2d0581d-249e-4ceb-bb81-868ce9a64f50.jpg)
-![Bildschirmfoto 2021-10-26 um 15 11 29](https://user-images.githubusercontent.com/88385813/144894903-e9052081-dd3a-4431-8e2d-ddce3c6b0cc0.jpg)
 
 Und den Code im Stage Objekt:
 
-![Bildschirmfoto 2021-10-26 um 15 28 01](https://user-images.githubusercontent.com/88385813/144895136-bece641b-95ad-4e9b-b37c-96064a6b1c47.jpg)
-![Bildschirmfoto 2021-10-26 um 15 28 38](https://user-images.githubusercontent.com/88385813/144895147-d385195c-caa1-4d67-a0e4-117f18985ccc.jpg)
-
+<img width="276" alt="Bildschirmfoto 2021-12-07 um 20 08 52" src="https://user-images.githubusercontent.com/88385954/145090917-8849983a-c89a-4ec2-8c6e-c5722186c3b9.png">
+<img width="277" alt="Bildschirmfoto 2021-12-07 um 20 09 07" src="https://user-images.githubusercontent.com/88385954/145090958-8006c192-55a3-4b16-958b-03a89792a029.png">
 
 Für beide gibt es noch den Code für den linken Rand, der nach dem gleichem Prinzip funktioniert.
 
@@ -309,11 +308,11 @@ Dabei gibt es eine Variable, die die aktuellen Leben des Spielers speichert, die
 
 Der Code besteht dabei einerseits im Spielerobjekt mit der Erkkenung des Schaden verursachenden Objekts und dem "Broadcasten" der Information Schaden bekommen zu haben:
 
-![Bildschirmfoto 2021-10-19 um 15 53 13](https://user-images.githubusercontent.com/88385813/144895801-1fcbdb2b-bbf6-4f5f-ad8b-55d01f1b3106.jpg)
+<img width="187" alt="Bildschirmfoto 2021-12-07 um 20 10 21" src="https://user-images.githubusercontent.com/88385954/145091142-0ce02aff-9202-4a4c-a1b4-e17a11aa2159.png">
 
 Und andererseits im Herzobjekt, wo der Schaden in eine Anzeige umgewandelt wird:
 
-![Bildschirmfoto 2021-10-19 um 15 52 40](https://user-images.githubusercontent.com/88385813/144895727-a2b54510-38cf-4bf8-b755-6e1feec7fd50.jpg)
+<img width="295" alt="Bildschirmfoto 2021-12-07 um 20 10 39" src="https://user-images.githubusercontent.com/88385954/145091190-66e705d3-b904-4228-9a17-202298339eec.png">
 
 ### Dienstag, 28.09.2021 <a name="dreizehn"></a>
 Heute haben wir den Start unseres Spiels programmiert. Zunächst haben wir einen Platzhalter eingefügt, welcher einen Start-Knopf simulieren sollte. Danach haben wir ein PNG erstellt, welches die Überschrift "Spiel Starten" aufzeigt. Dieses Startmenü soll immer dann erscheinen, wenn man das Spiel das erste Mal starten möchte und immer dann, wenn man ein Leben verloren hat:
@@ -336,11 +335,11 @@ Zu Anfang dieser Stunde haben wir Ihnen unser Problem mit den Herzen geschildert
 
 Altes System:
 
-![Bildschirmfoto 2021-10-19 um 15 52 40](https://user-images.githubusercontent.com/88385813/144907796-9c7753c4-030f-45ce-815d-707781331e8f.jpg)
+<img width="297" alt="Bildschirmfoto 2021-12-07 um 20 11 44" src="https://user-images.githubusercontent.com/88385954/145091328-003f2618-e1d6-4360-9d63-4f82f21a1b00.png">
 
 Neues System:
 
-![Bildschirmfoto 2021-10-19 um 15 53 00](https://user-images.githubusercontent.com/88385813/144907813-e481ef67-c85a-4b92-947b-f8c6458aa3b0.jpg)
+<img width="189" alt="Bildschirmfoto 2021-12-07 um 20 12 04" src="https://user-images.githubusercontent.com/88385954/145091371-5c5389b6-652c-4f16-9414-9d1edef2f082.png">
 
 Trotzdem verwirrt uns noch immer, warum der Fehler aufgetreten ist. Snap! scheint manchmal inkonsequent zu sein. So kann z.B. auch bei unser Bodenerkennung betrachtet werden, dass der Spieler jedes mal unterschiedlich weit in den Boden einsackt, obwohl er gestoppt werden sollte, sobald er die braune Farbe des Bodens berührt:
 
@@ -491,8 +490,7 @@ Wir haben uns mit Ihnen über diese beiden Probleme ausgetauscht und sind gemein
 
 Damit haben wir das vorherige Problem gelöst, bei dem der Loop noch nicht funktionierte, bzw. auch nach dem Wehchseln des Musikstücks noch das alte Musikstück eingespielt wurde:
 
-![Bildschirmfoto 2021-11-23 um 15 16 35](https://user-images.githubusercontent.com/88385813/144968039-55d4aa88-e079-4b76-a3e9-12e150248246.jpg)
-
+<img width="415" alt="Bildschirmfoto 2021-12-07 um 20 13 35" src="https://user-images.githubusercontent.com/88385954/145091584-24efbfa2-c661-452b-b86c-e7d58e1b43d0.png">
 
 ### Dienstag, 16.11.2021 <a name="füfnundzwanzig"></a>
 Eine der Grundideen unseres Spiels war es Rätsel zu erstellen. Dafür haben wir uns heute überlegt, ein Tor zu erstellen, welches bei Spielstart geschlossen ist. Der Spieler soll zunächst einen Schlüssel finden müssen, damit er das Tor öffnen kann.
