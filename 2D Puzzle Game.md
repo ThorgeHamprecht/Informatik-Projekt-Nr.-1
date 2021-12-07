@@ -280,7 +280,7 @@ Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Speeren in Berü
  <details>
 <summary>Sprite Speer - Script</summary>
 <br>
-<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144925284-64500692-e03c-4005-a14d-9d19aca6fad1.png">
+<img src="https://user-images.githubusercontent.com/88385813/144925284-64500692-e03c-4005-a14d-9d19aca6fad1.png" alt="https://user-images.githubusercontent.com/88385813/144925284-64500692-e03c-4005-a14d-9d19aca6fad1.png">
 </details>
 
  
@@ -289,7 +289,7 @@ Wenn der Spieler jetzt den Speer berührt und die Variable "SpeerUnterwegs" den 
  <details>
 <summary>Sprite Speer - Lebensverlust</summary>
 <br>
-<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144925757-8d5a85fd-b6f4-41e3-ad00-cb9ce95e64da.png">
+<img src="https://user-images.githubusercontent.com/88385813/144925757-8d5a85fd-b6f4-41e3-ad00-cb9ce95e64da.png" alt="https://user-images.githubusercontent.com/88385813/144925757-8d5a85fd-b6f4-41e3-ad00-cb9ce95e64da.png">
 </details>
  
 
@@ -298,7 +298,7 @@ Des weiteren wird mit dem Broadcast "SpeerSchaden" der passende Sound im Spieler
  <details>
 <summary>Sprite Spieler - Schadenssound</summary>
 <br>
-<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144926017-c7699838-4960-4311-b5e7-82a2210edaa6.png">
+<img src="https://user-images.githubusercontent.com/88385813/144926017-c7699838-4960-4311-b5e7-82a2210edaa6.png" alt="https://user-images.githubusercontent.com/88385813/144926017-c7699838-4960-4311-b5e7-82a2210edaa6.png">
 </details>
 
 
@@ -307,7 +307,7 @@ Auch der Speer erscheint natürlich nur in der dafür vorgesehenen Stage der Cod
   <details>
 <summary>Sprite Speer - show bzw. hide </summary>
 <br>
-<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144926449-e57b5c78-7918-49ed-8f0d-4213ca0b0116.png">
+<img src="https://user-images.githubusercontent.com/88385813/144926449-e57b5c78-7918-49ed-8f0d-4213ca0b0116.png" alt="https://user-images.githubusercontent.com/88385813/144926449-e57b5c78-7918-49ed-8f0d-4213ca0b0116.png">
 </details>
 
 
@@ -317,8 +317,8 @@ Dieser eine Speer wurde einfach dupliziert und die Variablen zur Bestimmung der 
  <details>
 <summary>Sprite Speer - !.Welle und 2. Welle </summary>
 <br>
-<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144927166-a54eca51-2399-47d0-b4a1-43934edde769.png">
-<img src="Speer" alt="https://user-images.githubusercontent.com/88385813/144927186-a43a9328-b34d-4816-9043-182480c9b148.png">
+<img src="https://user-images.githubusercontent.com/88385813/144927166-a54eca51-2399-47d0-b4a1-43934edde769.png" alt="https://user-images.githubusercontent.com/88385813/144927166-a54eca51-2399-47d0-b4a1-43934edde769.png">
+<img src="https://user-images.githubusercontent.com/88385813/144927186-a43a9328-b34d-4816-9043-182480c9b148.png" alt="https://user-images.githubusercontent.com/88385813/144927186-a43a9328-b34d-4816-9043-182480c9b148.png">
 </details>
 
  Hier nun einmal die Speere in Aktion:
