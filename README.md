@@ -592,6 +592,7 @@ Außerdem wurden alle Überschriften im Blog mit passenden Emojis versehen:
 ![Screenshot 2021-12-06 213908](https://user-images.githubusercontent.com/88385813/144919202-c2ca6249-a1f2-444b-b6c0-751ff9062d9e.png)
 ![Screenshot 2021-12-06 213938](https://user-images.githubusercontent.com/88385813/144919212-913956c6-ac10-4123-8b66-47c801d81d38.png)
 
+Zuletzt mussten wir noch am Wochenende unser GitHub Repository fertig zusammenfügen. Wir hatten in der Arbeitszeit, um uns bei den Commits nicht in die queere zu kommen unterscheidliche Reposiories angelegt, auf denen unterschiedliche Versionen der Einträge für den Blog und die Projektseite vorhanden waren. Dabei hatten wir also sehr viele verschidene Repositories auf Thorges und Janniks Account. Jannik hat dabei das Zusammnefügen der Projektseite übernommen und Thorge das der Blogseite. Obwohl dies natürlich einige Zeit in Anspruch nahm war es relativ leicht zu erledigen, da fast alle Beiträge schon zuvor  angefertigt worden waren. Es handelte sich also bloß um Copy-Paste Arbeit zwischen den verscheideneen Repositories.
 ## 🔧Arbeitsmethoden<a name="Methoden"></a>
 
 ### 🎨Sprite Erstellung<a name="MethodenSprite"></a>
