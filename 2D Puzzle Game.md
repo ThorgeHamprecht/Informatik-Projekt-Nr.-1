@@ -859,6 +859,7 @@ Berührt der Spieler das Objekt Loch, welches über die Szeneauswahl Funktionen 
 Das Spiel kann entweder verloren oder gewonnen werden. Läuft die Zeit aus oder der Spieler verliert alle seine 3 Leben, so wird "GameOver" gebroadcastet. Damit wird im Stage Objekt der Game Over Screen aktiviert, die dazugehörige Musik abgespielt und das Menü ist mittels eines Knopfes auf dem Game Over Screen zu erreichen, das Spiel kann nun erneut gestartet werden. Die Hintergründe hierfür wurden schon in der Stagewechsel Erklärung hinreichend erläutert. 
 Neu ist allerdings der Victory Screen, welcher selbst wie der Game Over Screen funktioniert, aber nach dem Berühren der Zielfahne eine Art Animation auslöst.
  
+  <details>
  <summary>Sprite Zielfahne - Animation nach Berührung</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/88385813/144933874-720581e3-b5c1-4450-8359-6d1a8c553e2a.png" alt="https://user-images.githubusercontent.com/88385813/144933874-720581e3-b5c1-4450-8359-6d1a8c553e2a.png">
@@ -866,7 +867,8 @@ Neu ist allerdings der Victory Screen, welcher selbst wie der Game Over Screen f
 
 
 Nach der Berührung wird zunächst die Animation der Fahne abgespielt und die GameWonMusik gestartet. Dann startet ein Fade to Black, welcher nach dem selben Prinzip der 10 und 20 Sekunden Warnung im Zusammnenhang mit dem Timer funktioniert:
-
+ 
+ <details>
  <summary>Sprite Zielfahne - Fado To Black</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/88385813/144934198-c635efed-a96a-445a-9a5c-4325c68c1fec.png" alt="https://user-images.githubusercontent.com/88385813/144934198-c635efed-a96a-445a-9a5c-4325c68c1fec.png">
@@ -874,7 +876,8 @@ Nach der Berührung wird zunächst die Animation der Fahne abgespielt und die Ga
  
 
 Nun wird der Spieler mit der Nachricht "SpielerAusBildschirm" aus dem Bildschirm bewegt. Dafür wird folgendes Script im Spielerobjekt aktiviert:
-
+ 
+ <details>
 <summary>Sprite Spieler - Bewegung aus dem Bildschirm</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
@@ -886,7 +889,8 @@ Nun wird der Spieler mit der Nachricht "SpielerAusBildschirm" aus dem Bildschirm
  
 <h1>2.10 Musik </h1>
 Auch das Abspielen der Musik ist an das Wechseln der Stages gekoppelt. Alle Musikdateien befinden sich im Stageobjekt:
-
+ 
+ <details>
 <summary>Stageobjekt - Musik</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png" alt="https://user-images.githubusercontent.com/88385813/144927845-a9b7487a-9df3-4286-94d7-28b8a9238565.png">
@@ -894,7 +898,8 @@ Auch das Abspielen der Musik ist an das Wechseln der Stages gekoppelt. Alle Musi
  
 
 Die Titelmusik wird abgespielt, sobald das Spiel per Klick auf die Fahne gestartet wird und außerdem nach einem GameOver oder Sieg, sobald das Menü wieder geöffnet wird oder die Victory-musik fertig abgespeilt ist. Dies wird mit den "Broadcast" Funktionen zur Szenenauswahl gesteuert: 
-
+ 
+ <details>
 <summary>Stageobjekt - Musik-Loop</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png" alt="https://user-images.githubusercontent.com/88385813/144928328-71d0c629-ae36-4b31-9577-992c42ce7814.png">
