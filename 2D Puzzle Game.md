@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/88385813/144759791-de17a98b-73cd-49a5-
 
 <h3>1.1 Das Setup</h3>
 
-Bevor das Spiel startet, hat der Spieler die Möglichekit, sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
+Bevor das Spiel startet, hat der Spieler die Möglichkeit, sich in dem Startmenü im Zuge der Anleitung über das Spielprinzip, das Spielziel und das Steuern der Spielfigur zu informieren.
 Anschließend hat der Spieler die Möglichkeit sich über den Button "Charakter Wählen" eine beliebige Spielfigur auszusuchen.
 Dabei gibt es drei Figuren zur Wahl.
 
@@ -29,7 +29,7 @@ Dabei gibt es drei Figuren zur Wahl.
 Fühlt sich der Spieler bereit, so kann er über die Betätigung des Buttons "Spiel Starten" das Spiel beginnen.
 Folglich befindet sich die Spielfigur in der Stage 0 sowie im ersten Level wieder.
 Die Spielfigur kann auf der braunen Unterfläche nach rechts und links laufen. Zudem besteht die Möglichkeit mit Betätigung der Taste "S" oder dem Leerzeichen zu springen.
-Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werden, z.B. bei Berührung der Lava oder der Laserstrahlen weniger, bis die Spielfigur schließlich stirbt und das Spiel vorbei ist.
+Oben links in der Ecke werden die drei Leben der Spielfigur angezeigt. Diese werden, z.B. bei Berührung der Lava oder der Speere weniger, bis die Spielfigur schließlich stirbt und das Spiel vorbei ist.
 
 
 <h3>1.3 Spielkonzept/Spielziel</h3>
@@ -37,19 +37,19 @@ Oben links in der Ecke sind die drei Leben der Spielfigur angezeigt. Diese werde
 
 Der Spieler steuert anschließend die Spielfigur in die verschiedenen Richtungen. 
 Das Ziel des Spiels ist es, das Level zu schaffen.
-Dafür muss der Spieler es schaffen die Fahne am Ende des Spiels zu erreichen. Wie der Spieler seine Spielfigur dort hinsteuert, muss er selbst herrausfinden.
-Auf dem Weg zum Schaffen des Levels erwarten den Spieler viele Herrausfoderungen. 
-Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor zu öffnen. Zudem muss der Spieler es schaffen, dass seine Spielfigur nicht in die Lava tritt und nicht von den Speeren getroffen wird.
-Des Weiteren ist die Zeit, in der man das Level schaffen muss begrenzt. Der Spieler hat 60 Sekunden Zeit!
+Dafür muss der Spieler die Fahne am Ende des Spiels erreichen. Wie der Spieler seine Spielfigur dort hinsteuert, muss er selbst herrausfinden.
+Auf dem Weg zum Abschließen des Levels erwarten den Spieler viele Herausfoderungen. 
+Beispielsweise muss an einer Stelle ein Schlüssel gefunden werden, um ein Tor zu öffnen. Zudem muss der Spieler es schaffen, dass seine Spielfigur nicht in die Lava tritt oder von den Speeren getroffen wird.
+Des Weiteren ist die zeit zur Bewältigung des Leveles begrenzt. Der Spieler hat nur 60 Sekunden Zeit, um das level zu beenden! Schafft er dies nicht, verliert er.
 
-Mit diesem Spielkonzept war unsere Absicht ein spannendes, kreatives und reizvolles 2D Spiel zu entwerfen, welches für den Spieler sowohl fordern als machbar ist.
+Mit diesem Spielkonzept war unsere Absicht ein spannendes, kreatives und reizvolles 2D Spiel zu entwerfen, welches für den Spieler leicht fordernd, aber doch machbar ist.
 
 
 <h1>Erklärung des Codes</h1> <a name="Erklärung"></a>
 
 <h1>2.1 Grundeinstellungen für die Spielfigur </h1>
 
-Die Spielfigur ist nicht zu sehen, wenn das Spiel gewonnen wurde, wenn die grüne Fahne gedrückt wird und wenn sich der Spieler im Menü befindet.
+Die Spielfigur ist nicht zu sehen, wenn das Spiel gewonnen wurde, wenn die grüne Fahne gedrückt wird und wenn sich der Spieler im Menü befindet. Die grüne Fahne markiert dabei immer den Start des Programms und wird somit beim Öfnnen des Spiels aktiviert und es werden die dazugehörigen Scripte ausgeführt.
 
 <details>
 <summary>Sprite Spieler - hide </summary>
@@ -76,7 +76,7 @@ Zudem wird sie nun sichtbar.
  <h2> Horizontale Bewegung der Spielfigur </h2>
 
 
-Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit 10.
+Immer wenn das Spiel gestartet wird ist die Bewegungsgeschwindigkeit = 10.
 
 <details>
 <summary>Sprite Spieler - Bewegungsgeschwindigkeit </summary>
@@ -91,14 +91,14 @@ Sobald das Spiel startet wird die Variable "SpielerBewegung" = 1 gesetzt.
  <img width="173" alt="Bildschirmfoto 2021-11-27 um 17 38 01" src="https://user-images.githubusercontent.com/88385954/143689544-097c831e-8b2c-4b90-a4ee-d61814c6121e.png">
 </details>
 
-Anschließend ist für die horizontale Bewegung der folgende Code relevant. Zunächst wird geprüft, ob die Variable "SpielerBewegung" =1 ist. Wenn dies der Fall ist, werden folgende Bedingunen geprüft.
+Anschließend ist für die horizontale Bewegung der folgende Code relevant. Zunächst wird geprüft, ob die Variable "SpielerBewegung" = 1 ist. Wenn dies der Fall ist, werden folgende Bedingunen geprüft.
 Zunächst wird die Bewegungsrichtung rechts betrachtet.
 Hier ergibt sich im Code eine Besonderheit, weil die Spielfigur sich nur nach rechts bewegen darf, wenn das Tor, welches sich in Stage 2 befindet offen ist. Somit wird zunächst geprüft, ob das Tor offen ist. Dies wird später in der Tor Erklärung weiter erläutert.
-Wenn das Tor offen ist und die rechte Pfeiltaste oder d auf der Tastatur gedrückt wird, dann wird die X-Koordinate mit der Bewegungsgeschwindigkeit 10 geändert. 
+Wenn das Tor offen ist und die rechte Pfeiltaste oder "D" auf der Tastatur gedrückt wird, dann wird die X-Koordinate mit der Bewegungsgeschwindigkeit 10 geändert. 
 Dabei ändert sich an der Blickrichtung der Spielfigur nichts.
 
 Die Bewgung nach links gestaltet sich leichter. Hier muss nicht geprüft werden, ob das Tor in Stage 2 offen ist.
-Somit wird lediglich, wenn die SpielerBewegung = 1 ist, geprüft, ob der linke Pfeil auf der Tastatur gedrückt wird oder ob a auf der Tastatur betätigt wird.
+Somit wird lediglich, wenn die "SpielerBewegung" = 1 ist, geprüft, ob der linke Pfeil auf der Tastatur gedrückt wird oder ob "A" auf der Tastatur betätigt wird.
 Wenn dies der Fall ist, bewegt sich die Spielfigur in die negative Richtung auf der X-Achse mit der Bewegungsgeschwindigkeit 10.
 
 <details>
@@ -117,15 +117,15 @@ Sobald das Spiel gestartet wird, werden folgende Variablen definiert, die für d
 <img width="188" alt="Bildschirmfoto 2021-11-27 um 14 56 28" src="https://user-images.githubusercontent.com/88385954/143684429-1d1b15b0-bc6e-47e9-b04f-dd87c387dc42.png">
  </details>
 
-Um das Springen der Spielfigur zu ermöglichen, haben wir uns einige Dinge überlegt.
-Zunächst wird mit dem ersten Codeblock, sobald das Spiel gestartet wird, geprüft, ob die Spielfigur die BodenHitbox berührt. Dieser Sprite ist ein sehr dünner, grüner Streifen welcher nicht sichtbar ist:
+Um das Springen der Spielfigur zu ermöglichen, haben wir uns einige Dinge überlegt:
+Zunächst wird mit dem ersten Codeblock, sobald das Spiel gestartet wird, geprüft, ob die Spielfigur die BodenHitbox berührt. Dieses Objekt ist ein sehr dünner, grüner Streifen welcher nicht sichtbar ist:
 
  <details>
 <summary><b>Erklärung Sprite Bodenhitbox</b></summary>
 <br>
  <mark> 
   
-  Sobald das Spiel gestartet wird, wird das Costume zu dem dünnen, grünen Streifen geändert. 
+  Sobald das Spiel gestartet wird, wird das Kostüm zu dem dünnen, grünen Streifen geändert. 
 Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Einfluss auf die Spielfigur hat. 
 
  
@@ -133,8 +133,8 @@ Zudem wird eingestellt, dass die grüne Linie im Vordergrund ist, somit also Ein
  
 <img width="90" alt="Bildschirmfoto 2021-11-27 um 15 01 24" src="https://user-images.githubusercontent.com/88385954/143684643-282d77f8-7e3c-4666-a45b-dab6d7c209ad.png">
 
-Des Weiteren ist der "ghost effect" = 100. Somit ist die grüne Linie nicht zu sehen, erfüllt jedoch trotzdem seinen Zweck.
-Des Weiteren soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dies ist mit den folgenden Codes eingestellt. XX (Wieso bei Game-Over?)
+Des Weiteren ist der "ghost effect" = 100. Somit ist die grüne Linie nicht zu sehen, führt aber trotzdem seine Scripte in Interaktion mit anderen Objekten aus.
+Des Weiteren soll diese unsichtbare grüne Linie in jeder Stage Anwendung finden. Dabei gibt es eine BodenHitbox mit Loch, damit der Spieler in der linken Stage in das Loch, welches später erklärt wird, fallen kann. Dies ist mit den folgenden Codes eingestellt. Beim Game Over wird das Kostüm wieder zurückgesetzt, damit bei erneutem Spielstart nicht das Kostüm mit Loch aktiviert ist.
   
 
 <img width="250" alt="Bildschirmfoto 2021-11-27 um 15 01 05" src="https://user-images.githubusercontent.com/88385954/143684625-acf1ec9f-484c-4a55-90f0-0a6b83771d89.png"> </mark>
@@ -155,7 +155,7 @@ Berührt die Spielfigur nicht die "BodenHitbox" so wird die Variable "BerührtBo
 
 Der folgende Code beschreibt die Auswirkungen, wenn die Spielfigur den Boden berührt, "BerühreBoden" also ausgeführt ist.
 In diesem Fall wird die Fallgeschwindigkeit = -3 gesetzt. 
-Mit den folgenden drei Bedingungen wird das Springen eingestellt. Egal ob der Spieler die Leertaste, den Pfeil nach oben oder die Taste w betätigt, wird der Y-Wert um die zuvor definierte Sprungkraft geändert. Zudem wird der Befehl "gesprungen" ausgeführt.
+Mit den folgenden drei Bedingungen wird das Springen eingestellt. Egal ob der Spieler die Leertaste, den Pfeil nach oben oder die Taste "W" betätigt, wird der Y-Wert um die zuvor definierte Sprungkraft geändert. Zudem wird der Befehl "gesprungen" ausgeführt.
 
 <details>
 <summary>Sprite Spieler - "when I recive "BerühreBoden"" </summary>
@@ -166,7 +166,7 @@ Mit den folgenden drei Bedingungen wird das Springen eingestellt. Egal ob der Sp
 
 Mit diesem Code werden die beiden vorherigen Bedingungen vorrausgesetzt. Der Code wird so lange ausgeführt wie die Variable "BerührtBoden" = 0 ist, die Spielfigur also nicht die "BodenHitbox" berührt.
 Dann wird die Fallgeschwindigkeit mit 1,2 multipliziert und die Y-Koordinate wird entsprechend geändert.
-Dadurch erhöhrt sich die Fallgeschwindigkeit, je länger sich die Spielfigur im Fall befindet. Dies soll den natürlichen Fall von der Spielfigur darstellen.
+Dadurch erhöhrt sich die Fallgeschwindigkeit, je länger sich die Spielfigur im Fall befindet. Dies soll die natürliche Beschleunigung im Fall der Spielfigur darstellen.
 
 <details>
 <summary>Sprite Spieler - "when I recive "BerühreBoden"" </summary>
@@ -174,7 +174,7 @@ Dadurch erhöhrt sich die Fallgeschwindigkeit, je länger sich die Spielfigur im
 <img width="359" alt="Bildschirmfoto 2021-11-27 um 14 25 49" src="https://user-images.githubusercontent.com/88385954/143683287-3a68c976-c91b-4e03-ae5c-1884d70dde74.png">
  </details>
  
- Hier mit sichtbar gemachter Hitbox der Code in seiner Ausführung im Spiel:
+ Hier mit sichtbar gemachter "BodenHitbox" der Code in seiner Ausführung im Spiel:
  
  ![BodenHitbox](https://user-images.githubusercontent.com/88385813/144720885-bff496aa-9340-4474-9f1b-0ee18f2dc0c9.gif)
 
@@ -188,7 +188,8 @@ Die drei Leben befinden sich im oberen linken Eck des Spielrandes.
 Der folgende Code soll beispielhaft die Funktion der Herzen erläutern.
 Der Code codiert für die generellen Informationen des Herzens. Immer wenn das Spiel gestartet wird erscheint das Herz. Dies ist durch die Befehle "when I receive SpielStartet" und "switch costum to Herz" ausgedrückt. Durch den Befehl "set size to 20%" wird die Orginalgröße des Herzens auf dem ursprünglich eingefügten png-Bild auf 20% der Originalgröße herabgesetzt, damit alle drei Herzen nebeneinander passen.
 Das Herz soll zudem im Vordergrund erscheinen. Um dies zu erreichen haben wir den Code "go to front layer" eingefügt. 
-Ein weitere wichtiger Teil diese Code-Blockes ist die eingestellte Position des Herzens. Durch die X-Koordinate -140 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das dritte Herz ist dabei das Herz, welches sich von den drei Herzen am weitesten rechts befindet, weil dieses Herz bei einem Schaden zuert reagieren und erlischen soll, damit die Leben von rechts nach links weniger werden. Der letzte Befehl in diesem Codeblock ist der Befehl "show". Damit wollen wir erreichen, dass das Herz erst bei Spielstart angezeigt wird.
+ 
+Ein weiterer wichtiger Teil dieses Code-Blockes ist die eingestellte Position des Herzens. Durch die X-Koordinate -140 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das dritte Herz ist dabei das Herz, welches sich von den drei Herzen am weitesten rechts befindet, weil dieses Herz bei einem Schaden zuerst reagieren und erlischen soll, damit die Leben von rechts nach links weniger werden. Der letzte Befehl in diesem Codeblock ist der Befehl "show". Damit erreichen wir, dass das Herz erst bei Spielstart angezeigt wird.
 
 <details>
 <summary>Sprite Leben 3 - "when I receive SpielStartet" </summary>
@@ -196,7 +197,7 @@ Ein weitere wichtiger Teil diese Code-Blockes ist die eingestellte Position des 
 <img width="185" alt="Bildschirmfoto 2021-11-27 um 18 58 24" src="https://user-images.githubusercontent.com/88385954/143691819-6f7a1c0e-73fc-4a44-96af-5975d428d3d3.png">
 </details>
 
-Durch den Folgenden Code haben wir den Costume-Wechsel programmiert. Wenn der Befehl "TestSchaden" ausgeführt wird, wird dieser Code ausgeführt. Dieses Ausführen des Codes ist allerdings an die Bedingung gekoppelt, dass sich die Lebenanzahl über 1,5 befindet. Diese Zahl startet bei Spielstart bei drei Leben. Das Event "TestSchaden" wird im Spieler-script erst nachdem bereits 0,5 von den ursprünglichen 3 abgezogen worden sind ausgeführt. Somit wird dieser Code in dem Script "Leben 3" genau 2 mal ausgeführt: Einmal bei 2,5 und das nächste mal bei 2. Sind diese Bedingungen erfüllt, so wird das Costume gewechselt.
+Durch den folgenden Code haben wir den Kostüm-Wechsel programmiert. Wenn der Befehl "TestSchaden" ausgeführt wird, wird dieser Code ausgeführt. Dieses Ausführen des Codes ist allerdings an die Bedingung gekoppelt, dass sich die Lebenanzahl über 1,5 befindet. Diese Zahl startet bei Spielstart bei drei Leben. Das Event "TestSchaden" wird im Spieler-script erst nachdem bereits 0,5 von den ursprünglichen 3 abgezogen worden sind ausgeführt. Somit wird dieser Code in dem Script "Leben 3" genau 2 mal ausgeführt: Einmal bei 2,5 und das nächste mal bei 2. Sind diese Bedingungen erfüllt, so wird das Kostüm gewechselt.
 
 <details>
 <summary>Sprite Leben 3 - "when I receive TestSchaden" </summary>
@@ -204,7 +205,7 @@ Durch den Folgenden Code haben wir den Costume-Wechsel programmiert. Wenn der Be
 <img width="216" alt="Bildschirmfoto 2021-11-27 um 19 01 34" src="https://user-images.githubusercontent.com/88385954/143691893-d98d60d2-0758-44bf-afb4-3db6e4d1e6b0.png">
 </details>
 
-Die drei erstellten Costumes gelten für alle drei Herzen und sehen wie folgt aus:
+Die drei erstellten Kostüme gelten für alle drei Herzen und sehen wie folgt aus:
 
 1. Hier ist das Herz noch "ganz". Der Code wurde bisher nicht ausgeführt.
 
@@ -220,9 +221,9 @@ Die drei erstellten Costumes gelten für alle drei Herzen und sehen wie folgt au
 
 Damit das Herz nicht immer gezeigt wird, muss es in verschiedenen Stages versteckt werden. Dies gilt:
 1. Wenn das Programm gestartet wird soll das Herz nicht zu sehen sein. Darum haben wir "When I receive flag hide" eingefügt.
-2. Wenn Der Spielende auf das Menü klickt, nach Spielstart soll das Leben noch nicht sichtbar sein. Darum haben wir den Code "When I receive Menu hide" eingefügt.
-3. Außerdem soll das Herz verschwinden, wenn der Spielende das Level verloren hat und wieder zum Startmenü zurückgeleitet wird. Der Code dafür ist der dritte Code im folgenden Bild. 
-4. Wenn die Stage "GAmeWon" ausgeführt wird, soll das Herz verschwunden sein.
+2. Wenn Der Spielende auf das Menü klickt, nach Aufruf des Menüs soll das Leben noch nicht sichtbar sein. Darum haben wir den Code "When I receive Menu hide" eingefügt.
+3. Außerdem soll das Herz verschwinden, wenn der Spielende das Level verloren hat und wieder zum Startmenü zurückgeleitet wird. Der Code dafür ist das dritte Script im folgenden Bild. 
+4. Wenn die Stage "GameWon" ausgeführt wird, soll das Herz verschwunden sein.
 
 <details>
 <summary>Sprite Leben 3 - hide </summary>
@@ -232,11 +233,11 @@ Damit das Herz nicht immer gezeigt wird, muss es in verschiedenen Stages verstec
 
 
 Bei Leben 2 und bei Leben 1 ist der Code ähnlich wie bei Leben 3 aufgebaut. Der erste Unterschied liegt in den Koordinaten der Herzen. Die Herzen sollen nebeneinander oben links im Bild zu sehen sein.
-Die Position des Herzens 2 wird durch die X-Koordinate -180 und die Y-Koordinate 172 eingestellt. Das zweite Herz befindet sich damit genau zwoschen dem dritten Herz und dem zweiten Herz. 
-Die Position des Herzens 1 wird durch die X-Koordinate -220 und die Y-Koordinate 172 haben wir die Position am oberen linken Rand des Spieles eingestellt. Das zweite Herz befindet sich damit genau zwischen dem dritten Leben und dem zweiten Leben. 
-Der zweite Unterschied liegt in der Anzahl der Leben, bei denen die Funktionen ausgeführt werden. Logischerweise soll jedes halbes Leben angezeigt werden. Deshalb verschiebt sich auch der Bereich, bei dem die Funktionen ausgeführt werden bei jeden Leben weiter nach unten.
-Das Costume bei Herz 2 genau zwei mal geändert. Einmal wenn die Lebensanzahl genau 1,5 ist und das zweite mal wenn die Lebenanzahl genau 1 ist.
-Das Costume bei Leben 1 wird bei der entsprechenden Lebenanzahl 0,5 und bei 0 ändert. Bei 0,5 wird nur, wie auch zuvor, ein halbes Herz abgezogen. Bei der Lebensanzahl 0 ist noch eine besonderheit vorzufinden. Der Spielende hat alle Leben verloren und somit ist das Spiel beendet. 
+Die Position des Herzens 2 wird durch die X-Koordinate -180 und die Y-Koordinate 172 eingestellt. Das zweite Herz befindet sich damit genau zwischen dem dritten Herz und dem zweiten Herz. 
+Die Position des Herzens 1 wird durch die X-Koordinate -220 und die Y-Koordinate 172 auf den oberen linken Rand des Bildschirmes eingestellt. Das zweite Herz befindet sich damit genau zwischen dem dritten Leben und dem zweiten Leben. 
+Der zweite Unterschied liegt in der Anzahl der Leben, bei denen die Funktionen ausgeführt werden. Logischerweise soll jedes halbes Leben angezeigt werden. Deshalb verschiebt sich auch der Bereich, bei dem die Funktionen ausgeführt werden, bei jedem Leben weiter nach unten.
+Das Kostüm bei Herz 2 genau zwei mal geändert. Einmal wenn die Lebensanzahl genau 1,5 ist und das zweite mal wenn die Lebenanzahl genau 1 ist.
+Das Kostüm bei Leben 1 wird bei der entsprechenden Lebenanzahl 0,5 und bei 0 ändert. Bei 0,5 wird nur, wie auch zuvor, ein halbes Herz abgezogen. Bei der Lebensanzahl 0 ist noch eine besonderheit vorzufinden. Der Spielende hat alle Leben verloren und somit ist das Spiel beendet. 
 Deshalb wird nach Abzug des letzten halben Lebens "broadcast Tod" ausgeführt. Außerdem wird die Spielmusik gestoppt und die Titelmusik wird abgespielt.
 
 Die Codes für Leben 2 und für Leben 1 sind hier dargestellt:
@@ -258,9 +259,11 @@ Die Codes für Leben 2 und für Leben 1 sind hier dargestellt:
  </details>
 
 
-Mit dem fogenden Code haben wir die Grundlage für den Lebensverlust schaffen. Dieser Befehl wird nur ausgeführt wenn die Spielfigur sich auf dem "Sprite", in unserem Fall der Lava befindet. Wir wollen erreichen, dass mit der Berührung der Spielfigur ein Schaden zugefügt wird. Zunächst haben wir die Bedingung, dass dieser Code ausgeführt wird, auf 0,2 Sekunden eingestellt. Dadurch wird der Schaden bei erstmaligem Betreten der Lava quasi direkt ausgeführt.  Dann verliert die Spielfigur 0,5 Leben. Die Steuerung der Herzen erfolgt dann durch die Anweisung "broadcast TestSchaden". 
-Dieser Schaden wird außerdem durch einen von uns erstelltem Sound unterstützt. Mit der Anweisung "set volume to 100%" und "play sound schaden" haben wir diese Anweisung in Code umgesetzt. 
-Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirken, dass nicht dauerhaft ein Leben abgezogen wird, sondern nur wenn die Spielfigur sich auf dem "Sprite" Lava befindet. Somit kann der Spieler die Figur beim erreichen der Lava auch wieder herausbewegen, um weiteren Schaden zu verhindern. Wenn sich der Spieler jedoch auch nach 0,65 Sekunden immer noch auf der Lava befindet wird dieser Code erneut ausgeführt.
+Mit dem fogenden Code haben wir die Grundlage für den Lebensverlust geschaffen. Dieser Befehl wird nun ausgeführt wenn die Spielfigur sich auf dem "Sprite", in unserem Fall der Lava befindet. Wir wollen erreichen, dass mit der Berührung der Spielfigur Schaden hinzugefügt wird. Zunächst haben wir die Bedingung, dass dieser Code ausgeführt wird, auf 0,2 Sekunden eingestellt. Dadurch wird der Schaden bei erstmaligem Betreten der Lava quasi direkt ausgeführt.  Dann verliert die Spielfigur 0,5 Leben. Die Steuerung der Herzen erfolgt dann durch die Anweisung "broadcast TestSchaden". 
+ 
+Dieser Schaden wird außerdem durch einen von uns eingefügten Sound unterstützt. Mit der Anweisung "set volume to 100%" und "play sound schaden" haben wir diese Anweisung in Code umgesetzt. 
+ 
+Zum Schluss steht die Anweisung 0,65 Sekunden zu warten. Damit wollen wir bewirken, dass nicht dauerhaft ein halbes Leben abgezogen wird, sondern nur wenn die Spielfigur sich auf dem "Sprite" Lava befindet. Somit kann der Spieler die Figur beim erreichen der Lava auch wieder herausbewegen, um weiteren Schaden zu verhindern. Wenn sich der Spieler jedoch auch nach 0,65 Sekunden immer noch auf der Lava befindet wird dieser Code erneut ausgeführt. Der Spieler erhält wieder Schaden.
 
  <details>
 <summary>Sprite Spieler - "when touching Sprite" </summary>
@@ -278,7 +281,7 @@ Die Lava selbst ist nur in Stage 0 zu sehen und sie ist immer aktiv.
  
  ![HerzenUndSchaden](https://user-images.githubusercontent.com/88385813/144721089-f77e5e48-34ad-4ea9-ae2c-d65b1ae354b9.gif)
 
-Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Speeren in Berührung kommt. Dabei ist zunächst wichtig, dass der Speer nur Schaden verursachen soll, während er fällt. Da das fallen mithilfe der "glide" Funktion stattfindet, kann einfach am anfang und Ende der Funktion eine Vraiable verändert werden. Es handelt sich hierbei um die Variable "Speerunterwegs" hat diese den Wert 1, so ist der Speer unterwegs, der Speieler soll nun also bei Berührung Schaden erhalten können
+Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Speeren in Berührung kommt. Dabei ist zunächst wichtig, dass der Speer nur Schaden verursachen soll, während er fällt. Da das fallen mithilfe der "glide" Funktion stattfindet, kann einfach am Anfang und Ende der Funktion eine Vraiable verändert werden. Es handelt sich hierbei um die Variable "SpeerUnterwegs" hat diese den Wert 1, so ist der Speer unterwegs, der Speieler soll nun also bei Berührung Schaden erhalten können.
 
  <details>
 <summary>Sprite Speer - Script</summary>
@@ -287,7 +290,7 @@ Zudem wird auch ein Leben abgezogen wenn die Spielfigur mit den Speeren in Berü
 </details>
 
  
-Wenn der Spieler jetzt den Speer berührt und die Variable "SpeerUnterwegs" den Wert 1 hat bekommt der Speieler einen Schaden. Dafür wird wie zuvor bei der "Lava" Schaden gebroadcastet und das Script der herzen aktiviert. Der einzige Unterschied ist hierbei, dass der Speer im Gegensatz zu der Lava ein ganzes leben abzieht, deshalb wird die Variable "Leben" zu Anfang um 1 verringert:
+Wenn der Spieler jetzt den Speer berührt und die Variable "SpeerUnterwegs" den Wert 1 hat bekommt der Speieler ein Herz Schaden. Dafür wird wie zuvor bei der "Lava" Schaden gebroadcastet und das Script der Herzen aktiviert. Der einzige Unterschied ist hierbei, dass der Speer im Gegensatz zu der Lava ein ganzes Leben abzieht, deshalb wird die Variable "Leben" zu Anfang um 1 verringert:
  
  <details>
 <summary>Sprite Speer - Lebensverlust</summary>
@@ -305,7 +308,7 @@ Des weiteren wird mit dem Broadcast "SpeerSchaden" der passende Sound im Spieler
 </details>
 
 
-Auch der Speer erscheint natürlich nur in der dafür vorgesehenen Stage der Code dafür sieht folgendermaßen aus und funktioniert wie im fplgenden bei der Stageauswahl erklärt:
+Auch der Speer erscheint natürlich nur in derdafür vorgesehenen Stage. Der Code dafür sieht folgendermaßen aus und funktioniert wie im folgenden bei der Stageauswahl erklärt:
 
   <details>
 <summary>Sprite Speer - show bzw. hide </summary>
@@ -315,7 +318,7 @@ Auch der Speer erscheint natürlich nur in der dafür vorgesehenen Stage der Cod
 
 
 
-Dieser eine Speer wurde einfach dupliziert und die Variablen zur Bestimmung der Startposition der "glide" Funktion geändert, so dass am ende mehrere Speere nebeneiannder sind. Zuletzt wird jedem 2. Speer noch eine Sekunde Verzögerung vor dem Ausführen der "glide" Funktion durch die "wait" Funktion gegeben, so dass die Speere in zwei Wellen fallen.
+Dieser eine Speer wurde einfach dupliziert und die Variablen zur Bestimmung der Startposition der "glide" Funktion geändert, so dass am Ende mehrere Speere nebeneiannder sind. Zuletzt wird jedem 2. Speer noch eine Sekunde Verzögerung vor dem Ausführen der "glide" Funktion durch die "wait" Funktion gegeben, so dass die Speere in zwei Wellen fallen.
 
  <details>
 <summary>Sprite Speer - !.Welle und 2. Welle </summary>
@@ -342,13 +345,14 @@ Zu Beginn des Spiels soll die Spielfigur bei Level 1 und Stage 0 erscheinen.
 
 Nun kann sich der Spieler sowohl nach links, als auch nach rechts bewegen.
 Es wird geprüft, ob die Spielfigur die unsichtbare Wand am linken Rand der Stage 0 berührt.
-Dieser ist durch den ghost effect unsichtbar.
-Wenn die Spielfigur sowohl den linken Rand der Stage 0 berührt und dazu noch "a" oder den Linkspfeil betätigt, der Spieler die Spielfigur also noch weiter nach links bewegen möchte, dann werden zwei Befehle ausgeführt.
+Dieser ist durch den ghost-effect unsichtbar.
+Wenn die Spielfigur sowohl den linken Rand der Stage 0 berührt und dazu noch "A" oder den Linkspfeil betätigt, der Spieler die Spielfigur also noch weiter nach links bewegen möchte, dann werden zwei Befehle ausgeführt:
+
 Zunächst wird Level 1 Stage 1 ausgeführt.
 1. Der Befehl für die jeweilige Stage. Je nach dem in welcher Stage sich die Spielfigur befinden wird die Stage verändert.
 2. Spieler rechts am Rand. Dieser Befehl ist wichtig, damit die Spielfigur in der neuen Stage am linken Rand erscheint.
 
-Dies ist im folgenden Code dargestellt. Dort lässt sich erkennen, dass immer zunächst geprüft wird in welcher Stage sich die Spielfigur aktuell befindet und anschließend wird der Befehl für die jeweilige neue Stage ausgeführt.
+Dies ist im folgenden Code dargestellt. Dort lässt sich erkennen, dass immer zunächst geprüft wird in welcher Stage sich die Spielfigur aktuell befindet und anschließend der Befehl für die jeweilige neue Stage ausgeführt wird.
 
 <details>
 <summary>Sprite RandLinks - "when touching Spieler" </summary>
@@ -365,7 +369,7 @@ Der erste Befehl wird ausgeführt, indem die Stage entsprechend verändert wird.
  <img width="85" alt="Bildschirmfoto 2021-11-28 um 10 11 06" src="https://user-images.githubusercontent.com/88385954/143746958-bada372b-bb74-470c-992c-d1390a83123c.png">
 </details>
 
-Diese werden dann mit dem Erreichen der entsprechenden Befehle umgesetzt.
+Diese werden dann mit dem Auführen der entsprechenden Befehle umgesetzt.
 
 <details>
 <summary>Sprite Spieler - "when I receive Level x Stage y" </summary>
@@ -410,15 +414,16 @@ Die angesteuerten Stages sind logischerweise die selben wie bei dem linken Rand
  <img width="235" alt="Bildschirmfoto 2021-11-28 um 10 08 03" src="https://user-images.githubusercontent.com/88385954/143744713-d97f2bbc-9613-4825-af55-7078dc51d1cb.png">
 </details>
 
-
+So wird der Szenenwechsel im gesamten Projekt zuverlässig verwaltet.
 
 <h2> 2.4 Das Startmenü </h2>
 
-Wenn man das Spiel öffnet, so startet nicht direkt das Spiel. Der Spieler findet sich zunächst in dem TitleScreen wieder. 
-Es wird aus diesem Grund geprüft, ob der Costume Name der Stage = TitleScreen ist. Wenn dies der Fall ist, so kann der Spieler eine beliebige Taste auf der Tastatur drücken. 
+Wenn man das Spiel öffnet, so startet nicht direkt das Spiel. Der Spieler findet sich zunächst auf dem TitleScreen wieder. 
+Es wird aus diesem Grund geprüft, ob der Kostümname der Stage = TitleScreen ist. Wenn dies der Fall ist, so kann der Spieler eine beliebige Taste auf der Tastatur drücken. 
 Dann wird der Befehl zum Menü ausgeführt.
-Auch der Costume Name wird entsprechend geändert, so dass das Menü nun im Bild ist.
-Dabei wird auch die Variable "SpielerBewegung"= 1 gesetzt.
+ 
+Auch der Kostümname wird entsprechend geändert, so dass das Menü nun auf dem Bildschirm angezeigt wird.
+Dabei wird auch die Variable "SpielerBewegung" = 1 gesetzt.
 
 <details>
 <summary>Sprite Stage - "when Fahne clicked"</summary>
@@ -431,15 +436,15 @@ In diesem Menü lassen sich drei verschiedene Button clicken:
 
  <h2> 2.4.1 Spiel Starten </h2>
 
-Zunächst wird der Button SpielStartet betrachtet.
+Zunächst wird der Button "SpielStartet" betrachtet.
 Damit das Menü wie gewünscht funktioniert, haben wir uns folgendes überlegt.
 Mit dem Programm Power-Point haben wir die verschiedenen Stages (siehe Ende Erklärung "Das Startmenü") erstellt.
-Die schwärzliche Färbung von dem gewünschten Button soll nur dann erscheinen, wenn die Maus über diese Fläche fährt. Aus diesem Grund haben wir hinter die Button unsichtbare Fläche gelegt. Diese prüfen im Menü, ob die Maus über diese fährt. Nur wenn das der Fall ist, wird die hinterlegte Farbe schwarz.
+Die schwärzliche Färbung von dem gewünschten Button soll nur dann erscheinen, wenn die Maus über diese Fläche fährt. Aus diesem Grund haben wir hinter die Buttons unsichtbare Flächen gelegt. Diese prüfen im Menü, ob die Maus über diese fährt. Nur wenn das der Fall ist, wird die hinterlegte Farbe schwarz, dafür wird das Kostüm der Stage enstsprechend durch den Szenenmanager geändert.
 Die unsichtbare Fläche hinter den Button:
 
 <img width="94" alt="Bildschirmfoto 2021-11-28 um 12 18 21" src="https://user-images.githubusercontent.com/88385954/143765601-30b71019-9350-4e6f-b277-a1e1f5fc952f.png">
 
-Die hinterlegte Fläche soll nur im Menü Anwendung finden. Zudem soll aus den erläuterten Gründen der Ghosteffect = 100% sein.
+Die hinterlegte Fläche soll nur im Menü Anwendung finden. Zudem soll aus den erläuterten Gründen der ghost-effect = 100% sein.
 
 <details>
 <summary>Sprite SpielStartenButton - "when Fahne clicked"</summary>
@@ -450,9 +455,9 @@ Die hinterlegte Fläche soll nur im Menü Anwendung finden. Zudem soll aus den e
  
 Nun soll erreicht werden, dass die Stage geändert wird, wenn der Spieler mit seiner Maus über die unsichtbare hinterlegte Fläche fährt.
 Somit wird zunächst geprüft, ob die Maus über die hinterlegte Fläche fährt.
-Wenn dies der Fall ist, wird des weiteren geprüft, ob die aktuelle Stage Menü ist, also die Fläche aktuell nicht schwarz hinterlegt ist.
-Wenn dies der Fall ist, so wird der Befehl ausgegeben die Stage zu MenüSpielStarten zu ändern.
-In dem zweiten Code wird, wenn die Maus nicht die unsichtbare hinterlegte Fläche berührt und die aktuelle Stage MenüSpielStarten ist, die Fläche also schwarz hinterlegt ist, wieder der Befehl zu Wechsel der Stage zu "Menü" ausgegeben. Damit wird die hinterlegte Fläche wieder hell.
+Wenn dies der Fall ist, wird des Weiteren geprüft, ob die aktuelle Stage = Menü ist, also die Fläche aktuell nicht schwarz hinterlegt ist.
+Wenn dies der Fall ist, so wird der Befehl ausgegeben die Stage zu "MenüSpielStarten" zu ändern.
+In dem zweiten Script wird, wenn die Maus nicht die unsichtbare hinterlegte Fläche berührt und die aktuelle Stage "enüSpielStarten" ist, die Fläche also schwarz hinterlegt ist, wieder der Befehl zum Wechsel der Stage zu "Menü" ausgegeben. Damit wird die hinterlegte Fläche wieder hell.
 
 <img width="461" alt="Bildschirmfoto 2021-11-28 um 12 22 18" src="https://user-images.githubusercontent.com/88385954/143765704-be792a62-404a-4ebb-83a9-2e01e5456df9.png">
 
@@ -478,7 +483,7 @@ Die Backgrounds für die Befehle:
 
 Wenn sich die Maus auf der unsichtbaren hinterlegten Fläche befindet und der Spieler anschließend mit der Maus klickt, so beginnt das Spiel.
 Dann wird der Befehl "SpielStartet" ausgegeben.
-Die Stage wird wie bereits bei /Wechseln der Spielfigur zwischen den Stages/ gewechselt und die anderen Schritte zum Spielstart werden eingeleitet.
+Die Stage wird wie bereits beim Wechseln der Spielfigur zwischen den Stages gewechselt und die anderen Schritte zum Spielstart werden eingeleitet.
 
 <details>
 <summary>Sprite SpielStartenButton - "when I am clicked" </summary>
@@ -509,7 +514,7 @@ Code im Sprite Charakter Wählen:
 <img width="464" alt="Bildschirmfoto 2021-11-28 um 12 57 04" src="https://user-images.githubusercontent.com/88385954/143766660-cd92ca84-5ea4-4ad4-bc6f-f8fb681366f9.png">
 </details>
 
-Entsprechende Ausführungen im Sprite Stage:
+Entsprechende Ausführungen im Objekt Stage:
 
 <details>
 <summary>Sprite Stage - "when I receive MenüCharakterWählen" </summary>
@@ -519,7 +524,7 @@ Entsprechende Ausführungen im Sprite Stage:
 </details>
 
 Wenn man sich auf dem Button "Charakter Wählen" befindet und dann ein Mausklick erfolgt, wird der Befehl "BlauerAbenteurer" ausgeführt.
-Hier besteht der Unterschied zum Button Spiel Starten. Währen bei Spiel Starten das Spiel startet, wird man wenn man Charakter wählen clicked in das Wahlmenü für die Spielfiguren geleitet.
+Hier besteht der Unterschied zum Button "Spiel Starten". Während bei "Spiel Starten" das Spiel startet, wird man, wenn man Charakter wählen anklickt, in das Wahlmenü für die Spielfiguren geleitet.
 
 <details>
 <summary>Sprite CharakterWählen - "when I am clicked"</summary>
@@ -537,9 +542,9 @@ Zu Beginn ist standartmäßig die blaue Figur ausgewählt.
 Nun besteht die Möglichkeit mit den Pfeiltasten die verschiedenen Charaktere auszuwählen.
 Die Folgenden Codes beschreiben dieses Bedienen mit den Pfeiltasten.
 Die Codes laufen dabei alle nach dem selben Prinzip.
-Wenn der rechte Pfeil gedrückt wird, so wird der aktuelle Costume Name geprüft.
+Wenn der rechte Pfeil gedrückt wird, so wird der aktuelle Kostümname geprüft.
 Zu Beginn ist die Stage logischerweise auf "CharakterWählen" eingestellt.
-Wenn nun der rechte Pfeil gedrückt wird, so wird erkannt das die ausgewählte Stage "CharakterWählen" oder "CharakterWählenZurück" ist. Diese beiden Stages unterscheiden sich lediglich dadurch, dass bei "CharakterWählenZurück" der kleine Pfeil unten links betätigt ist, indem die Maus über diesen fährt (genauere Erklärung folgt) 
+Wenn nun der rechte Pfeil gedrückt wird, so wird erkannt das die ausgewählte Stage "CharakterWählen" oder "CharakterWählenZurück" ist. Diese beiden Stages unterscheiden sich lediglich dadurch, dass bei "CharakterWählenZurück" der kleine Pfeil unten links rot hervorgehoben ist, indem die Maus über diesen fährt. Dies funktioniert wie zuvor bei dem schwarzen Markieren des "SpielStarten" Buttons. 
 Aus diesem Grund müssen bei allen Codes für die Charakterauswahl mit Pfeiltasten zwei Stages geprüft werden.
 Dann wird der "RoteAbenteurer" ausgeführt. Die rote Spielfigur befindet sich im Charakterwahlmenü rechts neben dem blauen Abenteurer.
 
@@ -551,7 +556,7 @@ Dann wird der "RoteAbenteurer" ausgeführt. Die rote Spielfigur befindet sich im
 <img width="201" alt="Bildschirmfoto 2021-12-06 um 13 24 05" src="https://user-images.githubusercontent.com/88385954/144845515-f633c4c4-d5e9-4cbd-b3c5-67bad313a0a2.png">
  </details>
  
- Nach diesem Prinzip kann man durch die folgenden Codes alle drei Charaktere beliebig mit der rechten und mit der linken Pfeiltaste ansteuern.
+ Nach diesem Prinzip kann man durch die folgenden Scripts alle drei Charaktere beliebig mit der rechten und mit der linken Pfeiltaste ansteuern.
  
 <details>
 <summary>Sprite Stage - Charakterauswahl mit Pfeiltasten </summary>
@@ -564,7 +569,7 @@ Dann wird der "RoteAbenteurer" ausgeführt. Die rote Spielfigur befindet sich im
 <img width="90" alt="Bildschirmfoto 2021-12-06 um 13 31 02" src="https://user-images.githubusercontent.com/88385954/144846485-cbdd8ec0-4567-47ee-8856-3f47b2c3ffaf.png">
  
  Der angesprochene kleine rote Pfeil unten links ist nötig, damit der Spieler jederzeit wieder ins Homemenü zurückkommen kann. Auch dieser Pfeil ist durch eine unsichtbare Fläche hinterlegt. 
-Zudem sind die Funktionen des kleine Pfeils nur im Charakterwahlmenü aktiv.
+Zudem sind die Funktionen des kleine Pfeils nur im "Charakterwahlmenü" aktiv.
 
 <details>
 <summary>Sprite CharakterZurückButton - "when Fahne clicked" </summary>
@@ -573,7 +578,7 @@ Zudem sind die Funktionen des kleine Pfeils nur im Charakterwahlmenü aktiv.
 </details>
 
 Wenn sich der Spieler also im Charakterwahlmenü befindet, wird zunächst geprüft, ob sich die Maus auf dem Pfeil befindet.
-Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist ohne das die Maus die Pfeiltaste berührt und es gibt die Möglichkeit, dass er ausgewählt ist während die Pfeiltaste betätigt wird. Aus diesem Grund werden auch im Stage Menü immer zwei mögliche Stages geprüft, wenn die Charaktere mit PFeiltasten geändert werden sollen.
+Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist ohne das die Maus die Pfeiltaste berührt und es gibt die Möglichkeit, dass er ausgewählt ist während die Pfeiltaste betätigt wird. Aus diesem Grund werden auch im Stage Menü immer zwei mögliche Stages geprüft, wenn die Charaktere mit den Pfeiltasten geändert werden sollen.
  
  <details>
 <summary>Sprite CharakterZurückButton - "when touching mouse-pointer" </summary>
@@ -581,7 +586,7 @@ Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist
   <img width="485" alt="Bildschirmfoto 2021-12-06 um 14 58 04" src="https://user-images.githubusercontent.com/88385954/144858785-e7632e8a-fae9-4868-95ef-c7df0d8da642.png">
 </details>
  
- Wenn der Pfeil geklickt wird und die Stages eine der entsprechenden Stages ist, bei der die Maus den PFeil berührt, wird der Spieler zurück zum Startmenü geleitet.
+ Wenn der Pfeil geklickt wird und die Stage eine der entsprechenden Stages ist, bei der die Maus den PFeil berührt, wird der Spieler zurück zum Startmenü geleitet.
 
  <details>
 <summary>Sprite CharakterZurückButton - "when touching mouse-pointer" </summary>
@@ -592,7 +597,7 @@ Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist
  
 <h3> 2.4.3 Charakterwahl mit Mausklick </h3>
  
- Zudem besteht die Möglichkeit, den Charakter per Maus zu wählen. Auch hier ist hinter den Spielfiguren eine unsichtbare Fläche hinterlegt, welche das Klicken wahrnehmen. Diese Fläche ist genau dann aktiv, wenn das Charaktermenü geöffnet wird. 
+ Zudem besteht die Möglichkeit, den Charakter per Maus auszuwählen. Auch hier ist hinter den Spielfiguren eine unsichtbare Fläche hinterlegt, welche das Klicken wahrnehmen kann. Diese Fläche ist genau dann aktiv, wenn das Charaktermenü geöffnet wird. 
 
  <details>
 <summary>Sprite Charakter1Auswahl - "when I receive BlauerAbenteurer" </summary>
@@ -608,7 +613,7 @@ Es gibt für jeden der drei Charaktere die Möglichkeit, dass er ausgewählt ist
   <img width="355" alt="Bildschirmfoto 2021-12-06 um 15 07 55" src="https://user-images.githubusercontent.com/88385954/144860344-5c14de68-407f-4a55-b55e-184aee9f0e17.png">
 </details>
 
- Diese Codes gibt es logischerweise auch für den Charakter 2 und den Charakter 3.
+ Diese Scripts gibt es logischerweise auch für den Charakter 2 und den Charakter 3.
  
  <details>
 <summary>Sprite Charakter 2</summary>
@@ -634,7 +639,7 @@ Der hinterlegte Button für die Anleitung ist nur während des aktiven Menüs zu
  <img width="391" alt="Bildschirmfoto 2021-12-06 um 19 37 48" src="https://user-images.githubusercontent.com/88385954/144902889-90f51e80-8796-4495-b06f-6ea095d08fe5.png">
 </details>
 
- Anschließend wird geprüft, ob sich die Maus auf dem Button befindet. Ist dies der Fall, so wird das Costume entsprechend angepasst. Wird der Button betätigt, so öffnet sich der Menü-Unterpunkt: Anleitung.
+ Anschließend wird geprüft, ob sich die Maus auf dem Button befindet. Ist dies der Fall, so wird das Kostüm entsprechend angepasst. Wird der Button betätigt, so öffnet sich der Menü-Unterpunkt: Anleitung.
 
 <details>
 <summary>Sprite Anleitung - "when touching mouse-pointer" </summary>
@@ -654,11 +659,12 @@ Mit den Pfeiltasten kann nach dem gewohnten Prinzip der Charakterauswahl die Fol
 
 Auch die kleinen Pfeile und das rote Färben dieser, wenn man mit der Maus darüber fährt funktioniert wie bei der Charakterauswahl.
 Somit müssen auch immer drei Dinge im Stage-Menü geprüft werden, damit das Anleitungsmenü mit den Pfeiltasten funktioniert.
-Die Pfeile werden ebenfalls nach dem bekannten Prinzip angesteuert. Es wird geprüft, was die Maus berührt. Wenn ein gewisses Sprite ausgewählt ist wird anschließend das Sprite entsprechend angepasst und einer der Pfeile erscheint rot oder wieder weiß.
+ 
+Die Pfeile werden ebenfalls nach dem bekannten Prinzip angesteuert. Es wird geprüft, was die Maus berührt. Wenn ein gewisses Objekt ausgewählt ist wird anschließend das Objekt entsprechend angepasst und einer der Pfeile erscheint rot oder wieder weiß.
 Der einzige Unterschied zum Charakterwahlmenü ist, dass bei dem Anleitungsmenü über die Pfeile die Folie gewechselt wird.
-Aus diesem Grund gibt es einen Pfeil, der die zurück auf das vorherige Bild führt und der andere Pfeil führt auf das nächste Bild.
+Aus diesem Grund gibt es einen Pfeil, der zurück auf das vorherige Bild führt und einen anderen Pfeil rechts, der auf das nächste Bild führt.
 Es wird somit immer geprüft, ob sich die Maus auf dem Pfeil befindet oder ob ein Pfeil geklickt wird.
-Entsprechend wird dann das neue Costume ausgeführt.
+Entsprechend wird dann das neue Kostüm ausgeführt.
 Der Code für den linken Pfeil:
 
 <details>
@@ -682,9 +688,9 @@ Der Code für den linken Pfeil:
 
  <h1>2.5 Das Rätsel des geschlossenen Tores </h1>
 
-Ein wichtiges Element unseres Spiels ist das verschlossene Tor, welches geöffnet werden muss, um dass Level zu schaffen. Dafür muss zunächst ein Schlüssel eingesammelt werden. 
+Ein wichtiges Element unseres Spiels ist das verschlossene Tor, welches geöffnet werden muss, um dass Level abzuschließen. Dafür muss zunächst ein Schlüssel eingesammelt werden. 
 Der Schlüssel kann eingesammlet werden, sobald der Spieler ihn berührt und sich auf der Stage befindet, auf der der Schlüssel angezeigt wird. Auch hier funktioniert das korrekte 
-Anzeigen über die Szenenasuwahl und das verstecken des Objekts beim Wechseln zu anderen Stages.
+Anzeigen über den Szenenmanager und das Verstecken des Objekts beim Wechseln zu anderen Stages.
  
 <details>
 <summary>Schlüssel Objekt - show und hide</summary>
@@ -693,6 +699,7 @@ Anzeigen über die Szenenasuwahl und das verstecken des Objekts beim Wechseln zu
 </details>
  
 Sobald der Spieler nun also den Schlüssel berührt und sich auf der richtigen Stage befindet erscheint die "SchlüsselNachricht" welche den Spieler auffordert "F" zu drücken, um den Schlüssel einzusammlen. Drückt der Spieler nun "F" so verschwindet der Schlüssel durch das Wechseln des Kostüms zu einem leeren Kostüm. Dies stellt auch sicher, dass der Schlüssel beim erneuten betreten der Stage nicht wieder erschient, da das Kostüm nicht mehr "Schlüssel" heißt.
+ 
 Außerdem wird die Variable "SchlüsselImInventar" auf 1 gestzet, damit im folgendem das Tor, sowie die Schlüssel-Anzeige über den erhalt des Schlüssels informiert werden.
  
 <details>
@@ -717,7 +724,7 @@ Etwas komplizierter wird es beim Tor selbst. Der Spieler soll nicht am Tor vorbe
 <img src="https://user-images.githubusercontent.com/88385813/144974848-a674cf36-f10e-4f90-9dab-cc0af354c6a6.png" alt="https://user-images.githubusercontent.com/88385813/144934520-9b899b5e-2048-46d2-8dbc-a95376cec713.png">
 </details>
  
-Normalerweise hat das Tor das Kostüm "Tor" solange der Spieler das Tor nicht berührt. Der Spieler darf sich hier frei bewegen, er wird ja nicht vom Tor blockiert. Berührt er das Tor, so wird nun das Kostüm "TorGeschlossen" aktiviert. Im Spielerobjekt ist an die Bewegung nach rechts nun das Kostüm des Tors "Tor" oder "TorOffen" gekoppelt, der Spielr kann sich also nicht mehr bewegen, wenn er an das Tor stößt.
+Normalerweise hat das Tor das Kostüm "Tor" solange der Spieler das Tor nicht berührt. Der Spieler darf sich hier frei bewegen, er wird ja nicht vom Tor blockiert. Berührt er das Tor, so wird nun das Kostüm "TorGeschlossen" aktiviert. Im Spielerobjekt ist an die Bewegung nach rechts nun das Kostüm des Tors "Tor" oder "TorOffen" gekoppelt, der Spieler kann sich also nicht mehr bewegen, wenn er an das Tor stößt und dieses geschlossen ist.
  <details>
 <summary>Spieler Objekt - Tor Blockade</summary>
 <br>
@@ -735,10 +742,10 @@ Hat der Spieler nun den Schlüssel zuvor eingesammelt und die zugehörige Variab
 <h1>2.6 Der Hintergrund </h1>
  
 Damit das Spiel für den Spieler ansprechend aussieht, haben wir einen Hintergrund kreiert, welcher nicht nur still dasteht, sondern teilweise auch beweglich ist.
-Die Wolken bewegen sich im Hintergrund.
+Die Wolken bewegen sich dabei im Hintergrund.
 Die erste Wolke soll immer dann zu sehen sein, wenn das Spiel gestartet wird. Sonst ist sie nicht sichtbar. 
-Wenn das Spiel gestartet wird, dann wird zunächst die größe und die Position wie gewohnt festgelegt. Die Wolke befindet sich dabei im Hintergrund.
-Zudem soll die Wolke jedoch beweglich sein. Dies wird durch das Bewegen "forever" erreicht.
+Wenn das Spiel gestartet wird, dann wird zunächst die Größe und die Position wie gewohnt festgelegt. Die Wolke befindet sich dabei im Hintergrund.
+Zudem soll die Wolke jedoch beweglich sein. Dies wird durch die Funktion "forever" erreicht.
 Die Wolke bewegt sich dabei nur in X-Richtung.
 
 <details>
@@ -768,8 +775,8 @@ Er ist folglich nur sichtbar, wenn sich die Spielfigur auf dieser Stage befindet
 Die Größe ist dabei 100%.
 Die Steinanimationsvariable ist dann = 1.  
 Die Animation ist darunter erklärt und wird so lange durchgeführt, bis die Variable 0 ist.
-Die Animation beinhaltet, dass das Costume nach 2 Sekunden und nach 2,5 Sekunden geändert wird.
-Dadurch sieht es so aus, als ob sich das Gras bewegen würde.
+Die Animation beinhaltet, dass das Kostüm nach 2 Sekunden und nach 2,5 Sekunden geändert wird.
+Dadurch sieht es so aus, als ob sich das Gras bewegen würde, es gibt aber bei drei verschiedenen Kostümen keinen sofort für den Spieler erkennbaren Rhythmus. Die Bewegung soll somit willkürlich erscheinen.
 
  <details>
 <summary>Sprite SteinKlein </summary>
@@ -791,7 +798,7 @@ Die beiden anderen Steine unterscheiden sich von diesem nur durch die Größe un
 <img width="514" alt="Bildschirmfoto 2021-12-06 um 21 09 59" src="https://user-images.githubusercontent.com/88385954/144915185-2750c18f-0ad1-4dc0-bc0e-1acba09e0ca4.png">
 </details>
 
-Damit Performence gespart wird, soll die Animation nicht durchgängig laufen.
+Damit Performance verbessert wird, soll die Animation nicht durchgängig laufen.
 Damit dies nicht der Fall ist, darf die Variable nicht durchgängig = 1 sein. 
 Aus diesem Grund wird in dem Sprite der Stages die Variable für die jeweiligen Steine = 0 gesetzt, wenn die entsprechende Stage verlassen wurde.
 
@@ -827,8 +834,8 @@ Zu Beginn des Spiels sind die Einstellungen genau wie bei der Ziffer 1.
 <img width="188" alt="Bildschirmfoto 2021-12-06 um 21 24 03" src="https://user-images.githubusercontent.com/88385954/144916969-5704c03f-94ad-486f-b265-5878f8ed2eb8.png">
 </details>
 
- Sobald das Spiel gestartet ist, wird das Costume 0 eingestellt. Nach 0,8 Sekunden wird "60Sekunden" ausgeführt. Sobald wiederum "60Sekunden" erkannt wird, ändert sich auch das Costume der dritten Ziffer. Anschließend wird die Zahl immer nach 1 Sekunde um 1 nach unten versetzt.
-Ist die Ziffer 0 erreicht, wird nach 0,8 Sekunden "50Sekunden" ausgeführt. Somit verändert sich die Zahl immer wieder von 9 bis 0, insgesamt 60 Sekunden.
+ Sobald das Spiel gestartet ist, wird das Kostüm 0 eingestellt. Nach 0,8 Sekunden wird "60Sekunden" ausgeführt. Sobald wiederum "60Sekunden" gebroadcastet wird, ändert sich auch das Kostüm der dritten Ziffer. Anschließend wird die Zahl immer nach einer Sekunde um 1 nach unten versetzt.
+Ist die Ziffer 0 erreicht, wird nach 0,8 Sekunden "50Sekunden" ausgeführt. Somit verändert sich die Zahl immer wieder von 9 bis 0, insgesamt 60 Sekunden lang , also sechs mal.
 Bei dem Wechsel von der Ziffer 0 zu der Ziffer 9 ist die Zeit immer nur 0,8 Sekunden, weil 0,2 Sekunden benönigt werden, dass alle Codes ausgeführt werden, auch die der Ziffer 2.
 
 <details>
@@ -850,8 +857,8 @@ Nach dem letzten Codeblock wird zudem "GameOver" ausgeführt.
 <img width="208" alt="Bildschirmfoto 2021-12-06 um 21 33 21" src="https://user-images.githubusercontent.com/88385954/144918253-893cae31-2174-4bcb-a4ab-a0bdc0a84f4c.png">
 </details>
 
- Die Warnung an den Spieler wie folgt.
- Das Costume für diese Warnung ist ein roter Farbverlauf.
+ Die Warnung an den Spieler funktioniert wie folgt.
+ Das Kostüm für diese Warnung ist ein roter Farbverlauf.
 Sobald die Fahne geklickt wird, wird die "ZeitWarnungTransparenz"-Variable = 100 gesetzt.
  Zudem wird der ghost-effect = 100 gesetzt. Da die Warnung über den ganzen Bildschirm erscheinen soll, sind keine X- oder Y-Koordinaten angegeben.
 
@@ -879,7 +886,9 @@ Warnung 20 Sekunden vor Schluss:
 <img width="305" alt="Bildschirmfoto 2021-12-06 um 21 41 37" src="https://user-images.githubusercontent.com/88385954/144919302-4f4a8ab8-fff2-469f-a2cc-84ad568f67ab.png">
 </details>
 Dieses Script wird durch den Timer bei verbleib von 10 oder 20 Sekunden durch die "broadcast" Funktion aktiviert.
-Wenn nur noch 20 oder 10 Sekunden der zeit verbleiben, so wird über die "ghost-effect" Funktion ein roter Impuls im Bild eingeblendet. Dieser funktioniert über das Verändern der Transparenz des "ZeitLäuftAb" Objekts. Zunächst wird die Transparenz, also der Wert des "ghost-effects" auch in einer variable gespeichert, damit wir später die Transparenz des Objekts jederzeit per Code überüfen können. Dann werden Transparenz und Variable gleichmäßig verändert, bis die maximale Sichtbarkeit bei einem "ghost-effect" von 80 erreicht ist. Bei diesem "ghost-effect ist noch deutlich das eigentliche Spiel zu sehen, der Spieler bekommt aber klar das Ablaufend der Zeit mit. Nun wartet das Script eine zehntel Sekunde und macht das Objekt langsam wieder vollkommen Transparent. die Variable und der "ghost-effect" werden nun wieder auf ihre Anfangswerte gesetzt. Ein neuer Zyklus kann beginnen. Die 10 Sekunden Warnung funktioniert identisch, nur das die Transparenz des Objektes geringer, der Impuls also intensiver ist.
+Wenn nur noch 20 oder 10 Sekunden der Zeit verbleiben, so wird über die "ghost-effect" Funktion ein roter Impuls im Bild eingeblendet. Dieser funktioniert über das Verändern der Transparenz des "ZeitLäuftAb" Objekts. Zunächst wird die Transparenz, also der Wert des "ghost-effects", auch in einer Variable gespeichert, damit wir später die Transparenz des Objekts jederzeit per Code überüfen können. Dann werden Transparenz und Variable gleichmäßig verändert, bis die maximale Sichtbarkeit bei einem "ghost-effect" von 80 erreicht ist. Bei diesem "ghost-effect" ist noch deutlich das eigentliche Spiel zu sehen, der Spieler bekommt aber klar das Ablaufend der Zeit mit. Nun wartet das Script eine zehntel Sekunde und macht das Objekt langsam wieder vollkommen transparent. die Variable und der "ghost-effect" werden nun wieder auf ihre Anfangswerte gesetzt. Ein neuer Zyklus kann beginnen. 
+ 
+Die 10 Sekunden Warnung funktioniert identisch, nur das die Transparenz des Objektes geringer, der Impuls also intensiver ist.
 
 <h2>2.7.3 Ziffer 2 </h2>
  
@@ -891,12 +900,12 @@ Für die 2. Ziffer sind die Grundeinstellungen die selben, wie für die anderen 
  <img width="191" alt="Bildschirmfoto 2021-12-06 um 21 45 06" src="https://user-images.githubusercontent.com/88385954/144919772-30ed21f6-9c0b-43d4-95ca-3e95965a59bf.png">
 </details>
  
-Die Ziffer 2 muss alle 10 Sekunden das Costume ändern. Sie regiert auf die Befehle der Ziffer 3. Somit wird bei jedem neuen Befehl, als z.B. "50Sekunden" oder "40Sekunden" das Costume der Ziffer 2 geändert.
+Die Ziffer 2 muss alle 10 Sekunden das Kostüm ändern. Sie reagiert auf die Befehle der Ziffer 3. Somit wird bei jedem neuen Befehl, als z.B. "50Sekunden" oder "40Sekunden" das Kostüm der Ziffer 2 geändert.
 Somit können die Ziffern hier alle 10 Sekunden und zeitgleich mit der Ziffer 3 geändert werden.
 
 <h1>2.8 Das Loch </h1>
  
-Berührt der Spieler das Objekt Loch, welches über die Szeneauswahl Funktionen sichtbar gemacht wird, so fällt er in dieses Loch, da er mit der "gesprungen" Funktion im Spielerobjekt nach unten beschleunigt wird. Dies funktioniert allerdings nur, wenn er die BodenHitbox nicht berührt. Dieses Loch ist notwendig, da der Spieler sonst über das Loch hinweg gehen könnte ohne zu fallen, da die Gravitation normalerweise nur nach einem Sprrung aktiviert wird. Hier wird sie also auch aktiviert, wenn der Spieler nur das Loch, aber nicht die BodenHitbox berührt, also eigentlich über dem Loch schwebt.
+Berührt der Spieler das Objekt Loch, welches über den Szenenmanager sichtbar gemacht wird, so fällt er in dieses Loch, da er mit der "gesprungen" Funktion im Spielerobjekt nach unten beschleunigt wird. Dies funktioniert allerdings nur, wenn er die "BodenHitbox" nicht berührt. Dieses Objekt ist notwendig, da der Spieler sonst über das Loch hinweg gehen könnte ohne zu fallen, da die Gravitation normalerweise nur nach einem Sprrung aktiviert wird. Hier wird sie also auch aktiviert, wenn der Spieler nur das Loch, aber nicht die "BodenHitbox" berührt, also eigentlich über dem Loch schwebt.
 
   <details>
 <summary>Sprite Loch - Scripts </summary>
@@ -907,6 +916,7 @@ Berührt der Spieler das Objekt Loch, welches über die Szeneauswahl Funktionen 
 <h1>2.9 Ziel/Game Over </h1>
  
 Das Spiel kann entweder verloren oder gewonnen werden. Läuft die Zeit aus oder der Spieler verliert alle seine 3 Leben, so wird "GameOver" gebroadcastet. Damit wird im Stage Objekt der Game Over Screen aktiviert, die dazugehörige Musik abgespielt und das Menü ist mittels eines Knopfes auf dem Game Over Screen zu erreichen, das Spiel kann nun erneut gestartet werden. Die Hintergründe hierfür wurden schon in der Stagewechsel Erklärung hinreichend erläutert. 
+ 
 Neu ist allerdings der Victory Screen, welcher selbst wie der Game Over Screen funktioniert, aber nach dem Berühren der Zielfahne eine Art Animation auslöst.
  
   <details>
@@ -947,7 +957,7 @@ Auch das Abspielen der Musik ist an das Wechseln der Stages gekoppelt. Alle Musi
 </details>
  
 
-Die Titelmusik wird abgespielt, sobald das Spiel per Klick auf die Fahne gestartet wird und außerdem nach einem GameOver oder Sieg, sobald das Menü wieder geöffnet wird oder die Victory-musik fertig abgespeilt ist. Dies wird mit den "Broadcast" Funktionen zur Szenenauswahl gesteuert: 
+Die Titelmusik wird abgespielt, sobald das Spiel per Klick auf die Fahne gestartet wird und außerdem nach einem GameOver oder Sieg, sobald das Menü wieder geöffnet wird oder die Victory-Musik fertig abgespeilt ist. Dies wird mit den "Broadcast" Funktionen des Szenenmanagers gesteuert: 
  
  <details>
 <summary>Stageobjekt - Musik-Loop</summary>
