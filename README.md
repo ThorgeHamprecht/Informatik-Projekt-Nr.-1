@@ -326,7 +326,7 @@ Nach dem Drücken des besagten Knopfes wird das Spiel durch folgende Funktion ge
 
 ![StartBildschirm](https://user-images.githubusercontent.com/88385813/144898037-00ee2825-a6ee-427a-a083-930aeee84b6c.png)
 
-Anschließend haben wir uns mit einem plötzlich aufgetretenden Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen, wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Problem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch Veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
+Anschließend haben wir uns mit einem plötzlich auftretendem Problem befasst. Wenn wir mit der Spielfigur auf die Lava kommen, wird zunächst wie gewollt ein halbes Leben abgezogen. Anschließend, wenn der Charakter nur noch 1,5 Leben hat, wird jedoch plötzlich ein ganzes Leben abgezogen. Um diesem Problem zu beheben, haben wir unseren Code noch einmal genau untersucht. Zunächst lag nahe, dass sich ein Fehler in dem Sprite des zweiten Lebens befindet. Hier konnten wir jedoch auch durch Veränderung des Codes und Ausprobieren keinen Fehler identifizieren. Aus diesem Grund liegt Nahe, dass sich der Fehler bei den Hauptdefinitionen der Stage befindet.
 
 ### Mittwoch, 29.09.2021 <a name="Ausfall3"></a>
 Die ausgefallene Stunde haben wir genutzt, um eine Projektseite zu erstellen und die ersten Teile unseres Codes zu erklären. Außerdem haben wir nochmals vergeblich versucht das Problem mit den Herzen zu Lösen. Das Problem hierbei ist, dass die selbe Funktion zuvor funktionierte und in anderen Objekten noch immer funktioniert. 
@@ -380,7 +380,7 @@ So wollen wir auch die anderen Menüelemente umsetzten, denn so kann man unserer
 Für das Charaktermenü haben wir noch weitere Sprites für unseren Spieler angefertigt, welche sich lediglich in der Frabe, nicht aber in der Form unterscheiden, damit das Spiel weiterhin mit allen Spielern funktioniert.
 
 ### Mittwoch, 13.10.2021 <a name="siebzehn"></a>
-Heute wollten wir eine Schranke einbauen, welche die Spielfigur passieren muss, um nicht in der Lava zu sterben. 
+Uns kam die Idee, Heut eine Schranke einzubauen, welche die Spielfigur passieren muss, um nicht in der Lava zu sterben. 
 Dafür haben wir bei Piskel eine provisorische Schranke erstellt, welche wir anschließend programmieren wollten. 
 Wir sind nach einigem Probieren zu dem Entschluss gekommen, dass wir die Schranke durch einen Knopf ersetzen wollen. Dies ist nach unserer Bewertung anschaulicher, da es sich um ein 2D Projekt und nicht um ein 3D Projekt handelt.
 Unsere Vorstellung ist das, wenn sich der Charakter auf dem Knopf befindet, die Lava erschwinden und der Charakter kann weiter in Richtung des Ziels laufen. Dabei war das Hauptptoblem, dass wenn die Figur auf den Knopf befindet, die Lava immer schnell hintereinander verschwindet und wiederkommt. Das ist logischerweise auf den Befehl "when touching "Knopf"" zurückzuführen, bei dem dieser Befehl immer wieder schnell hintereinander ausgeführt wird. 
@@ -408,42 +408,60 @@ Umsetzung der Broadcasts im Stageobjekt:
 
 ![Screenshot 2021-12-06 212549](https://user-images.githubusercontent.com/88385813/144917401-e02e70f6-7510-4e33-806b-8a6a3ac89de1.png)
 
-Bei der implementierung des neuen Systems war uns vor allen Dingen die nachträgliche Erweiterung dieses Managers um weitere Stages wichtig, da wir in den nächsten Stunden nach und nach alle Stages einfügen wollen. Außerdem mussten wir auch für das Erscheinen von Objekten in bestimmten Stages, wie z.B. das Loch und die Lava, ein genaus "Broadcasting" System haben, dass die Objekte anzeigt und beim Verlassen der Stage wieder versteckt. In der Stunde wurden wir leider nicht ganz fertig, aber am Wochenende stellen wir den Manager fertig.
+Bei der Implementierung des neuen Systems war uns vor allen Dingen die nachträgliche Erweiterung dieses Managers um weitere Stages wichtig, da wir in den nächsten Stunden nach und nach alle Stages einfügen wollen. Außerdem mussten wir auch für das Erscheinen von Objekten in bestimmten Stages, wie z.B. das Loch und die Lava, ein genaus "Broadcasting" System haben, dass die Objekte anzeigt und beim Verlassen der Stage wieder versteckt. In der Stunde wurden wir leider nicht ganz fertig, aber am Wochenende stellen wir den Manager fertig.
 
 Der neue Manager funktioniert nun viel besser und kann leicht erweitert werden, da er die Speicherung der aktuellen Stage durch Variablen losgeworden ist.
 
 ### Dienstag, 26.10.2021 <a name="zwanzig"></a>
 
 Heute haben wir uns mit dem Hintergrund beschäftigt.
-Zunächst haben wir uns überlegt, dass der Hintergrund mit Wolken anschaulicher aussehen würde. Aus diesem Grund haben wir mit Piskel Wolken erstellt und sie anschließend bei Snap hochgeladen.
-Nachdem wir drei Wolken eingefügt hatten kam uns die Idee, diese lebendig zu machen. Dafür haben wir in Snap programmiert, dass sich die Wolken in unterschiedlicher Geschwindigkeit nach rechts bewegen. 
+Zunächst haben wir uns überlegt, dass der Hintergrund mit Wolken anschaulicher aussehen würde. Aus diesem Grund haben wir mit Piskel Wolken erstellt und sie anschließend bei Snap! hochgeladen.
+Nachdem wir drei Wolken eingefügt hatten kam uns die Idee, diese lebendig zu machen. Dafür haben wir in Snap! programmiert, dass sich die Wolken in unterschiedlicher Geschwindigkeit nach rechts bewegen.
+Dabei laufen sie mit der "glide" Funktion einmal von links nach rechts aus dem Bildschirm und fangen dann erneut von vorne an:
+
+![Screenshot 2021-12-07 051952](https://user-images.githubusercontent.com/88385813/144965645-f624ad77-2a00-4dd4-a7b4-e3e1996edf87.png)
+
+
 Daraufhin kam uns eine zweite Idee mit der wir den Hintergrund lebendiger gestalten wollen.
 Durch die drei verschiedenen Steine haben wir eine weitere Möglichkeit geschaffen, unser Spiel lebendiger zu machen. Bei dem Erstellen der Steine mit Piskel haben wir für jeden Stein drei unterschiedliche Costumes eingefügt, damit es so aussieht, als ob sich die Gräser auf ihnen bewegen.
-Das haben wir folglich auch mit Snap programmiert.
+Das haben wir folglich auch mit Snap! programmiert.
 Die Steine erscheinen zudem auf unterschiedlichen Stages. 
 
-Die Steine haben wir mit folgenden Piskeln erstellt: XX
+![image](https://user-images.githubusercontent.com/88385813/144965930-d6cbed7e-92f5-4eb1-bb0a-ce85974244b7.png)
+
+Hier kommt wieder unser neuer Stagemanager zum Einsatz, durch die beim Betreten einer neuen Stage ausgelösten "Broadcasts" ist es sehr einfach, ein Objekt nur in bestimmten Stages erscheinen zu lassen
+
+![image](https://user-images.githubusercontent.com/88385813/144965880-5976fae4-7014-4e7c-b073-6ca5fd6864e0.png)
+
 
 
 ### Mittwoch, 27.10.2021 <a name="einundzwanzig"></a>
 
-Heute haben wir uns überlegt, wie wir unser Spiel auch akustisch ansprechend gestalten können. 
+In dieser Stunde haben wir uns überlegt, wie wir unser Spiel auch akustisch ansprechend gestalten können. 
 Dafür ist uns die Idee gekommen selber Musik zu komponieren. 
-Wir haben uns dabei darauf verständigt, dass zwei Musikstücke komponieren wollen.
+Wir haben uns dabei darauf verständigt, dass wir zwei Musikstücke komponieren wollen.
 Das erste Musikstück soll während des Menüs laufen und die Titelmusik darstellen. Das zweite Stück soll im Spiel laufen und dieses somit akustisch unterstützen.
 Wir haben uns heute zudem damit beschäftigt, das Hindernis der Laserstrahlen einzufügen. Dafür haben wir diese mit Piskel erstellt und anschließend in Snap hochgeladen.
 Wir haben bereits damit angefangen, den Code dafür zu programmieren.
-Bisher stellt sich jedoch die Schwierigkeit, dass XX und BILDER
+
+LASER BILD
+
+Bisher stellt sich jedoch die Schwierigkeit, dass der Spieler unserer Idee nach oben auf dem Laser stehen können sollte, um ein Hindernis zu überwinden, aber wenn er von der Seite getroffen wird Schaden bekommen sollte. Das Problem hierbei ist, dass Snap! bei dem erkennen von Berührungen nicht auf Richtungen oder Kanten achtet, die sich Berühren. Es gibt nur zwei Zustände, Berühren oder nicht Berühren. Unsere Idee ist daher ohne weiteres nicht Umzusetzten, zumal die Laser sowieso nicht wirklich zum Thema unseres Spiels passen. Deshalb  wollen wir nun Speere einfügen, die vom Himmel fallen und denen der Spieler ausweichen muss.
 
 Zuhause haben wir bereits mit dem Komponieren der Musik begonnen. Dabei haben wir uns bereits überlegt in welcher Tonart die Titelmusik geschrieben werden soll. Anschließend sind wir mit einem Klavier und dem Quintenzirkel die verschiedenen Akkorde durchgegangen und haben uns überlegt, welche Akkorde zueinander passen. Wir haben uns hierbei auf C-Dur, F-Dur und G-Dur geeinigt.
 
 ### Dienstag, 2.11.2021 <a name="zweiundzwanzig"></a>
 
-Heute haben wir uns mit dem Einfügen eines Game-Over-Screens beschäftigt. Dafür sind wir wie bei der Erstellung des Menüs vorgegangen.
+Unser Spiel benötigte noch einen Game-Over-Screen, deshalb war das Heute eine unserer Hauptprioritäten. Dafür sind wir wie bei der Erstellung des Menüs vorgegangen.
 Dabei mussten wir vor allem darauf achten einen "Button" einzufügen, damit man nach dem Scheitern des Spiels schnell mit einem Neustart beginnen kann.
-Nachdem wir den Game-Over-Screen mit Power-Point erstellt haben, haben wir bereits ein neues Sprite erstellt und den Screen darin eingefügt.
+Nachdem wir den Game-Over-Screen mit Power-Point erstellt haben, haben wir diesen direkt in unser Stageobjekt und den Code für den Stagemanager eingefügt.
+
+![GameOver](https://user-images.githubusercontent.com/88385813/144967482-4d5d41c1-0e0c-4304-bbbc-387801d818c4.png)
+
 Zudem haben wir uns heute mit dem Victory-Screen beschäftigt. Dazu sind wir genau wie bei dem Game-Over-Screen vorgegangen.
 Leider war die Zeit bereits vorbei, sodass wir es in der Stunde nicht mehr geschafft haben, dass unser Spiel endlich durchzuspielen ist.
+
+![GameWon](https://user-images.githubusercontent.com/88385813/144967515-54a0bcfa-79e7-40c2-873a-b8e25f0a663c.png)
 
 Zuhause haben wir uns aus diesem Grund mit dem Programmieren der Screens beschäftigt. Nun kann man endlich das Spiel durchspielen.
 Des Weiteren haben wir zuhause das Komponieren der Titelmusik vortgeführt. Dafür haben wir die vier Akkorde bei Garage Band eingespielt und uns ein passendes Instrument herrausgesucht. Anschließend haben wir diese Akkorde noch durch einen Bass verstärkt.(Eine ausführliche Erklärung der Kompositionen finden Sie unten)
@@ -461,24 +479,29 @@ Das eine Stück für den "YouWin" Screen und das andere Stück für den "GameOve
 Diese Stunde fiel leider aufgrund einer Klausur aus. Mit den anstehenden Klausuren im Kopf haben wir Zuhause diesmal nicht an unserem Projekt gearbeitet, sondern die Zeit zur Vorbereitung genutzt.
 
 ### Mittwoch, 10.11.2021 <a name="vierundzwanzig"></a>
-Heute haben wir unseren beiden komponierten Stücke bei Snap eingefügt.
+Heute haben wir unseren beiden komponierten Stücke bei Snap! eingefügt. Die Musikstücke sollen sich dabei alle im Stageobjekt befinden und über den Stagemanger abgespielt werden können, damit sie variabel einsetzbar und aktivierbar sind.
+
+![image](https://user-images.githubusercontent.com/88385813/144967859-f275722a-39dc-4c75-91a5-67cd5aa81579.png)
+
 Da sich die Musik im Spiel immer wiederholen soll, haben wir zunächst eine lange Version des Stückes eingefügt. Hierbei sind wir jedoch auf das Problem gestoßen, dass es bei Snap zu wenig Speicherplatz gibt.
 Anschließend haben wir uns überlegt eine kurze Version des Stückes einzufügen und dieses anschließend immer wieder zu Loopen.
 Hierbei ergab sich leider das Problem, dass durch das Loopen immer eine ungewollte Verzögerung bis zum Neustart eingetreten ist.
 Zudem muss die Titelmusik direkt enden, wenn das Spiel gestartet wird. 
 Wir haben uns mit Ihnen über diese beiden Probleme ausgetauscht und sind gemeinsam zu folgender Lösung gekommen.
 
-CODE
+![image](https://user-images.githubusercontent.com/88385813/144968168-3affbe2b-0a66-4912-a4bc-43be5b11f3b1.png)
 
-Damit haben wir das vorherige Problem gelöst.
+Damit haben wir das vorherige Problem gelöst. Bei dem der Loop noch nicht funktionierte, bzw. auch nach dem wehcseln des Musikstücks noch das alte Musikstück eingespielt hat:
 
-CODE
+![Bildschirmfoto 2021-11-23 um 15 16 35](https://user-images.githubusercontent.com/88385813/144968039-55d4aa88-e079-4b76-a3e9-12e150248246.jpg)
 
 
 ### Dienstag, 16.11.2021 <a name="füfnundzwanzig"></a>
 Eine der Grundideen unseres Spiels war es Rätsel zu erstellen. Dafür haben wir uns heute überlegt, ein Tor zu erstellen, welches bei Spielstart geschlossen ist. Der Spieler soll zunächst einen Schlüssel finden müssen, damit er das Tor öffnen kann.
 Wir haben hierfür bereits mit Piskel das Tor (mit den verschiedenen Öffnungen) und den Schlüssel erstellt und bei Snap eingefügt.
 Wir haben bereits damit begonnen, den entsprechenden Code zu erstellen. Hiermit sind wir jedoch noch nicht ganz fertig geworden.
+
+![Schlüssel (2)](https://user-images.githubusercontent.com/88385813/144968653-5918d321-bade-4605-9499-f28a3884e162.png)
 
 Zuhause haben wir weiter an dem Tor gearbeitet. Dabei ist es uns gelungen, das Rätsel fertig zu programmieren.
 Zudem haben wir uns mit dem Erstellen der Musik im Game-Over-Screen und im Victory-Screen beschäftigt.
@@ -489,26 +512,55 @@ Bei dem Komponieren haben wir verschiedene Instrumente ausprobiert.
 Heute haben wir uns mit der Zeit beschäftigt. Der Spieler soll nur eine bestimmte Zeit zur Verfügung haben, um das Spiel zu lösen. 
 Dafür haben wir mit Piskel verschiedene Ziffern von 0 bis 9 erstellt und sie in Snap hochgeladen. Anschließend haben wir mit dem Codieren begonnen.
 Es hat sich das Problem ergeben, dass die zweite und dritte Ziffer nicht zur selben Zeit umgesprungen sind.
-Dafür haben wir folgendes am Code verändert:
+Zunächst liefen beide Scripts unabhängig voneinander und parallel, aber dabei kam ews immmer zu Zeitverschiebungen zwischen beiden, die Zehnerstelle und die Einerstelle wechselten dabei nicht gleichzeitg das Kostüm, was sehr komisch aussah.
 
-CODE
+Zehnerstellen-Script:
 
-Zudem sind wir zu dem Entschluss gekommen, dass Laserstrahlen nicht zu gut zu unserem Thema passen. Wir haben uns entschlossen zu Hause mit dem Programmieren von Speeren zu beschäftigen, welche anstatt der Laserstrahlen vom Himmel fallen.
+![TimerProblem1](https://user-images.githubusercontent.com/88385813/144968563-78f7a178-65b9-42bb-88f0-6403daf886af.PNG)
+
+Einerstellen-Script:
+
+![timerProblem2](https://user-images.githubusercontent.com/88385813/144968689-23bd55fd-aab3-430b-bbf7-d7286f8c7f77.PNG)
+
+Um das Problem zu beheben haben wir folgendes am Code verändert.
+
+Zehnerstellen-Script:
+
+![image](https://user-images.githubusercontent.com/88385813/144968824-84a5649c-4719-4129-a0dc-40f814321b01.png)
+
+Einerstellen-Script:
+
+![image](https://user-images.githubusercontent.com/88385813/144968796-16c22e90-b64c-47a9-8037-03c10b230a24.png)
+
+Das Einerstellen-Script gibt nun mit der "Broadcast" Funktion alle 10 Sekunden dem zehnerstellen Script bescheid, das Kostüm zu wechseln.
+
+Wir haben es Heute auch endlich geschafft die, von uns geplanten Speere, in unser Spiel einzufügen. Die Laserstrahlen hatten aufgrund von Problemen mit Snap! nicht wie gewünshct funktioniert.
 Zuhause haben wir zudem die restliche Musik eingefügt und programmiert. Auch die Speere und viele andere kleine Baustellen haben wir gelöst.
 
 ### Dienstag, 23.11.2021 <a name="siebenundzwanzig"></a>
-Heute haben wir die letzten Anleitungsseiten angefertigt. Anschließend haben unser Spiel Mitschülern vorgestellt und nach Verbesserungsvorschlägen gefragt.
+Heute haben wir die letzten Anleitungsseiten angefertigt.
+
+![Anleitung2](https://user-images.githubusercontent.com/88385813/144967285-e48fb061-8ea2-45cf-b25d-cec07d9bdad7.png)
+
+Anschließend haben unser Spiel Mitschülern vorgestellt und nach Verbesserungsvorschlägen gefragt.
 Hierbei sind vor allem zwei Dinge aufgefallen:
 1. Die Speere funktionieren noch nicht wie gewünscht.
-2. Wir müssen die Zeit noch etwas nach unten korrigieren.
+2. Wir müssen die Zeit noch etwas nach unten korrigieren, damit das Spiel schwieriger wird. 60 statt 70 Sekunden erscheinen uns angemessen.
 
 Zuhause haben wir uns mit der Fehlerbehebung dieser Probleme beschäftigt.
 
 ### Mittwoch, 24.11.2021 <a name="achtundzwanzig"></a>
-Heute haben wir uns weiter mit dem Optimieren der Speere beschäftigt. Dafür haben wir noch einige Dinge an unserem Code verändert, um die Bugs zu lösen.
-Auschlaggebend für den Bug war: CODE
+In der heutigen Stunde haben wir noch einige Veränderungen an unseren Speeren durchgeführt.
 
-Dies haben wir geändert durch: CODE
+![Speer (2)](https://user-images.githubusercontent.com/88385813/144969025-17386fdb-7a5f-47fc-a0f0-60815546caa5.png)
+
+Dabei haben wir den Prototyp-Speer in seiner Fallgeschwindigkeit angemessen angepasst und diesen dupliziert und auf der X-Achse verschoben, damit die Speere eine größere Herausforderung werden. 
+
+![image](https://user-images.githubusercontent.com/88385813/144969298-970d141f-a5bf-4e77-9088-047db46bb863.png)
+
+Außerdem haben wir versucht unser Spiel auf den Schulrechnern abzuspielen. Dabei läuft es leider erheblich langsamer als auf unserem Laptop, die Performance ist allerdings trotzdem akzeptabel.
+
+Wir werden trotzdem in unsere Code-Erklärungen einige Videos einfügen, damit klar ist, wie das Spiel wirklich läuft.
 
 ### Dienstag, 30.11.2021 <a name="neunundzwanzig"></a>
 Heute war Jannik krank, weshalb Thorge in der Schule an dem Projekt gearbeitet hat und Jannik am Abend zuhause noch weitergearbeitet hat.
